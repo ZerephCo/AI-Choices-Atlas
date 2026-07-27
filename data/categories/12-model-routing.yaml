@@ -1,0 +1,29 @@
+number: 12
+slug: model-routing
+title: "Model routing / gateways"
+question: "how do agents reach many models cheaply and reliably?"
+golden_rule: >-
+  Separate unification (one API over many providers — LiteLLM/OpenRouter/Portkey) from
+  routing (which model per request — RouteLLM/claude-code-router). They compose: e.g.
+  claude-code-router → OpenRouter → many providers. Watch data flow: hosted gateways see
+  your prompts (review data policies); self-hosted keeps them in your infra.
+status: complete
+subtypes:
+  - id: "12.1"
+    title: "Self-hosted AI gateways"
+    what: "one OpenAI-compatible endpoint over many providers, self-hosted"
+  - id: "12.2"
+    title: "Hosted unified APIs"
+    what: "a hosted, zero-ops unified model API"
+  - id: "12.3"
+    title: "Cost/quality routers"
+    what: "route each query to a cheap or strong model by difficulty"
+  - id: "12.4"
+    title: "Agent model routers"
+    what: "route a coding agent across models per scenario"
+matrix_columns:
+  - "What it routes"
+  - "Providers / models"
+  - "Deploy"
+  - "Local?"
+notes: null

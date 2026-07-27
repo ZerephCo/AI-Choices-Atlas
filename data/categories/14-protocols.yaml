@@ -1,0 +1,24 @@
+number: 14
+slug: protocols
+title: "Protocols & adapters"
+question: "how do agents, tools, editors, and UIs interoperate without bespoke glue?"
+golden_rule: >-
+  These compose into one stack — MCP (tools) + A2A (agents) + ACP (editors) + AG-UI
+  (users). They're standards, not products: adopt the ones your layer needs. Watch the
+  ACP name collision — "Agent Client Protocol" (Zed, editor↔agent) vs "Agent
+  Communication Protocol" (IBM/BeeAI, agent↔agent, since merged into A2A).
+status: complete
+subtypes:
+  - id: "14.1"
+    title: "Agent ↔ tools/data"
+    what: "an agent to tools, data, prompts (MCP)"
+  - id: "14.2"
+    title: "Agent ↔ agent"
+    what: "agents from different vendors/frameworks (A2A)"
+  - id: "14.3"
+    title: "Agent ↔ editor/client"
+    what: "any editor/IDE to any agent (ACP)"
+  - id: "14.4"
+    title: "Agent ↔ user/frontend"
+    what: "an agent backend to a UI (AG-UI)"
+notes: null

@@ -1,0 +1,31 @@
+number: 4
+slug: memory
+title: "Memory"
+question: "what should an agent remember, and who owns that memory?"
+golden_rule: >-
+  Memory is suggestive, never canonical. It may surface context but must never close a task
+  or certify readiness. Required controls for any writable memory: provenance, writer ACL,
+  TTL/invalidation, delete/export, PII policy, tenant isolation, poisoning tests.
+status: complete
+subtypes:
+  - id: "4.1"
+    title: "Project / task memory"
+    what: "one repo/project/task — work truth, decisions, context for this codebase"
+  - id: "4.2"
+    title: "Personal memory"
+    what: "one individual, across projects — preferences, history, cross-tool recall"
+  - id: "4.3"
+    title: "Organizational / semantic memory"
+    what: "a team/org — shared knowledge, cited facts, temporal truth"
+  - id: "4.4"
+    title: "Memory security & governance"
+    what: "cross-cutting — provenance, poisoning defense, deletion/export"
+matrix_columns:
+  - "Storage"
+  - "Backends"
+  - "Interfaces"
+  - "Local/offline"
+  - "Provenance"
+  - "Del/Export"
+  - "Multi-tenant"
+notes: null

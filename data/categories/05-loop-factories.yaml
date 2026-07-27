@@ -1,0 +1,20 @@
+number: 5
+slug: loop-factories
+title: "Loop factories"
+question: "how do you make an agent keep going until the job is actually done? — the keep-going-until-done runners built on the Ralph Wiggum technique"
+golden_rule: >-
+  A loop factory is only as safe as its stop condition + guardrails. A pure Ralph loop
+  ("a dumb bash loop that keeps restarting the agent") has no brakes — it runs until a
+  completion token, an iteration cap, or your budget runs out. Governed loop harnesses
+  (caps + verifier gates + rollback) live in §2 Orchestrators (MartinLoop =
+  "Ralph-with-brakes", Loki Mode). §5 is the raw technique + runners; pair it with a
+  proof-gate for production.
+status: complete
+subtypes:
+  - id: "5.1"
+    title: "Ralph technique & loop runners"
+    what: "the canonical bash-loop method + CLI runners that restart an agent until done"
+  - id: "5.2"
+    title: "Autonomy-loop protocols"
+    what: "prompt/protocol harnesses that instruct an agent to self-continue"
+notes: null

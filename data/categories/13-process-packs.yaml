@@ -1,0 +1,31 @@
+number: 13
+slug: process-packs
+title: "Process · spec · skill packs"
+question: "what disciplined workflow do you drop on top of an agent?"
+golden_rule: >-
+  Process packs constrain how, not what runs — they're prompts/skills/specs layered on a
+  coding host (§1) or loop (§5), not runtimes themselves. Spec-driven (Spec Kit/OpenSpec)
+  front-loads alignment; skills (Superpowers/anthropics-skills) add reusable capability with
+  progressive disclosure. Multi-agent workflow frameworks (MBA) wrap a task database (§3
+  Beads) with a three-responsibility discipline and a user-authority gate. Star counts here
+  are exceptionally high — treat them as popularity, not a quality verdict (the atlas rates
+  attributes, not winners).
+status: complete
+subtypes:
+  - id: "13.1"
+    title: "Spec-driven dev (SDD) kits"
+    what: "executable specs → plan → tasks → implement"
+  - id: "13.2"
+    title: "Agile method frameworks"
+    what: "role personas + phased agile flow"
+  - id: "13.3"
+    title: "Agent skills frameworks / packs"
+    what: "reusable, composable skills"
+  - id: "13.4"
+    title: "Multi-agent workflow frameworks"
+    what: "opposed-hat coordination discipline (Orchestrator / Doer / Auditor) over a task DB"
+matrix_columns:
+  - "What it provides"
+  - "Method"
+  - "Works with"
+notes: null

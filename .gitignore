@@ -1,0 +1,25 @@
+# AI-Choices-Atlas — only the atlas info/data is shared.
+# Everything below is kept locally but NOT tracked/shared.
+
+# --- Local tooling & agent config ---
+scripts/
+.beads/
+.agents/
+.mba/
+.mba-work/
+.opencode/
+.claude/
+opencode.json
+AGENTS.md
+CLAUDE.md
+
+# --- Internal docs (not part of the atlas) ---
+docs/mba/
+docs/beads/
+
+# --- Dependencies / build / OS junk ---
+node_modules/
+*.db
+*.log
+.DS_Store
+Thumbs.db

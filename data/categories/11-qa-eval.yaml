@@ -1,0 +1,27 @@
+number: 11
+slug: qa-eval
+title: "QA · evaluation · observability"
+question: "is the agent actually any good, and what did it do?"
+golden_rule: >-
+  Separate offline eval (does it pass on a dataset before shipping — promptfoo/DeepEval)
+  from online observability (what happened in production — Langfuse/Phoenix). You need both.
+  Watch licenses here: several are source-available/enterprise-split (Langfuse EE, Phoenix
+  Elastic License) — fine to use, but not OSI-permissive. promptfoo's red-teaming cross-links
+  §15 Security; Playwright doubles as an agent tool (browser control).
+status: complete
+subtypes:
+  - id: "11.1"
+    title: "LLM/agent evaluation"
+    what: "test prompts/agents/RAGs against metrics (+ red-team)"
+  - id: "11.2"
+    title: "Observability / tracing"
+    what: "trace runs, manage prompts, track cost"
+  - id: "11.3"
+    title: "Browser / UI test automation"
+    what: "drive/test web UIs (also agent browser control)"
+matrix_columns:
+  - "What it does"
+  - "Method"
+  - "Key features"
+  - "Deploy"
+notes: null

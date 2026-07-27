@@ -1,0 +1,27 @@
+number: 6
+slug: context-reducers
+title: "Context reducers"
+question: "how do you fit the most useful signal into a limited context window? — compress prompts, pack codebases, or inject just-in-time docs so the model sees what matters and not the noise."
+golden_rule: >-
+  context reducers trade completeness for signal density. Compressors (LLMLingua) are lossy —
+  they can drop something load-bearing, so validate on your task. Packers (Repomix/gitingest) are
+  lossless selection (you choose files) but can still blow the budget on big repos → use
+  include/ignore + token counting. JIT providers (Context7) fight staleness, not size. Pair with
+  Memory (§4) for durable recall and codebase-memory (§4.1) for structure.
+status: complete
+subtypes:
+  - id: "6.1"
+    title: "Prompt compressors"
+    what: "shrink an existing prompt/context by dropping low-information tokens (lossy)"
+  - id: "6.2"
+    title: "Repo/codebase packers"
+    what: "pack a repo/dir into a single compact, LLM-ready file (lossless selection)"
+  - id: "6.3"
+    title: "Just-in-time context providers"
+    what: "fetch fresh, version-specific docs into the prompt on demand"
+matrix_columns:
+  - "What it reduces / provides"
+  - "Method"
+  - "Interface"
+  - "Token savings / scope"
+notes: null

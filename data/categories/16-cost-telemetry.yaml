@@ -1,0 +1,21 @@
+number: 16
+slug: cost-telemetry
+title: "Cost / spend telemetry"
+question: "how much is all this actually costing — and can you cut it?"
+golden_rule: >-
+  Telemetry (CodeBurn/ccusage) tells you what you spent; reduction (token-savior, plus §6
+  context reducers + §4 memory) changes what you'll spend. On subscription plans, "cost" is
+  really token/rate-limit budget — track it to avoid surprise throttling, not just dollars.
+status: complete
+subtypes:
+  - id: "16.1"
+    title: "Spend telemetry"
+    what: "track token usage + cost across tools/sessions"
+  - id: "16.2"
+    title: "Token reduction (cost optimization)"
+    what: "cut token spend structurally"
+matrix_columns:
+  - "What it does"
+  - "Scope"
+  - "Local?"
+notes: null

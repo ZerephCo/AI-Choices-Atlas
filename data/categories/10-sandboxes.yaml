@@ -1,0 +1,22 @@
+number: 10
+slug: sandboxes
+title: "Sandboxes · isolation · remote exec"
+question: "where does agent-generated code run without wrecking your machine?"
+golden_rule: >-
+  match isolation strength to trust. Untrusted agent code → a real boundary (microVM:
+  Firecracker/E2B/Daytona/microsandbox) beats a container (gVisor beats plain Docker; plain
+  Docker is weakest). Hosted sandboxes are fastest to adopt but see your code/data (review
+  data policies); local/self-hosted keeps it on your infra. This is the enforcement under
+  §1's approval modes — a sandbox contains what an agent is allowed to attempt.
+status: complete
+subtypes:
+  - id: "10.1"
+    title: "Hosted agent sandboxes"
+    what: "managed cloud environments to run agent code (SDK-driven)"
+  - id: "10.2"
+    title: "Isolation primitives"
+    what: "the microVM / kernel tech others build on"
+  - id: "10.3"
+    title: "Local / self-hosted runtimes"
+    what: "run microVMs on your own infra"
+notes: null

@@ -1,0 +1,23 @@
+number: 2
+slug: orchestrators
+title: "Orchestrators · cockpits · swarms"
+question: "how do you run and coordinate one or many coding agents?"
+golden_rule: >-
+  exactly one outer controller per run; a worktree is NOT a sandbox; CI/branch rules + human
+  release authority stay outside every cockpit. Judge these on outcome/coordination savings,
+  not agent count or board movement.
+status: complete
+subtypes:
+  - id: "2.1"
+    title: "Cockpits & multiplexers"
+    what: "visible, human-supervised control of parallel agents (worktrees, terminals, PR/CI)"
+  - id: "2.2"
+    title: "Autonomous swarms & SDLC harnesses"
+    what: "multi-agent pipelines that run with less supervision"
+  - id: "2.3"
+    title: "Issue/backlog dispatchers"
+    what: "turn tracker tickets into agent runs"
+  - id: "2.4"
+    title: "Company/team control planes"
+    what: "org-level goals, budgets, agents, approvals"
+notes: null

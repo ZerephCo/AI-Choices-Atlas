@@ -1,0 +1,28 @@
+# Names referenced in the source corpus that are deliberately NOT carded as tools —
+# either no canonical repo could be verified, or they are watch-list / draft-standard items.
+# Kept for provenance and honesty.
+
+memory:
+  - name: Nexo
+    reason: "No canonical repo verified (name collides with the crypto firm Nexo)."
+  - name: CatchMe
+    reason: "No canonical repo verified (very generic name)."
+
+loop-factories:
+  - name: The Claude Protocol
+    reason: "Doc 28 'active loops/protocols' list; no canonical repo could be verified."
+  - name: autonomy-loop
+    reason: "Doc 28 list; generic name, no canonical repo verified."
+  - name: Completely
+    reason: "Doc 28 list; no canonical repo verified."
+  - name: mstar-harness
+    reason: "Doc 28 list; no canonical repo verified."
+
+action-governance:
+  - name: Project Starfish
+    repo: https://github.com/Azerax/Starfish
+    reason: "Watch-list (deny-by-default governance overlay for Claude Code); not carded — P0 watch per corpus §12.8."
+  - name: OAGS
+    reason: "Draft governance specification; watch / crosswalk only."
+  - name: Agent Control Standard (ACS)
+    reason: "Draft standard; watch / crosswalk only."

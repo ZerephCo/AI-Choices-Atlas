@@ -1,0 +1,21 @@
+number: 1
+slug: coding-agents
+title: "Coding agents & hosts"
+question: "which agent/host actually writes the code? — the foundational pick; everything else composes around it"
+golden_rule: >-
+  the coding host negotiates capabilities (shell / patch / Git / MCP / subagents / headless);
+  it does NOT own merge-eligibility — CI/branch rules + human review stay outside it.
+  Proprietary hosts are integrations, not redistributed dependencies: review their
+  data/telemetry/retention separately from a repo license.
+status: complete
+subtypes:
+  - id: "1.1"
+    title: "CLI coding agents"
+    what: "terminal-first agents"
+  - id: "1.2"
+    title: "IDE / editor agents"
+    what: "editor-integrated"
+  - id: "1.3"
+    title: "Autonomous SWE agents"
+    what: "benchmark/issue-solving"
+notes: null

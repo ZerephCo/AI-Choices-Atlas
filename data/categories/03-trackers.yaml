@@ -1,0 +1,21 @@
+number: 3
+slug: trackers
+title: "Work & task truth (trackers)"
+question: "what work exists, and what's the source of truth for it?"
+golden_rule: >-
+  The tracker is the work truth; the agent is a worker against it, not the owner of it.
+  Prefer a tracker with explicit dependencies (Beads' DAG) so agents pick genuinely-ready
+  work, and one that round-trips through git so the backlog survives outside any single
+  agent session.
+status: bridge
+subtypes: []
+notes: >-
+  The purpose-built AI-agent trackers (Beads, Taskmaster) are fully carded in §4.1
+  Project/task memory, where they double as an agent's project memory. General trackers
+  (GitHub Issues, Linear, Jira, Gitea) are dispatcher backends in §2.3. Kept as a bridge
+  to avoid duplication.
+see_also:
+  - text: "Beads & Taskmaster — carded in §4.1 Project/task memory"
+    page: "04-memory.md"
+  - text: "Issue/backlog dispatchers (Sortie, Symphony) — §2.3"
+    page: "02-orchestrators.md"

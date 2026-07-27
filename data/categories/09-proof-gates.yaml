@@ -1,0 +1,27 @@
+number: 9
+slug: proof-gates
+title: "Proof-of-done / readiness gates"
+question: "is the agent's work actually done — provably — and did it earn the right to merge?"
+golden_rule: >-
+  Prefer deterministic gates (dxkit's no-model gate, Runcap's CI replay) over LLM-judge
+  gates for the merge decision — an LLM asked "is this done?" can be convinced; a CI replay
+  on a clean base cannot. Gate on net-new regressions, not pre-existing debt (dxkit), or
+  agents can never touch legacy code.
+status: complete
+subtypes:
+  - id: "9.1"
+    title: "Merge-eligibility / readiness gates"
+    what: "require evidence (CI replay, no regressions) before merge"
+  - id: "9.2"
+    title: "Evidence / conformance frameworks"
+    what: "schema to prove agent-control properties"
+  - id: "9.3"
+    title: "PR-gate agentic code review"
+    what: "graph-aware review as a merge gate"
+matrix_columns:
+  - "What it proves / gates"
+  - "Mechanism"
+  - "Model in the gate?"
+notes: >-
+  The most nascent category in the atlas — all entries are experimental (2026, ⭐0–61),
+  corpus-verified but pre-adoption.

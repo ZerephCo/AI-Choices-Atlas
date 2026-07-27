@@ -1,0 +1,29 @@
+number: 15
+slug: security-ci
+title: "Security & CI hard gates"
+question: "what stops bad code from merging, no matter what the agent says?"
+golden_rule: >-
+  These must be hard gates the agent cannot override — wire them into required CI checks +
+  branch protection, not into the agent's own toolbelt (where it could skip them). They catch
+  what AI-generated code slips in: vulns (Semgrep/OSV/Trivy), secrets (Gitleaks), and
+  disallowed actions (OPA). Overlap is fine and healthy — defense in depth.
+status: complete
+subtypes:
+  - id: "15.1"
+    title: "SAST (code scanning)"
+    what: "find bug/security patterns in source"
+  - id: "15.2"
+    title: "Dependency / vuln + SBOM"
+    what: "find known CVEs + generate SBOMs"
+  - id: "15.3"
+    title: "Secret scanning"
+    what: "block committed secrets"
+  - id: "15.4"
+    title: "Policy engines"
+    what: "policy-as-code: authorize/deny (incl. agent actions)"
+matrix_columns:
+  - "What it scans / enforces"
+  - "Method"
+  - "Coverage"
+  - "Interface"
+notes: null

@@ -1,0 +1,27 @@
+number: 8
+slug: action-governance
+title: "Action governance & policy"
+question: "should this agent be allowed to do this — right now, before it runs?"
+golden_rule: >-
+  Governance decides before execution (deny/allow/escalate) — but Microsoft's own toolkit
+  warns individually-allowed actions can compose into a dangerous sequence, so per-action
+  gating is not safety. Combine with sandboxes (§10), CI gates (§15), and human approval.
+  Watch licenses (Cordum is BSL-1.1, non-OSI).
+status: complete
+subtypes:
+  - id: "8.1"
+    title: "Enterprise governance toolkits"
+    what: "broad policy/identity/sandbox/audit surfaces"
+  - id: "8.2"
+    title: "Action firewalls / authorization kernels"
+    what: "intercept + decide on each tool call (pre-exec)"
+  - id: "8.3"
+    title: "Runtime control planes"
+    what: "central deny/steer/warn/log/allow at scale"
+matrix_columns:
+  - "What it governs"
+  - "Decision model"
+  - "Evidence / audit"
+notes: >-
+  Emerging category — most tools are young (2026, often <500 stars). Treat as P0 trials,
+  not automatic adoption; a real bypass/outage/policy trial is still required for each.

@@ -1,0 +1,28 @@
+number: 7
+slug: agent-runtimes
+title: "Agent runtimes / frameworks"
+question: "what do you build a durable agent on? — the libraries/runtimes that give you state, control flow, multi-agent patterns, tools, and memory (distinct from §1 coding hosts, which are agents; these are what you build your own on)"
+golden_rule: >-
+  pick by control level + state model, not star count. Graph runtimes (LangGraph/ADK) give
+  explicit, durable control (more code, more power). Crew/conversation frameworks
+  (CrewAI/AutoGen/Agents SDK) trade control for speed-to-prototype. Type-safe/full-stack
+  (PydanticAI/Agno) optimize production ergonomics. Watch lifecycle: AutoGen is in maintenance
+  mode (→ Microsoft Agent Framework). These are libraries you host — review each as a
+  dependency (license, telemetry).
+status: complete
+subtypes:
+  - id: "7.1"
+    title: "Graph / stateful workflow runtimes"
+    what: "explicit graphs/state machines; durable, long-running"
+  - id: "7.2"
+    title: "Multi-agent crew / conversation frameworks"
+    what: "agents that collaborate via roles or conversation"
+  - id: "7.3"
+    title: "Type-safe & full-stack platform frameworks"
+    what: "production ergonomics: types, memory, runtime, control plane"
+matrix_columns:
+  - "Core abstraction"
+  - "State / durability"
+  - "Models"
+  - "Multi-agent pattern"
+notes: null
