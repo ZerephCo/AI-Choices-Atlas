@@ -1,0 +1,5 @@
+# bd setup compares managed instructions byte-for-byte; keep them stable on every OS.
+AGENTS.md text eol=lf
+CLAUDE.md text eol=lf
+.agents/skills/**/SKILL.md text eol=lf
+.claude/skills/**/SKILL.md text eol=lf

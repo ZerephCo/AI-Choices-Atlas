@@ -19,6 +19,8 @@ docs/beads/
 
 # --- Dependencies / build / OS junk ---
 node_modules/
+__pycache__/
+*.py[cod]
 *.db
 *.log
 .DS_Store
@@ -27,3 +29,34 @@ Thumbs.db
 # Beads / Dolt files (added by bd init)
 .dolt/
 .beads-credential-key
+
+# --- Shared Zereph Beads workflow ---
+# Keep local tooling private by default, but version the exact cross-agent
+# policy, guard, and setup-managed integration files used on every machine.
+!AGENTS.md
+!CLAUDE.md
+
+!.agents/
+.agents/*
+!.agents/skills/
+.agents/skills/*
+!.agents/skills/beads/
+.agents/skills/beads/*
+!.agents/skills/beads/SKILL.md
+!.agents/skills/zereph-beads-workflow/
+.agents/skills/zereph-beads-workflow/*
+!.agents/skills/zereph-beads-workflow/SKILL.md
+
+!.claude/
+.claude/*
+!.claude/settings.json
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/zereph-beads-workflow/
+.claude/skills/zereph-beads-workflow/*
+!.claude/skills/zereph-beads-workflow/SKILL.md
+
+!scripts/
+scripts/*
+!scripts/Test-ZerephBeadsExecutionState.py
+!scripts/Test-ZerephBeadsExecutionState.ps1
