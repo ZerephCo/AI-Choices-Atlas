@@ -14,8 +14,8 @@ upgrade-safe.
 
 1. Inspect the bead with `bd show <id>`.
 2. Identify the actual worker: Codex, Claude, Khubaeb, or another named human.
-3. Verify that the worker has no other `in_progress` bead. Use Python 3.12+
-   with no third-party packages:
+3. Verify that the worker has no other `in_progress` bead. Use Python 3.9.6
+   or later with no third-party packages:
    `python scripts/Test-ZerephBeadsExecutionState.py --candidate-id <id> --worker <worker>`.
    On macOS or Linux, use `python3` when that is the interpreter name. The
    `.ps1` file is a Windows compatibility launcher; PowerShell 7 is not a
