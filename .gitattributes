@@ -1,5 +1,10 @@
-# bd setup compares managed instructions byte-for-byte; keep them stable on every OS.
-AGENTS.md text eol=lf
-CLAUDE.md text eol=lf
-.agents/skills/**/SKILL.md text eol=lf
-.claude/skills/**/SKILL.md text eol=lf
+# Portable text, data, and tooling are LF on every OS: bd setup and the MBA
+# installer compare managed instruction files byte-for-byte, and the docs
+# generator's --check mode compares generated pages byte-for-byte on disk.
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.mjs text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

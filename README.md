@@ -88,6 +88,6 @@ Seeded from a web-verified corpus ([`ReviewedResearch.md`](ReviewedResearch.md),
 
 ## License
 
-Licensed under [**CC BY 4.0**](LICENSE) (Creative Commons Attribution 4.0 International). Share and adapt it for any purpose, including commercially — just give credit and indicate changes. The license covers this atlas's own writing, curation, and data; the tools it describes, and any third-party quotes, remain under their own terms.
+The atlas's **content and data** — the cards, category data, research write-ups, and these generated pages — are dedicated to the public domain under [**CC0 1.0**](LICENSE): use them for anything, no permission or credit required (credit is appreciated). The project's **software** under `scripts/` and `.github/` is licensed under [**Apache 2.0**](LICENSE-APACHE). See [LICENSING.md](LICENSING.md) for the exact scope, [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for redistributed third-party material, and [TRADEMARKS.md](TRADEMARKS.md) for names and marks.
 
-> Suggested attribution: *"AI-Choices-Atlas" by Khubaeb (https://github.com/Khubaeb/AI-Choices-Atlas), licensed under CC BY 4.0.*
+> AI-Choices-Atlas is stewarded by **Zereph** (https://github.com/ZerephCo/AI-Choices-Atlas). If you find it useful, a link back is appreciated — never required.

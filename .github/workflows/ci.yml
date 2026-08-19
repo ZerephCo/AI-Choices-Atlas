@@ -1,0 +1,33 @@
+# SPDX-License-Identifier: Apache-2.0
+# Proportionate CI: dependency audit, focused tests, structural data
+# validation, and generated-doc cleanliness — everything a contributor
+# needs to trust a change, nothing more.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: scripts
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+          cache-dependency-path: scripts/package-lock.json
+      - run: npm ci
+      - run: npm audit
+      - run: npm test
+      - run: npm run validate:data
+      - run: npm run check:docs

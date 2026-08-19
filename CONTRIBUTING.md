@@ -67,5 +67,8 @@ A maintainer refreshes the browsable `docs/` pages from the data after changes a
 
 ## License
 
-By contributing, you agree your contributions are licensed under [**CC BY 4.0**](LICENSE)
-(Creative Commons Attribution 4.0 International) — the same terms as the rest of the atlas.
+By contributing, you agree that your contributions are offered under the same terms as the
+rest of the project: **content and data** contributions (cards, category data, research
+write-ups, docs) are dedicated to the public domain under [**CC0 1.0**](LICENSE), and
+**software** contributions (scripts, tests, CI) are licensed under
+[**Apache 2.0**](LICENSE-APACHE). See [LICENSING.md](LICENSING.md) for the exact scope.

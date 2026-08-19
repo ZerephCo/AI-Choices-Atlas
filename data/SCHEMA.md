@@ -89,6 +89,17 @@ not as tool files — e.g. Nexo, CatchMe (§4 Memory), the §5 loop-factory tail
 ## 4. Field contract
 
 Required per tool: `name`, `slug`, `category`, `subtype`, `repo` (or `site` for
-commercial / site-only), `license_detected`, `maturity`, `status`, `one_liner`.
-Everything else is optional but recommended. The `docs/` pages are derived from these
-fields, so keeping them accurate keeps every view accurate.
+commercial / site-only), `license_detected`, `maturity`, `status`, `one_liner`,
+`choose_when`, `avoid_when`, `hands_on`, `last_verified`, and an explicit `local`
+(`true` | `false` | `"partial"` | `null` — write the `null`, don't omit the key).
+`subtype` must reference one of the category's declared subtype ids (e.g. `"7.2 …"`).
+Everything else is optional but recommended. The contract is enforced by
+`scripts/validate-data.mjs` (`npm run validate:data`), which also checks field
+types and array shapes (including optional fields, subtype `id`/`title`/`what`,
+and `see_also` entries), kebab-case slugs, slug uniqueness, category references,
+subtype-id references, duplicate category slugs/numbers/subtype ids, real
+calendar values in `created`/`last_verified`, and each category's required
+`status` (one of the values declared in §2) — but never a fixed tool or
+category count, so new entries are always addable. The `docs/`
+pages are derived from these fields, so keeping them accurate keeps every view
+accurate.

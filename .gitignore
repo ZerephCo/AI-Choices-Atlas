@@ -1,21 +1,12 @@
-# AI-Choices-Atlas — only the atlas info/data is shared.
-# Everything below is kept locally but NOT tracked/shared.
+# AI-Choices-Atlas — the atlas content/data plus the portable workflow and
+# tooling set are tracked. Machine-local state and private evidence are not.
 
-# --- Local tooling & agent config ---
-scripts/
+# --- Machine-local state & private evidence (never tracked, both modes) ---
 .beads/
-.agents/
 .mba/
 .mba-work/
 .opencode/
-.claude/
 opencode.json
-AGENTS.md
-CLAUDE.md
-
-# --- Internal docs (not part of the atlas) ---
-docs/mba/
-docs/beads/
 
 # --- Dependencies / build / OS junk ---
 node_modules/
@@ -30,11 +21,10 @@ Thumbs.db
 .dolt/
 .beads-credential-key
 
-# --- Shared Zereph Beads workflow ---
-# Keep local tooling private by default, but version the exact cross-agent
-# policy, guard, and setup-managed integration files used on every machine.
-!AGENTS.md
-!CLAUDE.md
+# --- Agent config dirs stay private by default; the portable set below is
+# --- versioned so every machine gets the exact same instruction files.
+.agents/
+.claude/
 
 !.agents/
 .agents/*
@@ -43,20 +33,13 @@ Thumbs.db
 !.agents/skills/beads/
 .agents/skills/beads/*
 !.agents/skills/beads/SKILL.md
-!.agents/skills/zereph-beads-workflow/
-.agents/skills/zereph-beads-workflow/*
-!.agents/skills/zereph-beads-workflow/SKILL.md
+!.agents/skills/beads/agents/
+.agents/skills/beads/agents/*
+!.agents/skills/beads/agents/openai.yaml
+!.agents/skills/mba/
+.agents/skills/mba/*
+!.agents/skills/mba/SKILL.md
 
 !.claude/
 .claude/*
 !.claude/settings.json
-!.claude/skills/
-.claude/skills/*
-!.claude/skills/zereph-beads-workflow/
-.claude/skills/zereph-beads-workflow/*
-!.claude/skills/zereph-beads-workflow/SKILL.md
-
-!scripts/
-scripts/*
-!scripts/Test-ZerephBeadsExecutionState.py
-!scripts/Test-ZerephBeadsExecutionState.ps1
