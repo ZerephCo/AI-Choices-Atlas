@@ -13,8 +13,8 @@ domain under CC0 1.0 Universal:
 - `research/` — per-tool cards and deep-research write-ups
 - `docs/` — the generated documentation pages, **except** `docs/mba/` and
   `docs/beads/` (third-party; see below)
-- `README.md`, `CONTRIBUTING.md`, `LICENSING.md`, `TRADEMARKS.md`,
-  `InitialResearch.md`, `ReviewedResearch.md`
+- `README.md`, `CONTRIBUTING.md`, `HANDOFF.md`, `LICENSING.md`,
+  `TRADEMARKS.md`, `InitialResearch.md`, `ReviewedResearch.md`
 - the project-authored prose of `AGENTS.md` and `CLAUDE.md`
 
 Use it for anything, commercially or not, with no permission and no credit

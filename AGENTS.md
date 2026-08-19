@@ -56,19 +56,26 @@ CI runs the same gates via `.github/workflows/ci.yml`.
 
 ## Fresh Clone Bootstrap (Beads)
 
-On a fresh machine, initialize the issue tracker after cloning:
+On a fresh machine, initialize the issue tracker after cloning
+(`HANDOFF.md` carries the complete machine-onboarding sequence):
 
 ```bash
 bd bootstrap --yes
-bd config set export.auto false
-bd config set export.git-add false
+BD_EXPORT_AUTO=false bd config set-many export.auto=false export.git-add=false
+```
+
+```powershell
+# Windows / PowerShell equivalent of the config step (the variable is
+# removed afterwards so it does not linger in the shell session)
+$env:BD_EXPORT_AUTO = 'false'; bd config set-many export.auto=false export.git-add=false; Remove-Item Env:BD_EXPORT_AUTO
 ```
 
 `.beads/` is machine-local and Git-ignored — it stays private. Issue data
 travels only over the Dolt wire protocol (`bd dolt push/pull`, stored under
 `refs/dolt/data` on the Git remote). Disabling the JSONL auto-export and its
 auto-`git add` stops Beads from trying to stage the ignored `.beads/` export
-on routine commands.
+on routine commands; the `BD_EXPORT_AUTO=false` prefix keeps the config
+write itself warning-free.
 
 ## Non-Interactive Shell Commands
 

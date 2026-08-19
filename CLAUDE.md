@@ -24,7 +24,7 @@ blocks below, which remain only as upstream reference.
   `.mba-work/.ai-resources.json` (never tracked); instruction files record
   policy, never accounts.
 
-<!-- BEGIN BEADS INTEGRATION v:1 profile:minimal hash:7510c1e2 -->
+<!-- BEGIN BEADS INTEGRATION v:1 profile:minimal hash:ccf33ec3 -->
 ## Beads Issue Tracker
 
 This project uses **bd (beads)** for issue tracking. Run `bd prime` to see full workflow context and commands.
@@ -58,6 +58,7 @@ bd close <id>         # Complete work
 4. **PUSH TO REMOTE** - This is MANDATORY:
    ```bash
    git pull --rebase
+   bd dolt push
    git push
    git status  # MUST show "up to date with origin"
    ```
@@ -91,19 +92,26 @@ CI (`.github/workflows/ci.yml`) runs the same gates on every push/PR to `main`.
 
 ## Fresh Clone Bootstrap (Beads)
 
-On a fresh machine, initialize the issue tracker after cloning:
+On a fresh machine, initialize the issue tracker after cloning
+(`HANDOFF.md` carries the complete machine-onboarding sequence):
 
 ```bash
 bd bootstrap --yes
-bd config set export.auto false
-bd config set export.git-add false
+BD_EXPORT_AUTO=false bd config set-many export.auto=false export.git-add=false
+```
+
+```powershell
+# Windows / PowerShell equivalent of the config step (the variable is
+# removed afterwards so it does not linger in the shell session)
+$env:BD_EXPORT_AUTO = 'false'; bd config set-many export.auto=false export.git-add=false; Remove-Item Env:BD_EXPORT_AUTO
 ```
 
 `.beads/` is machine-local and Git-ignored — it stays private. Issue data
 travels only over the Dolt wire protocol (`bd dolt push/pull`, stored under
 `refs/dolt/data` on the Git remote). Disabling the JSONL auto-export and its
 auto-`git add` stops Beads from trying to stage the ignored `.beads/` export
-on routine commands.
+on routine commands; the `BD_EXPORT_AUTO=false` prefix keeps the config
+write itself warning-free.
 
 ## Architecture Overview
 
