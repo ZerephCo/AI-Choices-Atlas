@@ -8,7 +8,7 @@ site: https://yegge.ai/gastown
 maker: Steve Yegge
 license_claimed: MIT
 license_detected: MIT
-stars: 17104
+stars: 17668
 created: "2025-12"
 language: Go
 maturity: Prominent
@@ -26,7 +26,7 @@ choose_when: "You need a genuinely large, autonomous terminal swarm on Linux/WSL
 avoid_when: "Small repos, Windows-native (needs WSL), or you don't want Beads/Dolt coupling."
 cross_links: ["§4"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # GasTown — Deep Research Reference
 

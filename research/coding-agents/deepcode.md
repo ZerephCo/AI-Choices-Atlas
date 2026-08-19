@@ -8,7 +8,7 @@ site: null
 maker: HKUDS (HKU Data Intelligence Lab)
 license_claimed: MIT
 license_detected: MIT
-stars: 16086
+stars: 16373
 created: "2025-05"
 language: Python
 maturity: Prominent
@@ -26,7 +26,7 @@ choose_when: "You want an open, research-grade autonomous pipeline that turns pa
 avoid_when: "You want an interactive editor/CLI coding assistant (§1.1/1.2), not an autonomous spec→code generator."
 cross_links: ["§7", "§14"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-19"
 ---
 # DeepCode — Deep Research Reference
 

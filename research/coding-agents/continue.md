@@ -8,7 +8,7 @@ site: https://continue.dev
 maker: Continue
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 35117
+stars: 35534
 created: "2023-05"
 language: TypeScript
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "You want a free, open-source, model-agnostic assistant that can ru
 avoid_when: "You want a turnkey proprietary IDE (Cursor/Windsurf) or a terminal-first agent (§1.1)."
 cross_links: ["§1", "§12"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-19"
 ---
 # Continue — Deep Research Reference
 

@@ -8,7 +8,7 @@ site: https://t3.codes
 maker: Ping (pingdotgg) — Theo Browne
 license_claimed: MIT
 license_detected: MIT
-stars: 14827
+stars: 19444
 created: "2026-02"
 language: TypeScript
 maturity: Prominent
@@ -26,7 +26,7 @@ choose_when: "You want one open-source cockpit to drive several coding-agent pro
 avoid_when: "You need mature/stable software — it's pre-1.0 (v0.0.x, expect bugs, docs still forming) — or you only use one agent CLI directly."
 cross_links: ["§1", "§12"]
 hands_on: docs-only
-last_verified: "2026-07-25"
+last_verified: "2026-08-19"
 ---
 # T3 Code — Deep Research Reference
 

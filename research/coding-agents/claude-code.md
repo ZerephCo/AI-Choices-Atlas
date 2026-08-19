@@ -8,7 +8,7 @@ site: https://claude.com/product/claude-code
 maker: Anthropic
 license_claimed: Proprietary
 license_detected: Proprietary
-stars: 138404
+stars: 141964
 created: "2025-02"
 language: null
 maturity: Prominent
@@ -26,7 +26,7 @@ features:
 choose_when: "You want a powerful terminal-first agent with strong codebase understanding and rich extensibility (hooks/skills/subagents/MCP), and a proprietary Claude-only paid tool is acceptable."
 avoid_when: "You need open-source, model-agnosticism, or a free/offline option."
 hands_on: run
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Claude Code — Deep Research Reference
 

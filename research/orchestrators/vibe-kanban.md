@@ -8,7 +8,7 @@ site: https://vibekanban.com
 maker: Bloop (BloopAI)
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 27450
+stars: 27848
 created: "2025-06"
 language: Rust
 maturity: Prominent
@@ -25,7 +25,7 @@ features:
 choose_when: "You are already dependent and want to self-host the local OSS build, or to study the board+worktree pattern."
 avoid_when: "New adoption — it is sunsetting, remote features are being removed, and there is no vendor support."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Vibe Kanban — Deep Research Reference  ⚰️ SUNSETTING
 

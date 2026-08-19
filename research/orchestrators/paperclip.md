@@ -8,9 +8,9 @@ site: https://paperclip.ing
 maker: Paperclip Labs
 license_claimed: MIT
 license_detected: MIT
-stars: 74229
+stars: 78839
 created: "2026-03"
-language: null
+language: TypeScript
 maturity: Prominent
 status: active
 local: partial
@@ -25,7 +25,7 @@ features:
 choose_when: "The real problem is org-level governance — many agents, budgets, approvals, and audit across companies."
 avoid_when: "A single repo / small team (breadth is overkill), or you expect code review / merge gating (it explicitly doesn't do that)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Paperclip — Deep Research Reference
 

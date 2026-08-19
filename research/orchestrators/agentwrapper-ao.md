@@ -1,20 +1,21 @@
 ---
-name: AgentWrapper Agent Orchestrator (AO)
+name: Agent Orchestrator (AO)
 slug: agentwrapper-ao
 category: orchestrators
 subtype: "2.1 Cockpits & multiplexers"
-repo: https://github.com/AgentWrapper/agent-orchestrator
-site: null
-maker: AgentWrapper
+repo: https://github.com/Untrivial-ai/agent-orchestrator
+site: https://aoagents.dev
+maker: "Untrivial.ai (formerly AgentWrapper, ex-Composio)"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 8392
+stars: 9631
 created: "2026-02"
 language: Go
 maturity: Established
 status: active
 local: partial
-one_liner: "An agentic IDE that supervises parallel coding agents in isolated git worktrees, with automatic CI-fail / review / merge-conflict routing back to the right agent."
+one_liner: "An agentic IDE that supervises parallel coding agents in isolated git worktrees, with automatic CI-fail / review / merge-conflict routing back to the right agent. Now under Untrivial.ai (ex-AgentWrapper)."
+tagline_quote: "Plan, run, and supervise coding agents from one place."
 features:
   - "Parallel agent sessions from one project; isolated git worktrees (no file/branch/PR mixing)"
   - "Automatic CI-failure routing + review feedback loop + merge-conflict routing"
@@ -24,18 +25,18 @@ features:
 choose_when: "You want Windows-friendly, Apache-licensed parallel coding with strong PR/CI/review/conflict loops and the widest agent support."
 avoid_when: "You need OS-level containment (worktree is not a sandbox), a peer-team/messaging UX, or zero telemetry without a rebuild."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
-# AgentWrapper Agent Orchestrator (AO) — Deep Research Reference
+# Agent Orchestrator (AO) — Deep Research Reference
 
 > Full research backing the atlas card. See the browsable card under `docs/`.
 
 | | |
 |---|---|
 | Category / sub-type | Orchestrators → cockpit / multiplexer (worktree + terminal + PR/CI) |
-| Repo | https://github.com/AgentWrapper/agent-orchestrator (**formerly `ComposioHQ/agent-orchestrator`**) |
+| Repo | https://github.com/Untrivial-ai/agent-orchestrator (**formerly `AgentWrapper/agent-orchestrator`, originally `ComposioHQ/agent-orchestrator`**) · docs: aoagents.dev |
 | License | Apache-2.0 / Apache-2.0 |
-| ⭐ / created | 8,392 · 2026-02 (very active) |
+| ⭐ / created | 9,631 · 2026-02 (very active; re-verified 2026-08-19) |
 | Platforms | macOS (ARM + Intel) · Windows · Linux |
 | Authority | outer controller (one per run) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
@@ -68,8 +69,8 @@ Desktop app (primary control surface). Legacy CLI **frozen** at npm `0.10.0` (no
 Electron renderer sends **anonymous usage events to PostHog**; session recording enabled with "local paths and local URLs redacted before transmission." Disable by setting `VITE_AO_POSTHOG_KEY` to empty before building.
 
 ## 7. Roadmap
-- **Was:** `ComposioHQ/agent-orchestrator` → transferred to **`AgentWrapper/agent-orchestrator`**.
-- **Now (2026):** ⭐8.4k; desktop build preferred; 23 adapters; active (frequent releases). Status tracked in `docs/STATUS.md`.
+- **Was:** `ComposioHQ/agent-orchestrator` → `AgentWrapper/agent-orchestrator`.
+- **Now (2026-08):** transferred again to **`Untrivial-ai/agent-orchestrator`** (org "Untrivial.ai"; brand now plain "Agent Orchestrator", X @aoagents, docs aoagents.dev); ⭐9.6k; desktop build preferred; active (frequent releases).
 - **Ahead:** desktop-first; in-flight work per STATUS.md.
 
 ## 8. What it is NOT / limitations
@@ -79,14 +80,14 @@ Electron renderer sends **anonymous usage events to PostHog**; session recording
 - Telemetry on by default (redacted; disablable).
 
 ## 9. Positioning
-- **AgentWrapper AO** — permissive (Apache-2.0), worktree/terminal/PR/CI cockpit with the widest worker-adapter list; strong for PR/CI/review loops.
+- **Agent Orchestrator (AO)** — permissive (Apache-2.0), worktree/terminal/PR/CI cockpit with the widest worker-adapter list; strong for PR/CI/review loops.
 - vs Agent Teams AI (peer-team/kanban/messaging cockpit, AGPL), GasTown (Beads-native terminal swarm), Vibe Kanban (sunsetting).
 
 ## 10. Hands-on
 `docs-only` (2026-07-20). **TODO:** install desktop app; run 2 parallel Claude Code sessions on a repo; observe CI-fail routing + worktree isolation.
 
 ## 11. Sources
-- https://github.com/AgentWrapper/agent-orchestrator (README, docs/STATUS.md)
-- ReviewedResearch.md (facts: Apache-2.0, ⭐8,392, redirect from ComposioHQ)
+- https://github.com/Untrivial-ai/agent-orchestrator (README; `AgentWrapper/agent-orchestrator` redirects) · aoagents.dev/docs
+- ReviewedResearch.md (history: Apache-2.0, redirect from ComposioHQ)
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-19 · Researcher: Claude_

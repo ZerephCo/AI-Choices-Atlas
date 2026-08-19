@@ -8,7 +8,7 @@ site: null
 maker: QwenLM (Alibaba)
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 26144
+stars: 27184
 created: "2025-06"
 language: TypeScript
 maturity: Prominent
@@ -25,7 +25,7 @@ features:
 choose_when: "You want a Gemini-CLI-lineage terminal agent tuned for Qwen3-Coder but usable with any OpenAI-compatible or local model."
 avoid_when: "You need a free-OAuth path (discontinued 2026-04-15) or want to avoid Node.js 22+."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Qwen Code — Deep Research Reference
 

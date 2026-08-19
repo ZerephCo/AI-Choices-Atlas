@@ -8,8 +8,8 @@ site: https://kiro.dev
 maker: AWS (Amazon)
 license_claimed: Proprietary
 license_detected: Proprietary
-stars: null
-created: "2025-07"
+stars: 4195
+created: "2025-06"
 language: null
 maturity: Established
 status: active
@@ -26,7 +26,7 @@ features:
 choose_when: "You want spec-driven, structured agentic engineering in a VS Code-like IDE, especially for AWS/Bedrock shops or Amazon Q Developer migrations."
 avoid_when: "You need open-source or BYOK, or want lightweight autocomplete without spec overhead for tiny tasks."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Kiro — Deep Research Reference
 
@@ -40,8 +40,8 @@ last_verified: "2026-07-20"
 | License | **Proprietary** (closed source; built on Code OSS / VS Code base) |
 | Timeline | launched Jul 2025 (preview) · **GA / international launch May 7, 2026** · **successor to Amazon Q Developer** (Q Dev ended for new signups May 15, 2026) |
 | Model | **Amazon Bedrock** routing — Claude Sonnet 4.5 / Claude Opus 4.8 / Amazon Nova by task type (agent model selection) |
-| Pricing | Free tier + paid Pro/Pro+ tiers — **pricing has shifted since preview; verify current** |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Pricing | **Re-verified 2026-08-19:** KIRO FREE — $0, 50 credits, open-weight models + Claude Sonnet 4.5, **no credit card / no paid AWS account** (social login or AWS Builder ID); paid KIRO PRO $20/mo (1,000 credits) up to KIRO POWER $200/mo (10,000 credits) |
+| Researched | 2026-08-19 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Move beyond AI coding to agentic engineering." AWS's agentic IDE (Code OSS base) that makes **specs the unit of work**: formalize requirements → design → tasks, then the agent implements against the spec. Adds agent hooks + steering files. Successor to Amazon Q Developer.

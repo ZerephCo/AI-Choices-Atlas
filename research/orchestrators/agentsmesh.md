@@ -8,7 +8,7 @@ site: https://agentsmesh.ai
 maker: AgentsMesh
 license_claimed: null
 license_detected: NOASSERTION
-stars: 2300
+stars: 2322
 created: "2026-02"
 language: Go
 maturity: Established
@@ -25,7 +25,7 @@ choose_when: "You want to operate a fleet of coding agents across your own hardw
 avoid_when: "You need a single-developer cockpit (T3 Code, Claude Squad), or you require clear OSI reuse rights (license is NOASSERTION)."
 cross_links: ["§1", "§10"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-19"
 ---
 # AgentsMesh — Deep Research Reference
 

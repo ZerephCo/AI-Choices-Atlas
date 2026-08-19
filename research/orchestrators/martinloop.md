@@ -8,10 +8,10 @@ site: https://martinloop.com
 maker: Keesan12
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 39
+stars: 44
 created: "2026-04"
-language: null
-maturity: Emerging
+language: TypeScript
+maturity: Preview
 status: active
 local: true
 one_liner: "A governed-run layer — a Ralph loop with brakes — that gives AI coding agents budgets, stop conditions, rollback rules, and signed receipts: task contract, caps, verify, rollback."
@@ -26,7 +26,7 @@ choose_when: "You want to put brakes on autonomous Ralph-style loops with budget
 avoid_when: "You need independent (not local-HMAC) attestation, a non-Node stack, or audit-grade determinism."
 cross_links: ["§9"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # MartinLoop — Deep Research Reference
 

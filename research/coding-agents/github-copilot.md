@@ -26,7 +26,7 @@ features:
 choose_when: "You want the most platform-integrated assistant (GitHub + VS Code/JetBrains) with completion, Agent Mode, async issue->PR, multi-model, and enterprise governance."
 avoid_when: "You need open-source, or want to avoid usage-based AI-credit billing for heavy agent use."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # GitHub Copilot — Deep Research Reference
 

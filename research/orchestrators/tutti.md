@@ -8,7 +8,7 @@ site: https://tutti-ai.com
 maker: nutthouse
 license_claimed: MIT
 license_detected: MIT
-stars: 102
+stars: 112
 created: "2026-03"
 language: Rust
 maturity: Emerging
@@ -25,7 +25,7 @@ features:
 choose_when: "You want a Terraform-style, gated, resumable ops layer over multiple CLI agents with a real run ledger, and coordination (not model quality) is the bottleneck."
 avoid_when: "Single-agent/small work, non-Rust/tmux environments, or you need the full advertised surface today (implementation trails the docs)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Tutti — Deep Research Reference
 

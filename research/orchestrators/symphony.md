@@ -8,7 +8,7 @@ site: null
 maker: OpenAI
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 26049
+stars: 26753
 created: "2026-02"
 language: Elixir
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "You already run Linear + Codex and want issue-driven autonomous runs with proof-of-work, in a trusted environment."
 avoid_when: "You don't use Linear/Codex, need a durable orchestration DB, or need production hardening (it's a preview/spec)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Symphony — Deep Research Reference
 

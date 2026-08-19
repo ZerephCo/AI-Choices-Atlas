@@ -8,7 +8,7 @@ site: https://www.codexmonitor.app
 maker: Thomas Ricouard (Dimillian)
 license_claimed: MIT
 license_detected: MIT
-stars: 4180
+stars: 4239
 created: "2026-01"
 language: TypeScript
 maturity: Established
@@ -24,7 +24,7 @@ choose_when: "You run agents (esp. Codex) and want a dedicated dashboard to watc
 avoid_when: "You want a full cockpit that also launches/routes work (T3 Code, Emdash) rather than a focused monitor."
 cross_links: ["§1"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-19"
 ---
 # CodexMonitor — Deep Research Reference
 

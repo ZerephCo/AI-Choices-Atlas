@@ -8,7 +8,7 @@ site: https://bernstein.run
 maker: Sip Your Drink Ltd
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 706
+stars: 931
 created: "2026-03"
 language: Python
 maturity: Emerging
@@ -26,7 +26,7 @@ choose_when: "Audit-grade determinism, compliance, and air-gap are the priority 
 avoid_when: "Single-agent/small work, non-coding tasks, you need vendor support, or you'd wrongly treat its receipts as proof of correctness (integrity is not correctness; verify the completion gate)."
 cross_links: ["§9"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Bernstein — Deep Research Reference
 

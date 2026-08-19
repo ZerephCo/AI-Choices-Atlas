@@ -8,7 +8,7 @@ site: https://zed.dev
 maker: Zed Industries
 license_claimed: "GPL-3.0-or-later + Apache-2.0 + AGPL-3.0"
 license_detected: NOASSERTION
-stars: 87269
+stars: 88866
 created: "2021-02"
 language: Rust
 maturity: Prominent
@@ -26,7 +26,7 @@ features:
 choose_when: "You want the fastest native editor with first-class collaboration and open agent interop (ACP) to plug in any agent instead of one vendor's UI."
 avoid_when: "You need a VS Code-compatible extension ecosystem, a web version, or must avoid a GPL/AGPL copyleft aggregate license."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Zed — Deep Research Reference
 

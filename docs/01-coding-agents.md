@@ -16,48 +16,48 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [OpenCode](#opencode) | 1.1 CLI coding agents | MIT | 187,683 | Prominent | 🟢 Active | 🟡 partial | docs-only | A fully open-source (MIT), provider-agnostic coding agent built for the terminal, with a client/server design and 75+ providers via models.dev. |
-| [Claude Code](#claude-code) | 1.1 CLI coding agents | Proprietary | 138,404 | Prominent | 🟢 Active | ☁️ hosted | run | A terminal-first agentic coding tool that maps and explains your codebase, edits code, runs tests, and handles Git/GitHub/GitLab workflows via natural language. |
-| [Gemini CLI](#gemini-cli) | 1.1 CLI coding agents | Apache-2.0 | 106,076 | Prominent | 🟢 Active | 🟡 partial | docs-only | An open-source terminal AI agent that brings Gemini into your shell, with a ReAct loop, built-in Google Search grounding, 1M context, and MCP Extensions. |
-| [Codex CLI](#codex-cli) | 1.1 CLI coding agents | Apache-2.0 | 99,895 | Prominent | 🟢 Active | 🟡 partial | docs-only | OpenAI's open-source, Rust-built terminal-native coding agent that runs in your shell with two-layer sandboxing and kernel-level OS sandboxing. |
-| [Goose](#goose) | 1.1 CLI coding agents | Apache-2.0 | 51,316 | Prominent | 🟢 Active | 🟡 partial | docs-only | Block's open-source, on-machine AI agent that goes beyond code suggestions to install, execute, edit, and test with any LLM, via desktop app, CLI, and API. |
-| [Aider](#aider) | 1.1 CLI coding agents | Apache-2.0 | 47,533 | Prominent | 🟢 Active | 🟡 partial | docs-only | One of the earliest AI coding CLIs: git-native pair-programming in your terminal with a whole-repo map and any LLM via LiteLLM. |
-| [Qwen Code](#qwen-code) | 1.1 CLI coding agents | Apache-2.0 | 26,144 | Prominent | 🟢 Active | 🟡 partial | docs-only | QwenLM's open-source terminal coding agent, forked from Gemini CLI and tuned for Qwen3-Coder but multi-provider (OpenAI/Anthropic/Gemini/local). |
-| [Amp](#amp) | 1.1 CLI coding agents | Proprietary | — | Established | 🟢 Active | ☁️ hosted | docs-only | Sourcegraph's agentic coding tool (CLI + VS Code) with a free, ad-supported tier — core agent, no hard token caps — plus a pay-as-you-go 'Smart Mode' with zero data sharing. |
-| [Zed](#zed) | 1.2 IDE / editor agents | GPL-3.0-or-later + Apache-2.0 + AGPL-3.0 / NOASSERTION | 87,269 | Prominent | 🟢 Active | 🟡 partial | docs-only | A GPU-accelerated, Rust-built multiplayer code editor with native AI: an Agent Panel for agentic editing and the Agent Client Protocol (ACP) to plug in external agents. |
-| [Cline](#cline) | 1.2 IDE / editor agents | Apache-2.0 | 64,827 | Prominent | 🟢 Active | 🟡 partial | docs-only | An open-source, BYOK autonomous coding agent in your IDE and terminal with Plan/Act modes and human approval on every action. |
-| [Continue](#continue) | 1.2 IDE / editor agents | Apache-2.0 | 35,117 | Prominent | 🟢 Active | ✅ | docs-only | Open-source coding agent as a VS Code / JetBrains extension and a CLI — bring your own models (fully local via Ollama, or any cloud), fully customizable. Apache-2.0. |
-| [Void](#void) | 1.2 IDE / editor agents | Apache-2.0 | 28,878 | Prominent | ⚰️ Defunct | ✅ | docs-only | Open-source VS Code fork positioned as a free Cursor/Copilot alternative with BYO/local models. Notable (~29k★) but ⚰️ repository archived (read-only). |
-| [Roo Code](#roo-code) | 1.2 IDE / editor agents | Apache-2.0 | 24,358 | Established | ⚰️ Sunsetting | 🟡 partial | docs-only | An open-source VS Code coding agent (now sunsetting) that began as a Cline fork and differentiated with customizable Modes: Code, Architect, Ask, Debug, Custom. |
+| [OpenCode](#opencode) | 1.1 CLI coding agents | MIT | 199,022 | Prominent | 🟢 Active | 🟡 partial | docs-only | A fully open-source (MIT), provider-agnostic coding agent built for the terminal, with a client/server design and 75+ providers via models.dev. |
+| [Claude Code](#claude-code) | 1.1 CLI coding agents | Proprietary | 141,964 | Prominent | 🟢 Active | ☁️ hosted | run | A terminal-first agentic coding tool that maps and explains your codebase, edits code, runs tests, and handles Git/GitHub/GitLab workflows via natural language. |
+| [Codex CLI](#codex-cli) | 1.1 CLI coding agents | Apache-2.0 | 106,787 | Prominent | 🟢 Active | 🟡 partial | docs-only | OpenAI's open-source, Rust-built terminal-native coding agent that runs in your shell with two-layer sandboxing and kernel-level OS sandboxing. |
+| [Gemini CLI](#gemini-cli) | 1.1 CLI coding agents | Apache-2.0 | 106,569 | Prominent | 🟢 Active | 🟡 partial | docs-only | An open-source terminal AI agent that brings Gemini into your shell, with a ReAct loop, built-in Google Search grounding, 1M context, and MCP Extensions. |
+| [Goose](#goose) | 1.1 CLI coding agents | Apache-2.0 | 52,984 | Prominent | 🟢 Active | 🟡 partial | docs-only | Open-source, on-machine AI agent (AAIF / Linux Foundation, originally Block) for code and general workflows — install, execute, edit, and test with any LLM, via desktop app, CLI, and API. |
+| [Aider](#aider) | 1.1 CLI coding agents | Apache-2.0 | 48,324 | Prominent | 🟢 Active | 🟡 partial | docs-only | One of the earliest AI coding CLIs: git-native pair-programming in your terminal with a whole-repo map and any LLM via LiteLLM. |
+| [Qwen Code](#qwen-code) | 1.1 CLI coding agents | Apache-2.0 | 27,184 | Prominent | 🟢 Active | 🟡 partial | docs-only | QwenLM's open-source terminal coding agent, forked from Gemini CLI and tuned for Qwen3-Coder but multi-provider (OpenAI/Anthropic/Gemini/local). |
+| [Amp](#amp) | 1.1 CLI coding agents | Proprietary | — | Established | 🟢 Active | ☁️ hosted | docs-only | Sourcegraph's agentic coding tool (CLI + VS Code) whose free tier launched ad-supported (2025-10) and is now ad-free with rate limits, plus paid subscription / pay-as-you-go usage (orbs, credits). |
+| [Zed](#zed) | 1.2 IDE / editor agents | GPL-3.0-or-later + Apache-2.0 + AGPL-3.0 / NOASSERTION | 88,866 | Prominent | 🟢 Active | 🟡 partial | docs-only | A GPU-accelerated, Rust-built multiplayer code editor with native AI: an Agent Panel for agentic editing and the Agent Client Protocol (ACP) to plug in external agents. |
+| [Cline](#cline) | 1.2 IDE / editor agents | Apache-2.0 | 66,458 | Prominent | 🟢 Active | 🟡 partial | docs-only | An open-source, BYOK autonomous coding agent in your IDE and terminal with Plan/Act modes and human approval on every action. |
+| [Continue](#continue) | 1.2 IDE / editor agents | Apache-2.0 | 35,534 | Prominent | 🟢 Active | ✅ | docs-only | Open-source coding agent as a VS Code / JetBrains extension and a CLI — bring your own models (fully local via Ollama, or any cloud), fully customizable. Apache-2.0. |
+| [Void](#void) | 1.2 IDE / editor agents | Apache-2.0 | 28,833 | Prominent | ⚰️ Defunct | ✅ | docs-only | Open-source VS Code fork positioned as a free Cursor/Copilot alternative with BYO/local models. Notable (~29k★) but ⚰️ repository archived (read-only). |
+| [Roo Code](#roo-code) | 1.2 IDE / editor agents | Apache-2.0 | 24,330 | Prominent | ⚰️ Defunct | 🟡 partial | docs-only | An open-source VS Code coding agent (now defunct — shut down 2026-05-15, repo archived) that began as a Cline fork and differentiated with customizable Modes: Code, Architect, Ask, Debug, Custom. |
+| [Kiro](#kiro) | 1.2 IDE / editor agents | Proprietary | 4,195 | Established | 🟢 Active | ☁️ hosted | docs-only | AWS's proprietary agentic IDE (Code OSS base) that makes specs the unit of work (requirements -> design -> tasks) with agent hooks and steering files. |
 | [Cursor](#cursor) | 1.2 IDE / editor agents | Proprietary | — | Prominent | 🟢 Active | ☁️ hosted | docs-only | An AI-first commercial code editor built on the VS Code codebase, with agent mode, Tab autocomplete, Composer multi-file edits, and cloud/background agents. |
 | [GitHub Copilot](#github-copilot) | 1.2 IDE / editor agents | Proprietary | — | Prominent | 🟢 Active | ☁️ hosted | docs-only | GitHub's proprietary AI coding assistant across the SDLC, from inline completion to autonomous PRs, with synchronous Agent Mode and asynchronous Coding Agent. |
-| [Kiro](#kiro) | 1.2 IDE / editor agents | Proprietary | — | Established | 🟢 Active | ☁️ hosted | docs-only | AWS's proprietary agentic IDE (Code OSS base) that makes specs the unit of work (requirements -> design -> tasks) with agent hooks and steering files. |
-| [Windsurf](#windsurf) | 1.2 IDE / editor agents | Proprietary | — | Prominent | 🟢 Active | ☁️ hosted | docs-only | Proprietary AI-native IDE (VS Code–based) with the Cascade agent; formerly Codeium. Permanent free tier — unlimited Tab autocomplete + monthly prompt credits — with no credit card. |
-| [OpenHands](#openhands) | 1.3 Autonomous SWE agents | MIT / NOASSERTION | 81,379 | Prominent | 🟢 Active | 🟡 partial | docs-only | The leading open-source autonomous software-engineering platform (formerly OpenDevin), built on CodeAct, where agents run in a sandboxed runtime to browse, run shell, edit, and test. |
-| [SWE-agent](#swe-agent) | 1.3 Autonomous SWE agents | MIT | 19,865 | Prominent | 🟢 Active | 🟡 partial | docs-only | The research-grade autonomous agent from the SWE-bench team that takes a GitHub issue and fixes it with your LM of choice, via a configurable Agent-Computer Interface. |
-| [DeepCode](#deepcode) | 1.3 Autonomous SWE agents | MIT | 16,086 | Prominent | 🟢 Active | ✅ | docs-only | Open multi-agent coding framework (HKU) that turns high-level inputs into production-ready code — Paper2Code, Text2Web, Text2Backend — with CodeRAG, sandboxing, MCP tools, and BYO LLM. |
+| [Windsurf](#windsurf) | 1.2 IDE / editor agents | Proprietary | — | Prominent | 🟢 Active | ☁️ hosted | docs-only | Proprietary AI-native IDE (VS Code–based) with the Cascade agent; formerly Codeium, acquired by Cognition (2025-07) and rebranded Devin Desktop (2026-06). Current lineup includes a Free plan. |
+| [OpenHands](#openhands) | 1.3 Autonomous SWE agents | MIT | 84,462 | Prominent | 🟢 Active | 🟡 partial | docs-only | Open-source autonomous SWE platform (ex-OpenDevin); its main repo now ships Agent Canvas (beta) — a self-hosted control center running the OpenHands agent or any ACP agent on local-to-cloud backends. |
+| [SWE-agent](#swe-agent) | 1.3 Autonomous SWE agents | MIT | 20,080 | Prominent | 🟢 Active | 🟡 partial | docs-only | The research-grade autonomous agent from the SWE-bench team that takes a GitHub issue and fixes it with your LM of choice, via a configurable Agent-Computer Interface. |
+| [DeepCode](#deepcode) | 1.3 Autonomous SWE agents | MIT | 16,373 | Prominent | 🟢 Active | ✅ | docs-only | Open multi-agent coding framework (HKU) that turns high-level inputs into production-ready code — Paper2Code, Text2Web, Text2Backend — with CodeRAG, sandboxing, MCP tools, and BYO LLM. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
 |---|---|---|
 | [OpenCode](#opencode) | You want an MIT, provider-agnostic, client/server terminal agent with built-in LSP and MCP and no vendor lock-in. | You prefer a single-binary monolith or a GUI-only tool. |
 | [Claude Code](#claude-code) | You want a powerful terminal-first agent with strong codebase understanding and rich extensibility (hooks/skills/subagents/MCP), and a proprietary Claude-only paid tool is acceptable. | You need open-source, model-agnosticism, or a free/offline option. |
-| [Gemini CLI](#gemini-cli) | You want a free, open-source terminal agent with built-in web-search grounding, huge context, and an Extensions ecosystem. | You need model-agnosticism or must avoid a Google account and free-tier rate limits. |
 | [Codex CLI](#codex-cli) | You want an open-source, terminal-native GPT agent with the strongest built-in OS-level sandbox. | You need model-agnosticism or an IDE plugin (it is GPT-only and terminal-native). |
+| [Gemini CLI](#gemini-cli) | You want a free, open-source terminal agent with built-in web-search grounding, huge context, and an Extensions ecosystem. | You need model-agnosticism or must avoid a Google account and free-tier rate limits. |
 | [Goose](#goose) | You want a local, MCP-first, multi-provider agent that executes/tests/automates beyond code, with a desktop GUI plus CLI and neutral foundation governance. | You want a narrowly scoped, suggestion-only assistant or IDE-native inline completion (§1.2), or you can't grant an agent broad authority to install, execute, and edit on your machine. |
 | [Aider](#aider) | You want a git-native, model-agnostic terminal pair-programmer with strong repo-mapping and fine edit control, great with local models. | You want a fully autonomous SWE agent or an IDE/GUI rather than a human-in-the-loop terminal tool. |
 | [Qwen Code](#qwen-code) | You want a Gemini-CLI-lineage terminal agent tuned for Qwen3-Coder but usable with any OpenAI-compatible or local model. | You need a free-OAuth path (discontinued 2026-04-15) or want to avoid Node.js 22+. |
-| [Amp](#amp) | You want a capable agent with a genuinely free, no-hard-cap tier and don't mind sponsored suggestions in non-code contexts. | You need zero data-sharing (that's the paid tier) or a fully open/local tool. |
+| [Amp](#amp) | You want a capable agent with a genuinely free (now ad-free) tier for interactive editor/CLI use. | You need guaranteed throughput beyond free rate limits, contractual data-handling terms you have verified, or a fully open/local tool. |
 | [Zed](#zed) | You want the fastest native editor with first-class collaboration and open agent interop (ACP) to plug in any agent instead of one vendor's UI. | You need a VS Code-compatible extension ecosystem, a web version, or must avoid a GPL/AGPL copyleft aggregate license. |
 | [Cline](#cline) | You want an open-source, transparent, BYOK editor agent with approval over every action, to avoid markup/lock-in and use local models. | You want a hosted/managed service or a fully autonomous agent without approval gating. |
 | [Continue](#continue) | You want a free, open-source, model-agnostic assistant that can run fully local (Ollama) inside your existing IDE. | You want a turnkey proprietary IDE (Cursor/Windsurf) or a terminal-first agent (§1.1). |
 | [Void](#void) | Only to study or self-host the frozen code — the repo is archived. | New adoption — archived; use active open Continue, or free-tier Cursor/Windsurf (§1.2). |
 | [Roo Code](#roo-code) | Only if maintaining an existing Roo Code setup; for new work use Cline or the ZooCode community fork. | Not safe for new adoption: the VS Code extension shut down 2026-05-15 and the repo is archived; migrate to ZooCode or Cline. |
+| [Kiro](#kiro) | You want spec-driven, structured agentic engineering in a VS Code-like IDE, especially for AWS/Bedrock shops or Amazon Q Developer migrations. | You need open-source or BYOK, or want lightweight autocomplete without spec overhead for tiny tasks. |
 | [Cursor](#cursor) | You want a polished, AI-first commercial IDE with best-in-class Tab, agent mode, cloud agents, and PR review, and metered proprietary pricing is acceptable. | You need open-source, want to avoid credit-metered pricing, or cannot send code to Cursor's cloud infrastructure. |
 | [GitHub Copilot](#github-copilot) | You want the most platform-integrated assistant (GitHub + VS Code/JetBrains) with completion, Agent Mode, async issue->PR, multi-model, and enterprise governance. | You need open-source, or want to avoid usage-based AI-credit billing for heavy agent use. |
-| [Kiro](#kiro) | You want spec-driven, structured agentic engineering in a VS Code-like IDE, especially for AWS/Bedrock shops or Amazon Q Developer migrations. | You need open-source or BYOK, or want lightweight autocomplete without spec overhead for tiny tasks. |
-| [Windsurf](#windsurf) | You want a polished proprietary agentic IDE with a genuinely usable, no-credit-card free tier. | You need fully-open/local tooling (Continue) or heavy daily use beyond the free credit allowance. |
-| [OpenHands](#openhands) | You want a fully open-source, self-hostable autonomous SWE agent (issue->PR) plus an SDK, the best open alternative to Devin. | You want a lightweight editor plugin, or cannot provide a sandbox and the tokens autonomous runs consume. |
+| [Windsurf](#windsurf) | You want the polished proprietary agentic-IDE lineage now continued as Devin Desktop, and Cognition's current free-plan terms fit your use. | You need fully-open/local tooling (Continue), heavy daily use beyond free credits, or verified-stable pricing (terms shifted after the Cognition acquisition). |
+| [OpenHands](#openhands) | You want a fully open-source, self-hostable stack to run and automate autonomous coding agents (OpenHands or any ACP agent) across your own backends. | You want a lightweight editor plugin, or cannot provide a sandbox and the tokens autonomous runs consume. |
 | [SWE-agent](#swe-agent) | You want a research-grade, fully configurable, minimal autonomous SWE agent (the reference agent for SWE-bench) for evaluation, research, or CTF. | You want a polished product or IDE rather than a research tool. |
 | [DeepCode](#deepcode) | You want an open, research-grade autonomous pipeline that turns papers/specs/descriptions into working web or backend code. | You want an interactive editor/CLI coding assistant (§1.1/1.2), not an autonomous spec→code generator. |
 
@@ -70,11 +70,11 @@
 
 | | |
 |---|---|
-| Repo | https://github.com/sst/opencode |
-| Maker | SST |
+| Repo | https://github.com/anomalyco/opencode |
+| Maker | Anomaly (formerly SST) |
 | Sub-type | 1.1 CLI coding agents |
 | License | MIT |
-| Maturity | Prominent · ⭐187,683 · created 2025-04 · TypeScript |
+| Maturity | Prominent · ⭐199,022 · created 2025-04 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -107,7 +107,7 @@
 | Maker | Anthropic |
 | Sub-type | 1.1 CLI coding agents |
 | License | Proprietary |
-| Maturity | Prominent · ⭐138,404 · created 2025-02 |
+| Maturity | Prominent · ⭐141,964 · created 2025-02 |
 | Runs local | ☁️ hosted |
 | Hands-on | run |
 
@@ -129,6 +129,38 @@
 
 ---
 
+<a id="codex-cli"></a>
+### Codex CLI
+
+**🟢 Active** — OpenAI's open-source, Rust-built terminal-native coding agent that runs in your shell with two-layer sandboxing and kernel-level OS sandboxing.
+
+| | |
+|---|---|
+| Repo | https://github.com/openai/codex |
+| Maker | OpenAI |
+| Sub-type | 1.1 CLI coding agents |
+| License | Apache-2.0 |
+| Maturity | Prominent · ⭐106,787 · created 2025-04 · Rust |
+| Runs local | 🟡 partial |
+| Hands-on | docs-only |
+
+> *"Lightweight coding agent that runs in your terminal."*
+
+**Features**
+- MCP with parallel tool calls (~2x faster)
+- Two-layer security: sandbox modes + approval policy
+- Kernel-level OS sandboxing (Seatbelt / Landlock / seccomp)
+- GPT-5.x, 272K default context (up to 1M); AGENTS.md config
+- Install via npm, brew, or prebuilt binaries
+
+**Choose it when** — You want an open-source, terminal-native GPT agent with the strongest built-in OS-level sandbox.
+
+**Avoid when** — You need model-agnosticism or an IDE plugin (it is GPT-only and terminal-native).
+
+📄 **Deep research:** [`research/coding-agents/codex-cli.md`](../research/coding-agents/codex-cli.md)
+
+---
+
 <a id="gemini-cli"></a>
 ### Gemini CLI
 
@@ -140,7 +172,7 @@
 | Maker | Google |
 | Sub-type | 1.1 CLI coding agents |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐106,076 · created 2025-04 |
+| Maturity | Prominent · ⭐106,569 · created 2025-04 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -162,62 +194,30 @@
 
 ---
 
-<a id="codex-cli"></a>
-### Codex CLI
-
-**🟢 Active** — OpenAI's open-source, Rust-built terminal-native coding agent that runs in your shell with two-layer sandboxing and kernel-level OS sandboxing.
-
-| | |
-|---|---|
-| Repo | https://github.com/openai/codex |
-| Maker | OpenAI |
-| Sub-type | 1.1 CLI coding agents |
-| License | Apache-2.0 |
-| Maturity | Prominent · ⭐99,895 · created 2025-04 · Rust |
-| Runs local | 🟡 partial |
-| Hands-on | docs-only |
-
-> *"Lightweight coding agent that runs in your terminal."*
-
-**Features**
-- MCP with parallel tool calls (~2x faster)
-- Two-layer security: sandbox modes + approval policy
-- Kernel-level OS sandboxing (Seatbelt / Landlock / seccomp)
-- GPT-5.x, 272K default context (up to 1M); AGENTS.md config
-- Install via npm, brew, or prebuilt binaries
-
-**Choose it when** — You want an open-source, terminal-native GPT agent with the strongest built-in OS-level sandbox.
-
-**Avoid when** — You need model-agnosticism or an IDE plugin (it is GPT-only and terminal-native).
-
-📄 **Deep research:** [`research/coding-agents/codex-cli.md`](../research/coding-agents/codex-cli.md)
-
----
-
 <a id="goose"></a>
 ### Goose
 
-**🟢 Active** — Block's open-source, on-machine AI agent that goes beyond code suggestions to install, execute, edit, and test with any LLM, via desktop app, CLI, and API.
+**🟢 Active** — Open-source, on-machine AI agent (AAIF / Linux Foundation, originally Block) for code and general workflows — install, execute, edit, and test with any LLM, via desktop app, CLI, and API.
 
 | | |
 |---|---|
-| Repo | https://github.com/block/goose |
-| Maker | Block |
+| Repo | https://github.com/aaif-goose/goose |
+| Maker | Agentic AI Foundation (AAIF, Linux Foundation) — originally Block |
 | Sub-type | 1.1 CLI coding agents |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐51,316 · created 2024-08 · Rust |
+| Maturity | Prominent · ⭐52,984 · created 2024-08 · Rust |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
-> *"an open source, extensible AI agent that goes beyond code suggestions"*
+> *"your native open source AI agent — desktop app, CLI, and API"*
 
 **Features**
-- Beyond code suggestions: install deps, run commands, edit, test
+- General-purpose: code plus research, writing, automation, data analysis
 - MCP-first: 70+ extensions
-- 15+ LLM providers incl. local (Ollama)
+- 15+ LLM providers incl. local (Ollama); ACP to reuse Claude/ChatGPT/Gemini subscriptions
 - Three surfaces: desktop app + CLI + API
 - Recipes for workflow automation; custom distribution
-- Built in Rust; donated to Linux Foundation AAIF
+- Built in Rust; repo now under the AAIF org (aaif-goose/goose)
 
 **Choose it when** — You want a local, MCP-first, multi-provider agent that executes/tests/automates beyond code, with a desktop GUI plus CLI and neutral foundation governance.
 
@@ -238,7 +238,7 @@
 | Maker | Aider-AI (Paul Gauthier + community) |
 | Sub-type | 1.1 CLI coding agents |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐47,533 · created 2023-05 · Python |
+| Maturity | Prominent · ⭐48,324 · created 2023-05 · Python |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -271,7 +271,7 @@
 | Maker | QwenLM (Alibaba) |
 | Sub-type | 1.1 CLI coding agents |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐26,144 · created 2025-06 · TypeScript |
+| Maturity | Prominent · ⭐27,184 · created 2025-06 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -295,11 +295,11 @@
 <a id="amp"></a>
 ### Amp
 
-**🟢 Active** — Sourcegraph's agentic coding tool (CLI + VS Code) with a free, ad-supported tier — core agent, no hard token caps — plus a pay-as-you-go 'Smart Mode' with zero data sharing.
+**🟢 Active** — Sourcegraph's agentic coding tool (CLI + VS Code) whose free tier launched ad-supported (2025-10) and is now ad-free with rate limits, plus paid subscription / pay-as-you-go usage (orbs, credits).
 
 | | |
 |---|---|
-| Repo | https://sourcegraph.com/amp |
+| Repo | https://ampcode.com |
 | Maker | Sourcegraph |
 | Sub-type | 1.1 CLI coding agents |
 | License | Proprietary |
@@ -311,13 +311,13 @@
 
 **Features**
 - CLI + VS Code extension; agentic multi-step coding
-- Free tier: Amp Tab autocomplete + core agent, no hard token caps (ad-supported)
-- Thread sharing
-- Paid 'Smart Mode' (pay-as-you-go): zero data sharing, Oracle Mode, priority routing
+- Amp Free: launched ad-supported 2025-10-15, since made ad-free; 'There are some rate limits'
+- Thread sharing; orbs (hosted agent sandboxes); realtime voice control (Puck)
+- Paid: monthly subscription includes agent + orbs usage; pay-as-you-go credits
 
-**Choose it when** — You want a capable agent with a genuinely free, no-hard-cap tier and don't mind sponsored suggestions in non-code contexts.
+**Choose it when** — You want a capable agent with a genuinely free (now ad-free) tier for interactive editor/CLI use.
 
-**Avoid when** — You need zero data-sharing (that's the paid tier) or a fully open/local tool.
+**Avoid when** — You need guaranteed throughput beyond free rate limits, contractual data-handling terms you have verified, or a fully open/local tool.
 
 **Related sections:** [§1](01-coding-agents.md)
 
@@ -336,7 +336,7 @@
 | Maker | Zed Industries |
 | Sub-type | 1.2 IDE / editor agents |
 | License | GPL-3.0-or-later + Apache-2.0 + AGPL-3.0 / NOASSERTION |
-| Maturity | Prominent · ⭐87,269 · created 2021-02 · Rust |
+| Maturity | Prominent · ⭐88,866 · created 2021-02 · Rust |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -369,7 +369,7 @@
 | Maker | Cline Bot Inc. |
 | Sub-type | 1.2 IDE / editor agents |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐64,827 · created 2024-07 · TypeScript |
+| Maturity | Prominent · ⭐66,458 · created 2024-07 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -402,7 +402,7 @@
 | Maker | Continue |
 | Sub-type | 1.2 IDE / editor agents |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐35,117 · created 2023-05 · TypeScript |
+| Maturity | Prominent · ⭐35,534 · created 2023-05 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -435,7 +435,7 @@
 | Maker | Void (Glass Devtools) |
 | Sub-type | 1.2 IDE / editor agents |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐28,878 · created 2024-09 · TypeScript |
+| Maturity | Prominent · ⭐28,833 · created 2024-09 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -458,7 +458,7 @@
 <a id="roo-code"></a>
 ### Roo Code
 
-**⚰️ Sunsetting** — An open-source VS Code coding agent (now sunsetting) that began as a Cline fork and differentiated with customizable Modes: Code, Architect, Ask, Debug, Custom.
+**⚰️ Defunct** — An open-source VS Code coding agent (now defunct — shut down 2026-05-15, repo archived) that began as a Cline fork and differentiated with customizable Modes: Code, Architect, Ask, Debug, Custom.
 
 | | |
 |---|---|
@@ -466,7 +466,7 @@
 | Maker | Roo Code, Inc. |
 | Sub-type | 1.2 IDE / editor agents |
 | License | Apache-2.0 |
-| Maturity | Established · ⭐24,358 · created 2024-10 · TypeScript |
+| Maturity | Prominent · ⭐24,330 · created 2024-10 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -483,6 +483,39 @@
 **Avoid when** — Not safe for new adoption: the VS Code extension shut down 2026-05-15 and the repo is archived; migrate to ZooCode or Cline.
 
 📄 **Deep research:** [`research/coding-agents/roo-code.md`](../research/coding-agents/roo-code.md)
+
+---
+
+<a id="kiro"></a>
+### Kiro
+
+**🟢 Active** — AWS's proprietary agentic IDE (Code OSS base) that makes specs the unit of work (requirements -> design -> tasks) with agent hooks and steering files.
+
+| | |
+|---|---|
+| Repo | https://github.com/kirodotdev/Kiro |
+| Maker | AWS (Amazon) |
+| Sub-type | 1.2 IDE / editor agents |
+| License | Proprietary |
+| Maturity | Established · ⭐4,195 · created 2025-06 |
+| Runs local | ☁️ hosted |
+| Hands-on | docs-only |
+
+> *"Move beyond AI coding to agentic engineering."*
+
+**Features**
+- Spec-driven development: requirements -> design -> tasks
+- Agent Hooks: run agent actions on events (save/commit)
+- Steering files encode project conventions
+- MCP support; supervised + autopilot modes
+- Bedrock model routing (Claude Sonnet 4.5 / Opus 4.8 / Nova)
+- Code OSS base (VS Code-familiar)
+
+**Choose it when** — You want spec-driven, structured agentic engineering in a VS Code-like IDE, especially for AWS/Bedrock shops or Amazon Q Developer migrations.
+
+**Avoid when** — You need open-source or BYOK, or want lightweight autocomplete without spec overhead for tiny tasks.
+
+📄 **Deep research:** [`research/coding-agents/kiro.md`](../research/coding-agents/kiro.md)
 
 ---
 
@@ -552,63 +585,32 @@
 
 ---
 
-<a id="kiro"></a>
-### Kiro
-
-**🟢 Active** — AWS's proprietary agentic IDE (Code OSS base) that makes specs the unit of work (requirements -> design -> tasks) with agent hooks and steering files.
-
-| | |
-|---|---|
-| Repo | https://github.com/kirodotdev/Kiro |
-| Maker | AWS (Amazon) |
-| Sub-type | 1.2 IDE / editor agents |
-| License | Proprietary |
-| Maturity | Established · created 2025-07 |
-| Runs local | ☁️ hosted |
-| Hands-on | docs-only |
-
-> *"Move beyond AI coding to agentic engineering."*
-
-**Features**
-- Spec-driven development: requirements -> design -> tasks
-- Agent Hooks: run agent actions on events (save/commit)
-- Steering files encode project conventions
-- MCP support; supervised + autopilot modes
-- Bedrock model routing (Claude Sonnet 4.5 / Opus 4.8 / Nova)
-- Code OSS base (VS Code-familiar)
-
-**Choose it when** — You want spec-driven, structured agentic engineering in a VS Code-like IDE, especially for AWS/Bedrock shops or Amazon Q Developer migrations.
-
-**Avoid when** — You need open-source or BYOK, or want lightweight autocomplete without spec overhead for tiny tasks.
-
-📄 **Deep research:** [`research/coding-agents/kiro.md`](../research/coding-agents/kiro.md)
-
----
-
 <a id="windsurf"></a>
 ### Windsurf
 
-**🟢 Active** — Proprietary AI-native IDE (VS Code–based) with the Cascade agent; formerly Codeium. Permanent free tier — unlimited Tab autocomplete + monthly prompt credits — with no credit card.
+**🟢 Active** — Proprietary AI-native IDE (VS Code–based) with the Cascade agent; formerly Codeium, acquired by Cognition (2025-07) and rebranded Devin Desktop (2026-06). Current lineup includes a Free plan.
 
 | | |
 |---|---|
-| Repo | https://windsurf.com |
-| Maker | Windsurf (formerly Codeium) |
+| Repo | https://devin.ai/desktop |
+| Maker | Cognition (acquired Windsurf 2025-07; formerly Codeium) |
 | Sub-type | 1.2 IDE / editor agents |
 | License | Proprietary |
 | Maturity | Prominent · created 2024 |
 | Runs local | ☁️ hosted |
 | Hands-on | docs-only |
 
+> *"The next generation of Windsurf, built around Devin Cloud, the Agent Command Center"*
+
 **Features**
 - AI-native IDE (VS Code fork) with the 'Cascade' agent (multi-file edits, terminal, tools)
-- Unlimited Tab autocomplete on the free plan
-- Free tier ≈ 25 prompt credits/month — no credit card required
-- Formerly Codeium; plugins available for other editors
+- Rebranded Devin Desktop (2026-06); windsurf.com now redirects to devin.ai; Linux package renamed windsurf → devin-desktop
+- Free plan in Cognition's 2026-04 self-serve lineup (Free/Pro/Max/Teams/Enterprise); free signup per docs
+- ⚠️ exact free-plan contents and no-credit-card status unverified 2026-08-19 (pricing page bot-gated); prior terms were unlimited Tab + ~25 credits/mo
 
-**Choose it when** — You want a polished proprietary agentic IDE with a genuinely usable, no-credit-card free tier.
+**Choose it when** — You want the polished proprietary agentic-IDE lineage now continued as Devin Desktop, and Cognition's current free-plan terms fit your use.
 
-**Avoid when** — You need fully-open/local tooling (Continue) or heavy daily use beyond the free credit allowance.
+**Avoid when** — You need fully-open/local tooling (Continue), heavy daily use beyond free credits, or verified-stable pricing (terms shifted after the Cognition acquisition).
 
 **Related sections:** [§1](01-coding-agents.md)
 
@@ -619,29 +621,29 @@
 <a id="openhands"></a>
 ### OpenHands
 
-**🟢 Active** — The leading open-source autonomous software-engineering platform (formerly OpenDevin), built on CodeAct, where agents run in a sandboxed runtime to browse, run shell, edit, and test.
+**🟢 Active** — Open-source autonomous SWE platform (ex-OpenDevin); its main repo now ships Agent Canvas (beta) — a self-hosted control center running the OpenHands agent or any ACP agent on local-to-cloud backends.
 
 | | |
 |---|---|
-| Repo | https://github.com/All-Hands-AI/OpenHands |
-| Maker | All-Hands-AI |
+| Repo | https://github.com/OpenHands/OpenHands |
+| Maker | OpenHands (formerly All Hands AI) |
 | Sub-type | 1.3 Autonomous SWE agents |
-| License | MIT / NOASSERTION |
-| Maturity | Prominent · ⭐81,379 · created 2024-03 · Python |
+| License | MIT |
+| Maturity | Prominent · ⭐84,462 · created 2024-03 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
 > *"OpenHands: AI-Driven Development."*
 
 **Features**
-- CodeAct: code execution as the primary agent action space
-- Sandboxed Docker runtime (SSH, Jupyter, BrowserGym)
-- OpenHands Resolver: labeled GitHub issue -> autonomous PR
-- Software Agent SDK to build your own SWE agents
-- Surfaces: local/Docker/VMs, Cloud + Enterprise, CLI, GitHub Action
-- Any LLM via LiteLLM; MCP; ACP-compatible
+- Agent Canvas (beta): self-hosted developer control center for coding agents + automations
+- Runs OpenHands, Claude Code, Codex, Gemini, or any ACP-compatible agent
+- Agent backends: local (no sandbox), Docker sandbox, VMs, OpenHands Cloud/Enterprise
+- Automations: scheduled/webhook workflows integrating Slack, GitHub, Linear, Notion
+- OpenHands V1 agent + SDK now in the separate software-agent-sdk repo (CodeAct lineage)
+- Any LLM; npm @openhands/agent-canvas; CLI binary in OpenHands-CLI
 
-**Choose it when** — You want a fully open-source, self-hostable autonomous SWE agent (issue->PR) plus an SDK, the best open alternative to Devin.
+**Choose it when** — You want a fully open-source, self-hostable stack to run and automate autonomous coding agents (OpenHands or any ACP agent) across your own backends.
 
 **Avoid when** — You want a lightweight editor plugin, or cannot provide a sandbox and the tokens autonomous runs consume.
 
@@ -660,7 +662,7 @@
 | Maker | Princeton University + Stanford |
 | Sub-type | 1.3 Autonomous SWE agents |
 | License | MIT |
-| Maturity | Prominent · ⭐19,865 · created 2024-04 · Python |
+| Maturity | Prominent · ⭐20,080 · created 2024-04 · Python |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -692,7 +694,7 @@
 | Maker | HKUDS (HKU Data Intelligence Lab) |
 | Sub-type | 1.3 Autonomous SWE agents |
 | License | MIT |
-| Maturity | Prominent · ⭐16,086 · created 2025-05 · Python |
+| Maturity | Prominent · ⭐16,373 · created 2025-05 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 

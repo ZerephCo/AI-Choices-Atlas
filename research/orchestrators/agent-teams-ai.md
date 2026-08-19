@@ -8,7 +8,7 @@ site: https://agentteams.live
 maker: 777genius
 license_claimed: AGPL-3.0
 license_detected: AGPL-3.0
-stars: 1625
+stars: 1947
 created: "2026-02"
 language: TypeScript
 maturity: Established
@@ -25,7 +25,7 @@ features:
 choose_when: "Peer-team messaging, kanban, budgets, and org structure are the point, and AGPL is acceptable."
 avoid_when: "AGPL is a blocker, you need OS containment (worktree is not a sandbox), or you want a headless/CLI-first flow."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Agent Teams AI — Deep Research Reference
 

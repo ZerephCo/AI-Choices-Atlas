@@ -8,7 +8,7 @@ site: https://emdash.ai
 maker: General Action (YC W26)
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 5270
+stars: 5442
 created: "2025-08"
 language: TypeScript
 maturity: Established
@@ -26,7 +26,7 @@ choose_when: "You want a graphical, open-source desktop cockpit for parallel age
 avoid_when: "You want a minimal terminal tool (see Claude Squad) or must avoid a desktop-app dependency."
 cross_links: ["§1", "§10"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-19"
 ---
 # Emdash — Deep Research Reference
 

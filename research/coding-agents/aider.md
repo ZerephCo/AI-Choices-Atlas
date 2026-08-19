@@ -8,7 +8,7 @@ site: https://aider.chat
 maker: Aider-AI (Paul Gauthier + community)
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 47533
+stars: 48324
 created: "2023-05"
 language: Python
 maturity: Prominent
@@ -26,7 +26,7 @@ features:
 choose_when: "You want a git-native, model-agnostic terminal pair-programmer with strong repo-mapping and fine edit control, great with local models."
 avoid_when: "You want a fully autonomous SWE agent or an IDE/GUI rather than a human-in-the-loop terminal tool."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Aider — Deep Research Reference
 

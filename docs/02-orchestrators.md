@@ -17,27 +17,27 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [Vibe Kanban](#vibe-kanban) | 2.1 Cockpits & multiplexers | Apache-2.0 | 27,450 | Prominent | ⚰️ Sunsetting | 🟡 partial | docs-only | The board + worktree + diff-review cockpit that pioneered the pattern; now sunsetting to a community-maintained, local-only OSS project. |
-| [cmux](#cmux) | 2.1 Cockpits & multiplexers | NOASSERTION | 25,123 | Prominent | 🟢 Active | ✅ | docs-only | Ghostty-based macOS terminal built for AI coding agents — vertical tabs, notifications, programmability — to run and organize many agents at once. Huge traction, but ⚠️ non-standard license and macOS-only. |
-| [T3 Code](#t3code) | 2.1 Cockpits & multiplexers | MIT | 14,827 | Prominent | 🟢 Active | 🟡 partial | docs-only | Open-source desktop/CLI cockpit that runs several coding agents (Claude Code, Codex, Cursor, OpenCode, Grok) in one workspace, bring-your-own-subscription. From Ping (Theo); early (v0.0.x). |
-| [AgentWrapper Agent Orchestrator (AO)](#agentwrapper-ao) | 2.1 Cockpits & multiplexers | Apache-2.0 | 8,392 | Established | 🟢 Active | 🟡 partial | docs-only | An agentic IDE that supervises parallel coding agents in isolated git worktrees, with automatic CI-fail / review / merge-conflict routing back to the right agent. |
-| [Claude Squad](#claude-squad) | 2.1 Cockpits & multiplexers | AGPL-3.0 | 8,181 | Established | 🟢 Active | ✅ | docs-only | Terminal cockpit (tmux + git worktrees) to run and supervise several coding agents — Claude Code, Codex, Aider — each isolated in its own workspace, reviewed before you ship. |
-| [1code](#1code) | 2.1 Cockpits & multiplexers | Apache-2.0 | 5,634 | Established | ⚰️ Defunct | 🟡 partial | docs-only | Orchestration layer / cockpit to run several coding agents (Claude Code, Codex) from one place. Notable (~5.6k★) but ⚰️ archived — read-only, no longer developed. |
-| [Emdash](#emdash) | 2.1 Cockpits & multiplexers | Apache-2.0 | 5,270 | Established | 🟢 Active | 🟡 partial | docs-only | Open-source desktop cockpit that runs many coding agents in parallel across isolated git worktrees, with browser preview, diff/PR review, scheduled automation, and remote SSH exec. |
-| [CodexMonitor](#codexmonitor) | 2.1 Cockpits & multiplexers | MIT | 4,180 | Established | 🟢 Active | ✅ | docs-only | App to watch and manage your Codex / coding-agent sessions — live status, activity, and notifications across runs. By Thomas Ricouard (Dimillian, of Ice Cubes). |
-| [Agent of Empires](#agent-of-empires) | 2.1 Cockpits & multiplexers | MIT | 2,879 | Established | 🟢 Active | ✅ | docs-only | TUI + Web cockpit to run and manage many coding agents (Claude Code, OpenCode, Codex CLI, Gemini CLI, Copilot CLI, Factory Droid, Mistral Vibe, Pi.dev) — including from mobile. |
-| [Agent Teams AI](#agent-teams-ai) | 2.1 Cockpits & multiplexers | AGPL-3.0 | 1,625 | Established | 🟢 Active | ✅ | docs-only | A free desktop cockpit where agent teams message each other, review each other's work, and run on a live kanban with budgets and nested org structure. |
-| [GasTown](#gastown) | 2.2 Autonomous swarms & SDLC harnesses | MIT | 17,104 | Prominent | 🟢 Active | ✅ | docs-only | Steve Yegge's Beads-native multi-agent 'Dark Factory' — worker agents run in git-worktree hooks; a Refinery merge queue + 3-tier watchdog keep a terminal swarm running autonomously. |
-| [Open Multi-Agent](#open-multi-agent) | 2.2 Autonomous swarms & SDLC harnesses | MIT | 6,620 | Established | 🟢 Active | ✅ | docs-only | A TypeScript orchestration library where a coordinator plans a task DAG at runtime and runs it on any LLM, in your own environment — 'describe the goal, not the graph'. |
-| [Loki Mode](#loki-mode) | 2.2 Autonomous swarms & SDLC harnesses | BUSL-1.1 / NOASSERTION | 1,023 | Established | 🟢 Active | ✅ | docs-only | 'The spec-driven autonomous builder with verified completion' — spec to deployed app with evidence receipts (facts vs AI assessments), 8+ quality gates, and drift detection. |
-| [Fusion](#fusion) | 2.2 Autonomous swarms & SDLC harnesses | MIT | 987 | Emerging | 🧪 Preview | ✅ | docs-only | 'Your Software Factory' — describe what you want and a team of AI agents plans, builds, reviews, and ships it across a 24/7 multi-node mesh with visual gates. |
-| [Bernstein](#bernstein) | 2.2 Autonomous swarms & SDLC harnesses | Apache-2.0 | 706 | Emerging | 🟢 Active | ✅ | docs-only | Audit-grade deterministic orchestration for 40+ CLI coding agents: a plain-Python scheduler (no LLM in the loop), signed lineage, byte-identical replay, HMAC audit chain, air-gap. |
-| [Tutti](#tutti) | 2.2 Autonomous swarms & SDLC harnesses | MIT | 102 | Emerging | 🟢 Active | ✅ | docs-only | A typed, checkpointed workflow harness — 'Terraform-style agent operations for AI coding tools': intake, execute, review, gate, record, with a run ledger. |
-| [MartinLoop](#martinloop) | 2.2 Autonomous swarms & SDLC harnesses | Apache-2.0 | 39 | Emerging | 🟢 Active | ✅ | docs-only | A governed-run layer — a Ralph loop with brakes — that gives AI coding agents budgets, stop conditions, rollback rules, and signed receipts: task contract, caps, verify, rollback. |
-| [Symphony](#symphony) | 2.3 Issue/backlog dispatchers | Apache-2.0 | 26,049 | Prominent | 🧪 Preview | 🟡 partial | docs-only | OpenAI's open-source spec (+ Elixir reference impl) for Codex orchestration that 'turns project work into isolated, autonomous implementation runs' driven off a Linear board. |
-| [Sortie](#sortie) | 2.3 Issue/backlog dispatchers | Apache-2.0 | 111 | Emerging | 🟢 Active | ✅ | docs-only | 'Turn tracker tickets into autonomous agent sessions. Agent-agnostic, tracker-agnostic. Run in parallel.' — a single-Go-binary orchestration daemon with retries + reconciliation. |
-| [Paperclip](#paperclip) | 2.4 Company/team control planes | MIT | 74,229 | Prominent | 🟢 Active | 🟡 partial | docs-only | 'The app people use to manage AI agents for work' — an open-source company control plane (org charts, goals, budgets, approvals, audit). 'If OpenClaw is an employee, Paperclip is the company.' |
-| [AgentsMesh](#agentsmesh) | 2.4 Company/team control planes | NOASSERTION | 2,300 | Established | 🟢 Active | ✅ | docs-only | Self-hosted 'agent workforce' control plane: run a hundred coding agents across your own machines and schedule, isolate, and steer them from one console. ⚠️ non-standard license. |
+| [Vibe Kanban](#vibe-kanban) | 2.1 Cockpits & multiplexers | Apache-2.0 | 27,848 | Prominent | ⚰️ Sunsetting | 🟡 partial | docs-only | The board + worktree + diff-review cockpit that pioneered the pattern; now sunsetting to a community-maintained, local-only OSS project. |
+| [cmux](#cmux) | 2.1 Cockpits & multiplexers | NOASSERTION | 26,225 | Prominent | 🟢 Active | ✅ | docs-only | Ghostty-based macOS terminal built for AI coding agents — vertical tabs, notifications, programmability — to run and organize many agents at once. Huge traction, but ⚠️ non-standard license and macOS-only. |
+| [T3 Code](#t3code) | 2.1 Cockpits & multiplexers | MIT | 19,444 | Prominent | 🟢 Active | 🟡 partial | docs-only | Open-source desktop/CLI cockpit that runs several coding agents (Claude Code, Codex, Cursor, OpenCode, Grok) in one workspace, bring-your-own-subscription. From Ping (Theo); early (v0.0.x). |
+| [Agent Orchestrator (AO)](#agentwrapper-ao) | 2.1 Cockpits & multiplexers | Apache-2.0 | 9,631 | Established | 🟢 Active | 🟡 partial | docs-only | An agentic IDE that supervises parallel coding agents in isolated git worktrees, with automatic CI-fail / review / merge-conflict routing back to the right agent. Now under Untrivial.ai (ex-AgentWrapper). |
+| [Claude Squad](#claude-squad) | 2.1 Cockpits & multiplexers | AGPL-3.0 | 8,338 | Established | 🟢 Active | ✅ | docs-only | Terminal cockpit (tmux + git worktrees) to run and supervise several coding agents — Claude Code, Codex, Aider — each isolated in its own workspace, reviewed before you ship. |
+| [1code](#1code) | 2.1 Cockpits & multiplexers | Apache-2.0 | 5,610 | Established | ⚰️ Defunct | 🟡 partial | docs-only | Orchestration layer / cockpit to run several coding agents (Claude Code, Codex) from one place. Notable (~5.6k★) but ⚰️ archived — read-only, no longer developed. |
+| [Emdash](#emdash) | 2.1 Cockpits & multiplexers | Apache-2.0 | 5,442 | Established | 🟢 Active | 🟡 partial | docs-only | Open-source desktop cockpit that runs many coding agents in parallel across isolated git worktrees, with browser preview, diff/PR review, scheduled automation, and remote SSH exec. |
+| [CodexMonitor](#codexmonitor) | 2.1 Cockpits & multiplexers | MIT | 4,239 | Established | 🟢 Active | ✅ | docs-only | App to watch and manage your Codex / coding-agent sessions — live status, activity, and notifications across runs. By Thomas Ricouard (Dimillian, of Ice Cubes). |
+| [Agent of Empires](#agent-of-empires) | 2.1 Cockpits & multiplexers | MIT | 3,099 | Established | 🟢 Active | ✅ | docs-only | TUI + Web cockpit to run and manage many coding agents (Claude Code, OpenCode, Codex CLI, Gemini CLI, Copilot CLI, Factory Droid, Mistral Vibe, Pi.dev) — including from mobile. |
+| [Agent Teams AI](#agent-teams-ai) | 2.1 Cockpits & multiplexers | AGPL-3.0 | 1,947 | Established | 🟢 Active | ✅ | docs-only | A free desktop cockpit where agent teams message each other, review each other's work, and run on a live kanban with budgets and nested org structure. |
+| [GasTown](#gastown) | 2.2 Autonomous swarms & SDLC harnesses | MIT | 17,668 | Prominent | 🟢 Active | ✅ | docs-only | Steve Yegge's Beads-native multi-agent 'Dark Factory' — worker agents run in git-worktree hooks; a Refinery merge queue + 3-tier watchdog keep a terminal swarm running autonomously. |
+| [Open Multi-Agent](#open-multi-agent) | 2.2 Autonomous swarms & SDLC harnesses | MIT | 6,792 | Established | 🟢 Active | ✅ | docs-only | A TypeScript orchestration library where a coordinator plans a task DAG at runtime and runs it on any LLM, in your own environment — 'describe the goal, not the graph'. |
+| [Fusion](#fusion) | 2.2 Autonomous swarms & SDLC harnesses | MIT | 1,135 | Established | 🧪 Preview | ✅ | docs-only | 'Your Software Factory' — describe what you want and a team of AI agents plans, builds, reviews, and ships it across a 24/7 multi-node mesh with visual gates. |
+| [Loki Mode](#loki-mode) | 2.2 Autonomous swarms & SDLC harnesses | BUSL-1.1 / NOASSERTION | 1,046 | Established | 🟢 Active | ✅ | docs-only | 'The spec-driven autonomous builder with verified completion' — spec to deployed app with evidence receipts (facts vs AI assessments), 8+ quality gates, and drift detection. |
+| [Bernstein](#bernstein) | 2.2 Autonomous swarms & SDLC harnesses | Apache-2.0 | 931 | Emerging | 🟢 Active | ✅ | docs-only | Audit-grade deterministic orchestration for 40+ CLI coding agents: a plain-Python scheduler (no LLM in the loop), signed lineage, byte-identical replay, HMAC audit chain, air-gap. |
+| [Tutti](#tutti) | 2.2 Autonomous swarms & SDLC harnesses | MIT | 112 | Emerging | 🟢 Active | ✅ | docs-only | A typed, checkpointed workflow harness — 'Terraform-style agent operations for AI coding tools': intake, execute, review, gate, record, with a run ledger. |
+| [MartinLoop](#martinloop) | 2.2 Autonomous swarms & SDLC harnesses | Apache-2.0 | 44 | Preview | 🟢 Active | ✅ | docs-only | A governed-run layer — a Ralph loop with brakes — that gives AI coding agents budgets, stop conditions, rollback rules, and signed receipts: task contract, caps, verify, rollback. |
+| [Symphony](#symphony) | 2.3 Issue/backlog dispatchers | Apache-2.0 | 26,753 | Prominent | 🧪 Preview | 🟡 partial | docs-only | OpenAI's open-source spec (+ Elixir reference impl) for Codex orchestration that 'turns project work into isolated, autonomous implementation runs' driven off a Linear board. |
+| [Sortie](#sortie) | 2.3 Issue/backlog dispatchers | Apache-2.0 | 127 | Emerging | 🟢 Active | ✅ | docs-only | 'Turn tracker tickets into autonomous agent sessions. Agent-agnostic, tracker-agnostic. Run in parallel.' — a single-Go-binary orchestration daemon with retries + reconciliation. |
+| [Paperclip](#paperclip) | 2.4 Company/team control planes | MIT | 78,839 | Prominent | 🟢 Active | 🟡 partial | docs-only | 'The app people use to manage AI agents for work' — an open-source company control plane (org charts, goals, budgets, approvals, audit). 'If OpenClaw is an employee, Paperclip is the company.' |
+| [AgentsMesh](#agentsmesh) | 2.4 Company/team control planes | NOASSERTION | 2,322 | Established | 🟢 Active | ✅ | docs-only | Self-hosted 'agent workforce' control plane: run a hundred coding agents across your own machines and schedule, isolate, and steer them from one console. ⚠️ non-standard license. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
@@ -45,7 +45,7 @@
 | [Vibe Kanban](#vibe-kanban) | You are already dependent and want to self-host the local OSS build, or to study the board+worktree pattern. | New adoption — it is sunsetting, remote features are being removed, and there is no vendor support. |
 | [cmux](#cmux) | You're on macOS and want a fast, native terminal designed around running and organizing many coding-agent sessions. | You're not on macOS, or you need clear reuse rights — the license is non-standard (NOASSERTION); check the repo's terms first. |
 | [T3 Code](#t3code) | You want one open-source cockpit to drive several coding-agent providers with your own subscriptions, in one workspace. | You need mature/stable software — it's pre-1.0 (v0.0.x, expect bugs, docs still forming) — or you only use one agent CLI directly. |
-| [AgentWrapper Agent Orchestrator (AO)](#agentwrapper-ao) | You want Windows-friendly, Apache-licensed parallel coding with strong PR/CI/review/conflict loops and the widest agent support. | You need OS-level containment (worktree is not a sandbox), a peer-team/messaging UX, or zero telemetry without a rebuild. |
+| [Agent Orchestrator (AO)](#agentwrapper-ao) | You want Windows-friendly, Apache-licensed parallel coding with strong PR/CI/review/conflict loops and the widest agent support. | You need OS-level containment (worktree is not a sandbox), a peer-team/messaging UX, or zero telemetry without a rebuild. |
 | [Claude Squad](#claude-squad) | You live in the terminal and want a lightweight, local multiplexer to run several coding agents in parallel worktrees. | You want a graphical desktop cockpit, or AGPL-3.0's copyleft is a problem for your use. |
 | [1code](#1code) | Only to study the pattern or self-host the frozen code — it is archived. | New adoption — the repo is archived (no maintenance, no support). Use an active cockpit (T3 Code, Emdash, Claude Squad). |
 | [Emdash](#emdash) | You want a graphical, open-source desktop cockpit for parallel agents with preview, review, and scheduling built in. | You want a minimal terminal tool (see Claude Squad) or must avoid a desktop-app dependency. |
@@ -54,8 +54,8 @@
 | [Agent Teams AI](#agent-teams-ai) | Peer-team messaging, kanban, budgets, and org structure are the point, and AGPL is acceptable. | AGPL is a blocker, you need OS containment (worktree is not a sandbox), or you want a headless/CLI-first flow. |
 | [GasTown](#gastown) | You need a genuinely large, autonomous terminal swarm on Linux/WSL where Beads-native work truth, a real merge queue, and watchdog recovery justify the operational weight. | Small repos, Windows-native (needs WSL), or you don't want Beads/Dolt coupling. |
 | [Open Multi-Agent](#open-multi-agent) | You want a library-level, air-gappable orchestrator with runtime planning, multi-model teams, and replay/consensus, embedded in a Node app. | You want a UI/cockpit, a non-TS stack, or OS-level containment (shell/ACP tools run as host processes). |
-| [Loki Mode](#loki-mode) | You want spec-driven autonomous builds with rigorous, honest evidence receipts + drift/gates on Claude Code, and BUSL-1.1 is acceptable. | You need an OSI license, non-Claude parallelism, auto-deploy, or you'd over-trust the broad claims. |
 | [Fusion](#fusion) | You want to experiment with a broad, mobile-capable, multi-node software factory with rich missions and a strong observability Command Center, accepting preview-grade reliability. | You need established authority/safety guarantees (it relies on human oversight, not enforcement) or proven completion metrics. |
+| [Loki Mode](#loki-mode) | You want spec-driven autonomous builds with rigorous, honest evidence receipts + drift/gates on Claude Code, and BUSL-1.1 is acceptable. | You need an OSI license, non-Claude parallelism, auto-deploy, or you'd over-trust the broad claims. |
 | [Bernstein](#bernstein) | Audit-grade determinism, compliance, and air-gap are the priority (regulated/on-prem) and you drive CLI coding agents. | Single-agent/small work, non-coding tasks, you need vendor support, or you'd wrongly treat its receipts as proof of correctness (integrity is not correctness; verify the completion gate). |
 | [Tutti](#tutti) | You want a Terraform-style, gated, resumable ops layer over multiple CLI agents with a real run ledger, and coordination (not model quality) is the bottleneck. | Single-agent/small work, non-Rust/tmux environments, or you need the full advertised surface today (implementation trails the docs). |
 | [MartinLoop](#martinloop) | You want to put brakes on autonomous Ralph-style loops with budget caps, verifier gates, rollback, and inspectable receipts — a lighter alternative to Bernstein. | You need independent (not local-HMAC) attestation, a non-Node stack, or audit-grade determinism. |
@@ -77,7 +77,7 @@
 | Maker | Bloop (BloopAI) |
 | Sub-type | 2.1 Cockpits & multiplexers |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐27,450 · created 2025-06 · Rust |
+| Maturity | Prominent · ⭐27,848 · created 2025-06 · Rust |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -109,7 +109,7 @@
 | Maker | Manaflow (manaflow-ai) |
 | Sub-type | 2.1 Cockpits & multiplexers |
 | License | NOASSERTION |
-| Maturity | Prominent · ⭐25,123 · created 2026-01 · Swift |
+| Maturity | Prominent · ⭐26,225 · created 2026-01 · Swift |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -142,7 +142,7 @@
 | Maker | Ping (pingdotgg) — Theo Browne |
 | Sub-type | 2.1 Cockpits & multiplexers |
 | License | MIT |
-| Maturity | Prominent · ⭐14,827 · created 2026-02 · TypeScript |
+| Maturity | Prominent · ⭐19,444 · created 2026-02 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -166,19 +166,21 @@
 ---
 
 <a id="agentwrapper-ao"></a>
-### AgentWrapper Agent Orchestrator (AO)
+### Agent Orchestrator (AO)
 
-**🟢 Active** — An agentic IDE that supervises parallel coding agents in isolated git worktrees, with automatic CI-fail / review / merge-conflict routing back to the right agent.
+**🟢 Active** — An agentic IDE that supervises parallel coding agents in isolated git worktrees, with automatic CI-fail / review / merge-conflict routing back to the right agent. Now under Untrivial.ai (ex-AgentWrapper).
 
 | | |
 |---|---|
-| Repo | https://github.com/AgentWrapper/agent-orchestrator |
-| Maker | AgentWrapper |
+| Repo | https://github.com/Untrivial-ai/agent-orchestrator |
+| Maker | Untrivial.ai (formerly AgentWrapper, ex-Composio) |
 | Sub-type | 2.1 Cockpits & multiplexers |
 | License | Apache-2.0 |
-| Maturity | Established · ⭐8,392 · created 2026-02 · Go |
+| Maturity | Established · ⭐9,631 · created 2026-02 · Go |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
+
+> *"Plan, run, and supervise coding agents from one place."*
 
 **Features**
 - Parallel agent sessions from one project; isolated git worktrees (no file/branch/PR mixing)
@@ -206,7 +208,7 @@
 | Maker | smtg-ai |
 | Sub-type | 2.1 Cockpits & multiplexers |
 | License | AGPL-3.0 |
-| Maturity | Established · ⭐8,181 · created 2025-03 · Go |
+| Maturity | Established · ⭐8,338 · created 2025-03 · Go |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -240,7 +242,7 @@
 | Maker | 21st.dev |
 | Sub-type | 2.1 Cockpits & multiplexers |
 | License | Apache-2.0 |
-| Maturity | Established · ⭐5,634 · created 2026-01 · TypeScript |
+| Maturity | Established · ⭐5,610 · created 2026-01 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -272,7 +274,7 @@
 | Maker | General Action (YC W26) |
 | Sub-type | 2.1 Cockpits & multiplexers |
 | License | Apache-2.0 |
-| Maturity | Established · ⭐5,270 · created 2025-08 · TypeScript |
+| Maturity | Established · ⭐5,442 · created 2025-08 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -306,7 +308,7 @@
 | Maker | Thomas Ricouard (Dimillian) |
 | Sub-type | 2.1 Cockpits & multiplexers |
 | License | MIT |
-| Maturity | Established · ⭐4,180 · created 2026-01 · TypeScript |
+| Maturity | Established · ⭐4,239 · created 2026-01 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -338,7 +340,7 @@
 | Maker | Agent of Empires |
 | Sub-type | 2.1 Cockpits & multiplexers |
 | License | MIT |
-| Maturity | Established · ⭐2,879 · created 2026-01 · Rust |
+| Maturity | Established · ⭐3,099 · created 2026-01 · Rust |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -371,7 +373,7 @@
 | Maker | 777genius |
 | Sub-type | 2.1 Cockpits & multiplexers |
 | License | AGPL-3.0 |
-| Maturity | Established · ⭐1,625 · created 2026-02 · TypeScript |
+| Maturity | Established · ⭐1,947 · created 2026-02 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -403,7 +405,7 @@
 | Maker | Steve Yegge |
 | Sub-type | 2.2 Autonomous swarms & SDLC harnesses |
 | License | MIT |
-| Maturity | Prominent · ⭐17,104 · created 2025-12 · Go |
+| Maturity | Prominent · ⭐17,668 · created 2025-12 · Go |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -437,7 +439,7 @@
 | Maker | open-multi-agent |
 | Sub-type | 2.2 Autonomous swarms & SDLC harnesses |
 | License | MIT |
-| Maturity | Established · ⭐6,620 · created 2026-03 · TypeScript |
+| Maturity | Established · ⭐6,792 · created 2026-03 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -460,6 +462,38 @@
 
 ---
 
+<a id="fusion"></a>
+### Fusion
+
+**🧪 Preview** — 'Your Software Factory' — describe what you want and a team of AI agents plans, builds, reviews, and ships it across a 24/7 multi-node mesh with visual gates.
+
+| | |
+|---|---|
+| Repo | https://github.com/Runfusion/Fusion |
+| Maker | Runfusion |
+| Sub-type | 2.2 Autonomous swarms & SDLC harnesses |
+| License | MIT |
+| Maturity | Established · ⭐1,135 · created 2026-04 · TypeScript |
+| Runs local | ✅ |
+| Hands-on | docs-only |
+
+> *"Your Software Factory"*
+
+**Features**
+- Missions hierarchy (Mission to Task) + autopilot + validation contracts
+- Visual Workflow Editor + built-in workflows (Coding, Quick-fix, Review-heavy, Stepwise…)
+- Gates/policy: oversight levels (off/observe/steer/autonomous), approval gates, quality gates
+- 440+ agents across 16 prebuilt companies (Paperclip companies.sh); mailbox + chat rooms
+- Command Center (11 analytics views); multi-node mesh; PostgreSQL; Desktop/Mobile/Web/CLI (fn)
+
+**Choose it when** — You want to experiment with a broad, mobile-capable, multi-node software factory with rich missions and a strong observability Command Center, accepting preview-grade reliability.
+
+**Avoid when** — You need established authority/safety guarantees (it relies on human oversight, not enforcement) or proven completion metrics.
+
+📄 **Deep research:** [`research/orchestrators/fusion.md`](../research/orchestrators/fusion.md)
+
+---
+
 <a id="loki-mode"></a>
 ### Loki Mode
 
@@ -471,7 +505,7 @@
 | Maker | asklokesh |
 | Sub-type | 2.2 Autonomous swarms & SDLC harnesses |
 | License | BUSL-1.1 / NOASSERTION |
-| Maturity | Established · ⭐1,023 · created 2025-12 |
+| Maturity | Established · ⭐1,046 · created 2025-12 · Shell |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -494,38 +528,6 @@
 
 ---
 
-<a id="fusion"></a>
-### Fusion
-
-**🧪 Preview** — 'Your Software Factory' — describe what you want and a team of AI agents plans, builds, reviews, and ships it across a 24/7 multi-node mesh with visual gates.
-
-| | |
-|---|---|
-| Repo | https://github.com/Runfusion/Fusion |
-| Maker | Runfusion |
-| Sub-type | 2.2 Autonomous swarms & SDLC harnesses |
-| License | MIT |
-| Maturity | Emerging · ⭐987 · created 2026-04 |
-| Runs local | ✅ |
-| Hands-on | docs-only |
-
-> *"Your Software Factory"*
-
-**Features**
-- Missions hierarchy (Mission to Task) + autopilot + validation contracts
-- Visual Workflow Editor + built-in workflows (Coding, Quick-fix, Review-heavy, Stepwise…)
-- Gates/policy: oversight levels (off/observe/steer/autonomous), approval gates, quality gates
-- 440+ agents across 16 prebuilt companies (Paperclip companies.sh); mailbox + chat rooms
-- Command Center (11 analytics views); multi-node mesh; PostgreSQL; Desktop/Mobile/Web/CLI (fn)
-
-**Choose it when** — You want to experiment with a broad, mobile-capable, multi-node software factory with rich missions and a strong observability Command Center, accepting preview-grade reliability.
-
-**Avoid when** — You need established authority/safety guarantees (it relies on human oversight, not enforcement) or proven completion metrics.
-
-📄 **Deep research:** [`research/orchestrators/fusion.md`](../research/orchestrators/fusion.md)
-
----
-
 <a id="bernstein"></a>
 ### Bernstein
 
@@ -537,7 +539,7 @@
 | Maker | Sip Your Drink Ltd |
 | Sub-type | 2.2 Autonomous swarms & SDLC harnesses |
 | License | Apache-2.0 |
-| Maturity | Emerging · ⭐706 · created 2026-03 · Python |
+| Maturity | Emerging · ⭐931 · created 2026-03 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -571,7 +573,7 @@
 | Maker | nutthouse |
 | Sub-type | 2.2 Autonomous swarms & SDLC harnesses |
 | License | MIT |
-| Maturity | Emerging · ⭐102 · created 2026-03 · Rust |
+| Maturity | Emerging · ⭐112 · created 2026-03 · Rust |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -603,7 +605,7 @@
 | Maker | Keesan12 |
 | Sub-type | 2.2 Autonomous swarms & SDLC harnesses |
 | License | Apache-2.0 |
-| Maturity | Emerging · ⭐39 · created 2026-04 |
+| Maturity | Preview · ⭐44 · created 2026-04 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -637,7 +639,7 @@
 | Maker | OpenAI |
 | Sub-type | 2.3 Issue/backlog dispatchers |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐26,049 · created 2026-02 · Elixir |
+| Maturity | Prominent · ⭐26,753 · created 2026-02 · Elixir |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -668,7 +670,7 @@
 | Maker | Sortie AI |
 | Sub-type | 2.3 Issue/backlog dispatchers |
 | License | Apache-2.0 |
-| Maturity | Emerging · ⭐111 · created 2026-03 · Go |
+| Maturity | Emerging · ⭐127 · created 2026-03 · Go |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -700,7 +702,7 @@
 | Maker | Paperclip Labs |
 | Sub-type | 2.4 Company/team control planes |
 | License | MIT |
-| Maturity | Prominent · ⭐74,229 · created 2026-03 |
+| Maturity | Prominent · ⭐78,839 · created 2026-03 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -732,7 +734,7 @@
 | Maker | AgentsMesh |
 | Sub-type | 2.4 Company/team control planes |
 | License | NOASSERTION |
-| Maturity | Established · ⭐2,300 · created 2026-02 · Go |
+| Maturity | Established · ⭐2,322 · created 2026-02 · Go |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 

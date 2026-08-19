@@ -8,7 +8,7 @@ site: https://voideditor.com
 maker: Void (Glass Devtools)
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 28878
+stars: 28833
 created: "2024-09"
 language: TypeScript
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "Only to study or self-host the frozen code — the repo is archive
 avoid_when: "New adoption — archived; use active open Continue, or free-tier Cursor/Windsurf (§1.2)."
 cross_links: ["§1"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-19"
 ---
 # Void — Deep Research Reference  ⚰️ ARCHIVED
 

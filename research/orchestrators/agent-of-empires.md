@@ -8,7 +8,7 @@ site: http://www.agent-of-empires.com/
 maker: Agent of Empires
 license_claimed: MIT
 license_detected: MIT
-stars: 2879
+stars: 3099
 created: "2026-01"
 language: Rust
 maturity: Established
@@ -25,7 +25,7 @@ choose_when: "You want one cockpit (terminal or browser) over many coding agents
 avoid_when: "You want a native desktop app (T3 Code/cmux) or a minimal single-agent workflow."
 cross_links: ["§1"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-19"
 ---
 # Agent of Empires — Deep Research Reference
 

@@ -8,7 +8,7 @@ site: null
 maker: OpenAI
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 99895
+stars: 106787
 created: "2025-04"
 language: Rust
 maturity: Prominent
@@ -25,7 +25,7 @@ features:
 choose_when: "You want an open-source, terminal-native GPT agent with the strongest built-in OS-level sandbox."
 avoid_when: "You need model-agnosticism or an IDE plugin (it is GPT-only and terminal-native)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Codex CLI — Deep Research Reference
 

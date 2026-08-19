@@ -8,9 +8,9 @@ site: https://geminicli.com
 maker: Google
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 106076
+stars: 106569
 created: "2025-04"
-language: null
+language: TypeScript
 maturity: Prominent
 status: active
 local: partial
@@ -26,7 +26,7 @@ features:
 choose_when: "You want a free, open-source terminal agent with built-in web-search grounding, huge context, and an Extensions ecosystem."
 avoid_when: "You need model-agnosticism or must avoid a Google account and free-tier rate limits."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Gemini CLI — Deep Research Reference
 

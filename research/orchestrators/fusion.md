@@ -8,10 +8,10 @@ site: https://runfusion.ai
 maker: Runfusion
 license_claimed: MIT
 license_detected: MIT
-stars: 987
+stars: 1135
 created: "2026-04"
-language: null
-maturity: Emerging
+language: TypeScript
+maturity: Established
 status: preview
 local: true
 one_liner: "'Your Software Factory' — describe what you want and a team of AI agents plans, builds, reviews, and ships it across a 24/7 multi-node mesh with visual gates."
@@ -25,7 +25,7 @@ features:
 choose_when: "You want to experiment with a broad, mobile-capable, multi-node software factory with rich missions and a strong observability Command Center, accepting preview-grade reliability."
 avoid_when: "You need established authority/safety guarantees (it relies on human oversight, not enforcement) or proven completion metrics."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Fusion — Deep Research Reference
 

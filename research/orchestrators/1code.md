@@ -8,7 +8,7 @@ site: https://1code.dev
 maker: 21st.dev
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 5634
+stars: 5610
 created: "2026-01"
 language: TypeScript
 maturity: Established
@@ -24,7 +24,7 @@ choose_when: "Only to study the pattern or self-host the frozen code — it is a
 avoid_when: "New adoption — the repo is archived (no maintenance, no support). Use an active cockpit (T3 Code, Emdash, Claude Squad)."
 cross_links: ["§1"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-19"
 ---
 # 1code — Deep Research Reference  ⚰️ ARCHIVED
 

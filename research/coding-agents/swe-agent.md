@@ -8,7 +8,7 @@ site: https://swe-agent.com
 maker: Princeton University + Stanford
 license_claimed: MIT
 license_detected: MIT
-stars: 19865
+stars: 20080
 created: "2024-04"
 language: Python
 maturity: Prominent
@@ -25,7 +25,7 @@ features:
 choose_when: "You want a research-grade, fully configurable, minimal autonomous SWE agent (the reference agent for SWE-bench) for evaluation, research, or CTF."
 avoid_when: "You want a polished product or IDE rather than a research tool."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # SWE-agent — Deep Research Reference
 

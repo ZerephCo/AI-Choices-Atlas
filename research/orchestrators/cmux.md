@@ -8,7 +8,7 @@ site: https://cmux.com
 maker: Manaflow (manaflow-ai)
 license_claimed: null
 license_detected: NOASSERTION
-stars: 25123
+stars: 26225
 created: "2026-01"
 language: Swift
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "You're on macOS and want a fast, native terminal designed around r
 avoid_when: "You're not on macOS, or you need clear reuse rights — the license is non-standard (NOASSERTION); check the repo's terms first."
 cross_links: ["§1"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-19"
 ---
 # cmux — Deep Research Reference
 

@@ -8,7 +8,7 @@ site: https://open-multi-agent.com
 maker: open-multi-agent
 license_claimed: MIT
 license_detected: MIT
-stars: 6620
+stars: 6792
 created: "2026-03"
 language: TypeScript
 maturity: Established
@@ -26,7 +26,7 @@ choose_when: "You want a library-level, air-gappable orchestrator with runtime p
 avoid_when: "You want a UI/cockpit, a non-TS stack, or OS-level containment (shell/ACP tools run as host processes)."
 cross_links: ["§7"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Open Multi-Agent — Deep Research Reference
 

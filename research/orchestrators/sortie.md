@@ -8,7 +8,7 @@ site: https://docs.sortie-ai.com
 maker: Sortie AI
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 111
+stars: 127
 created: "2026-03"
 language: Go
 maturity: Emerging
@@ -25,7 +25,7 @@ features:
 choose_when: "You want tracker-agnostic, parallel ticket-to-agent automation with retries/reconciliation and a light single-binary footprint (incl. Windows)."
 avoid_when: "You need the sandbox provided (it expects external containment), a UI cockpit, or agent-quality improvement (it doesn't do that)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Sortie — Deep Research Reference
 

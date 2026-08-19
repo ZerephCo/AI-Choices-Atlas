@@ -8,7 +8,7 @@ site: https://smtg-ai.github.io/claude-squad/
 maker: smtg-ai
 license_claimed: AGPL-3.0
 license_detected: AGPL-3.0
-stars: 8181
+stars: 8338
 created: "2025-03"
 language: Go
 maturity: Established
@@ -26,7 +26,7 @@ choose_when: "You live in the terminal and want a lightweight, local multiplexer
 avoid_when: "You want a graphical desktop cockpit, or AGPL-3.0's copyleft is a problem for your use."
 cross_links: ["§1"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-19"
 ---
 # Claude Squad — Deep Research Reference
 

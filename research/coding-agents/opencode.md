@@ -3,12 +3,12 @@ name: OpenCode
 slug: opencode
 category: coding-agents
 subtype: "1.1 CLI coding agents"
-repo: https://github.com/sst/opencode
+repo: https://github.com/anomalyco/opencode
 site: https://opencode.ai
-maker: SST
+maker: "Anomaly (formerly SST)"
 license_claimed: MIT
 license_detected: MIT
-stars: 187683
+stars: 199022
 created: "2025-04"
 language: TypeScript
 maturity: Prominent
@@ -26,7 +26,7 @@ features:
 choose_when: "You want an MIT, provider-agnostic, client/server terminal agent with built-in LSP and MCP and no vendor lock-in."
 avoid_when: "You prefer a single-binary monolith or a GUI-only tool."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # OpenCode — Deep Research Reference
 
@@ -35,10 +35,10 @@ last_verified: "2026-07-20"
 | | |
 |---|---|
 | Category / sub-type | Coding agents & hosts → CLI coding agent (client/server, terminal-first) |
-| Repo / site | https://github.com/sst/opencode · opencode.ai |
-| Maker | **SST** (Dax Raad et al.) |
+| Repo / site | https://github.com/anomalyco/opencode (**moved from `sst/opencode`**) · opencode.ai |
+| Maker | **Anomaly** (anoma.ly; formerly SST — Dax Raad et al.) |
 | License | **MIT** / MIT (open source) |
-| ⭐ / created | 187,683 · 2025-04-30 · TypeScript · very active (exceptionally high star count) |
+| ⭐ / created | 199,022 · 2025-04-30 · TypeScript · very active (re-verified 2026-08-19; exceptionally high star count) |
 | Model | **provider-agnostic** — Vercel AI SDK + models.dev → **75+ providers** (Anthropic, OpenAI, Google, GitHub Copilot, local, …) |
 | Interfaces | terminal **TUI** · Electron desktop app · web client · VS Code extension (all drive one backend) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
@@ -74,7 +74,7 @@ last_verified: "2026-07-20"
 
 ## 7. Roadmap
 - **Was:** started 2025-04; stewarded by SST; grew explosively.
-- **Now (2026):** ⭐187k (one of the most-starred coding agents); MIT; client/server; 75+ providers via models.dev; LSP; MCP; multi-client.
+- **Now (2026-08):** ⭐199k (one of the most-starred coding agents); repo transferred `sst/opencode` → **`anomalyco/opencode`** (org "Anomaly", anoma.ly); MIT; client/server; 75+ providers via models.dev; LSP; MCP; multi-client.
 - **Ahead:** multi-client ecosystem (web/desktop/VS Code); provider-agnostic model routing.
 
 ## 8. Positioning
@@ -85,6 +85,6 @@ last_verified: "2026-07-20"
 `docs-only` (2026-07-20). **TODO:** install TUI; point at a non-Anthropic provider via models.dev; try plan vs build agents; connect an MCP server.
 
 ## 10. Sources
-- https://github.com/sst/opencode (README) · opencode.ai · deepwiki.com/sst/opencode · pulsemcp.com (MCP client)
+- https://github.com/anomalyco/opencode (README; `sst/opencode` redirects here) · opencode.ai · pulsemcp.com (MCP client)
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-19 · Researcher: Claude_

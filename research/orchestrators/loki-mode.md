@@ -8,9 +8,9 @@ site: null
 maker: asklokesh
 license_claimed: "BUSL-1.1"
 license_detected: NOASSERTION
-stars: 1023
+stars: 1046
 created: "2025-12"
-language: null
+language: Shell
 maturity: Established
 status: active
 local: true
@@ -26,7 +26,7 @@ choose_when: "You want spec-driven autonomous builds with rigorous, honest evide
 avoid_when: "You need an OSI license, non-Claude parallelism, auto-deploy, or you'd over-trust the broad claims."
 cross_links: ["§9"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Loki Mode — Deep Research Reference
 

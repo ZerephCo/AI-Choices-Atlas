@@ -26,7 +26,7 @@ features:
 choose_when: "You want a polished, AI-first commercial IDE with best-in-class Tab, agent mode, cloud agents, and PR review, and metered proprietary pricing is acceptable."
 avoid_when: "You need open-source, want to avoid credit-metered pricing, or cannot send code to Cursor's cloud infrastructure."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Cursor — Deep Research Reference
 

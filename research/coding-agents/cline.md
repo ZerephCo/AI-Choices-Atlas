@@ -8,7 +8,7 @@ site: https://cline.bot
 maker: Cline Bot Inc.
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 64827
+stars: 66458
 created: "2024-07"
 language: TypeScript
 maturity: Prominent
@@ -26,7 +26,7 @@ features:
 choose_when: "You want an open-source, transparent, BYOK editor agent with approval over every action, to avoid markup/lock-in and use local models."
 avoid_when: "You want a hosted/managed service or a fully autonomous agent without approval gating."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Cline — Deep Research Reference
 

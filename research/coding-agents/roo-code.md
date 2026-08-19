@@ -8,13 +8,13 @@ site: https://docs.roocode.com
 maker: "Roo Code, Inc."
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 24358
+stars: 24330
 created: "2024-10"
 language: TypeScript
-maturity: Established
-status: sunsetting
+maturity: Prominent
+status: defunct
 local: partial
-one_liner: "An open-source VS Code coding agent (now sunsetting) that began as a Cline fork and differentiated with customizable Modes: Code, Architect, Ask, Debug, Custom."
+one_liner: "An open-source VS Code coding agent (now defunct — shut down 2026-05-15, repo archived) that began as a Cline fork and differentiated with customizable Modes: Code, Architect, Ask, Debug, Custom."
 tagline_quote: "Your AI-Powered Dev Team, Right in Your Editor."
 features:
   - "Custom Modes: Code / Architect / Ask / Debug + user-defined"
@@ -24,23 +24,23 @@ features:
 choose_when: "Only if maintaining an existing Roo Code setup; for new work use Cline or the ZooCode community fork."
 avoid_when: "Not safe for new adoption: the VS Code extension shut down 2026-05-15 and the repo is archived; migrate to ZooCode or Cline."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
-# Roo Code — Deep Research Reference  ⚰️ SUNSETTING
+# Roo Code — Deep Research Reference  ⚰️ DEFUNCT
 
 > Full research backing the atlas card. See the browsable card under `docs/`.
 
 | | |
 |---|---|
-| Category / sub-type | Coding agents & hosts → IDE / editor agent (VS Code extension) — **⚰️ sunsetting** |
+| Category / sub-type | Coding agents & hosts → IDE / editor agent (VS Code extension) — **⚰️ defunct** |
 | Repo / site | https://github.com/RooCodeInc/Roo-Code (**archived**) · docs.roocode.com |
 | Maker | **Roo Code, Inc.** |
 | License | **Apache-2.0** / Apache-2.0 (open source) |
-| ⭐ / created | 24,358 · 2024-10-31 · TypeScript · **archived 2026-05-15** |
+| ⭐ / created | 24,330 (re-verified 2026-08-19) · 2024-10-31 · TypeScript · **archived 2026-05-15** |
 | Origin | **Cline fork** (Oct 2024) |
-| Status | **⚰️ Sunsetting** — VS Code extension shut down **May 15, 2026**; repo archived |
+| Status | **⚰️ Defunct** — VS Code extension shut down **May 15, 2026**; repo archived (re-confirmed `archived=true` 2026-08-19) |
 | Model | BYOK — any provider (OpenRouter / Anthropic / OpenAI / local), inherited from Cline lineage |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-19 · hands-on: **docs-only** |
 
 ## 1. What it was
 "Roo Code gives you a whole dev team of AI agents in your code editor." An open-source VS Code coding agent that began as a **Cline fork** and differentiated with **customizable Modes** (Code, Architect, Ask, Debug + user-defined Custom Modes).
@@ -83,4 +83,4 @@ last_verified: "2026-07-20"
 ## 9. Sources
 - https://github.com/RooCodeInc/Roo-Code (archived) · docs.roocode.com/update-notes · vibecodinghub.org/blog/roo-code-shutdown
 
-_Last updated: 2026-07-20 · verdict: ⚰️ sunsetting · Researcher: Claude_
+_Last updated: 2026-08-19 · verdict: ⚰️ defunct (shutdown complete + repo archived) · Researcher: Claude_
