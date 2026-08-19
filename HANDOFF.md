@@ -66,11 +66,20 @@ bd bootstrap --yes
 BD_EXPORT_AUTO=false bd config set-many export.auto=false export.git-add=false
 bd dolt pull                    # non-force; issue data arrives over refs/dolt/data
 
-# MBA: install the exact public v0.1.0 release, then register and verify
+# MBA: install the exact public v0.1.0 release and verify the version
 python3 -m pip install -U git+https://github.com/Khubaeb/MultipleBeadedAgents.git@v0.1.0
-python3 -m mba_foundation init --root .    # records the (already tracked) managed content locally
-python3 -m mba_foundation status --root .  # every managed file must report "unchanged"
+python3 -m mba_foundation --version        # must print exactly: mba-foundation 0.1.0
 ```
+
+Do **not** run `mba_foundation init` on a fresh Atlas clone. This repository
+already tracks the public MBA files it needs (the MBA skill,
+`docs/mba/charter.md`, and `docs/beads/capabilities.md` are byte-identical to
+the v0.1.0 package), while the private install manifest (`.mba/manifest.json`)
+and the retired OpenCode launch files stay private and untracked — and public
+v0.1.0 has no mode to adopt pre-existing tracked files, so `init` refuses with
+conflicts. Runtime activation does not need that manifest: the authoritative
+readiness gate is the private setup below followed by
+`python3 -m mba_runtime first-contact --cwd .` returning ready.
 
 Disabling `export.auto` and `export.git-add` keeps Beads from generating and
 staging the Git-ignored `.beads/` JSONL export on routine commands; issue data
