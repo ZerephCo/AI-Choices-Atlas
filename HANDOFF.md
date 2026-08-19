@@ -28,7 +28,7 @@ data — nothing depends on any previous machine.
 |---|---|---|
 | Git | any recent | with access to the repository above |
 | Node.js | **20+** | for `scripts/` (generator, validator, tests) |
-| Python | **3.9.6+** | a suitable `python3` must be on `PATH` — current macOS does not guarantee one; install it first if missing |
+| Python | **3.10+** | MBA v0.1.0 requires Python `>=3.10`; a qualifying `python3` must be on `PATH` — current macOS does not guarantee one; install it first if missing |
 | bd (Beads) | **exactly 1.0.4** | the validated set per `docs/beads/capabilities.md` — verify with `bd version` and do **not** proceed on a mismatch (see the next section) |
 
 ## If bd is missing or the wrong version
@@ -66,10 +66,19 @@ bd bootstrap --yes
 BD_EXPORT_AUTO=false bd config set-many export.auto=false export.git-add=false
 bd dolt pull                    # non-force; issue data arrives over refs/dolt/data
 
-# MBA: install the exact public v0.1.0 release and verify the version
-python3 -m pip install -U git+https://github.com/Khubaeb/MultipleBeadedAgents.git@v0.1.0
-python3 -m mba_foundation --version        # must print exactly: mba-foundation 0.1.0
+# MBA: private venv, exact public v0.1.0, verified with the venv interpreter
+python3 --version                          # must report 3.10+ (see Prerequisites)
+python3 -m venv .mba-work/.venv            # private venv under Git-ignored .mba-work/
+.mba-work/.venv/bin/python -m pip install git+https://github.com/Khubaeb/MultipleBeadedAgents.git@v0.1.0
+.mba-work/.venv/bin/python -m mba_foundation --version   # must print exactly: mba-foundation 0.1.0
 ```
+
+MBA installs only into `.mba-work/.venv`, a private venv created by the
+qualifying `python3` inside the Git-ignored `.mba-work/` tree. This isolated
+path is PEP 668-safe: current macOS/Homebrew Pythons are externally managed
+and refuse a global `pip install`, and the venv needs no
+`--break-system-packages` and never alters the system or Homebrew Python.
+Every MBA command in this document runs through that same venv interpreter.
 
 Do **not** run `mba_foundation init` on a fresh Atlas clone. This repository
 already tracks the public MBA files it needs (the MBA skill,
@@ -79,7 +88,8 @@ and the retired OpenCode launch files stay private and untracked — and public
 v0.1.0 has no mode to adopt pre-existing tracked files, so `init` refuses with
 conflicts. Runtime activation does not need that manifest: the authoritative
 readiness gate is the private setup below followed by
-`python3 -m mba_runtime first-contact --cwd .` returning ready.
+`.mba-work/.venv/bin/python -m mba_runtime first-contact --cwd .` returning
+ready.
 
 Disabling `export.auto` and `export.git-add` keeps Beads from generating and
 staging the Git-ignored `.beads/` JSONL export on routine commands; issue data
@@ -153,7 +163,7 @@ Then run the preflight — it must report the record present, zero questions,
 and `default_team_ready: true` before any work is assigned:
 
 ```bash
-python3 -m mba_runtime first-contact --cwd .
+.mba-work/.venv/bin/python -m mba_runtime first-contact --cwd .
 ```
 
 ## AI roles
