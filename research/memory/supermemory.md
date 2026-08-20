@@ -8,7 +8,7 @@ site: https://supermemory.ai
 maker: "supermemoryai"
 license_claimed: MIT
 license_detected: MIT
-stars: 28490
+stars: 28957
 created: "2024-02"
 language: TypeScript
 maturity: Prominent
@@ -25,7 +25,7 @@ features:
 choose_when: "You want a turnkey memory API/app with personal-data connectors, unified RAG+memory, and optional air-gapped self-host."
 avoid_when: "You only need a tiny embeddable lib, or want a temporal graph (Zep/Graphiti) or SQL-native store (Memori)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Supermemory — Deep Research Reference
 

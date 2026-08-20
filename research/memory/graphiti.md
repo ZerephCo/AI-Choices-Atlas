@@ -8,7 +8,7 @@ site: https://getzep.com
 maker: "Zep"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 28940
+stars: 30090
 created: "2024-08"
 language: Python
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "Temporal validity matters (facts that change over time) and you already run a graph DB."
 avoid_when: "You need a quick single-user cache, or can't operate Neo4j/FalkorDB."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Graphiti — Deep Research Reference
 

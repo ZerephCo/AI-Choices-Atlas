@@ -8,7 +8,7 @@ site: null
 maker: mikeyobrien
 license_claimed: MIT
 license_detected: MIT
-stars: 3067
+stars: 3102
 created: "2025-09"
 language: Rust
 maturity: Established
@@ -26,7 +26,7 @@ choose_when: "You want a real, multi-backend Ralph runner with built-in stop con
 avoid_when: "You need audit-grade governance/attestation (use §2 Bernstein) or a fully hands-off managed service."
 cross_links: ["§2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # ralph-orchestrator — Deep Research Reference
 
@@ -78,7 +78,7 @@ last_verified: "2026-07-20"
 - **Ahead:** dashboard stabilization; more backends; Homebrew.
 
 ## 7. Positioning
-- **ralph-orchestrator** — the leading real Ralph *runner*: multi-backend, with LOOP_COMPLETE + caps + backpressure gates.
+- **ralph-orchestrator** — a multi-backend Ralph *runner* with LOOP_COMPLETE + caps + backpressure gates.
 - vs how-to-ralph-wiggum (the method), MartinLoop/Bernstein (§2, governed/audit-grade), ralph-claude-code/ralphy (lighter).
 
 ## 8. Hands-on

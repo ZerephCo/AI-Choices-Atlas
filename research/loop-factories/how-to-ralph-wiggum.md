@@ -8,7 +8,7 @@ site: https://ghuntley.com/ralph
 maker: "Geoffrey Huntley"
 license_claimed: null
 license_detected: none
-stars: 1722
+stars: 1740
 created: "2026-01"
 language: HTML
 maturity: Established
@@ -25,7 +25,7 @@ choose_when: "You want to understand and hand-roll the minimal Ralph loop (a bas
 avoid_when: "You need a maintained tool or to reuse the repo content (no license); use ralph-orchestrator for a real runner or MartinLoop (§2) for brakes."
 cross_links: ["§2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # how-to-ralph-wiggum (the Ralph Wiggum technique) — Deep Research Reference
 

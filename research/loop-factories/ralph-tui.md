@@ -8,7 +8,7 @@ site: https://ralph-tui.com
 maker: subsy
 license_claimed: MIT
 license_detected: MIT
-stars: 2405
+stars: 2425
 created: "2026-01"
 language: TypeScript
 maturity: Established
@@ -25,7 +25,7 @@ choose_when: "You want a visible, tracker-driven Ralph loop that chews through a
 avoid_when: "You want a headless minimal loop (ralph-claude-code) or governance (§2)."
 cross_links: ["§4.1", "§2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Ralph TUI — Deep Research Reference
 

@@ -8,7 +8,7 @@ site: null
 maker: huisezhiyin
 license_claimed: null
 license_detected: none
-stars: 307
+stars: 321
 created: "2026-02"
 language: Python
 maturity: Emerging
@@ -23,7 +23,7 @@ features:
 choose_when: "You want human-in-the-loop checkpoints and approval over strong coding agents."
 avoid_when: "You want hands-off autonomy (GSD) or need a license."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # sdd-riper — Deep Research Reference
 

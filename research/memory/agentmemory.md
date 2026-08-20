@@ -24,7 +24,7 @@ features:
 choose_when: "Nothing — defunct and unmaintained (repo gone); use Mem0/Cognee/Memori/Supermemory instead."
 avoid_when: "Any new work — the GitHub repo is gone and PyPI is frozen at Oct 2023."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # agentmemory — Deep Research Reference  ⚠️ LEGACY / DEFUNCT
 

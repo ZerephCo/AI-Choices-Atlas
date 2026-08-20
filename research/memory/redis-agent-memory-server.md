@@ -8,7 +8,7 @@ site: https://redis.github.io/agent-memory-server
 maker: "Redis"
 license_claimed: "Redis Source Available (RSALv2/SSPLv1)"
 license_detected: NOASSERTION
-stars: 295
+stars: 307
 created: "2025-03"
 language: Python
 maturity: Emerging
@@ -24,7 +24,7 @@ features:
 choose_when: "You already run Redis and want an official two-tier memory server with REST/MCP and lifecycle management."
 avoid_when: "You need an OSI license (this is Redis source-available) or a fully offline/no-LLM setup."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Redis Agent Memory Server — Deep Research Reference
 

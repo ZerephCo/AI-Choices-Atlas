@@ -8,10 +8,10 @@ site: null
 maker: "BAI-LAB"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 1517
+stars: 1556
 created: "2025-05"
 language: Python
-maturity: Emerging
+maturity: Established
 status: active
 local: partial
 one_liner: "Academic memory operating system for personalized agents — OS-inspired 3-tier hierarchy (short/mid/long-term) with FIFO + paging updates. EMNLP 2025 Oral."
@@ -23,7 +23,7 @@ features:
 choose_when: "You want to experiment with an OS-tiered personalized memory grounded in a peer-reviewed design."
 avoid_when: "You need a hardened production service (Mem0/Zep/Supermemory) — this is research-grade."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # MemoryOS — Deep Research Reference
 

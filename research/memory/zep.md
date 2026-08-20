@@ -8,9 +8,9 @@ site: https://getzep.com
 maker: "Zep"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 4766
+stars: 4851
 created: "2023-04"
-language: null
+language: Python
 maturity: Established
 status: caution
 local: false
@@ -23,7 +23,7 @@ features:
 choose_when: "You need enterprise compliance (SOC2/HIPAA/GDPR) + managed temporal memory and can budget per-Episode billing."
 avoid_when: "You need fully local/free memory, or want OSS self-host (use Graphiti, not the deprecated Zep CE)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Zep — Deep Research Reference
 

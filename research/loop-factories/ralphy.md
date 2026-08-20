@@ -8,7 +8,7 @@ site: null
 maker: michaelshimeles
 license_claimed: null
 license_detected: none
-stars: 2932
+stars: 2957
 created: "2026-01"
 language: TypeScript
 maturity: Established
@@ -24,7 +24,7 @@ choose_when: "You want a simple, multi-agent Ralph script to run any of several 
 avoid_when: "You need a license (none declared), strong brakes, or governance."
 cross_links: ["§2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # ralphy — Deep Research Reference
 

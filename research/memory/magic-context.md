@@ -8,10 +8,10 @@ site: https://docs.cortexkit.io/magic-context
 maker: "CortexKit"
 license_claimed: MIT
 license_detected: MIT
-stars: 1404
+stars: 1799
 created: "2026-03"
 language: TypeScript
-maturity: Emerging
+maturity: Established
 status: active
 local: true
 one_liner: "The hippocampus for coding agents (CortexKit) — self-managing session memory with no compaction pauses and no forgetting across restarts."
@@ -26,7 +26,7 @@ choose_when: "You want compaction-free, self-managing long-session memory ('one 
 avoid_when: "Your harness isn't supported yet, or you need codebase structure (codegraph) rather than session memory."
 cross_links: ["§6", "§4.2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # magic-context (CortexKit) — Deep Research Reference
 

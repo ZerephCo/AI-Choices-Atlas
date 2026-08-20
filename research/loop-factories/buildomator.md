@@ -6,9 +6,9 @@ subtype: "5.2 Autonomy-loop protocols"
 repo: https://github.com/buildomator/buildomator
 site: null
 maker: jnuyens
-license_claimed: null
-license_detected: none
-stars: 76
+license_claimed: MIT
+license_detected: MIT
+stars: 85
 created: "2026-04"
 language: TypeScript
 maturity: Preview
@@ -21,10 +21,10 @@ features:
   - "MCP-backed project state; atomic commits; cross-session memory"
   - "Convention + drift-detection safeguards; ~92% lower per-turn token overhead vs GSD"
 choose_when: "You want a GSD-style workflow that adds a real verify gate, drift detection, and big token savings on Claude Code."
-avoid_when: "You need production reliance now (Preview, no license); use GSD redux for a larger community."
+avoid_when: "You need production reliance now (Preview); use GSD Core for a larger community."
 cross_links: ["§2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Buildomator (gsd-plugin) — Deep Research Reference
 
@@ -35,10 +35,10 @@ last_verified: "2026-07-20"
 | Category / sub-type | Loop factories → 5.2 plan/execute/verify workflow (Claude Code plugin; GSD evolution) |
 | Repo | https://github.com/buildomator/buildomator (= `jnuyens/gsd-plugin`, same repo) |
 | Maker | **jnuyens** |
-| License | ⚠️ **none declared** (verify reuse rights) |
-| ⭐ / created | 76 · 2026-04-06 · TypeScript · active |
+| License | **MIT** / MIT (LICENSE added since the 2026-07 review — re-verified 2026-08-19) |
+| ⭐ / created | 85 · 2026-04-06 · TypeScript · active (re-verified 2026-08-19) |
 | Backends | Claude Code |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-19 · hands-on: **docs-only** |
 
 ## 1. What it is
 "A structured plan/execute/verify coding workflow for Claude Code… a Claude Code-native evolution of GSD (Get Shit Done)." Adds MCP-backed project state, atomic commits, cross-session memory, and drift-detection safeguards, cutting per-turn token overhead by ~92%.
@@ -55,14 +55,13 @@ last_verified: "2026-07-20"
 - ~92% lower per-turn token overhead vs GSD.
 
 ## 4. What it is NOT / limitations
-- Small/emerging (⭐76 → Preview tier).
-- ⚠️ No license declared (verify reuse).
+- Small/emerging (⭐85 → Preview tier).
 - Claude Code-only.
 
 ## 5. Roadmap
 - **Was:** created Apr 2026 as a Claude-Code-native evolution of GSD.
-- **Now (2026):** ⭐76; plan/execute/verify + MCP state + drift detection; ~92% token savings.
-- **Ahead:** maturity; possible upstream integration with GSD/redux.
+- **Now (2026-08):** ⭐85; now **MIT-licensed** (LICENSE added post-2026-07 review); plan/execute/verify + MCP state + drift detection; ~92% token savings (self-reported).
+- **Ahead:** maturity; possible upstream integration with GSD Core.
 
 ## 6. Positioning
 - **Buildomator** — GSD's performance-optimized, plan/execute/**verify** plugin for Claude Code (adds a verify gate + drift detection).
@@ -74,4 +73,4 @@ last_verified: "2026-07-20"
 ## 8. Sources
 - https://github.com/buildomator/buildomator (= jnuyens/gsd-plugin) README
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-19 · Researcher: Claude_

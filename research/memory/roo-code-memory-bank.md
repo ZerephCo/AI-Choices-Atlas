@@ -10,8 +10,8 @@ license_claimed: Apache-2.0
 license_detected: Apache-2.0
 stars: 1678
 created: "2025-02"
-language: null
-maturity: Emerging
+language: Batchfile
+maturity: Established
 status: caution
 local: true
 one_liner: "Markdown memory bank for Roo Code (VS Code) — structured .md files that keep project context across sessions; no DB, convention-driven."
@@ -23,7 +23,7 @@ features:
 choose_when: "You specifically use Roo Code and want the simplest markdown-file project memory."
 avoid_when: "You're on a non-Roo stack — prefer the successor RooFlow, a durable store (Beads), or plugin memory (claude-mem)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Roo Code Memory Bank — Deep Research Reference
 

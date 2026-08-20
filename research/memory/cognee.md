@@ -8,7 +8,7 @@ site: null
 maker: "topoteretes"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 28535
+stars: 30118
 created: "2023-08"
 language: Python
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "You need multi-hop / deep-knowledge connection where structured graph recall matters, with pluggable storage + MCP."
 avoid_when: "You want the simplest personal-recall SDK (Mem0), a temporal-compliance focus (Zep/Graphiti), or can't run any graph/LLM."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Cognee — Deep Research Reference
 

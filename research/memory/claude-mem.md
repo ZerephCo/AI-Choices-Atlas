@@ -8,9 +8,9 @@ site: https://docs.claude-mem.ai
 maker: "thedotmack"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 87904
+stars: 91239
 created: "2025-08"
-language: null
+language: JavaScript
 maturity: Prominent
 status: active
 local: true
@@ -24,7 +24,7 @@ features:
 choose_when: "You want to give Claude Code (or similar) durable session memory with near-zero setup and local embeddings."
 avoid_when: "You need canonical task tracking (Beads) or a shared org knowledge graph."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # claude-mem — Deep Research Reference
 

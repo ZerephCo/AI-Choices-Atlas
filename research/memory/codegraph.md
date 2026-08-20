@@ -8,9 +8,9 @@ site: null
 maker: "colbymchenry"
 license_claimed: MIT
 license_detected: MIT
-stars: 61125
+stars: 67073
 created: "2026-01"
-language: TypeScript
+language: C
 maturity: Prominent
 status: active
 local: true
@@ -26,7 +26,7 @@ choose_when: "You want to give agents fast, local, deterministic codebase unders
 avoid_when: "You need conversation memory (claude-mem/magic-context) or a monorepo's index is too large to keep hot."
 cross_links: ["§6", "§16.2", "§9"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # codegraph — Deep Research Reference
 

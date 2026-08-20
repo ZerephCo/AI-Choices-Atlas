@@ -8,7 +8,7 @@ site: null
 maker: Fredasterehub
 license_claimed: MIT
 license_detected: MIT
-stars: 218
+stars: 220
 created: "2026-02"
 language: JavaScript
 maturity: Emerging
@@ -24,7 +24,7 @@ choose_when: "You want a crash-proof multi-agent pipeline inside Claude Code."
 avoid_when: "You want a bigger swarm harness (Ruflo) or a raw loop (ralph-*)."
 cross_links: ["§2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Kiln — Deep Research Reference
 

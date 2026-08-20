@@ -8,7 +8,7 @@ site: https://beads.gascity.com
 maker: "Steve Yegge"
 license_claimed: MIT
 license_detected: MIT
-stars: 25436
+stars: 26445
 created: "2025-10"
 language: Go
 maturity: Prominent
@@ -25,7 +25,7 @@ features:
 choose_when: "You want canonical, dependency-aware task/work memory for one or many coding agents, with git-backed sync and offline operation."
 avoid_when: "You only need semantic recall (use Mem0/Graphiti) — Beads owns work truth, not general knowledge."
 hands_on: run
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Beads (bd) — Deep Research Reference
 

@@ -8,7 +8,7 @@ site: null
 maker: chf3198
 license_claimed: null
 license_detected: NOASSERTION
-stars: 0
+stars: 1
 created: "2026-04"
 language: JavaScript
 maturity: Preview
@@ -25,7 +25,7 @@ choose_when: "You want to experiment with governance and fleet routing across mu
 avoid_when: "You need production reliability (Preview; no clear license)."
 cross_links: ["§2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Megingjord — Deep Research Reference
 

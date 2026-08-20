@@ -8,7 +8,7 @@ site: null
 maker: "LangChain"
 license_claimed: MIT
 license_detected: MIT
-stars: 1568
+stars: 1619
 created: "2025-01"
 language: Python
 maturity: Established
@@ -24,7 +24,7 @@ features:
 choose_when: "You're already on LangGraph and want native long-term memory with a procedural/prompt-optimization angle."
 avoid_when: "You want a framework-agnostic memory service (Mem0), a temporal graph (Zep/Graphiti), or production without wiring a Postgres store."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # LangMem — Deep Research Reference
 

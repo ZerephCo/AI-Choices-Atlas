@@ -8,10 +8,10 @@ site: null
 maker: "agiresearch"
 license_claimed: MIT
 license_detected: MIT
-stars: 1116
+stars: 1151
 created: "2025-02"
 language: Python
-maturity: Emerging
+maturity: Established
 status: caution
 local: partial
 one_liner: "Zettelkasten-inspired agentic memory — note-based memory that dynamically links notes and evolves older ones as new memories arrive."
@@ -23,7 +23,7 @@ features:
 choose_when: "You want to experiment with self-evolving, note-linked (Zettelkasten) memory or borrow its memory-evolution mechanism."
 avoid_when: "You need production (research-grade, slowing cadence) — use Mem0/Cognee/Zep instead."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # A-MEM — Deep Research Reference
 

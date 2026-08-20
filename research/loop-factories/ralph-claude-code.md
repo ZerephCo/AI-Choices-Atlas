@@ -8,7 +8,7 @@ site: null
 maker: frankbria
 license_claimed: MIT
 license_detected: MIT
-stars: 9555
+stars: 9604
 created: "2025-08"
 language: Shell
 maturity: Established
@@ -21,11 +21,11 @@ features:
   - "Intelligent exit detection — dual-condition exit gate (stop when done)"
   - "Rate limiting + circuit breaker with advanced error detection"
   - "Shell-based; heavily tested (claims 784 tests)"
-choose_when: "You want a Claude-Code-only Ralph loop with the best-developed stop/exit detection and circuit-breaker brakes."
+choose_when: "You want a Claude-Code-only Ralph loop with extensive stop/exit detection and circuit-breaker brakes."
 avoid_when: "You need multi-agent backends (ralphy / Ralph TUI) or governance (§2)."
 cross_links: ["§2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # ralph-claude-code — Deep Research Reference
 
@@ -65,7 +65,7 @@ last_verified: "2026-07-20"
 - **Ahead:** refinements to exit detection / brakes.
 
 ## 6. Positioning
-- **ralph-claude-code** — the Claude-Code-only Ralph loop with the best-developed **stop/exit detection + circuit breaker** brakes.
+- **ralph-claude-code** — a Claude-Code-only Ralph loop with extensive **stop/exit detection + circuit breaker** brakes.
 - vs ralphy (multi-agent, no license), Ralph TUI (tracker-driven TUI), ralph-orchestrator (multi-backend, hats).
 
 ## 7. Hands-on

@@ -1,30 +1,31 @@
 ---
-name: "Cipher"
+name: "ByteRover CLI (formerly Cipher)"
 slug: cipher
 category: memory
 subtype: "4.3 Organizational / semantic memory"
-repo: https://github.com/campfirein/cipher
+repo: https://github.com/campfirein/byterover-cli
 site: https://byterover.dev
 maker: "Byterover"
-license_claimed: NOASSERTION
+license_claimed: "Elastic-2.0"
 license_detected: NOASSERTION
-stars: 4925
+stars: 4942
 created: "2025-06"
 language: TypeScript
 maturity: Established
 status: active
 local: partial
-one_liner: "Open-source memory layer for coding agents — dual System-1/System-2 memory, cross-IDE via MCP, team-shareable; renamed to ByteRover CLI (brv)."
+one_liner: "Memory layer for coding agents, formerly Cipher — rename to ByteRover CLI now complete: an interactive REPL CLI with dual System-1/System-2 memory, cross-IDE via MCP, team-shareable. Elastic 2.0."
+tagline_quote: "Interactive REPL CLI for AI-powered context memory"
 features:
   - "Dual memory: System 1 (concepts/logic/history) + System 2 (reasoning steps)"
-  - "Auto-generate coding memories that scale with the codebase"
+  - "Interactive REPL CLI (npm byterover-cli); rename from Cipher completed at the repo level"
   - "Cross-IDE via MCP: Cursor, Windsurf, Claude Code/Desktop, Gemini CLI, Kiro, VS Code, Roo, Cline, …"
   - "Context tree; cloud sync; real-time team sharing"
   - "Configurable LLM + embeddings; vector DB (Qdrant, Milvus)"
 choose_when: "You want to give coding agents persistent, cross-IDE, team-shareable memory of concepts + reasoning (MCP)."
-avoid_when: "You need general (non-coding) memory (Mem0), or a clean OSI license today (NOASSERTION)."
+avoid_when: "You need general (non-coding) memory (Mem0), or an OSI license (Elastic 2.0 is source-available, not OSI)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Cipher (→ ByteRover CLI) — Deep Research Reference
 
@@ -33,11 +34,11 @@ last_verified: "2026-07-20"
 | | |
 |---|---|
 | Category / sub-type | Memory → project/task + team (coding-agent memory) |
-| Repo | `github.com/campfirein/cipher` → **`campfirein/byterover-cli`** (renamed to **ByteRover CLI / brv**) |
-| Maker | **Byterover** (byterover.dev) |
-| License | **NOASSERTION** (⚠️ verify terms) |
-| npm | `@byterover/cipher` |
-| ⭐ / created | 4,925 · 2025-06-19 (pushed 2026-06-25) |
+| Repo | **`campfirein/byterover-cli`** (rename from `campfirein/cipher` complete; old URL redirects) |
+| Maker | **Byterover** (byterover.dev · docs.byterover.dev) |
+| License | **Elastic 2.0** per the README badge (source-available, non-OSI → GitHub detects NOASSERTION) |
+| npm | `byterover-cli` (successor to `@byterover/cipher`) |
+| ⭐ / created | 4,942 · 2025-06-19 (pushed 2026-06-25; re-verified 2026-08-19) |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 
@@ -63,13 +64,13 @@ Self-host + vector DB (Qdrant/Milvus); needs LLM + embeddings; cloud sync option
 
 ## 6. Roadmap
 - **Was:** built by **Byterover** (Jun 2025) as **Cipher**, a coding-agent memory layer.
-- **Now (2026):** ⭐4.9k; **renamed to ByteRover CLI (brv)**; broad MCP/IDE compatibility; team sharing + cloud sync.
+- **Now (2026-08):** ⭐4.9k; rename **complete** — repo is `campfirein/byterover-cli`, README titled "ByteRover CLI" (*"Interactive REPL CLI for AI-powered context memory"*), npm `byterover-cli`, license stated **Elastic 2.0**; broad MCP/IDE compatibility; team sharing + cloud sync; repo quiet since 2026-06-25.
 - **Ahead:** portable coding-memory platform (ByteRover); more IDE/agent coverage.
 
 ## 7. What it is NOT / limitations
 - Not general conversation memory (coding-focused).
 - Not a task tracker.
-- **License NOASSERTION** (verify); rebranding to ByteRover in progress; needs vector DB + LLM/embeddings.
+- **License Elastic 2.0** — source-available, not OSI (GitHub shows NOASSERTION); needs vector DB + LLM/embeddings.
 
 ## 8. Positioning
 - **Cipher/ByteRover** — cross-IDE coding-agent memory (concepts + reasoning), team-shareable.
@@ -79,6 +80,6 @@ Self-host + vector DB (Qdrant/Milvus); needs LLM + embeddings; cloud sync option
 `docs-only` (2026-07-20). **TODO:** `npm i -g @byterover/cipher` + MCP into an IDE; inspect the dual-memory + context-tree.
 
 ## 10. Sources
-- https://github.com/campfirein/cipher (→ byterover-cli) · https://byterover.dev/ · https://www.npmjs.com/package/@byterover/cipher
+- https://github.com/campfirein/byterover-cli (README, license badge; `campfirein/cipher` redirects) · https://byterover.dev/ · docs.byterover.dev
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-19 · Researcher: Claude_

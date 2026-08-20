@@ -8,7 +8,7 @@ site: https://deusdata.github.io/codebase-memory-mcp
 maker: "DeusData"
 license_claimed: MIT
 license_detected: MIT
-stars: 33032
+stars: 39548
 created: "2026-02"
 language: C
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "You want to give coding agents fast, local, token-cheap understand
 avoid_when: "You need conversation/session memory (claude-mem) or a task graph (Beads) — this indexes code, not chats."
 cross_links: ["§6"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # codebase-memory-mcp — Deep Research Reference
 

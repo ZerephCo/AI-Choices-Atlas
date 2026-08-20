@@ -8,7 +8,7 @@ site: null
 maker: "MinishLab"
 license_claimed: MIT
 license_detected: MIT
-stars: 5654
+stars: 5906
 created: "2026-04"
 language: Python
 maturity: Established
@@ -26,7 +26,7 @@ choose_when: "You want fast, local, key-free code search in coding agents with b
 avoid_when: "You need a full code knowledge graph (call chains/routes → codebase-memory-mcp) or conversation memory (claude-mem)."
 cross_links: ["§6"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # semble — Deep Research Reference
 

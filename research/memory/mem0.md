@@ -8,7 +8,7 @@ site: https://mem0.ai
 maker: "mem0ai (Taranjeet Singh & Deshraj Yadav)"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 61238
+stars: 63603
 created: "2023-06"
 language: Python
 maturity: Prominent
@@ -25,7 +25,7 @@ features:
 choose_when: "You want personal/assistant recall across sessions with minimal setup (pip install mem0ai + a key)."
 avoid_when: "You need fully offline operation, or would conflate its memory with work truth."
 hands_on: inspected
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Mem0 — Deep Research Reference
 

@@ -8,9 +8,9 @@ site: null
 maker: "Garry Tan"
 license_claimed: MIT
 license_detected: MIT
-stars: 26622
+stars: 28743
 created: "2026-04"
-language: null
+language: TypeScript
 maturity: Prominent
 status: active
 local: partial
@@ -24,7 +24,7 @@ features:
 choose_when: "You want operator-owned, auditable, version-controlled org/personal memory with citation discipline + MCP access."
 avoid_when: "You need a plug-in SDK for a different framework, can't run Postgres at scale, or need >50K pages."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # GBrain — Deep Research Reference
 

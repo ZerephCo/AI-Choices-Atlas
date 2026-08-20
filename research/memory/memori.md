@@ -8,7 +8,7 @@ site: null
 maker: "GibsonAI (MemoriLabs)"
 license_claimed: "open-source (claimed)"
 license_detected: NOASSERTION
-stars: 15633
+stars: 16125
 created: "2025-07"
 language: Python
 maturity: Prominent
@@ -23,7 +23,7 @@ features:
 choose_when: "You want to store memory in the SQL database you already run (portability, queryability, cost) with structured recall."
 avoid_when: "You need strong semantic-similarity/graph retrieval, or a clean OSS license today (NOASSERTION)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Memori — Deep Research Reference
 

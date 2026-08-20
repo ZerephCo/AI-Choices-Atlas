@@ -15,35 +15,35 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [ralph-claude-code](#ralph-claude-code) | 5.1 Ralph technique & loop runners | MIT | 9,555 | Established | 🟢 Active | 🟡 partial | docs-only | A Claude-Code-specific Ralph loop with intelligent dual-condition exit detection, rate limiting, and a circuit breaker as safety brakes. |
-| [ralph-orchestrator](#ralph-orchestrator) | 5.1 Ralph technique & loop runners | MIT | 3,067 | Established | 🟢 Active | 🟡 partial | docs-only | A hat-based, guard-railed Ralph runner in Rust that loops an agent until LOOP_COMPLETE; 8 backends, backpressure gates (tests/lint/typecheck), and cost/iteration caps. |
-| [ralphy](#ralphy) | 5.1 Ralph technique & loop runners | none | 2,932 | Established | 🟢 Active | 🟡 partial | docs-only | A viral multi-agent Ralph bash script that runs Claude Code, Codex, OpenCode, Cursor, Qwen, or Droid in a loop until your PRD is complete. |
-| [Ralph TUI](#ralph-tui) | 5.1 Ralph technique & loop runners | MIT | 2,405 | Established | 🟢 Active | 🟡 partial | docs-only | A terminal-UI Ralph runner that connects an AI coding agent to a task tracker (prd.json or Beads) and works the backlog task-by-task across 7 backends. |
-| [how-to-ralph-wiggum](#how-to-ralph-wiggum) | 5.1 Ralph technique & loop runners | none | 1,722 | Established | 🟢 Active | 🟡 partial | docs-only | The canonical Ralph Wiggum technique by its inventor Geoffrey Huntley: a bash while-loop that keeps restarting an agent, with a persistent plan file as shared disk state. |
-| [Oh My OpenAgent](#oh-my-openagent) | 5.2 Autonomy-loop protocols | NOASSERTION | 66,222 | Prominent | 🟢 Active | 🟡 partial | docs-only | A token-efficient agent harness for complex codebases that wraps Codex and OpenCode; the coding agent for tokenmaxxers (= LazyCodex, same repo). |
-| [Ruflo / claude-flow](#ruflo-claude-flow) | 5.2 Autonomy-loop protocols | MIT | 65,243 | Prominent | 🟢 Active | 🟡 partial | docs-only | A large agent meta-harness for deploying multi-player agent swarms and coordinating autonomous workflows, with adaptive memory, self-learning, and RAG integration. |
-| [GSD (Get Shit Done)](#gsd-get-shit-done) | 5.2 Autonomy-loop protocols | MIT | 64,779 | Prominent | 🟢 Active | 🟡 partial | docs-only | A spec-driven autonomy system for Claude Code that runs each atomic task in a fresh 200K-context sub-agent with disk-persisted state; original archived, community redux active. |
-| [Nelson](#nelson) | 5.2 Autonomy-loop protocols | MIT | 403 | Emerging | 🟢 Active | 🟡 partial | docs-only | An autonomy protocol layer for Claude Code with 11 named Royal-Navy-style damage-control procedures for stuck agents, context exhaustion, and budget overruns. |
-| [sdd-riper](#sdd-riper) | 5.2 Autonomy-loop protocols | none | 307 | Emerging | 🟢 Active | 🟡 partial | docs-only | A lightweight human-steered harness that lets strong models explore while humans steer via minimal specs, checkpoints, approval, validation, and reverse sync. |
-| [Kiln](#kiln) | 5.2 Autonomy-loop protocols | MIT | 218 | Emerging | 🟢 Active | 🟡 partial | docs-only | A native Claude Code plugin for multi-model orchestration: persistent teams per step, ordered messaging, tracked iterations, and crash-proof state. |
-| [Buildomator](#buildomator) | 5.2 Autonomy-loop protocols | none | 76 | Preview | 🟢 Active | 🟡 partial | docs-only | A Claude-Code-native evolution of GSD: a plan/execute/verify workflow with MCP-backed state, atomic commits, drift detection, and ~92% lower per-turn token overhead. |
-| [Megingjord](#megingjord-harness) | 5.2 Autonomy-loop protocols | NOASSERTION | 0 | Preview | 🟢 Active | 🟡 partial | docs-only | An AI agent governance harness with a baton workflow, fleet LLM routing (Ollama/Claude/OpenRouter), and CI gates across Copilot, Claude Code, and Codex. |
+| [ralph-claude-code](#ralph-claude-code) | 5.1 Ralph technique & loop runners | MIT | 9,604 | Established | 🟢 Active | 🟡 partial | docs-only | A Claude-Code-specific Ralph loop with intelligent dual-condition exit detection, rate limiting, and a circuit breaker as safety brakes. |
+| [ralph-orchestrator](#ralph-orchestrator) | 5.1 Ralph technique & loop runners | MIT | 3,102 | Established | 🟢 Active | 🟡 partial | docs-only | A hat-based, guard-railed Ralph runner in Rust that loops an agent until LOOP_COMPLETE; 8 backends, backpressure gates (tests/lint/typecheck), and cost/iteration caps. |
+| [ralphy](#ralphy) | 5.1 Ralph technique & loop runners | none | 2,957 | Established | 🟢 Active | 🟡 partial | docs-only | A viral multi-agent Ralph bash script that runs Claude Code, Codex, OpenCode, Cursor, Qwen, or Droid in a loop until your PRD is complete. |
+| [Ralph TUI](#ralph-tui) | 5.1 Ralph technique & loop runners | MIT | 2,425 | Established | 🟢 Active | 🟡 partial | docs-only | A terminal-UI Ralph runner that connects an AI coding agent to a task tracker (prd.json or Beads) and works the backlog task-by-task across 7 backends. |
+| [how-to-ralph-wiggum](#how-to-ralph-wiggum) | 5.1 Ralph technique & loop runners | none | 1,740 | Established | 🟢 Active | 🟡 partial | docs-only | The canonical Ralph Wiggum technique by its inventor Geoffrey Huntley: a bash while-loop that keeps restarting an agent, with a persistent plan file as shared disk state. |
+| [Ruflo / claude-flow](#ruflo-claude-flow) | 5.2 Autonomy-loop protocols | MIT | 68,314 | Prominent | 🟢 Active | 🟡 partial | docs-only | A large agent meta-harness for deploying multi-player agent swarms and coordinating autonomous workflows, with adaptive memory, self-learning, and RAG integration. |
+| [Oh My OpenAgent](#oh-my-openagent) | 5.2 Autonomy-loop protocols | NOASSERTION | 68,100 | Prominent | 🟢 Active | 🟡 partial | docs-only | A token-efficient agent harness for complex codebases that wraps Codex and OpenCode; the coding agent for tokenmaxxers (= LazyCodex, same repo). |
+| [GSD (Get Shit Done)](#gsd-get-shit-done) | 5.2 Autonomy-loop protocols | MIT | 8,456 | Established | 🟢 Active | 🟡 partial | docs-only | Spec-driven autonomy system running each atomic task in a fresh 200K-context sub-agent with disk-persisted state; continues as community GSD Core (multi-CLI) — the archived original holds 64.7k★. |
+| [Nelson](#nelson) | 5.2 Autonomy-loop protocols | MIT | 413 | Emerging | 🟢 Active | 🟡 partial | docs-only | An autonomy protocol layer for Claude Code with 11 named Royal-Navy-style damage-control procedures for stuck agents, context exhaustion, and budget overruns. |
+| [sdd-riper](#sdd-riper) | 5.2 Autonomy-loop protocols | none | 321 | Emerging | 🟢 Active | 🟡 partial | docs-only | A lightweight human-steered harness that lets strong models explore while humans steer via minimal specs, checkpoints, approval, validation, and reverse sync. |
+| [Kiln](#kiln) | 5.2 Autonomy-loop protocols | MIT | 220 | Emerging | 🟢 Active | 🟡 partial | docs-only | A native Claude Code plugin for multi-model orchestration: persistent teams per step, ordered messaging, tracked iterations, and crash-proof state. |
+| [Buildomator](#buildomator) | 5.2 Autonomy-loop protocols | MIT | 85 | Preview | 🟢 Active | 🟡 partial | docs-only | A Claude-Code-native evolution of GSD: a plan/execute/verify workflow with MCP-backed state, atomic commits, drift detection, and ~92% lower per-turn token overhead. |
+| [Megingjord](#megingjord-harness) | 5.2 Autonomy-loop protocols | NOASSERTION | 1 | Preview | 🟢 Active | 🟡 partial | docs-only | An AI agent governance harness with a baton workflow, fleet LLM routing (Ollama/Claude/OpenRouter), and CI gates across Copilot, Claude Code, and Codex. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
 |---|---|---|
-| [ralph-claude-code](#ralph-claude-code) | You want a Claude-Code-only Ralph loop with the best-developed stop/exit detection and circuit-breaker brakes. | You need multi-agent backends (ralphy / Ralph TUI) or governance (§2). |
+| [ralph-claude-code](#ralph-claude-code) | You want a Claude-Code-only Ralph loop with extensive stop/exit detection and circuit-breaker brakes. | You need multi-agent backends (ralphy / Ralph TUI) or governance (§2). |
 | [ralph-orchestrator](#ralph-orchestrator) | You want a real, multi-backend Ralph runner with built-in stop conditions (LOOP_COMPLETE plus iteration/cost caps) and backpressure gates. | You need audit-grade governance/attestation (use §2 Bernstein) or a fully hands-off managed service. |
 | [ralphy](#ralphy) | You want a simple, multi-agent Ralph script to run any of several agents against a PRD. | You need a license (none declared), strong brakes, or governance. |
 | [Ralph TUI](#ralph-tui) | You want a visible, tracker-driven Ralph loop that chews through a backlog (especially with Beads) across many agents, with sandboxing and pause/resume. | You want a headless minimal loop (ralph-claude-code) or governance (§2). |
 | [how-to-ralph-wiggum](#how-to-ralph-wiggum) | You want to understand and hand-roll the minimal Ralph loop (a bash loop plus a plan file) before reaching for a real runner. | You need a maintained tool or to reuse the repo content (no license); use ralph-orchestrator for a real runner or MartinLoop (§2) for brakes. |
-| [Oh My OpenAgent](#oh-my-openagent) | You want a token-efficient harness over Codex/OpenCode on large codebases. | You are Claude-native (use GSD) or want a minimal loop (ralph-*). |
 | [Ruflo / claude-flow](#ruflo-claude-flow) | You want a feature-rich swarm meta-harness (memory + RAG + many integrations) driving autonomous workflows. | You want a minimal loop (ralph-*) or audit-grade governance (§2 Bernstein). |
-| [GSD (Get Shit Done)](#gsd-get-shit-done) | You want spec-driven, long-horizon autonomy on Claude Code (via the community redux) with disciplined fresh-context sub-agents and disk state. | You want a minimal raw loop (ralph-*) or a runnable multi-agent platform (Ruflo); avoid the archived original for new work. |
+| [Oh My OpenAgent](#oh-my-openagent) | You want a token-efficient harness over Codex/OpenCode on large codebases. | You are Claude-native (use GSD) or want a minimal loop (ralph-*). |
+| [GSD (Get Shit Done)](#gsd-get-shit-done) | You want spec-driven, long-horizon autonomy on Claude Code and other agent CLIs (via community GSD Core) with disciplined fresh-context sub-agents and disk state. | You want a minimal raw loop (ralph-*) or a runnable multi-agent platform (Ruflo); avoid the archived original for new work. |
 | [Nelson](#nelson) | You want to add structured failure-handling (brakes plus recovery) to long autonomous Claude Code runs. | You want a runner (ralph-*) or non-Claude backends. |
 | [sdd-riper](#sdd-riper) | You want human-in-the-loop checkpoints and approval over strong coding agents. | You want hands-off autonomy (GSD) or need a license. |
 | [Kiln](#kiln) | You want a crash-proof multi-agent pipeline inside Claude Code. | You want a bigger swarm harness (Ruflo) or a raw loop (ralph-*). |
-| [Buildomator](#buildomator) | You want a GSD-style workflow that adds a real verify gate, drift detection, and big token savings on Claude Code. | You need production reliance now (Preview, no license); use GSD redux for a larger community. |
+| [Buildomator](#buildomator) | You want a GSD-style workflow that adds a real verify gate, drift detection, and big token savings on Claude Code. | You need production reliance now (Preview); use GSD Core for a larger community. |
 | [Megingjord](#megingjord-harness) | You want to experiment with governance and fleet routing across multiple agents. | You need production reliability (Preview; no clear license). |
 
 ## Tools
@@ -59,7 +59,7 @@
 | Maker | frankbria |
 | Sub-type | 5.1 Ralph technique & loop runners |
 | License | MIT |
-| Maturity | Established · ⭐9,555 · created 2025-08 · Shell |
+| Maturity | Established · ⭐9,604 · created 2025-08 · Shell |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -71,7 +71,7 @@
 - Rate limiting + circuit breaker with advanced error detection
 - Shell-based; heavily tested (claims 784 tests)
 
-**Choose it when** — You want a Claude-Code-only Ralph loop with the best-developed stop/exit detection and circuit-breaker brakes.
+**Choose it when** — You want a Claude-Code-only Ralph loop with extensive stop/exit detection and circuit-breaker brakes.
 
 **Avoid when** — You need multi-agent backends (ralphy / Ralph TUI) or governance (§2).
 
@@ -92,7 +92,7 @@
 | Maker | mikeyobrien |
 | Sub-type | 5.1 Ralph technique & loop runners |
 | License | MIT |
-| Maturity | Established · ⭐3,067 · created 2025-09 · Rust |
+| Maturity | Established · ⭐3,102 · created 2025-09 · Rust |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -126,7 +126,7 @@
 | Maker | michaelshimeles |
 | Sub-type | 5.1 Ralph technique & loop runners |
 | License | none |
-| Maturity | Established · ⭐2,932 · created 2026-01 · TypeScript |
+| Maturity | Established · ⭐2,957 · created 2026-01 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -158,7 +158,7 @@
 | Maker | subsy |
 | Sub-type | 5.1 Ralph technique & loop runners |
 | License | MIT |
-| Maturity | Established · ⭐2,405 · created 2026-01 · TypeScript |
+| Maturity | Established · ⭐2,425 · created 2026-01 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -191,7 +191,7 @@
 | Maker | Geoffrey Huntley |
 | Sub-type | 5.1 Ralph technique & loop runners |
 | License | none |
-| Maturity | Established · ⭐1,722 · created 2026-01 · HTML |
+| Maturity | Established · ⭐1,740 · created 2026-01 · HTML |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -213,36 +213,6 @@
 
 ---
 
-<a id="oh-my-openagent"></a>
-### Oh My OpenAgent
-
-**🟢 Active** — A token-efficient agent harness for complex codebases that wraps Codex and OpenCode; the coding agent for tokenmaxxers (= LazyCodex, same repo).
-
-| | |
-|---|---|
-| Repo | https://github.com/code-yeongyu/oh-my-openagent |
-| Maker | code-yeongyu |
-| Sub-type | 5.2 Autonomy-loop protocols |
-| License | NOASSERTION |
-| Maturity | Prominent · ⭐66,222 · created 2025-12 · TypeScript |
-| Runs local | 🟡 partial |
-| Hands-on | docs-only |
-
-> *"The coding agent for tokenmaxxers; the one and only agent harness for complex codebases."*
-
-**Features**
-- Token-efficient (tokenmaxxers) context harness for complex codebases
-- Wraps Codex and OpenCode as backends
-- omo = Oh My OpenAgent; lazycodex is the same project's alias
-
-**Choose it when** — You want a token-efficient harness over Codex/OpenCode on large codebases.
-
-**Avoid when** — You are Claude-native (use GSD) or want a minimal loop (ralph-*).
-
-📄 **Deep research:** [`research/loop-factories/oh-my-openagent.md`](../research/loop-factories/oh-my-openagent.md)
-
----
-
 <a id="ruflo-claude-flow"></a>
 ### Ruflo / claude-flow
 
@@ -254,7 +224,7 @@
 | Maker | ruvnet |
 | Sub-type | 5.2 Autonomy-loop protocols |
 | License | MIT |
-| Maturity | Prominent · ⭐65,243 · created 2025-06 · TypeScript |
+| Maturity | Prominent · ⭐68,314 · created 2025-06 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -276,30 +246,61 @@
 
 ---
 
-<a id="gsd-get-shit-done"></a>
-### GSD (Get Shit Done)
+<a id="oh-my-openagent"></a>
+### Oh My OpenAgent
 
-**🟢 Active** — A spec-driven autonomy system for Claude Code that runs each atomic task in a fresh 200K-context sub-agent with disk-persisted state; original archived, community redux active.
+**🟢 Active** — A token-efficient agent harness for complex codebases that wraps Codex and OpenCode; the coding agent for tokenmaxxers (= LazyCodex, same repo).
 
 | | |
 |---|---|
-| Repo | https://github.com/gsd-build/get-shit-done |
-| Maker | TÂCHES (Lex Christopherson) |
+| Repo | https://github.com/code-yeongyu/oh-my-openagent |
+| Maker | code-yeongyu |
 | Sub-type | 5.2 Autonomy-loop protocols |
-| License | MIT |
-| Maturity | Prominent · ⭐64,779 · created 2025-12 · JavaScript |
+| License | NOASSERTION |
+| Maturity | Prominent · ⭐68,100 · created 2025-12 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
-> *"a light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code."*
+> *"The coding agent for tokenmaxxers; the one and only agent harness for complex codebases."*
+
+**Features**
+- Token-efficient (tokenmaxxers) context harness for complex codebases
+- Wraps Codex and OpenCode as backends
+- omo = Oh My OpenAgent; lazycodex is the same project's alias
+
+**Choose it when** — You want a token-efficient harness over Codex/OpenCode on large codebases.
+
+**Avoid when** — You are Claude-native (use GSD) or want a minimal loop (ralph-*).
+
+📄 **Deep research:** [`research/loop-factories/oh-my-openagent.md`](../research/loop-factories/oh-my-openagent.md)
+
+---
+
+<a id="gsd-get-shit-done"></a>
+### GSD (Get Shit Done)
+
+**🟢 Active** — Spec-driven autonomy system running each atomic task in a fresh 200K-context sub-agent with disk-persisted state; continues as community GSD Core (multi-CLI) — the archived original holds 64.7k★.
+
+| | |
+|---|---|
+| Repo | https://github.com/open-gsd/gsd-core |
+| Maker | Open GSD (community) — originally TÂCHES (Lex Christopherson) |
+| Sub-type | 5.2 Autonomy-loop protocols |
+| License | MIT |
+| Maturity | Established · ⭐8,456 · created 2025-12 · JavaScript |
+| Runs local | 🟡 partial |
+| Hands-on | docs-only |
+
+> *"Git. Ship. Done."*
 
 **Features**
 - Chain of slash-command phases, ideally each in a fresh context window
-- Atomic tasks → fresh Claude instance per task; main session stays lean (30-40% context)
+- Atomic tasks → fresh agent instance per task; main session stays lean (30-40% context)
 - Disk-persisted state (text files) → new sessions resume
 - /gsd-autonomous for hands-off phase advancement (pairs with /loop)
+- GSD Core is multi-CLI: Claude Code, OpenCode, Codex, Copilot, Cursor, Windsurf, … (npm @opengsd/gsd-core)
 
-**Choose it when** — You want spec-driven, long-horizon autonomy on Claude Code (via the community redux) with disciplined fresh-context sub-agents and disk state.
+**Choose it when** — You want spec-driven, long-horizon autonomy on Claude Code and other agent CLIs (via community GSD Core) with disciplined fresh-context sub-agents and disk state.
 
 **Avoid when** — You want a minimal raw loop (ralph-*) or a runnable multi-agent platform (Ruflo); avoid the archived original for new work.
 
@@ -320,7 +321,7 @@
 | Maker | Aspegio |
 | Sub-type | 5.2 Autonomy-loop protocols |
 | License | MIT |
-| Maturity | Emerging · ⭐403 · created 2026-02 · Python |
+| Maturity | Emerging · ⭐413 · created 2026-02 · Python |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -352,7 +353,7 @@
 | Maker | huisezhiyin |
 | Sub-type | 5.2 Autonomy-loop protocols |
 | License | none |
-| Maturity | Emerging · ⭐307 · created 2026-02 · Python |
+| Maturity | Emerging · ⭐321 · created 2026-02 · Python |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -382,7 +383,7 @@
 | Maker | Fredasterehub |
 | Sub-type | 5.2 Autonomy-loop protocols |
 | License | MIT |
-| Maturity | Emerging · ⭐218 · created 2026-02 · JavaScript |
+| Maturity | Emerging · ⭐220 · created 2026-02 · JavaScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -413,8 +414,8 @@
 | Repo | https://github.com/buildomator/buildomator |
 | Maker | jnuyens |
 | Sub-type | 5.2 Autonomy-loop protocols |
-| License | none |
-| Maturity | Preview · ⭐76 · created 2026-04 · TypeScript |
+| License | MIT |
+| Maturity | Preview · ⭐85 · created 2026-04 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -427,7 +428,7 @@
 
 **Choose it when** — You want a GSD-style workflow that adds a real verify gate, drift detection, and big token savings on Claude Code.
 
-**Avoid when** — You need production reliance now (Preview, no license); use GSD redux for a larger community.
+**Avoid when** — You need production reliance now (Preview); use GSD Core for a larger community.
 
 **Related sections:** [§2](02-orchestrators.md)
 
@@ -446,7 +447,7 @@
 | Maker | chf3198 |
 | Sub-type | 5.2 Autonomy-loop protocols |
 | License | NOASSERTION |
-| Maturity | Preview · ⭐0 · created 2026-04 · JavaScript |
+| Maturity | Preview · ⭐1 · created 2026-04 · JavaScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 

@@ -8,7 +8,7 @@ site: null
 maker: Aspegio
 license_claimed: MIT
 license_detected: MIT
-stars: 403
+stars: 413
 created: "2026-02"
 language: Python
 maturity: Emerging
@@ -24,7 +24,7 @@ choose_when: "You want to add structured failure-handling (brakes plus recovery)
 avoid_when: "You want a runner (ralph-*) or non-Claude backends."
 cross_links: ["§2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Nelson — Deep Research Reference
 

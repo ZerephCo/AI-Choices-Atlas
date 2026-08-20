@@ -8,9 +8,9 @@ site: null
 maker: "eyaltoledano + RalphEcom (Hamster)"
 license_claimed: "MIT + Commons Clause"
 license_detected: NOASSERTION
-stars: 27870
+stars: 28001
 created: "2025-03"
-language: null
+language: JavaScript
 maturity: Prominent
 status: active
 local: partial
@@ -24,7 +24,7 @@ features:
 choose_when: "You want PRD-first planning where an AI decomposes requirements into tracked tasks inside your editor."
 avoid_when: "You need a durable multi-agent graph DB with git sync (Beads), fully offline/no-LLM operation, or the right to resell/host it (Commons Clause)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Taskmaster (Task Master) — Deep Research Reference
 

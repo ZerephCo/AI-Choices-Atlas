@@ -8,9 +8,9 @@ site: null
 maker: "CaviraOSS"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 4355
+stars: 4449
 created: "2025-10"
-language: null
+language: TypeScript
 maturity: Established
 status: active
 local: true
@@ -24,7 +24,7 @@ features:
 choose_when: "You want a local, MCP-native cognitive memory with hierarchical + temporal structure, especially to migrate off Mem0/Zep/Supermemory."
 avoid_when: "You want the simplest vector SDK (Mem0) or a temporal graph (Graphiti)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # OpenMemory (CaviraOSS) — Deep Research Reference
 

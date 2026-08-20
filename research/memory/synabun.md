@@ -8,9 +8,9 @@ site: https://synabun.ai
 maker: "danilokhury"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 68
+stars: 70
 created: "2026-02"
-language: null
+language: JavaScript
 maturity: Preview
 status: active
 local: true
@@ -24,7 +24,7 @@ features:
 choose_when: "You want to experiment with a fully-local, no-API coding memory with a 3D graph viz and Claude Code hooks."
 avoid_when: "You need production or a maintained, focused memory (Mem0, claude-mem, codebase-memory-mcp)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # SynaBun — Deep Research Reference
 

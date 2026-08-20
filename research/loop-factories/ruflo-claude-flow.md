@@ -8,7 +8,7 @@ site: null
 maker: ruvnet
 license_claimed: MIT
 license_detected: MIT
-stars: 65243
+stars: 68314
 created: "2025-06"
 language: TypeScript
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "You want a feature-rich swarm meta-harness (memory + RAG + many in
 avoid_when: "You want a minimal loop (ralph-*) or audit-grade governance (§2 Bernstein)."
 cross_links: ["§2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Ruflo / claude-flow — Deep Research Reference
 

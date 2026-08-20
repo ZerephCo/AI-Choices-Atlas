@@ -8,10 +8,10 @@ site: https://owasp.org/www-project-agent-memory-guard
 maker: "OWASP Foundation"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 97
+stars: 140
 created: "2026-02"
 language: Python
-maturity: Preview
+maturity: Emerging
 status: active
 local: true
 one_liner: "OWASP reference runtime defense for memory poisoning (ASI06) — a guard layer between agent and memory store, screening every read/write via detectors + YAML policy."
@@ -24,7 +24,7 @@ features:
 choose_when: "You want to enforce read/write policy and detect poisoning/exfiltration alongside any memory store, especially for writable memory exposed to untrusted input."
 avoid_when: "You need a memory store itself (this is a guard layer over one) or a full agent-security suite."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # OWASP Agent Memory Guard — Deep Research Reference
 

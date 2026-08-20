@@ -8,7 +8,7 @@ site: null
 maker: code-yeongyu
 license_claimed: null
 license_detected: NOASSERTION
-stars: 66222
+stars: 68100
 created: "2025-12"
 language: TypeScript
 maturity: Prominent
@@ -23,7 +23,7 @@ features:
 choose_when: "You want a token-efficient harness over Codex/OpenCode on large codebases."
 avoid_when: "You are Claude-native (use GSD) or want a minimal loop (ralph-*)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # Oh My OpenAgent (omo / LazyCodex) — Deep Research Reference
 

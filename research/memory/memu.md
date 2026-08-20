@@ -8,7 +8,7 @@ site: null
 maker: "NevaMind AI"
 license_claimed: NOASSERTION
 license_detected: NOASSERTION
-stars: 14048
+stars: 14322
 created: "2025-07"
 language: Python
 maturity: Prominent
@@ -25,7 +25,7 @@ features:
 choose_when: "You run 24/7 proactive agents wanting cheap (embeddings-only), markdown-native, cross-agent memory with intent capture."
 avoid_when: "You need a clean OSI license today (NOASSERTION) or heavy structured/graph extraction (Cognee/Graphiti)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # memU — Deep Research Reference
 

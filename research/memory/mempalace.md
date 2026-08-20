@@ -8,7 +8,7 @@ site: https://mempalaceofficial.com
 maker: "MemPalace"
 license_claimed: MIT
 license_detected: MIT
-stars: 57490
+stars: 58463
 created: "2026-04"
 language: Python
 maturity: Prominent
@@ -25,7 +25,7 @@ features:
 choose_when: "You want local, offline, verbatim long-term memory with tiny startup cost, temporal KG, and multi-agent diaries via MCP."
 avoid_when: "You want extraction/summarized facts (Mem0) or a managed cloud service."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # MemPalace — Deep Research Reference
 

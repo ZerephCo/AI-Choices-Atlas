@@ -3,29 +3,30 @@ name: "GSD (Get Shit Done)"
 slug: gsd-get-shit-done
 category: loop-factories
 subtype: "5.2 Autonomy-loop protocols"
-repo: https://github.com/gsd-build/get-shit-done
-site: https://github.com/open-gsd/get-shit-done-redux
-maker: "TÂCHES (Lex Christopherson)"
+repo: https://github.com/open-gsd/gsd-core
+site: null
+maker: "Open GSD (community) — originally TÂCHES (Lex Christopherson)"
 license_claimed: MIT
 license_detected: MIT
-stars: 64779
+stars: 8456
 created: "2025-12"
 language: JavaScript
-maturity: Prominent
+maturity: Established
 status: active
 local: partial
-one_liner: "A spec-driven autonomy system for Claude Code that runs each atomic task in a fresh 200K-context sub-agent with disk-persisted state; original archived, community redux active."
-tagline_quote: "a light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code."
+one_liner: "Spec-driven autonomy system running each atomic task in a fresh 200K-context sub-agent with disk-persisted state; continues as community GSD Core (multi-CLI) — the archived original holds 64.7k★."
+tagline_quote: "Git. Ship. Done."
 features:
   - "Chain of slash-command phases, ideally each in a fresh context window"
-  - "Atomic tasks → fresh Claude instance per task; main session stays lean (30-40% context)"
+  - "Atomic tasks → fresh agent instance per task; main session stays lean (30-40% context)"
   - "Disk-persisted state (text files) → new sessions resume"
   - "/gsd-autonomous for hands-off phase advancement (pairs with /loop)"
-choose_when: "You want spec-driven, long-horizon autonomy on Claude Code (via the community redux) with disciplined fresh-context sub-agents and disk state."
+  - "GSD Core is multi-CLI: Claude Code, OpenCode, Codex, Copilot, Cursor, Windsurf, … (npm @opengsd/gsd-core)"
+choose_when: "You want spec-driven, long-horizon autonomy on Claude Code and other agent CLIs (via community GSD Core) with disciplined fresh-context sub-agents and disk state."
 avoid_when: "You want a minimal raw loop (ralph-*) or a runnable multi-agent platform (Ruflo); avoid the archived original for new work."
 cross_links: ["§1"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-19"
 ---
 # GSD (Get Shit Done) — Deep Research Reference
 
@@ -34,13 +35,13 @@ last_verified: "2026-07-20"
 | | |
 |---|---|
 | Category / sub-type | Loop factories → 5.2 autonomy-loop / spec-driven system (Claude Code) |
-| Repo (original) | https://github.com/gsd-build/get-shit-done — **archived 2026** |
-| Repo (community continuation) | https://github.com/open-gsd/get-shit-done-redux — **active** (GSD Core) |
-| Maker | **TÂCHES (Lex Christopherson)** → community (open-gsd) after maintainer went unreachable |
-| License | **MIT** / MIT (both) |
-| ⭐ / created | original 64,779 · 2025-12-14 (archived, pushed 2026-05-31) · redux 6,867 · 2026-05-22 (active) |
-| Backends | Claude Code (multi-CLI via forks: get-shit-done-multi, gsd-opencode) |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Repo (canonical, community) | https://github.com/open-gsd/gsd-core — **active** ("GSD Core"; renamed from `open-gsd/get-shit-done-redux`, old URL redirects) |
+| Repo (original) | https://github.com/gsd-build/get-shit-done — **archived**; its README now says the project *"continues as GSD Core"* |
+| Maker | **Open GSD** (community) — originally **TÂCHES (Lex Christopherson)**, unreachable since 2026-05 |
+| License | **MIT** / MIT (both repos) |
+| ⭐ / created | GSD Core 8,456 · repo created 2026-05-22 (pushed 2026-08-19) · original 64,671 · 2025-12-14 (archived, frozen 2026-05-31) |
+| Backends | multi-CLI: Claude Code, OpenCode, Antigravity CLI, Kimi CLI, Kilo, Codex, Copilot, Cursor, Windsurf, … |
+| Researched | 2026-08-19 · hands-on: **docs-only** |
 
 ## 1. What it is
 "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES." Breaks a project into small tasks, each executed in a fresh 200K-token context window by specialized sub-agents, with disk-persisted state — so agents can run autonomously for a long time without losing the big picture.
@@ -56,9 +57,10 @@ last_verified: "2026-07-20"
 - Main session stays lean (30–40% context); **all project state persisted to disk as text files** → new sessions resume.
 - **`/gsd-autonomous`** advances through phases without manual intervention (pairs with `/loop`).
 
-## 4. ⚠️ Status (VERIFIED)
-- Original `gsd-build/get-shit-done` is **archived**; in May 2026 maintainer TÂCHES became unreachable and deleted social accounts.
-- Community continuation launched **2026-05-22** at **open-gsd/get-shit-done-redux** (same MIT code, actively maintained — pushed 2026-07-20).
+## 4. ⚠️ Status (VERIFIED, re-checked 2026-08-19)
+- Original `gsd-build/get-shit-done` is **archived**; in May 2026 maintainer TÂCHES became unreachable and deleted social accounts. Its README now redirects: *"This repository is no longer the active home for GSD development"* → GSD Core.
+- Community continuation launched **2026-05-22** as `open-gsd/get-shit-done-redux`, since **renamed `open-gsd/gsd-core`** ("GSD Core — *Git. Ship. Done.*"); MIT; ⭐8,456; very active (pushed 2026-08-19); npm **`@opengsd/gsd-core`**.
+- Scope broadened beyond Claude Code: GSD Core targets **Claude Code, OpenCode, Antigravity CLI, Kimi CLI, Kilo, Codex, Copilot, Cursor, Windsurf, and more**.
 - Derivatives: **Buildomator** (gsd-plugin, native Claude Code plugin), get-shit-done-multi (multi-CLI fork), gsd-opencode.
 
 ## 5. What it is NOT / limitations
@@ -69,17 +71,17 @@ last_verified: "2026-07-20"
 
 ## 6. Roadmap
 - **Was:** built by TÂCHES (Dec 2025); exploded to ~64k⭐; spec-driven + fresh-context sub-agents.
-- **Now (2026):** original archived (maintainer vanished May 2026); community **redux** (open-gsd) active; Buildomator + multi-CLI forks.
-- **Ahead:** community-driven (open-gsd); plugin packaging.
+- **Now (2026-08):** original archived (maintainer vanished May 2026); community continuation renamed **GSD Core** (`open-gsd/gsd-core`, ⭐8.4k, multi-CLI, npm `@opengsd/gsd-core`); Buildomator + multi-CLI forks.
+- **Ahead:** community-driven (Open GSD); plugin packaging; broader CLI coverage.
 
 ## 7. Positioning
 - **GSD** — the flagship spec-driven autonomy system for Claude Code (fresh-context sub-agents + disk state + `/gsd-autonomous`).
 - vs Buildomator (its plugin evolution), Ruflo (swarm meta-harness), ralph-* (raw loops), Kiro (§1, spec-driven IDE).
 
 ## 8. Hands-on
-`docs-only` (2026-07-20). **TODO:** install the community **redux** (open-gsd/get-shit-done-redux); run a spec → phases → `/gsd-autonomous` on a small feature.
+`docs-only` (2026-08-19). **TODO:** install **GSD Core** (`npm i -g @opengsd/gsd-core`); run a spec → phases → `/gsd-autonomous` on a small feature.
 
 ## 9. Sources
-- https://github.com/gsd-build/get-shit-done (archived) · https://github.com/open-gsd/get-shit-done-redux (active) · augmentcode.com, dev.to (guides)
+- https://github.com/open-gsd/gsd-core (active canonical; `open-gsd/get-shit-done-redux` redirects) · https://github.com/gsd-build/get-shit-done (archived original + redirect notice) · augmentcode.com, dev.to (guides)
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-19 · Researcher: Claude_
