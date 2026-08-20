@@ -12,11 +12,13 @@ loop-factories:
   - name: The Claude Protocol
     reason: "Doc 28 'active loops/protocols' list; no canonical repo could be verified."
   - name: autonomy-loop
-    reason: "Doc 28 list; generic name, no canonical repo verified."
+    repo: https://github.com/Grismund/autonomy-loop
+    reason: "Doc 28 list; generic name. 2026-08-20: a name-exact candidate exists (Grismund/autonomy-loop, 2★, created 2026-02, 'a self-prompting Claude loop that runs autonomously in Docker'); domain-plausible but identity with the Doc 28 item unconfirmed — kept uncarded."
   - name: Completely
     reason: "Doc 28 list; no canonical repo verified."
   - name: mstar-harness
-    reason: "Doc 28 list; no canonical repo verified."
+    repo: https://github.com/btspoony/mstar-harness
+    reason: "Doc 28 list. 2026-08-20: a name-exact candidate now exists (btspoony/mstar-harness, 51★, MIT, created 2026-03, 'omni-plugin for harness engineering workflows'); plausibly the corpus item but not confirmed — kept uncarded pending full carding research."
 
 action-governance:
   - name: Project Starfish
@@ -25,4 +27,5 @@ action-governance:
   - name: OAGS
     reason: "Draft governance specification; watch / crosswalk only."
   - name: Agent Control Standard (ACS)
-    reason: "Draft standard; watch / crosswalk only."
+    repo: https://github.com/GenAI-Security-Project/agent-control-standard
+    reason: "Draft standard; watch / crosswalk only. 2026-08-20: repo transferred from Agent-Control-Standard/ACS (old URL redirects); 41★, active, no longer flagged as a fork."

@@ -8,7 +8,7 @@ site: https://a2a-protocol.org
 maker: "Google → Linux Foundation"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 24908
+stars: 25425
 created: "2025-03"
 language: null
 maturity: Prominent
@@ -25,7 +25,7 @@ features:
 choose_when: "You need agents from different vendors or frameworks to discover and delegate to each other."
 avoid_when: "You need agent-to-tools connectivity (use MCP) or a UI protocol (use AG-UI)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # A2A (Agent2Agent) — Deep Research Reference
 
@@ -37,8 +37,8 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/a2aproject/A2A · a2a-protocol.org |
 | Maker | **Google** → donated to the **Linux Foundation** |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 24,908 · 2025-03 · **v1.0** |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 25,425 · 2025-03 · current release **v1.0.1** (2026-05-28, per the official GitHub release — re-verified 2026-08-20) |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications." Agent ↔ agent — lets agents from different vendors/frameworks discover and delegate to each other.
@@ -60,16 +60,16 @@ last_verified: "2026-07-20"
 
 ## 6. Roadmap
 - **Was:** Google (Apr 2025) → Linux Foundation.
-- **Now (2026):** ⭐24k; v1.0; broad partner support.
+- **Now (2026-08):** ⭐25k; current release **v1.0.1** (published 2026-05-28) — a patch release of spec fixes: prefers `application/a2a+json` in the HTTP binding (#1753) and adjusts transcoding-related errors (#1627); 1.0 line stable; broad partner support.
 - **Ahead:** LF-driven; more implementations.
 
 ## 7. Positioning
 - **A2A** — the agent↔agent quadrant: MCP (tools) · **A2A (agents)** · ACP (editors) · AG-UI (users).
 
 ## 8. Hands-on
-`docs-only` (2026-07-20). **TODO:** publish an Agent Card; exchange a task between two agents over A2A.
+`docs-only` (2026-08-20). **TODO:** publish an Agent Card; exchange a task between two agents over A2A.
 
 ## 9. Sources
-- https://github.com/a2aproject/A2A · a2a-protocol.org
+- https://github.com/a2aproject/A2A · a2a-protocol.org · https://github.com/a2aproject/A2A/releases/tag/v1.0.1 (official latest release, read 2026-08-20)
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

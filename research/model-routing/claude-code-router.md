@@ -8,7 +8,7 @@ site: null
 maker: musistudio
 license_claimed: MIT
 license_detected: MIT
-stars: 35942
+stars: 36742
 created: "2025-02"
 language: TypeScript
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "You want to run Claude Code (or other agents) on the model of your
 avoid_when: "You need a general server gateway (LiteLLM/OpenRouter) rather than an agent-focused control plane."
 cross_links: ["§1"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # claude-code-router — Deep Research Reference
 
@@ -38,8 +38,8 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/musistudio/claude-code-router |
 | Maker | **musistudio** |
 | License | **MIT** / MIT |
-| ⭐ / created | 35,942 · 2025-02 · TypeScript · very active |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 36,742 · 2025-02 · TypeScript · very active |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "One local control plane for every AI agent: route across models, fuse new capabilities, orchestrate tools, and stay fully in control." Sits between a coding agent (especially Claude Code) and models, routing requests by scenario — including running Claude Code on non-Anthropic models.
@@ -59,7 +59,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** created Feb 2025 to run Claude Code on other models.
-- **Now (2026):** ⭐35.9k; MIT; per-scenario routing + transformers; broad model support.
+- **Now (2026):** ⭐36.7k; MIT; per-scenario routing + transformers; broad model support.
 - **Ahead:** more agents/models; capability fusion.
 
 ## 6. Positioning
@@ -67,9 +67,9 @@ last_verified: "2026-07-20"
 - vs LiteLLM/OpenRouter (generic gateways), RouteLLM (cost/quality routing). Complementary — often points at OpenRouter/Ollama under the hood.
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** route Claude Code's background tasks to a local Ollama model + hard steps to a strong model; verify per-scenario config.
+`docs-only` (2026-08-20). **TODO:** route Claude Code's background tasks to a local Ollama model + hard steps to a strong model; verify per-scenario config.
 
 ## 8. Sources
 - https://github.com/musistudio/claude-code-router (README)
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

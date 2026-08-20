@@ -17,12 +17,12 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [Spec Kit](#spec-kit) | 13.1 spec-driven development (SDD) kit | MIT | 122,653 | Prominent | 🟢 Active | ✅ | docs-only | GitHub's spec-driven development toolkit — the specify CLI + /specify → /plan → /tasks → /implement flow; multi-agent (Claude Code, Copilot, Cursor, Gemini). MIT. |
-| [OpenSpec](#openspec) | 13.1 spec-driven development (SDD) kit | MIT | 61,722 | Prominent | 🟢 Active | ✅ | docs-only | Spec-driven development for AI coding assistants — proposal → spec → implement, assistant-agnostic, with a spec archive. MIT. |
-| [BMAD-METHOD](#bmad-method) | 13.2 agile method framework (agent personas) | NOASSERTION | 50,858 | Prominent | 🟢 Active | ✅ | docs-only | Breakthrough Method for Agile AI-Driven Development — agent personas (Analyst/PM/Architect/SM/Dev/QA) plus a two-phase agile flow. License NOASSERTION (verify). |
-| [Agent Skills (Addy Osmani)](#agent-skills) | 13.3 Agent skills frameworks / packs | MIT | 80,373 | Prominent | 🟢 Active | ✅ | docs-only | 24 production-grade, lifecycle engineering skills (Define → Plan → Build → Verify → Review → Ship) for AI coding agents — slash commands, specialist personas, and evidence-required checklists. By Addy Osmani. |
-| [anthropics/skills](#anthropics-skills) | 13.3 agent skills pack (official reference) | none | 162,901 | Prominent | 🟢 Active | ✅ | docs-only | Anthropic's official Agent Skills — SKILL.md skills incl. document skills (pdf/docx/xlsx/pptx) with progressive disclosure. License not surfaced by GitHub (verify). |
-| [Superpowers](#superpowers) | 13.3 agentic skills framework + methodology | MIT | 258,035 | Prominent | 🟢 Active | ✅ | docs-only | An agentic skills framework + methodology for Claude Code — composable skills plus a disciplined brainstorm → plan → TDD → implement flow. MIT (star count exceptionally high). |
+| [Spec Kit](#spec-kit) | 13.1 spec-driven development (SDD) kit | MIT | 130,391 | Prominent | 🟢 Active | ✅ | docs-only | GitHub's spec-driven development toolkit — the specify CLI + /specify → /plan → /tasks → /implement flow; multi-agent (Claude Code, Copilot, Cursor, Gemini). MIT. |
+| [OpenSpec](#openspec) | 13.1 spec-driven development (SDD) kit | MIT | 65,595 | Prominent | 🟢 Active | ✅ | docs-only | Spec-driven development for AI coding assistants — proposal → spec → implement, assistant-agnostic, with a spec archive. MIT. |
+| [BMAD-METHOD](#bmad-method) | 13.2 agile method framework (agent personas) | NOASSERTION | 52,099 | Prominent | 🟢 Active | ✅ | docs-only | Breakthrough Method for Agile AI-Driven Development — agent personas (Analyst/PM/Architect/SM/Dev/QA) plus a two-phase agile flow. License NOASSERTION (verify). |
+| [Agent Skills (Addy Osmani)](#agent-skills) | 13.3 Agent skills frameworks / packs | MIT | 88,685 | Prominent | 🟢 Active | ✅ | docs-only | 24 production-grade, lifecycle engineering skills (Define → Plan → Build → Verify → Review → Ship) for AI coding agents — slash commands, specialist personas, and evidence-required checklists. By Addy Osmani. |
+| [anthropics/skills](#anthropics-skills) | 13.3 agent skills pack (official reference) | none | 170,557 | Prominent | 🟢 Active | ✅ | docs-only | Anthropic's official Agent Skills — SKILL.md skills incl. document skills (pdf/docx/xlsx/pptx) with progressive disclosure. License not surfaced by GitHub (verify). |
+| [Superpowers](#superpowers) | 13.3 agentic skills framework + methodology | MIT | 274,520 | Prominent | 🟢 Active | ✅ | docs-only | An agentic skills framework + methodology for Claude Code — composable skills plus a disciplined brainstorm → plan → TDD → implement flow. MIT (star count exceptionally high). |
 | [Multiple Beaded Agents (MBA)](#multiple-beaded-agents) | 13.4 multi-agent workflow framework | MIT | 0 | Preview | 🟢 Active | ✅ | docs-only | A thin coordination layer over Beads — opposed-hat Orchestrator/Doer/Auditor in separate sessions, converging on a verified fix or accepted proof. MIT. (The workflow this atlas's own repo uses.) |
 
 ## Decide — pick by need
@@ -49,7 +49,7 @@
 | Maker | GitHub |
 | Sub-type | 13.1 spec-driven development (SDD) kit |
 | License | MIT |
-| Maturity | Prominent · ⭐122,653 · created 2025-08 · Python |
+| Maturity | Prominent · ⭐130,391 · created 2025-08 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -82,7 +82,7 @@
 | Maker | Fission AI |
 | Sub-type | 13.1 spec-driven development (SDD) kit |
 | License | MIT |
-| Maturity | Prominent · ⭐61,722 · created 2025-08 · TypeScript |
+| Maturity | Prominent · ⭐65,595 · created 2025-08 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -114,7 +114,7 @@
 | Maker | BMAD Code |
 | Sub-type | 13.2 agile method framework (agent personas) |
 | License | NOASSERTION |
-| Maturity | Prominent · ⭐50,858 · created 2025-04 · JavaScript |
+| Maturity | Prominent · ⭐52,099 · created 2025-04 · JavaScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -147,7 +147,7 @@
 | Maker | Addy Osmani |
 | Sub-type | 13.3 Agent skills frameworks / packs |
 | License | MIT |
-| Maturity | Prominent · ⭐80,373 · created 2026-02 · JavaScript |
+| Maturity | Prominent · ⭐88,685 · created 2026-02 · JavaScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -182,7 +182,7 @@
 | Maker | Anthropic |
 | Sub-type | 13.3 agent skills pack (official reference) |
 | License | none |
-| Maturity | Prominent · ⭐162,901 · created 2025-09 · Python |
+| Maturity | Prominent · ⭐170,557 · created 2025-09 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -215,7 +215,7 @@
 | Maker | Jesse Vincent (obra) |
 | Sub-type | 13.3 agentic skills framework + methodology |
 | License | MIT |
-| Maturity | Prominent · ⭐258,035 · created 2025-10 · Shell |
+| Maturity | Prominent · ⭐274,520 · created 2025-10 · Shell |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -246,7 +246,7 @@
 | Maker | Khubaeb |
 | Sub-type | 13.4 multi-agent workflow framework |
 | License | MIT |
-| Maturity | Preview · ⭐0 · created 2026 · Python |
+| Maturity | Preview · ⭐0 · created 2026-07 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 

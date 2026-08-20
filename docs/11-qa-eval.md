@@ -16,12 +16,12 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [DeepEval](#deepeval) | 11.1 LLM evaluation framework | Apache-2.0 | 16,967 | Prominent | 🟢 Active | ✅ | docs-only | The LLM Evaluation Framework — a Pytest-like framework to unit-test LLM outputs against 40+ research-backed metrics, locally or in CI. |
-| [promptfoo](#promptfoo) | 11.1 LLM/agent evaluation + red-teaming | MIT | 23,438 | Prominent | 🟢 Active | ✅ | docs-only | Developer-first declarative eval + red-team tool: test prompts, agents, and RAGs across models with CLI + CI/CD gating; used by OpenAI and Anthropic. |
-| [Helicone](#helicone) | 11.2 observability + cost (proxy) | Apache-2.0 | 5,996 | Established | 🟢 Active | 🟡 partial | docs-only | Open-source LLM observability platform — add one line (a proxy) to log, monitor, evaluate, cache, and cut cost across LLM calls. Self-host, or a free hosted tier. |
-| [Arize Phoenix](#arize-phoenix) | 11.2 observability + evals | Elastic License 2.0 / NOASSERTION | 10,641 | Prominent | 🟢 Active | 🟡 partial | docs-only | AI Observability & Evaluation — OpenTelemetry-based (OpenInference) tracing of LLM/agent apps plus built-in evals; run locally or via Arize. |
-| [Langfuse](#langfuse) | 11.2 observability + evals platform | MIT / NOASSERTION | 31,496 | Prominent | 🟢 Active | 🟡 partial | docs-only | Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Self-host or cloud. |
-| [Playwright](#playwright) | 11.3 browser / UI test automation (+ agent browser control) | Apache-2.0 | 93,162 | Prominent | 🟢 Active | ✅ | docs-only | A framework for web testing and automation — cross-browser (Chromium/Firefox/WebKit) with one API; backbone of agent browser control (Playwright MCP). |
+| [DeepEval](#deepeval) | 11.1 LLM evaluation framework | Apache-2.0 | 17,722 | Prominent | 🟢 Active | ✅ | docs-only | The LLM Evaluation Framework — a Pytest-like framework to unit-test LLM outputs against 40+ research-backed metrics, locally or in CI. |
+| [promptfoo](#promptfoo) | 11.1 LLM/agent evaluation + red-teaming | MIT | 24,396 | Prominent | 🟢 Active | ✅ | docs-only | Developer-first declarative eval + red-team tool: test prompts, agents, and RAGs across models with CLI + CI/CD gating; used by OpenAI and Anthropic. |
+| [Helicone](#helicone) | 11.2 observability + cost (proxy) | Apache-2.0 | 6,085 | Established | 🟢 Active | 🟡 partial | docs-only | Open-source AI Gateway + LLM observability platform — one line (a proxy) to log, monitor, evaluate, cache, route with automatic fallbacks, and cut cost. Self-host, or a free hosted tier. |
+| [Arize Phoenix](#arize-phoenix) | 11.2 observability + evals | Elastic License 2.0 / NOASSERTION | 11,126 | Prominent | 🟢 Active | 🟡 partial | docs-only | AI Observability & Evaluation — OpenTelemetry-based (OpenInference) tracing of LLM/agent apps plus built-in evals; run locally or via Arize. |
+| [Langfuse](#langfuse) | 11.2 observability + evals platform | MIT / NOASSERTION | 33,439 | Prominent | 🟢 Active | 🟡 partial | docs-only | Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Self-host or cloud. |
+| [Playwright](#playwright) | 11.3 browser / UI test automation (+ agent browser control) | Apache-2.0 | 94,785 | Prominent | 🟢 Active | ✅ | docs-only | A framework for web testing and automation — cross-browser (Chromium/Firefox/WebKit) with one API; backbone of agent browser control (Playwright MCP). |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
@@ -46,7 +46,7 @@
 | Maker | Confident AI |
 | Sub-type | 11.1 LLM evaluation framework |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐16,967 · created 2023-08 · Python |
+| Maturity | Prominent · ⭐17,722 · created 2023-08 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -77,7 +77,7 @@
 | Maker | promptfoo |
 | Sub-type | 11.1 LLM/agent evaluation + red-teaming |
 | License | MIT |
-| Maturity | Prominent · ⭐23,438 · created 2023-04 · TypeScript |
+| Maturity | Prominent · ⭐24,396 · created 2023-04 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -102,7 +102,7 @@
 <a id="helicone"></a>
 ### Helicone
 
-**🟢 Active** — Open-source LLM observability platform — add one line (a proxy) to log, monitor, evaluate, cache, and cut cost across LLM calls. Self-host, or a free hosted tier.
+**🟢 Active** — Open-source AI Gateway + LLM observability platform — one line (a proxy) to log, monitor, evaluate, cache, route with automatic fallbacks, and cut cost. Self-host, or a free hosted tier.
 
 | | |
 |---|---|
@@ -110,7 +110,7 @@
 | Maker | Helicone |
 | Sub-type | 11.2 observability + cost (proxy) |
 | License | Apache-2.0 |
-| Maturity | Established · ⭐5,996 · created 2023-01 · TypeScript |
+| Maturity | Established · ⭐6,085 · created 2023-01 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -143,7 +143,7 @@
 | Maker | Arize AI |
 | Sub-type | 11.2 observability + evals |
 | License | Elastic License 2.0 / NOASSERTION |
-| Maturity | Prominent · ⭐10,641 · created 2022-11 · Python |
+| Maturity | Prominent · ⭐11,126 · created 2022-11 · Python |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -174,7 +174,7 @@
 | Maker | Langfuse (YC W23) |
 | Sub-type | 11.2 observability + evals platform |
 | License | MIT / NOASSERTION |
-| Maturity | Prominent · ⭐31,496 · created 2023-05 · TypeScript |
+| Maturity | Prominent · ⭐33,439 · created 2023-05 · TypeScript |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -205,7 +205,7 @@
 | Maker | Microsoft |
 | Sub-type | 11.3 browser / UI test automation (+ agent browser control) |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐93,162 · created 2019-11 · TypeScript |
+| Maturity | Prominent · ⭐94,785 · created 2019-11 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 

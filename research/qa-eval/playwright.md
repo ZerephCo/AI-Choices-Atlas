@@ -8,7 +8,7 @@ site: https://playwright.dev
 maker: Microsoft
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 93162
+stars: 94785
 created: "2019-11"
 language: TypeScript
 maturity: Prominent
@@ -23,7 +23,7 @@ features:
 choose_when: "You want browser automation — testing agent-built web apps or giving an agent a real browser via MCP."
 avoid_when: "You need an LLM eval tool (pair with promptfoo/DeepEval)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Playwright — Deep Research Reference
 
@@ -35,8 +35,8 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/microsoft/playwright · playwright.dev |
 | Maker | **Microsoft** |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 93,162 · 2019-11 · TypeScript |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 94,785 · 2019-11 · TypeScript |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Playwright is a framework for Web Testing and Automation." Cross-browser (Chromium/Firefox/WebKit) automation with one API — the backbone of agent browser control (Playwright MCP) and testing of agent-built UIs.
@@ -56,7 +56,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** 2019-11 (Microsoft).
-- **Now (2026):** ⭐93k; cross-browser + Playwright MCP for agents.
+- **Now (2026):** ⭐95k; cross-browser + Playwright MCP for agents.
 - **Ahead:** deeper MCP/agent integration.
 
 ## 6. Positioning
@@ -64,9 +64,9 @@ last_verified: "2026-07-20"
 - vs promptfoo/DeepEval (LLM eval), Langfuse/Phoenix (observability).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** write a Playwright test for an agent-built page; try Playwright MCP to give an agent browser control.
+`docs-only` (2026-08-20). **TODO:** write a Playwright test for an agent-built page; try Playwright MCP to give an agent browser control.
 
 ## 8. Sources
 - https://github.com/microsoft/playwright (README) · playwright.dev
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

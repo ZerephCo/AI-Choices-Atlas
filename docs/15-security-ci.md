@@ -17,11 +17,11 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [Semgrep](#semgrep) | 15.1 SAST (static analysis) | LGPL-2.1 | 15,959 | Prominent | 🟢 Active | ✅ | docs-only | Lightweight static analysis for many languages — write rules that look like source code to find bug variants; fast, customizable SAST as a CI hard gate. |
-| [Trivy](#trivy) | 15.2 all-in-one scanner | Apache-2.0 | 36,991 | Prominent | 🟢 Active | ✅ | docs-only | All-in-one security scanner: vulnerabilities, misconfigurations, secrets, licenses, and SBOMs across containers, Kubernetes, filesystems, repos, and clouds. |
-| [OSV-Scanner](#osv-scanner) | 15.2 dependency / vulnerability scanner | Apache-2.0 | 10,674 | Prominent | 🟢 Active | ✅ | docs-only | Vulnerability scanner written in Go using the open OSV.dev database — precise, open-data dependency scanning across many ecosystems, with guided remediation. |
-| [Gitleaks](#gitleaks) | 15.3 secret scanner | MIT | 28,211 | Prominent | 🟢 Active | ✅ | docs-only | The standard secret scanner — detects hardcoded secrets (API keys, tokens, passwords) in code, git history, and diffs; runs as a pre-commit hook + CI gate. |
-| [OPA (Open Policy Agent)](#opa) | 15.4 policy engine (policy-as-code) | Apache-2.0 | 12,001 | Prominent | 🟢 Active | ✅ | docs-only | General-purpose, CNCF-graduated policy engine: decouple policy decisions from code via Rego — authorization, admission control, CI/CD gates, and agent action governance. |
+| [Semgrep](#semgrep) | 15.1 SAST (static analysis) | LGPL-2.1 | 16,312 | Prominent | 🟢 Active | ✅ | docs-only | Lightweight static analysis for many languages — write rules that look like source code to find bug variants; fast, customizable SAST as a CI hard gate. |
+| [Trivy](#trivy) | 15.2 all-in-one scanner | Apache-2.0 | 37,517 | Prominent | 🟢 Active | ✅ | docs-only | All-in-one security scanner: vulnerabilities, misconfigurations, secrets, licenses, and SBOMs across containers, Kubernetes, filesystems, repos, and clouds. |
+| [OSV-Scanner](#osv-scanner) | 15.2 dependency / vulnerability scanner | Apache-2.0 | 10,880 | Prominent | 🟢 Active | ✅ | docs-only | Vulnerability scanner written in Go using the open OSV.dev database — precise, open-data dependency scanning across many ecosystems, with guided remediation. |
+| [Gitleaks](#gitleaks) | 15.3 secret scanner | MIT | 28,851 | Prominent | ⚠️ Maintenance | ✅ | docs-only | The standard secret scanner — detects hardcoded secrets in code, git history, and diffs; pre-commit + CI gate. ⚠️ Now feature-complete per its maintainer: security patches only; focus shifting to Betterleaks. |
+| [OPA (Open Policy Agent)](#opa) | 15.4 policy engine (policy-as-code) | Apache-2.0 | 12,122 | Prominent | 🟢 Active | ✅ | docs-only | General-purpose, CNCF-graduated policy engine: decouple policy decisions from code via Rego — authorization, admission control, CI/CD gates, and agent action governance. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
@@ -45,7 +45,7 @@
 | Maker | Semgrep (formerly r2c) |
 | Sub-type | 15.1 SAST (static analysis) |
 | License | LGPL-2.1 |
-| Maturity | Prominent · ⭐15,959 · created 2019-12 · OCaml |
+| Maturity | Prominent · ⭐16,312 · created 2019-12 · OCaml |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -76,7 +76,7 @@
 | Maker | Aqua Security |
 | Sub-type | 15.2 all-in-one scanner |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐36,991 · created 2019-04 · Go |
+| Maturity | Prominent · ⭐37,517 · created 2019-04 · Go |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -107,7 +107,7 @@
 | Maker | Google |
 | Sub-type | 15.2 dependency / vulnerability scanner |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐10,674 · created 2022-11 · Go |
+| Maturity | Prominent · ⭐10,880 · created 2022-11 · Go |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -129,7 +129,7 @@
 <a id="gitleaks"></a>
 ### Gitleaks
 
-**🟢 Active** — The standard secret scanner — detects hardcoded secrets (API keys, tokens, passwords) in code, git history, and diffs; runs as a pre-commit hook + CI gate.
+**⚠️ Maintenance** — The standard secret scanner — detects hardcoded secrets in code, git history, and diffs; pre-commit + CI gate. ⚠️ Now feature-complete per its maintainer: security patches only; focus shifting to Betterleaks.
 
 | | |
 |---|---|
@@ -137,7 +137,7 @@
 | Maker | Gitleaks |
 | Sub-type | 15.3 secret scanner |
 | License | MIT |
-| Maturity | Prominent · ⭐28,211 · created 2018-01 · Go |
+| Maturity | Prominent · ⭐28,851 · created 2018-01 · Go |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -167,7 +167,7 @@
 | Maker | Open Policy Agent (CNCF graduated) |
 | Sub-type | 15.4 policy engine (policy-as-code) |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐12,001 · created 2015-12 · Go |
+| Maturity | Prominent · ⭐12,122 · created 2015-12 · Go |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 

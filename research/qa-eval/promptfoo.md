@@ -8,7 +8,7 @@ site: https://promptfoo.dev
 maker: promptfoo
 license_claimed: MIT
 license_detected: MIT
-stars: 23438
+stars: 24396
 created: "2023-04"
 language: TypeScript
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "You want CI-gated prompt/agent evals plus AI red-teaming with a si
 avoid_when: "You want a hosted observability platform (Langfuse)."
 cross_links: ["§15"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # promptfoo — Deep Research Reference
 
@@ -37,8 +37,8 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/promptfoo/promptfoo · promptfoo.dev |
 | Maker | **promptfoo** |
 | License | **MIT** / MIT |
-| ⭐ / created | 23,438 · 2023-04 · TypeScript · used by OpenAI & Anthropic |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 24,396 · 2023-04 · TypeScript · used by OpenAI & Anthropic |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI." A developer-first, declarative eval + red-team tool with CLI + CI/CD. Cross-links §15 Security.
@@ -58,7 +58,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** 2023-04.
-- **Now (2026):** ⭐23k; MIT; evals + red-teaming; used by OpenAI/Anthropic.
+- **Now (2026):** ⭐24k; MIT; evals + red-teaming; used by OpenAI/Anthropic.
 - **Ahead:** more red-team plugins; agent evals.
 
 ## 6. Positioning
@@ -66,9 +66,9 @@ last_verified: "2026-07-20"
 - vs DeepEval (Pytest-metric framework), Langfuse/Phoenix (observability), Playwright (browser).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** write a promptfooconfig.yaml comparing 2 models; add assertions; run a red-team scan in CI.
+`docs-only` (2026-08-20). **TODO:** write a promptfooconfig.yaml comparing 2 models; add assertions; run a red-team scan in CI.
 
 ## 8. Sources
 - https://github.com/promptfoo/promptfoo (README) · promptfoo.dev
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

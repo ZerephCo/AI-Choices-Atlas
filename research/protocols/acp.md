@@ -3,12 +3,12 @@ name: ACP
 slug: acp
 category: protocols
 subtype: "14.3 agent ↔ editor/client"
-repo: https://github.com/zed-industries/agent-client-protocol
+repo: https://github.com/agentclientprotocol/agent-client-protocol
 site: https://agentclientprotocol.com
 maker: "Zed Industries"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 3701
+stars: 4024
 created: "2025-06"
 language: Rust
 maturity: Established
@@ -25,7 +25,7 @@ choose_when: "You want a coding agent pluggable into any ACP editor (or vice ver
 avoid_when: "You need agent-to-tools (MCP) or agent-to-agent (A2A) connectivity."
 cross_links: ["§1.2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # ACP (Agent Client Protocol) — Deep Research Reference
 
@@ -34,11 +34,11 @@ last_verified: "2026-07-20"
 | | |
 |---|---|
 | Category / sub-type | Protocols → 14.3 agent ↔ editor / client |
-| Repo / site | https://github.com/zed-industries/agent-client-protocol · agentclientprotocol.com |
-| Maker | **Zed Industries** (+ JetBrains ACP Registry) |
+| Repo / site | https://github.com/agentclientprotocol/agent-client-protocol (moved from `zed-industries/…`; old URL redirects — re-verified 2026-08-20) · agentclientprotocol.com |
+| Maker | **Zed Industries** (originator; repo now under the dedicated `agentclientprotocol` org) + JetBrains ACP Registry |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 3,701 · 2025-06 · Rust |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 4,024 · 2025-06 · Rust |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "A protocol for connecting any editor to any agent." The "LSP for AI agents" — a JSON-RPC standard so any editor/IDE can drive any agent (Claude Code, Gemini CLI, …).
@@ -59,16 +59,16 @@ last_verified: "2026-07-20"
 
 ## 6. Roadmap
 - **Was:** Zed (Jun 2025).
-- **Now (2026):** ⭐3.7k; ACP Registry (with JetBrains); multi-editor.
+- **Now (2026):** ⭐4.0k; ACP Registry (with JetBrains); multi-editor.
 - **Ahead:** more editors/agents.
 
 ## 7. Positioning
 - **ACP** — the agent↔editor quadrant: MCP (tools) · A2A (agents) · **ACP (editors)** · AG-UI (users).
 
 ## 8. Hands-on
-`docs-only` (2026-07-20). **TODO:** add Claude Code / Gemini CLI as an ACP External Agent in Zed; inspect the JSON-RPC thread.
+`docs-only` (2026-08-20). **TODO:** add Claude Code / Gemini CLI as an ACP External Agent in Zed; inspect the JSON-RPC thread.
 
 ## 9. Sources
-- https://github.com/zed-industries/agent-client-protocol · agentclientprotocol.com · zed.dev/acp
+- https://github.com/agentclientprotocol/agent-client-protocol (`zed-industries/…` redirects) · agentclientprotocol.com · zed.dev/acp
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

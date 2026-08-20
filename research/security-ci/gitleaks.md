@@ -8,13 +8,13 @@ site: https://gitleaks.io
 maker: Gitleaks
 license_claimed: MIT
 license_detected: MIT
-stars: 28211
+stars: 28851
 created: "2018-01"
 language: Go
 maturity: Prominent
-status: active
+status: maintenance
 local: true
-one_liner: "The standard secret scanner — detects hardcoded secrets (API keys, tokens, passwords) in code, git history, and diffs; runs as a pre-commit hook + CI gate."
+one_liner: "The standard secret scanner — detects hardcoded secrets in code, git history, and diffs; pre-commit + CI gate. ⚠️ Now feature-complete per its maintainer: security patches only; focus shifting to Betterleaks."
 tagline_quote: "Find secrets with Gitleaks 🔑."
 features:
   - "Scan git history, diffs, and directories for secrets (API keys, tokens, passwords)"
@@ -23,7 +23,7 @@ features:
 choose_when: "You want to block committed secrets (esp. from agent-generated code) as a pre-commit/CI gate."
 avoid_when: "You need vuln or misconfiguration scanning (pair with Semgrep or Trivy)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Gitleaks — Deep Research Reference
 
@@ -35,8 +35,8 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/gitleaks/gitleaks · gitleaks.io |
 | Maker | **Gitleaks** |
 | License | **MIT** / MIT |
-| ⭐ / created | 28,211 · 2018-01 · Go |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 28,851 · 2018-01 · Go |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Find secrets with Gitleaks." The standard secret scanner — detects hardcoded secrets in code, git history, and diffs.
@@ -57,7 +57,7 @@ last_verified: "2026-07-20"
 
 ## 6. Roadmap
 - **Was:** 2018-01.
-- **Now (2026):** ⭐28k; pre-commit + CI secret scanning.
+- **Now (2026-08):** ⭐29k; ⚠️ README WARNING: *"Gitleaks is feature complete."* — no new features, *"security patches only"*; maintainer focus shifting to **betterleaks/betterleaks**. Still the standard, stable secret-scan gate.
 - **Ahead:** more rules; accuracy.
 
 ## 7. Positioning
@@ -65,9 +65,9 @@ last_verified: "2026-07-20"
 - vs Semgrep (SAST), OSV/Trivy (deps/vulns), OPA (policy).
 
 ## 8. Hands-on
-`docs-only` (2026-07-20). **TODO:** `gitleaks detect`; add the pre-commit hook; gate in CI with a baseline.
+`docs-only` (2026-08-20). **TODO:** `gitleaks detect`; add the pre-commit hook; gate in CI with a baseline.
 
 ## 9. Sources
 - https://github.com/gitleaks/gitleaks (README) · gitleaks.io
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

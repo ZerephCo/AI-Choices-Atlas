@@ -17,11 +17,11 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [LiteLLM](#litellm) | 12.1 self-hosted AI gateway | MIT / NOASSERTION | 54,088 | Prominent | 🟢 Active | ✅ | docs-only | The dominant open-source AI gateway: call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging — Rust core + Python SDK. |
-| [Portkey Gateway](#portkey-gateway) | 12.1 self-hosted AI gateway | MIT | 12,478 | Prominent | 🟢 Active | ✅ | docs-only | A blazing-fast OSS AI gateway with integrated guardrails: route to 1,600+ LLMs and 50+ guardrails through one OpenAI-compatible API, edge-deployable. |
+| [LiteLLM](#litellm) | 12.1 self-hosted AI gateway | MIT / NOASSERTION | 56,810 | Prominent | 🟢 Active | ✅ | docs-only | The dominant open-source AI gateway: call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging — Rust core + Python SDK. |
+| [Portkey Gateway](#portkey-gateway) | 12.1 self-hosted AI gateway | MIT | 12,774 | Prominent | 🟢 Active | ✅ | docs-only | A blazing-fast OSS AI gateway with integrated guardrails: route to 1,600+ LLMs and 50+ guardrails through one OpenAI-compatible API, edge-deployable. |
 | [OpenRouter](#openrouter) | 12.2 hosted unified API | Proprietary | — | commercial | 🟢 Active | ☁️ hosted | docs-only | A hosted, commercial gateway giving one OpenAI-compatible API to 400+ models across 70+ providers, with automatic provider routing and fallbacks; pay-per-use. |
-| [RouteLLM](#routellm) | 12.3 cost/quality router | Apache-2.0 | 5,220 | Established | 🟢 Active | ✅ | docs-only | A framework for serving and evaluating LLM routers that routes each query to a strong or weak model by predicted difficulty — save cost without compromising quality (LMSYS). |
-| [claude-code-router](#claude-code-router) | 12.4 agent model router | MIT | 35,942 | Prominent | 🟢 Active | ✅ | docs-only | A local control plane that routes a coding agent (especially Claude Code) across models per scenario — including running Claude Code on non-Anthropic models. |
+| [RouteLLM](#routellm) | 12.3 cost/quality router | Apache-2.0 | 5,369 | Established | 🟢 Active | ✅ | docs-only | A framework for serving and evaluating LLM routers that routes each query to a strong or weak model by predicted difficulty — save cost without compromising quality (LMSYS). |
+| [claude-code-router](#claude-code-router) | 12.4 agent model router | MIT | 36,742 | Prominent | 🟢 Active | ✅ | docs-only | A local control plane that routes a coding agent (especially Claude Code) across models per scenario — including running Claude Code on non-Anthropic models. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
@@ -45,7 +45,7 @@
 | Maker | BerriAI |
 | Sub-type | 12.1 self-hosted AI gateway |
 | License | MIT / NOASSERTION |
-| Maturity | Prominent · ⭐54,088 · created 2023-07 · Python |
+| Maturity | Prominent · ⭐56,810 · created 2023-07 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -76,7 +76,7 @@
 | Maker | Portkey AI |
 | Sub-type | 12.1 self-hosted AI gateway |
 | License | MIT |
-| Maturity | Prominent · ⭐12,478 · created 2023-08 · TypeScript |
+| Maturity | Prominent · ⭐12,774 · created 2023-08 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -116,7 +116,7 @@
 **Features**
 - 400+ models / 70+ providers behind one OpenAI-compatible API
 - Automatic provider routing + fallbacks (uptime)
-- Pay-per-use credits (no subscription); some free-tier models
+- Pay-per-use credits (no subscription); 17 `:free` models live on the public API (checked 2026-08-20; count fluctuates — was 28+ in 2026-07)
 - Distributed low-latency infra; custom data policies
 
 **Choose it when** — You want zero-ops access to every model through one key with automatic fallbacks — great for experimentation + redundancy.
@@ -138,7 +138,7 @@
 | Maker | LMSYS |
 | Sub-type | 12.3 cost/quality router |
 | License | Apache-2.0 |
-| Maturity | Established · ⭐5,220 · created 2024-06 · Python |
+| Maturity | Established · ⭐5,369 · created 2024-06 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -169,7 +169,7 @@
 | Maker | musistudio |
 | Sub-type | 12.4 agent model router |
 | License | MIT |
-| Maturity | Prominent · ⭐35,942 · created 2025-02 · TypeScript |
+| Maturity | Prominent · ⭐36,742 · created 2025-02 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 

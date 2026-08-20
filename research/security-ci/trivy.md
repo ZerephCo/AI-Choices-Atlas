@@ -8,7 +8,7 @@ site: https://trivy.dev
 maker: "Aqua Security"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 36991
+stars: 37517
 created: "2019-04"
 language: Go
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "You want broad security coverage in one tool (vulns + misconfig + secrets + SBOM)."
 avoid_when: "You want a single precise dependency scanner (OSV) rather than a broad consolidator."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Trivy — Deep Research Reference
 
@@ -36,8 +36,8 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/aquasecurity/trivy · trivy.dev |
 | Maker | **Aqua Security** |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 36,991 · 2019-04 · Go |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 37,517 · 2019-04 · Go |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more." The all-in-one security scanner.
@@ -55,7 +55,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** 2019-04 (Aqua).
-- **Now (2026):** ⭐37k; vulns + misconfig + secrets + SBOM across many targets.
+- **Now (2026):** ⭐38k; vulns + misconfig + secrets + SBOM across many targets.
 - **Ahead:** more cloud/target coverage.
 
 ## 6. Positioning
@@ -63,9 +63,9 @@ last_verified: "2026-07-20"
 - vs OSV (precise deps), Semgrep (SAST), Gitleaks (secrets), OPA (policy).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** `trivy fs .` + `trivy image`; generate an SBOM; gate in CI.
+`docs-only` (2026-08-20). **TODO:** `trivy fs .` + `trivy image`; generate an SBOM; gate in CI.
 
 ## 8. Sources
 - https://github.com/aquasecurity/trivy (README) · trivy.dev
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

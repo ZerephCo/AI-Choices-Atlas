@@ -17,10 +17,10 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [MCP](#mcp) | 14.1 agent ↔ tools/data | NOASSERTION | 8,638 | Established | 🟢 Active | N/A | run | An open-source standard for connecting AI applications to external systems — the 'USB-C for AI'; agent to tools, data, and prompts. |
-| [A2A](#a2a) | 14.2 agent ↔ agent | Apache-2.0 | 24,908 | Prominent | 🟢 Active | N/A | docs-only | An open protocol for agent-to-agent communication between opaque agents that don't share internals; from Google, donated to the Linux Foundation. |
-| [ACP](#acp) | 14.3 agent ↔ editor/client | Apache-2.0 | 3,701 | Established | 🟢 Active | N/A | docs-only | Zed's open JSON-RPC standard to connect any editor or IDE to any agent — the 'LSP for AI agents'. |
-| [AG-UI](#ag-ui) | 14.4 agent ↔ user/frontend | MIT | 14,815 | Prominent | 🟢 Active | N/A | docs-only | CopilotKit's event-streaming protocol (HTTP/WebSocket, ~16 event types) connecting an agentic backend to a user-facing frontend for real-time, stateful UI. |
+| [MCP](#mcp) | 14.1 agent ↔ tools/data | NOASSERTION | 9,003 | Established | 🟢 Active | N/A | run | An open-source standard for connecting AI applications to external systems — the 'USB-C for AI'; agent to tools, data, and prompts. |
+| [A2A](#a2a) | 14.2 agent ↔ agent | Apache-2.0 | 25,425 | Prominent | 🟢 Active | N/A | docs-only | An open protocol for agent-to-agent communication between opaque agents that don't share internals; from Google, donated to the Linux Foundation. |
+| [ACP](#acp) | 14.3 agent ↔ editor/client | Apache-2.0 | 4,024 | Established | 🟢 Active | N/A | docs-only | Zed's open JSON-RPC standard to connect any editor or IDE to any agent — the 'LSP for AI agents'. |
+| [AG-UI](#ag-ui) | 14.4 agent ↔ user/frontend | MIT | 15,415 | Prominent | 🟢 Active | N/A | docs-only | CopilotKit's event-streaming protocol (HTTP/WebSocket, ~16 event types) connecting an agentic backend to a user-facing frontend for real-time, stateful UI. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
@@ -43,7 +43,7 @@
 | Maker | Anthropic |
 | Sub-type | 14.1 agent ↔ tools/data |
 | License | NOASSERTION |
-| Maturity | Established · ⭐8,638 · created 2024-09 |
+| Maturity | Established · ⭐9,003 · created 2024-09 |
 | Runs local | N/A |
 | Hands-on | run |
 
@@ -54,6 +54,7 @@
 - client-server; stdio + Streamable HTTP transports
 - SDKs in many languages; thousands of community servers
 - universal adoption (Claude, ChatGPT/OpenAI, Google, Microsoft, VS Code, Cursor, Zed)
+- spec 2026-07-28: opt-in extensions — Tasks (async), Skills over MCP, MCP Apps (inline UI)
 
 **Choose it when** — You want the default way to give any agent access to tools and data.
 
@@ -74,7 +75,7 @@
 | Maker | Google → Linux Foundation |
 | Sub-type | 14.2 agent ↔ agent |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐24,908 · created 2025-03 |
+| Maturity | Prominent · ⭐25,425 · created 2025-03 |
 | Runs local | N/A |
 | Hands-on | docs-only |
 
@@ -102,11 +103,11 @@
 
 | | |
 |---|---|
-| Repo | https://github.com/zed-industries/agent-client-protocol |
+| Repo | https://github.com/agentclientprotocol/agent-client-protocol |
 | Maker | Zed Industries |
 | Sub-type | 14.3 agent ↔ editor/client |
 | License | Apache-2.0 |
-| Maturity | Established · ⭐3,701 · created 2025-06 · Rust |
+| Maturity | Established · ⭐4,024 · created 2025-06 · Rust |
 | Runs local | N/A |
 | Hands-on | docs-only |
 
@@ -139,7 +140,7 @@
 | Maker | CopilotKit |
 | Sub-type | 14.4 agent ↔ user/frontend |
 | License | MIT |
-| Maturity | Prominent · ⭐14,815 · created 2025-05 · TypeScript |
+| Maturity | Prominent · ⭐15,415 · created 2025-05 · TypeScript |
 | Runs local | N/A |
 | Hands-on | docs-only |
 

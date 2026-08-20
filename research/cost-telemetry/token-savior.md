@@ -8,7 +8,7 @@ site: null
 maker: Mibayy
 license_claimed: MIT
 license_detected: MIT
-stars: 1079
+stars: 1121
 created: "2026-03"
 language: Python
 maturity: Established
@@ -24,7 +24,7 @@ choose_when: "You want to cut token cost on large codebases via structural nav +
 avoid_when: "You want spend tracking (CodeBurn/ccusage) rather than reduction."
 cross_links: ["§6", "§4"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # token-savior — Deep Research Reference
 
@@ -37,8 +37,8 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/Mibayy/token-savior |
 | Maker | **Mibayy** |
 | License | **MIT** / MIT |
-| ⭐ / created | 1,079 · 2026-03 · Python |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 1,121 · 2026-03 · Python |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "The MCP server that turns Claude into the only coding agent hitting 100% on a real benchmark. -77% active tokens, -76% wall time, 0 losses across 96 tasks on Claude Opus 4.7. Structural code navigation + persistent memory." An MCP server that cuts token spend.
@@ -66,9 +66,9 @@ last_verified: "2026-07-20"
 - vs CodeBurn/ccusage (telemetry), §6 packers/compressors, §4 memory. Complementary.
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** add the MCP server to Claude Code on a large repo; measure token/time reduction.
+`docs-only` (2026-08-20). **TODO:** add the MCP server to Claude Code on a large repo; measure token/time reduction.
 
 ## 8. Sources
 - https://github.com/Mibayy/token-savior (README)
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

@@ -8,7 +8,7 @@ site: null
 maker: Anthropic
 license_claimed: null
 license_detected: none
-stars: 162901
+stars: 170557
 created: "2025-09"
 language: Python
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "You want the reference for authoring Agent Skills plus ready-made 
 avoid_when: "You need a clear redistribution license (not surfaced by GitHub — verify first)."
 cross_links: ["§1"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # anthropics/skills — Deep Research Reference
 
@@ -37,9 +37,9 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/anthropics/skills |
 | Maker | **Anthropic** |
 | License | ⚠️ **not surfaced by GitHub API** — verify before redistributing |
-| ⭐ / created | 162,901 (exceptionally high) · 2025-09 · Python |
+| ⭐ / created | 170,557 (exceptionally high) · 2025-09 · Python |
 | Works with | Claude Code · Claude API · Claude apps |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Public repository for Agent Skills." Anthropic's official, reusable `SKILL.md`-based skills (progressive disclosure — a skill loads only when relevant), including the document skills used across Claude products.
@@ -59,7 +59,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** created 2025-09 (Anthropic).
-- **Now (2026):** ⭐162k; the reference for authoring Agent Skills + document skills.
+- **Now (2026):** ⭐171k; the reference for authoring Agent Skills + document skills.
 - **Ahead:** more official skills.
 
 ## 6. Positioning
@@ -67,9 +67,9 @@ last_verified: "2026-07-20"
 - vs Superpowers (community skills+method), Spec Kit/OpenSpec (SDD), BMAD (agile).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** study a SKILL.md; add a document skill to Claude Code; author a custom skill.
+`docs-only` (2026-08-20). **TODO:** study a SKILL.md; add a document skill to Claude Code; author a custom skill.
 
 ## 8. Sources
 - https://github.com/anthropics/skills (README) · docs.claude.com (Agent Skills)
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

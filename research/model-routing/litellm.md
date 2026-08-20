@@ -8,7 +8,7 @@ site: https://litellm.ai
 maker: BerriAI
 license_claimed: MIT
 license_detected: NOASSERTION
-stars: 54088
+stars: 56810
 created: "2023-07"
 language: Python
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "You want to unify 100+ providers behind one self-hosted OpenAI-compatible endpoint with cost/limits/fallbacks."
 avoid_when: "You want fully-hosted no-ops (OpenRouter) or pure cost/quality routing (RouteLLM)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # LiteLLM — Deep Research Reference
 
@@ -36,9 +36,9 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/BerriAI/litellm · litellm.ai |
 | Maker | **BerriAI** |
 | License | **MIT** (core) / GitHub-detected **NOASSERTION** (enterprise dir has a separate license) |
-| ⭐ / created | 54,088 · 2023-07 · Python SDK + **Rust core** · very active |
+| ⭐ / created | 56,810 · 2023-07 · Python SDK + **Rust core** · very active |
 | Providers | 100+ (Bedrock, Azure, OpenAI, Anthropic, VertexAI, vLLM, Nvidia NIM, …) |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging." The dominant open-source gateway; the multi-provider backbone under many agent tools.
@@ -57,7 +57,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** created 2023-07 (BerriAI).
-- **Now (2026):** ⭐54k; Rust core; the standard OSS gateway.
+- **Now (2026):** ⭐57k; Rust core; the standard OSS gateway.
 - **Ahead:** enterprise features; more providers.
 
 ## 6. Positioning
@@ -65,9 +65,9 @@ last_verified: "2026-07-20"
 - vs OpenRouter (hosted), Portkey (guardrails-first OSS gateway), RouteLLM (cost/quality routing), claude-code-router (agent-focused).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** run LiteLLM Proxy with 2 providers + a fallback + a budget; call it in OpenAI format.
+`docs-only` (2026-08-20). **TODO:** run LiteLLM Proxy with 2 providers + a fallback + a budget; call it in OpenAI format.
 
 ## 8. Sources
 - https://github.com/BerriAI/litellm (README) · litellm.ai
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

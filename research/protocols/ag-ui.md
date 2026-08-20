@@ -8,7 +8,7 @@ site: https://docs.ag-ui.com
 maker: CopilotKit
 license_claimed: MIT
 license_detected: MIT
-stars: 14815
+stars: 15415
 created: "2025-05"
 language: TypeScript
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "You need to connect an agentic backend to a user-facing frontend with real-time streaming."
 avoid_when: "You need agent-to-tools (MCP) or agent-to-agent (A2A) connectivity."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # AG-UI (Agent-User Interaction Protocol) — Deep Research Reference
 
@@ -36,8 +36,8 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/ag-ui-protocol/ag-ui · docs.ag-ui.com |
 | Maker | **CopilotKit** (with LangGraph, CrewAI) |
 | License | **MIT** / MIT |
-| ⭐ / created | 14,815 · 2025-05 · TypeScript |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 15,415 · 2025-05 · TypeScript |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications." An event-based protocol connecting an agentic backend to a user-facing frontend.
@@ -60,16 +60,16 @@ last_verified: "2026-07-20"
 
 ## 6. Roadmap
 - **Was:** CopilotKit (May 2025, with LangGraph/CrewAI).
-- **Now (2026):** ⭐14k; broad framework support.
+- **Now (2026):** ⭐15k; broad framework support.
 - **Ahead:** more framework adapters; richer UI events.
 
 ## 7. Positioning
 - **AG-UI** — the agent↔user quadrant: MCP (tools) · A2A (agents) · ACP (editors) · **AG-UI (users)**.
 
 ## 8. Hands-on
-`docs-only` (2026-07-20). **TODO:** wire a LangGraph/CrewAI agent to a frontend via AG-UI; stream state + a HITL event.
+`docs-only` (2026-08-20). **TODO:** wire a LangGraph/CrewAI agent to a frontend via AG-UI; stream state + a HITL event.
 
 ## 9. Sources
 - https://github.com/ag-ui-protocol/ag-ui · docs.ag-ui.com
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

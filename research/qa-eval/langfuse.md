@@ -8,7 +8,7 @@ site: https://langfuse.com
 maker: "Langfuse (YC W23)"
 license_claimed: MIT
 license_detected: NOASSERTION
-stars: 31496
+stars: 33439
 created: "2023-05"
 language: TypeScript
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "You want a full observability + prompt-management + evals platform you can self-host."
 avoid_when: "You want a pure CI eval CLI (promptfoo) or a code-metric framework (DeepEval)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Langfuse — Deep Research Reference
 
@@ -36,8 +36,8 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/langfuse/langfuse · langfuse.com |
 | Maker | **Langfuse** (YC W23) |
 | License | **MIT core** / GitHub-detected **NOASSERTION** (enterprise edition) |
-| ⭐ / created | 31,496 · 2023-05 · TypeScript |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 33,439 · 2023-05 · TypeScript |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets." Trace, evaluate, and manage prompts for LLM/agent apps; self-host or cloud.
@@ -57,7 +57,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** 2023-05 (YC W23).
-- **Now (2026):** ⭐31k; full observability + prompt-mgmt + evals.
+- **Now (2026):** ⭐33k; full observability + prompt-mgmt + evals.
 - **Ahead:** deeper agent observability; more integrations.
 
 ## 6. Positioning
@@ -65,9 +65,9 @@ last_verified: "2026-07-20"
 - vs Phoenix (OTel-native, Elastic License), promptfoo/DeepEval (eval-only), Playwright (browser).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** self-host Langfuse; instrument an agent via OTel; version a prompt + run an eval.
+`docs-only` (2026-08-20). **TODO:** self-host Langfuse; instrument an agent via OTel; version a prompt + run an eval.
 
 ## 8. Sources
 - https://github.com/langfuse/langfuse (README) · langfuse.com
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

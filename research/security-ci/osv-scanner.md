@@ -8,7 +8,7 @@ site: https://osv.dev
 maker: Google
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 10674
+stars: 10880
 created: "2022-11"
 language: Go
 maturity: Prominent
@@ -23,7 +23,7 @@ features:
 choose_when: "You want precise, open-data dependency vulnerability scanning as a CI gate."
 avoid_when: "You need SAST, secrets, or all-in-one breadth (use Semgrep, Gitleaks, or Trivy)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # OSV-Scanner — Deep Research Reference
 
@@ -35,8 +35,8 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/google/osv-scanner · osv.dev |
 | Maker | **Google** |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 10,674 · 2022-11 · Go |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 10,880 · 2022-11 · Go |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Vulnerability scanner written in Go which uses the data provided by osv.dev." The reference client for the open OSV vulnerability database.
@@ -54,7 +54,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** 2022-11 (Google).
-- **Now (2026):** ⭐10k; OSV.dev client; guided fix.
+- **Now (2026):** ⭐11k; OSV.dev client; guided fix.
 - **Ahead:** more ecosystems; remediation.
 
 ## 6. Positioning
@@ -62,9 +62,9 @@ last_verified: "2026-07-20"
 - vs Trivy (all-in-one), Semgrep (SAST), Gitleaks (secrets).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** `osv-scanner` a lockfile; try guided fix; gate it in CI.
+`docs-only` (2026-08-20). **TODO:** `osv-scanner` a lockfile; try guided fix; gate it in CI.
 
 ## 8. Sources
 - https://github.com/google/osv-scanner (README) · osv.dev
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

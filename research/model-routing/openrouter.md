@@ -19,12 +19,12 @@ tagline_quote: "The Unified Interface For LLMs."
 features:
   - "400+ models / 70+ providers behind one OpenAI-compatible API"
   - "Automatic provider routing + fallbacks (uptime)"
-  - "Pay-per-use credits (no subscription); some free-tier models"
+  - "Pay-per-use credits (no subscription); 17 `:free` models live on the public API (checked 2026-08-20; count fluctuates — was 28+ in 2026-07)"
   - "Distributed low-latency infra; custom data policies"
 choose_when: "You want zero-ops access to every model through one key with automatic fallbacks — great for experimentation + redundancy."
 avoid_when: "You need self-hosting / data-residency (LiteLLM) or a free-first tier."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # OpenRouter — Deep Research Reference
 
@@ -38,7 +38,7 @@ last_verified: "2026-07-20"
 | License | Proprietary (hosted service) |
 | Scale | **400+ models** across **70+ providers** |
 | Billing | pay-per-use credits (no subscription); some free-tier models |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "The Unified Interface For LLMs." A hosted gateway giving one OpenAI-compatible API to 400+ models across 70+ providers, with automatic provider routing + fallbacks.
@@ -68,9 +68,9 @@ last_verified: "2026-07-20"
 - vs LiteLLM (self-hosted gateway), Portkey (OSS gateway), RouteLLM (cost/quality routing), claude-code-router (agent router).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** get a key; call 2 models via the OpenAI-compatible endpoint; test provider fallback.
+`docs-only` (2026-08-20). **TODO:** get a key; call 2 models via the OpenAI-compatible endpoint; test provider fallback.
 
 ## 8. Sources
 - https://openrouter.ai (homepage, docs)
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

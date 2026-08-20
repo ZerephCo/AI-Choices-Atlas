@@ -8,7 +8,7 @@ site: null
 maker: LMSYS
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 5220
+stars: 5369
 created: "2024-06"
 language: Python
 maturity: Established
@@ -24,7 +24,7 @@ features:
 choose_when: "You want to cut cost by sending easy queries to cheap models + hard ones to strong models, with a principled threshold + eval."
 avoid_when: "You just need provider unification (LiteLLM/OpenRouter) — pair them instead."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # RouteLLM — Deep Research Reference
 
@@ -36,8 +36,8 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/lm-sys/RouteLLM |
 | Maker | **LMSYS** (the Chatbot Arena team) |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 5,220 · 2024-06 · Python |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 5,369 · 2024-06 · Python |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "A framework for serving and evaluating LLM routers — save LLM costs without compromising quality." Routes each query to a strong or weak model based on predicted difficulty.
@@ -54,10 +54,11 @@ last_verified: "2026-07-20"
 ## 4. What it is NOT / limitations
 - Not a full multi-provider gateway (a routing layer) — pair with LiteLLM/OpenRouter.
 - Research-grade framework.
+- Dormant: no pushes since 2024-08 (~2 years; research artifact, not archived — re-verified 2026-08-20). Pin versions and expect no fixes.
 
 ## 5. Roadmap
 - **Was:** created 2024-06 by LMSYS.
-- **Now (2026):** ⭐5.2k; Apache-2.0; trained routers + eval.
+- **Now (2026):** ⭐5.4k; Apache-2.0; trained routers + eval.
 - **Ahead:** better routers; integrations.
 
 ## 6. Positioning
@@ -65,9 +66,9 @@ last_verified: "2026-07-20"
 - vs LiteLLM/OpenRouter (provider unification), Portkey (gateway), claude-code-router (agent router). Complementary.
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** run the drop-in server with a strong+weak pair; tune the threshold; run the eval.
+`docs-only` (2026-08-20). **TODO:** run the drop-in server with a strong+weak pair; tune the threshold; run the eval.
 
 ## 8. Sources
 - https://github.com/lm-sys/RouteLLM (README) · LMSYS blog
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

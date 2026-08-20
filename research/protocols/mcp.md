@@ -8,7 +8,7 @@ site: https://modelcontextprotocol.io
 maker: Anthropic
 license_claimed: NOASSERTION
 license_detected: NOASSERTION
-stars: 8638
+stars: 9003
 created: "2024-09"
 language: null
 maturity: Established
@@ -21,10 +21,11 @@ features:
   - "client-server; stdio + Streamable HTTP transports"
   - "SDKs in many languages; thousands of community servers"
   - "universal adoption (Claude, ChatGPT/OpenAI, Google, Microsoft, VS Code, Cursor, Zed)"
+  - "spec 2026-07-28: opt-in extensions — Tasks (async), Skills over MCP, MCP Apps (inline UI)"
 choose_when: "You want the default way to give any agent access to tools and data."
 avoid_when: "You need agent-to-agent interop (use A2A) or a UI protocol (use AG-UI)."
 hands_on: run
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # MCP (Model Context Protocol) — Deep Research Reference
 
@@ -36,9 +37,9 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/modelcontextprotocol/modelcontextprotocol · modelcontextprotocol.io |
 | Maker | **Anthropic** (open standard) |
 | License | GitHub-detected **NOASSERTION** (MIT code + spec docs) |
-| ⭐ / created | spec repo 8,638 · 2024-09 (announced Nov 2024) · spec version **2025-11-25** |
+| ⭐ / created | spec repo 9,003 · 2024-09 (announced Nov 2024) · current spec revision **2026-07-28** (re-verified 2026-08-20) |
 | Adopters | universal (Claude, ChatGPT/OpenAI, Google, Microsoft, VS Code, Cursor, Zed) |
-| Researched | 2026-07-20 · hands-on: **run** (this atlas used MCP tools incl. Beads MCP) |
+| Researched | 2026-08-20 · hands-on: **run** (historical: the 2026-07 atlas build ran in Claude Code over MCP tools incl. the Beads MCP; no new MCP run this wave) |
 
 ## 1. What it is
 "MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems." The "USB-C for AI" — agent ↔ tools, data, and prompts.
@@ -61,16 +62,16 @@ last_verified: "2026-07-20"
 
 ## 6. Roadmap
 - **Was:** announced by Anthropic (Nov 2024).
-- **Now (2026):** the de-facto tool-connectivity standard; spec 2025-11-25; adopted by OpenAI/Google/Microsoft.
+- **Now (2026-08):** the de-facto tool-connectivity standard; current spec revision **2026-07-28** (was 2025-11-25); opt-in **extensions** — Tasks (async long-running ops), Skills over MCP, MCP Apps (inline UI); Elicitation client feature; adopted by OpenAI/Google/Microsoft.
 - **Ahead:** registry, MCP apps, auth/elicitation.
 
 ## 7. Positioning
 - **MCP** — the tools/data quadrant of the interop stack: MCP (tools) · A2A (agents) · ACP (editors) · AG-UI (users).
 
 ## 8. Hands-on
-`run` (2026-07-20) — this atlas was built in Claude Code using MCP tools (including the Beads MCP).
+`run` — retained as truthful **historical** evidence: the 2026-07 atlas build was executed in Claude Code using MCP tools (including the Beads MCP), verified 2026-07-20. This wave (2026-08-20) verified MCP via the spec site + GitHub API only; no new MCP run was performed or is claimed.
 
 ## 9. Sources
 - https://modelcontextprotocol.io/introduction · https://github.com/modelcontextprotocol/modelcontextprotocol
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

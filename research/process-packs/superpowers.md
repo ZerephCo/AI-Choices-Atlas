@@ -8,7 +8,7 @@ site: null
 maker: Jesse Vincent (obra)
 license_claimed: MIT
 license_detected: MIT
-stars: 258035
+stars: 274520
 created: "2025-10"
 language: Shell
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "You want a battle-tested methodology plus skills for Claude Code out of the box."
 avoid_when: "You are not on Claude Code (Claude-Code-centric)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Superpowers — Deep Research Reference
 
@@ -36,9 +36,9 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/obra/superpowers |
 | Maker | **Jesse Vincent (obra)** |
 | License | **MIT** / MIT |
-| ⭐ / created | 258,035 (exceptionally high) · 2025-10 · Shell |
+| ⭐ / created | 274,520 (exceptionally high) · 2025-10 · Shell |
 | Works with | Claude Code (plugin) |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "An agentic skills framework & software development methodology that works." A curated set of composable skills + a disciplined dev methodology for Claude Code, installed as a plugin.
@@ -57,7 +57,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** created 2025-10 by Jesse Vincent.
-- **Now (2026):** ⭐258k; skills + methodology plugin.
+- **Now (2026):** ⭐275k; skills + methodology plugin.
 - **Ahead:** more skills; refinement.
 
 ## 6. Positioning
@@ -65,9 +65,9 @@ last_verified: "2026-07-20"
 - vs anthropics/skills (official skills reference), Spec Kit/OpenSpec (SDD), BMAD (agile).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** install the plugin in Claude Code; run the brainstorm→plan→TDD flow on a task.
+`docs-only` (2026-08-20). **TODO:** install the plugin in Claude Code; run the brainstorm→plan→TDD flow on a task.
 
 ## 8. Sources
 - https://github.com/obra/superpowers (README)
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

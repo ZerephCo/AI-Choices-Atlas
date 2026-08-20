@@ -8,7 +8,7 @@ site: null
 maker: GitHub
 license_claimed: MIT
 license_detected: MIT
-stars: 122653
+stars: 130391
 created: "2025-08"
 language: Python
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "You want structured, spec-first development that works across agen
 avoid_when: "Lightweight prompt flows or tiny tasks where spec-first is overhead."
 cross_links: ["§5", "§1"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Spec Kit — Deep Research Reference
 
@@ -37,9 +37,9 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/github/spec-kit |
 | Maker | **GitHub** |
 | License | **MIT** / MIT |
-| ⭐ / created | 122,653 · 2025-08 · Python |
+| ⭐ / created | 130,391 · 2025-08 · Python |
 | Works with | Claude Code · GitHub Copilot · Cursor · Gemini CLI · … |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Toolkit to help you get started with Spec-Driven Development." GitHub's SDD toolkit: write an executable spec, then the agent generates a plan, tasks, and implementation.
@@ -59,7 +59,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** created 2025-08 (GitHub).
-- **Now (2026):** ⭐122k; multi-agent SDD workflow.
+- **Now (2026):** ⭐130k; multi-agent SDD workflow.
 - **Ahead:** deeper agent integration.
 
 ## 6. Positioning
@@ -67,9 +67,9 @@ last_verified: "2026-07-20"
 - vs OpenSpec (proposal-first SDD), GSD (§5, Claude Code autonomy), Kiro (§1, spec-driven IDE), BMAD (agile personas).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** `specify` a small feature; run /plan → /tasks → /implement with Claude Code.
+`docs-only` (2026-08-20). **TODO:** `specify` a small feature; run /plan → /tasks → /implement with Claude Code.
 
 ## 8. Sources
 - https://github.com/github/spec-kit (README)
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

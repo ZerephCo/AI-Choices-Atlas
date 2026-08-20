@@ -8,7 +8,7 @@ site: https://semgrep.dev
 maker: "Semgrep (formerly r2c)"
 license_claimed: LGPL-2.1
 license_detected: LGPL-2.1
-stars: 15959
+stars: 16312
 created: "2019-12"
 language: OCaml
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "You want fast, customizable SAST as a CI hard gate on agent-written code."
 avoid_when: "You only need dependency or secret scanning (use OSV/Trivy or Gitleaks)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Semgrep — Deep Research Reference
 
@@ -36,8 +36,8 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/semgrep/semgrep · semgrep.dev |
 | Maker | **Semgrep** (formerly r2c) |
 | License | **LGPL-2.1** / LGPL-2.1 |
-| ⭐ / created | 15,959 · 2019-12 · OCaml |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 16,312 · 2019-12 · OCaml |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code." A fast, customizable SAST gate.
@@ -67,9 +67,9 @@ last_verified: "2026-07-20"
 - vs OSV/Trivy (deps), Gitleaks (secrets), OPA (policy).
 
 ## 8. Hands-on
-`docs-only` (2026-07-20). **TODO:** run `semgrep --config auto` on a repo; add a custom rule; gate it in CI.
+`docs-only` (2026-08-20). **TODO:** run `semgrep --config auto` on a repo; add a custom rule; gate it in CI.
 
 ## 9. Sources
 - https://github.com/semgrep/semgrep (README) · semgrep.dev
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

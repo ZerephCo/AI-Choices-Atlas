@@ -8,7 +8,7 @@ site: https://openpolicyagent.org
 maker: "Open Policy Agent (CNCF graduated)"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 12001
+stars: 12122
 created: "2015-12"
 language: Go
 maturity: Prominent
@@ -24,7 +24,7 @@ choose_when: "You want to enforce policy-as-code as a non-bypassable gate, inclu
 avoid_when: "You need a scanner (Semgrep/Trivy/OSV/Gitleaks); OPA is a decision engine, not a scanner."
 cross_links: ["§8"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # OPA (Open Policy Agent) — Deep Research Reference
 
@@ -36,8 +36,8 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/open-policy-agent/opa · openpolicyagent.org |
 | Maker | **Open Policy Agent** (CNCF graduated) |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 12,001 · 2015-12 · Go |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 12,122 · 2015-12 · Go |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Open Policy Agent (OPA) is an open source, general-purpose policy engine." Decouple policy decisions from code using the Rego language — authorization, admission control, CI/CD gates, and agent action governance.
@@ -66,9 +66,9 @@ last_verified: "2026-07-20"
 - vs Semgrep/Trivy/OSV/Gitleaks (scanners); §8 action-governance tools build on this pattern.
 
 ## 8. Hands-on
-`docs-only` (2026-07-20). **TODO:** write a Rego policy; enforce it on a CI step or an agent tool-call decision.
+`docs-only` (2026-08-20). **TODO:** write a Rego policy; enforce it on a CI step or an agent tool-call decision.
 
 ## 9. Sources
 - https://github.com/open-policy-agent/opa (README) · openpolicyagent.org
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

@@ -8,7 +8,7 @@ site: https://skills.addy.ie
 maker: Addy Osmani
 license_claimed: MIT
 license_detected: MIT
-stars: 80373
+stars: 88685
 created: "2026-02"
 language: JavaScript
 maturity: Prominent
@@ -27,7 +27,7 @@ choose_when: "You want a broad, disciplined skills pack that pushes agents towar
 avoid_when: "You want a runtime/agent itself (this is skill content layered on a host, §1) or a narrower spec-only kit (§13.1)."
 cross_links: ["§1", "§5"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-20"
 ---
 # Agent Skills (Addy Osmani) — Deep Research Reference
 
@@ -39,9 +39,9 @@ last_verified: "2026-07-26"
 | Repo / site | https://github.com/addyosmani/agent-skills · https://skills.addy.ie |
 | Maker | **Addy Osmani** (Google Chrome) |
 | License | **MIT** / MIT |
-| ⭐ / created | **80,373** ⭐ · created 2026-02 · JavaScript · active |
+| ⭐ / created | **88,685** ⭐ · created 2026-02 · JavaScript · active |
 | Runs local | **✅** skills are local Markdown workflows / instruction files |
-| Researched | 2026-07-26 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 A **production-grade skills pack for AI coding agents**: 24 structured, Markdown-defined workflows ("skills") that make an agent follow senior-engineer best practices across the whole lifecycle — **Define → Plan → Build → Verify → Review → Ship**. Skills are step-by-step processes with checkpoints and evidence requirements, not generic prompts; they layer on top of a coding host (§1).
@@ -66,7 +66,7 @@ A **production-grade skills pack for AI coding agents**: 24 structured, Markdown
 - **Now:** active, very large following (~80k ⭐, created 2026-02, MIT).
 
 ## 6. Sources
-- https://github.com/addyosmani/agent-skills (GitHub API: 80,373 ⭐, MIT, JavaScript, created 2026-02) · README · https://skills.addy.ie
+- https://github.com/addyosmani/agent-skills (GitHub API: 88,685 ⭐, MIT, JavaScript, created 2026-02) · README · https://skills.addy.ie
 - Discovery add (2026-07-26): prominent §13.3 skills pack surfaced during the completeness sweep; not in the original corpus.
 
-_Last verified: 2026-07-26 · verdict: 🟢 active · Researcher: Claude_
+_Last verified: 2026-08-20 · verdict: 🟢 active · Researcher: Claude_
