@@ -4,11 +4,11 @@ slug: code2prompt
 category: context-reducers
 subtype: "6.2 repo/codebase packers"
 repo: https://github.com/mufeedvh/code2prompt
-site: null
+site: https://code2prompt.dev
 maker: mufeedvh
 license_claimed: MIT
 license_detected: MIT
-stars: 7486
+stars: 7604
 created: "2024-03"
 language: Rust
 maturity: Established
@@ -24,7 +24,7 @@ features:
 choose_when: "You want customizable prompt templating (Handlebars) over a packed codebase."
 avoid_when: "You want a hosted web service (gitingest) or the richest feature set + MCP (Repomix)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # code2prompt — Deep Research Reference
 
@@ -36,9 +36,9 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/mufeedvh/code2prompt |
 | Maker | **mufeedvh** |
 | License | **MIT** / MIT |
-| ⭐ / created | 7,486 · 2024-03-09 · Rust · very active |
+| ⭐ / created | 7,604 · 2024-03-09 · Rust · very active |
 | Interfaces | CLI (Rust) · SDK/library |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting."
@@ -59,7 +59,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** created Mar 2024; popular templating packer.
-- **Now (2026):** ⭐7.5k; MIT; templating + token counting; SDK.
+- **Now (2026):** ⭐7.6k; MIT; templating + token counting; SDK.
 - **Ahead:** more templates; integrations.
 
 ## 6. Positioning
@@ -67,9 +67,9 @@ last_verified: "2026-07-20"
 - vs Repomix (feature-rich + MCP), gitingest (URL), files-to-prompt (minimal), yek (speed).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** run code2prompt with a custom Handlebars template; check token counts.
+`docs-only` (2026-08-20). **TODO:** run code2prompt with a custom Handlebars template; check token counts.
 
 ## 8. Sources
 - https://github.com/mufeedvh/code2prompt (README)
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

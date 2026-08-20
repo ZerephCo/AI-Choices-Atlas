@@ -8,10 +8,10 @@ site: null
 maker: Simon Willison
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 2760
+stars: 2776
 created: "2024-03"
 language: Python
-maturity: Emerging
+maturity: Established
 status: active
 local: true
 one_liner: "Concatenate a directory full of files into a single prompt for LLMs - a minimal, composable Unix-style packer (Claude-XML/Markdown output) that pairs with the llm CLI. Apache-2.0."
@@ -23,7 +23,7 @@ features:
 choose_when: "You want a minimal, composable packer that fits a Unix pipeline with the llm CLI."
 avoid_when: "You need Tree-sitter compression, an MCP server, or a security scan (use Repomix)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # files-to-prompt — Deep Research Reference
 
@@ -35,9 +35,9 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/simonw/files-to-prompt |
 | Maker | **Simon Willison** |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 2,760 · 2024-03-22 · Python · active |
+| ⭐ / created | 2,776 · 2024-03-22 · Python · active |
 | Interfaces | CLI (Python) |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Concatenate a directory full of files into a single prompt for use with LLMs." A minimal, composable Unix-style packer from Simon Willison (pairs with his `llm` CLI).
@@ -52,11 +52,12 @@ last_verified: "2026-07-20"
 
 ## 4. What it is NOT / limitations
 - Minimal by design (no Tree-sitter compression, no MCP, no security scan).
+- Quiet repo: no pushes since 2025-02 (stable, feature-complete CLI; not archived — re-verified 2026-08-20).
 - Lossless selection; big dirs can exceed budget → filter.
 
 ## 5. Roadmap
 - **Was:** created Mar 2024 by Simon Willison (llm ecosystem).
-- **Now (2026):** ⭐2.7k; Apache-2.0; Claude-XML/Markdown output.
+- **Now (2026):** ⭐2.8k; Apache-2.0; Claude-XML/Markdown output.
 - **Ahead:** small, stable Unix tool; llm-ecosystem integration.
 
 ## 6. Positioning
@@ -64,9 +65,9 @@ last_verified: "2026-07-20"
 - vs Repomix (feature-rich), gitingest (URL), code2prompt (templating), yek (speed).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** `files-to-prompt . --cxml | llm -m claude ...` on a small dir.
+`docs-only` (2026-08-20). **TODO:** `files-to-prompt . --cxml | llm -m claude ...` on a small dir.
 
 ## 8. Sources
 - https://github.com/simonw/files-to-prompt (README) · simonwillison.net
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

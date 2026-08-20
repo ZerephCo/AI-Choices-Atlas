@@ -16,18 +16,18 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [dxkit](#dxkit) | 9.1 deterministic stop-gate | MIT | 7 | Preview | 🟢 Active | ✅ | docs-only | Deterministic stop-gate + code-graph context for AI coding agents: blocks only net-new findings, locally, with no model in the gate. |
-| [Runcap](#runcap) | 9.1 merge-eligibility gate | MIT | 9 | Preview | 🟢 Active | ✅ | docs-only | Local-first control layer for AI coding agents: caps routed spend, constrains mission scope, and requires CI replay before an AI-generated PR earns merge eligibility. |
+| [dxkit](#dxkit) | 9.1 deterministic stop-gate | MIT | 10 | Preview | 🟢 Active | ✅ | docs-only | Deterministic stop-gate + code-graph context for AI coding agents: blocks only net-new findings, locally, with no model in the gate. |
+| [Runcap](#runcap) | 9.1 merge-eligibility gate | MIT | 10 | Preview | 🟢 Active | ✅ | docs-only | Local-first control layer for AI coding agents: caps routed spend, constrains mission scope, and requires CI replay before an AI-generated PR earns merge eligibility. |
 | [ProofRail](#proofrail) | 9.2 evidence / conformance framework | Apache-2.0 | 0 | Preview | 🟢 Active | ✅ | docs-only | Vendor-neutral conformance and evidence framework for AI agent actuation control — proving protected actions are declared, mediated, bypass-tested, stoppable, and auditable. |
-| [CodeSteward](#codesteward) | 9.3 PR-gate agentic code review | Apache-2.0 | 61 | Preview | 🟢 Active | ✅ | docs-only | Self-hosted agentic code review with structural graph intelligence — a PR gate + branch stewardship that gates agent-generated (and human) PRs. |
+| [CodeSteward](#codesteward) | 9.3 PR-gate agentic code review | Apache-2.0 | 36 | Preview | 🟢 Active | ✅ | docs-only | Self-hosted agentic code review with structural graph intelligence — a PR gate + branch stewardship that gates agent-generated (and human) PRs. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
 |---|---|---|
-| [dxkit](#dxkit) | You want a deterministic, no-LLM readiness gate that only fails on regressions (great for brownfield). | Very early (⭐7, Preview); a gate + context tool, not a full harness. |
-| [Runcap](#runcap) | You want merge-eligibility earned by evidence (CI replay), not asserted by the agent. | Very early (⭐9, Preview); corpus noted a docs/code path mismatch to verify. |
+| [dxkit](#dxkit) | You want a deterministic, no-LLM readiness gate that only fails on regressions (great for brownfield). | Very early (⭐10, Preview); a gate + context tool, not a full harness. |
+| [Runcap](#runcap) | You want merge-eligibility earned by evidence (CI replay), not asserted by the agent. | Very early (⭐10, Preview); corpus noted a docs/code path mismatch to verify. |
 | [ProofRail](#proofrail) | You want to crosswalk or borrow an evidence schema for proving agent-control properties. | Experimental (⭐0); an evidence/reliance schema, not a policy gateway. |
-| [CodeSteward](#codesteward) | You want graph-aware agentic PR review as a gate / evidence provider. | Emerging (⭐61); an evidence provider more than a broad governance suite. |
+| [CodeSteward](#codesteward) | You want graph-aware agentic PR review as a gate / evidence provider. | Emerging (⭐36); an evidence provider more than a broad governance suite. |
 
 ## Tools
 
@@ -42,7 +42,7 @@
 | Maker | vyuh-labs |
 | Sub-type | 9.1 deterministic stop-gate |
 | License | MIT |
-| Maturity | Preview · ⭐7 · created 2026-04 · TypeScript |
+| Maturity | Preview · ⭐10 · created 2026-04 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -56,7 +56,7 @@
 
 **Choose it when** — You want a deterministic, no-LLM readiness gate that only fails on regressions (great for brownfield).
 
-**Avoid when** — Very early (⭐7, Preview); a gate + context tool, not a full harness.
+**Avoid when** — Very early (⭐10, Preview); a gate + context tool, not a full harness.
 
 📄 **Deep research:** [`research/proof-gates/dxkit.md`](../research/proof-gates/dxkit.md)
 
@@ -73,7 +73,7 @@
 | Maker | kirder24 |
 | Sub-type | 9.1 merge-eligibility gate |
 | License | MIT |
-| Maturity | Preview · ⭐9 · created 2026-05 · JavaScript |
+| Maturity | Preview · ⭐10 · created 2026-05 · JavaScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -86,7 +86,7 @@
 
 **Choose it when** — You want merge-eligibility earned by evidence (CI replay), not asserted by the agent.
 
-**Avoid when** — Very early (⭐9, Preview); corpus noted a docs/code path mismatch to verify.
+**Avoid when** — Very early (⭐10, Preview); corpus noted a docs/code path mismatch to verify.
 
 **Related sections:** [§2](02-orchestrators.md) · [§16](16-cost-telemetry.md)
 
@@ -137,7 +137,7 @@
 | Maker | CodeSteward |
 | Sub-type | 9.3 PR-gate agentic code review |
 | License | Apache-2.0 |
-| Maturity | Preview · ⭐61 · created 2026-07 · TypeScript |
+| Maturity | Preview · ⭐36 · created 2026-07 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -150,7 +150,7 @@
 
 **Choose it when** — You want graph-aware agentic PR review as a gate / evidence provider.
 
-**Avoid when** — Emerging (⭐61); an evidence provider more than a broad governance suite.
+**Avoid when** — Emerging (⭐36); an evidence provider more than a broad governance suite.
 
 **Related sections:** [§2](02-orchestrators.md)
 

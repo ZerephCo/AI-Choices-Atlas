@@ -16,19 +16,19 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [LangGraph](#langgraph) | 7.1 graph / stateful workflow runtime | MIT | 37,668 | Prominent | 🟢 Active | ✅ | docs-only | Low-level orchestration framework for long-running, stateful agents modeled as a graph of nodes/edges, with durable execution + checkpointing. |
-| [Google ADK](#google-adk) | 7.1 graph / stateful workflow runtime (Google) | Apache-2.0 | 20,781 | Prominent | 🟢 Active | ✅ | docs-only | Open-source, code-first Python toolkit to build, evaluate, and deploy agents; a graph-based Workflow Runtime + a Task API for agent-to-agent delegation. |
-| [LlamaIndex](#llamaindex) | 7.2 Data / RAG & agent framework | MIT | 51,108 | Prominent | 🟢 Active | ✅ | docs-only | Widely-used open-source data/RAG framework for LLM apps — ingest, index, and retrieve over your data, with agent workflows on top. Connector-rich (LlamaHub); provider- and store-agnostic. MIT. |
-| [AutoGen](#autogen) | 7.2 multi-agent conversation framework | MIT / CC-BY-4.0 | 59,838 | Prominent | ⚠️ Maintenance | ✅ | docs-only | Event-driven multi-agent conversation framework (Core / AgentChat / Extensions + Studio). Maintenance mode; successor is Microsoft Agent Framework. |
-| [MetaGPT](#metagpt) | 7.2 Multi-agent crew / conversation frameworks | MIT | 69,513 | Prominent | 🟢 Active | ✅ | docs-only | Multi-agent framework that assigns SOP-driven software roles (PM, architect, engineer, QA) to turn a one-line brief into a small project — the 'first AI software company.' |
-| [ChatDev](#chatdev) | 7.2 Multi-agent crew / conversation frameworks | Apache-2.0 | 33,822 | Prominent | 🟢 Active | ✅ | docs-only | A virtual software company of LLM agents (CEO, CTO, programmer, tester) that collaborate through a chat-driven SDLC to build small applications. Influential research framework. |
-| [Langroid](#langroid) | 7.2 Multi-agent crew / conversation frameworks | MIT | 4,086 | Established | 🟢 Active | ✅ | docs-only | Lightweight Python framework for building LLM apps from cooperating agents that message each other, use tools/functions, and share vector-store memory. A principled multi-agent model. |
-| [LazyLLM](#lazyllm) | 7.2 Multi-agent crew / conversation frameworks | Apache-2.0 | 3,855 | Established | 🟢 Active | ✅ | docs-only | Low-code Python framework for building multi-agent LLM applications — compose data flows from prototype to deployment with minimal boilerplate. |
-| [OpenAI Agents SDK](#openai-agents-sdk) | 7.2 multi-agent crew/handoff framework | MIT | 28,034 | Prominent | 🟢 Active | ✅ | docs-only | Lightweight, provider-agnostic multi-agent framework (Agents + Handoffs + Guardrails + Sessions + Tracing); production successor to Swarm. |
-| [CrewAI](#crewai) | 7.2 role/crew multi-agent framework | MIT | 55,831 | Prominent | 🟢 Active | ✅ | docs-only | Framework for orchestrating role-playing, autonomous AI agents as a crew (role/goal/backstory) that collaborate; adds Flows for event-driven control. |
-| [DSPy](#dspy) | 7.3 Declarative / self-optimizing LM framework | MIT | 36,385 | Prominent | 🟢 Active | ✅ | docs-only | Stanford's framework for 'programming, not prompting' LMs — compose typed signatures + modules into pipelines, then auto-optimize prompts/weights with optimizers. Supports RAG and agent loops. |
-| [Agno](#agno) | 7.3 full-stack platform framework | Apache-2.0 | 41,302 | Prominent | 🟢 Active | ✅ | docs-only | Full-stack framework + AgentOS runtime + web UI control plane to build, run, and manage agent platforms — own your agent stack. |
-| [PydanticAI](#pydantic-ai) | 7.3 type-safe agent framework | MIT | 18,667 | Prominent | 🟢 Active | ✅ | docs-only | Type-safe agent framework from the Pydantic team: Pydantic-validated structured outputs, dependency injection, durable execution, and Logfire observability. |
+| [LangGraph](#langgraph) | 7.1 graph / stateful workflow runtime | MIT | 40,061 | Prominent | 🟢 Active | ✅ | docs-only | Low-level orchestration framework for long-running, stateful agents modeled as a graph of nodes/edges, with durable execution + checkpointing. |
+| [Google ADK](#google-adk) | 7.1 graph / stateful workflow runtime (Google) | Apache-2.0 | 21,197 | Prominent | 🟢 Active | ✅ | docs-only | Open-source, code-first Python toolkit to build, evaluate, and deploy agents; a graph-based Workflow Runtime + a Task API for agent-to-agent delegation. |
+| [LlamaIndex](#llamaindex) | 7.2 Data / RAG & agent framework | MIT | 51,749 | Prominent | 🟢 Active | ✅ | docs-only | Widely-used open-source data/RAG framework for LLM apps — ingest, index, and retrieve over your data, with agent workflows on top. Connector-rich (LlamaHub); provider- and store-agnostic. MIT. |
+| [AutoGen](#autogen) | 7.2 multi-agent conversation framework | MIT / CC-BY-4.0 | 60,531 | Prominent | ⚠️ Maintenance | ✅ | docs-only | Event-driven multi-agent conversation framework (Core / AgentChat / Extensions + Studio). Maintenance mode; successor is Microsoft Agent Framework. |
+| [MetaGPT](#metagpt) | 7.2 Multi-agent crew / conversation frameworks | MIT | 69,900 | Prominent | 🟢 Active | ✅ | docs-only | Multi-agent framework that assigns SOP-driven software roles (PM, architect, engineer, QA) to turn a one-line brief into a small project — the 'first AI software company.' |
+| [ChatDev](#chatdev) | 7.2 Multi-agent crew / conversation frameworks | Apache-2.0 | 34,062 | Prominent | 🟢 Active | ✅ | docs-only | ChatDev 2.0 (DevAll): a zero-code multi-agent orchestration platform ('Developing Everything'); the classic chat-driven virtual-software-company framework (v1.x) lives on the chatdev1.0 maintenance branch. |
+| [Langroid](#langroid) | 7.2 Multi-agent crew / conversation frameworks | MIT | 4,101 | Established | 🟢 Active | ✅ | docs-only | Lightweight Python framework for building LLM apps from cooperating agents that message each other, use tools/functions, and share vector-store memory. A principled multi-agent model. |
+| [LazyLLM](#lazyllm) | 7.2 Multi-agent crew / conversation frameworks | Apache-2.0 | 3,870 | Established | 🟢 Active | ✅ | docs-only | Low-code Python framework for building multi-agent LLM applications — compose data flows from prototype to deployment with minimal boilerplate. |
+| [OpenAI Agents SDK](#openai-agents-sdk) | 7.2 multi-agent crew/handoff framework | MIT | 28,776 | Prominent | 🟢 Active | ✅ | docs-only | Lightweight, provider-agnostic multi-agent framework (Agents + Handoffs + Guardrails + Sessions + Tracing); production successor to Swarm. |
+| [CrewAI](#crewai) | 7.2 role/crew multi-agent framework | MIT | 57,350 | Prominent | 🟢 Active | ✅ | docs-only | Framework for orchestrating role-playing, autonomous AI agents as a crew (role/goal/backstory) that collaborate; adds Flows for event-driven control. |
+| [DSPy](#dspy) | 7.3 Declarative / self-optimizing LM framework | MIT | 37,438 | Prominent | 🟢 Active | ✅ | docs-only | Stanford's framework for 'programming, not prompting' LMs — compose typed signatures + modules into pipelines, then auto-optimize prompts/weights with optimizers. Supports RAG and agent loops. |
+| [Agno](#agno) | 7.3 full-stack platform framework | Apache-2.0 | 41,795 | Prominent | 🟢 Active | ✅ | docs-only | Full-stack framework + AgentOS runtime + web UI control plane to build, run, and manage agent platforms — own your agent stack. |
+| [PydanticAI](#pydantic-ai) | 7.3 type-safe agent framework | MIT | 19,404 | Prominent | 🟢 Active | ✅ | docs-only | Type-safe agent framework from the Pydantic team: Pydantic-validated structured outputs, dependency injection, durable execution, and Logfire observability. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
@@ -60,7 +60,7 @@
 | Maker | LangChain |
 | Sub-type | 7.1 graph / stateful workflow runtime |
 | License | MIT |
-| Maturity | Prominent · ⭐37,668 · created 2023-08 · Python (+JS) |
+| Maturity | Prominent · ⭐40,061 · created 2023-08 · Python (+JS) |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -93,7 +93,7 @@
 | Maker | Google |
 | Sub-type | 7.1 graph / stateful workflow runtime (Google) |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐20,781 · created 2025-04 · Python (+Java) |
+| Maturity | Prominent · ⭐21,197 · created 2025-04 · Python (+Java) |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -125,7 +125,7 @@
 | Maker | LlamaIndex (run-llama) |
 | Sub-type | 7.2 Data / RAG & agent framework |
 | License | MIT |
-| Maturity | Prominent · ⭐51,108 · created 2022-11 · Python |
+| Maturity | Prominent · ⭐51,749 · created 2022-11 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -158,7 +158,7 @@
 | Maker | Microsoft |
 | Sub-type | 7.2 multi-agent conversation framework |
 | License | MIT / CC-BY-4.0 |
-| Maturity | Prominent · ⭐59,838 · created 2023-08 · Python (+.NET) |
+| Maturity | Prominent · ⭐60,531 · created 2023-08 · Python (+.NET) |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -190,7 +190,7 @@
 | Maker | FoundationAgents (DeepWisdom) |
 | Sub-type | 7.2 Multi-agent crew / conversation frameworks |
 | License | MIT |
-| Maturity | Prominent · ⭐69,513 · created 2023-06 · Python |
+| Maturity | Prominent · ⭐69,900 · created 2023-06 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -215,7 +215,7 @@
 <a id="chatdev"></a>
 ### ChatDev
 
-**🟢 Active** — A virtual software company of LLM agents (CEO, CTO, programmer, tester) that collaborate through a chat-driven SDLC to build small applications. Influential research framework.
+**🟢 Active** — ChatDev 2.0 (DevAll): a zero-code multi-agent orchestration platform ('Developing Everything'); the classic chat-driven virtual-software-company framework (v1.x) lives on the chatdev1.0 maintenance branch.
 
 | | |
 |---|---|
@@ -223,17 +223,17 @@
 | Maker | OpenBMB (Tsinghua NLP) |
 | Sub-type | 7.2 Multi-agent crew / conversation frameworks |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐33,822 · created 2023-08 · Python |
+| Maturity | Prominent · ⭐34,062 · created 2023-08 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
 > *"ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration."*
 
 **Features**
-- Role agents (CEO/CTO/dev/reviewer/tester) collaborate via structured chat
-- Chat-powered SDLC: design → code → test → docs
+- ChatDev 2.0 'DevAll' (2026-01): zero-code multi-agent platform — configure agents/workflows/tasks, no coding
+- Classic v1.x: role agents (CEO/CTO/dev/reviewer/tester) via structured chat SDLC — now on the chatdev1.0 branch (maintenance)
 - Well-known research framework (~34k★)
-- Python library; Apache-2.0
+- Python; Apache-2.0; backend + frontend in 2.0
 
 **Choose it when** — You want to explore/extend chat-driven multi-agent software collaboration, or study the research pattern.
 
@@ -256,7 +256,7 @@
 | Maker | Langroid |
 | Sub-type | 7.2 Multi-agent crew / conversation frameworks |
 | License | MIT |
-| Maturity | Established · ⭐4,086 · created 2023-04 · Python |
+| Maturity | Established · ⭐4,101 · created 2023-04 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -289,7 +289,7 @@
 | Maker | LazyAGI (SenseTime lineage) |
 | Sub-type | 7.2 Multi-agent crew / conversation frameworks |
 | License | Apache-2.0 |
-| Maturity | Established · ⭐3,855 · created 2024-06 · Python |
+| Maturity | Established · ⭐3,870 · created 2024-06 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -322,7 +322,7 @@
 | Maker | OpenAI |
 | Sub-type | 7.2 multi-agent crew/handoff framework |
 | License | MIT |
-| Maturity | Prominent · ⭐28,034 · created 2025-03 · Python (+JS) |
+| Maturity | Prominent · ⭐28,776 · created 2025-03 · Python (+JS) |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -355,7 +355,7 @@
 | Maker | CrewAI, Inc. |
 | Sub-type | 7.2 role/crew multi-agent framework |
 | License | MIT |
-| Maturity | Prominent · ⭐55,831 · created 2023-10 · Python |
+| Maturity | Prominent · ⭐57,350 · created 2023-10 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -387,7 +387,7 @@
 | Maker | Stanford NLP |
 | Sub-type | 7.3 Declarative / self-optimizing LM framework |
 | License | MIT |
-| Maturity | Prominent · ⭐36,385 · created 2023-01 · Python |
+| Maturity | Prominent · ⭐37,438 · created 2023-01 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -420,7 +420,7 @@
 | Maker | Agno (formerly Phidata) |
 | Sub-type | 7.3 full-stack platform framework |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐41,302 · created 2022-05 · Python |
+| Maturity | Prominent · ⭐41,795 · created 2022-05 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -452,11 +452,11 @@
 | Maker | Pydantic |
 | Sub-type | 7.3 type-safe agent framework |
 | License | MIT |
-| Maturity | Prominent · ⭐18,667 · created 2024-06 · Python |
+| Maturity | Prominent · ⭐19,404 · created 2024-06 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
-> *"AI Agent Framework, the Pydantic way."*
+> *"How Python does AI: agents, realtime voice, image generation, embeddings."*
 
 **Features**
 - Type-safe design; Pydantic-validated structured outputs
@@ -464,6 +464,7 @@
 - Model-agnostic providers; tools + MCP
 - pydantic-graph (graph support); durable execution (Temporal/DBOS/Prefect)
 - First-class Pydantic Logfire observability
+- Broadened surface (2026): realtime voice, image generation, embeddings, web/terminal UIs
 
 **Choose it when** — Choose for production-grade, type-safe agents where validated outputs + DI + observability matter (Pydantic/FastAPI shops).
 

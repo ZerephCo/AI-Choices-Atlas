@@ -16,14 +16,14 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [LLMLingua](#llmlingua) | 6.1 prompt compressors | MIT | 6,452 | Established | 🟢 Active | ✅ | docs-only | Microsoft prompt-compression toolkit: a small LM removes non-essential tokens, compressing prompts + KV-cache up to 20x with minimal loss (LLMLingua / LongLLMLingua / LLMLingua-2). |
-| [Repomix](#repomix) | 6.2 repo/codebase packers | MIT | 27,253 | Prominent | 🟢 Active | ✅ | docs-only | Packs your entire repository into a single AI-friendly file - the feature-rich packer with Tree-sitter compression, Secretlint security, token counting, and an MCP server. MIT. |
-| [gitingest](#gitingest) | 6.2 repo/codebase packers | MIT | 15,203 | Prominent | 🟢 Active | ✅ | docs-only | Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase - the zero-install repo digest; also a CLI + Python package. MIT. |
-| [code2prompt](#code2prompt) | 6.2 repo/codebase packers | MIT | 7,486 | Established | 🟢 Active | ✅ | docs-only | Convert your codebase into a single LLM prompt with source tree, Handlebars prompt templating, and token counting - a fast Rust CLI + SDK. MIT. |
-| [files-to-prompt](#files-to-prompt) | 6.2 repo/codebase packers | Apache-2.0 | 2,760 | Emerging | 🟢 Active | ✅ | docs-only | Concatenate a directory full of files into a single prompt for LLMs - a minimal, composable Unix-style packer (Claude-XML/Markdown output) that pairs with the llm CLI. Apache-2.0. |
-| [yek](#yek) | 6.2 repo/codebase packers | MIT | 2,471 | Emerging | 🟢 Active | ✅ | docs-only | A fast Rust tool to serialize text-based files in a repository or directory for LLM consumption - git-aware, with chunking to a token budget. MIT. |
-| [RepoPrompt CE](#repoprompt-ce) | 6.2 repo/codebase packers | Apache-2.0 | 820 | Emerging | 🟢 Active | ✅ | docs-only | Free, open-source native macOS context-engineering app + agent orchestrator: assembles focused, reviewable context (files, CodeMaps, git diffs) within a token budget; MCP CLI. macOS 26+ only. |
-| [Context7](#context7) | 6.3 just-in-time context providers | MIT | 59,466 | Prominent | 🟢 Active | ☁️ hosted | docs-only | An MCP server that injects current, version-specific docs + code examples into your prompt on demand ('use context7') - fixing outdated/hallucinated APIs. Hosted; MIT. |
+| [LLMLingua](#llmlingua) | 6.1 prompt compressors | MIT | 6,585 | Established | 🟢 Active | ✅ | docs-only | Microsoft prompt-compression toolkit: a small LM removes non-essential tokens, compressing prompts + KV-cache up to 20x with minimal loss (LLMLingua / LongLLMLingua / LLMLingua-2). |
+| [Repomix](#repomix) | 6.2 repo/codebase packers | MIT | 27,963 | Prominent | 🟢 Active | ✅ | docs-only | Packs your entire repository into a single AI-friendly file - the feature-rich packer with Tree-sitter compression, Secretlint security, token counting, and an MCP server. MIT. |
+| [gitingest](#gitingest) | 6.2 repo/codebase packers | MIT | 15,323 | Prominent | 🟢 Active | ✅ | docs-only | Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase - the zero-install repo digest; also a CLI + Python package. MIT. |
+| [code2prompt](#code2prompt) | 6.2 repo/codebase packers | MIT | 7,604 | Established | 🟢 Active | ✅ | docs-only | Convert your codebase into a single LLM prompt with source tree, Handlebars prompt templating, and token counting - a fast Rust CLI + SDK. MIT. |
+| [files-to-prompt](#files-to-prompt) | 6.2 repo/codebase packers | Apache-2.0 | 2,776 | Established | 🟢 Active | ✅ | docs-only | Concatenate a directory full of files into a single prompt for LLMs - a minimal, composable Unix-style packer (Claude-XML/Markdown output) that pairs with the llm CLI. Apache-2.0. |
+| [yek](#yek) | 6.2 repo/codebase packers | MIT | 2,472 | Established | 🟢 Active | ✅ | docs-only | A fast Rust tool to serialize text-based files in a repository or directory for LLM consumption - git-aware, with chunking to a token budget. MIT. |
+| [RepoPrompt CE](#repoprompt-ce) | 6.2 repo/codebase packers | Apache-2.0 | 879 | Emerging | 🟢 Active | ✅ | docs-only | Free, open-source native macOS context-engineering app + agent orchestrator: assembles focused, reviewable context (files, CodeMaps, git diffs) within a token budget; MCP CLI. macOS 26+ only. |
+| [Context7](#context7) | 6.3 just-in-time context providers | MIT | 60,992 | Prominent | 🟢 Active | ☁️ hosted | docs-only | An MCP server that injects current, version-specific docs + code examples into your prompt on demand ('use context7') - fixing outdated/hallucinated APIs. Hosted; MIT. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
@@ -50,7 +50,7 @@
 | Maker | Microsoft |
 | Sub-type | 6.1 prompt compressors |
 | License | MIT |
-| Maturity | Established · ⭐6,452 · created 2023-07 · Python |
+| Maturity | Established · ⭐6,585 · created 2023-07 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -82,7 +82,7 @@
 | Maker | yamadashy |
 | Sub-type | 6.2 repo/codebase packers |
 | License | MIT |
-| Maturity | Prominent · ⭐27,253 · created 2024-07 · TypeScript |
+| Maturity | Prominent · ⭐27,963 · created 2024-07 · TypeScript |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -111,11 +111,11 @@
 
 | | |
 |---|---|
-| Repo | https://github.com/cyclotruc/gitingest |
-| Maker | cyclotruc |
+| Repo | https://github.com/coderamp-labs/gitingest |
+| Maker | Coderamp Labs (originally cyclotruc) |
 | Sub-type | 6.2 repo/codebase packers |
 | License | MIT |
-| Maturity | Prominent · ⭐15,203 · created 2024-11 · Python |
+| Maturity | Prominent · ⭐15,323 · created 2024-11 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -146,7 +146,7 @@
 | Maker | mufeedvh |
 | Sub-type | 6.2 repo/codebase packers |
 | License | MIT |
-| Maturity | Established · ⭐7,486 · created 2024-03 · Rust |
+| Maturity | Established · ⭐7,604 · created 2024-03 · Rust |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -177,7 +177,7 @@
 | Maker | Simon Willison |
 | Sub-type | 6.2 repo/codebase packers |
 | License | Apache-2.0 |
-| Maturity | Emerging · ⭐2,760 · created 2024-03 · Python |
+| Maturity | Established · ⭐2,776 · created 2024-03 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -203,11 +203,11 @@
 
 | | |
 |---|---|
-| Repo | https://github.com/bodo-run/yek |
-| Maker | bodo-run |
+| Repo | https://github.com/mohsen1/yek |
+| Maker | Mohsen Azimi (mohsen1; formerly bodo-run) |
 | Sub-type | 6.2 repo/codebase packers |
 | License | MIT |
-| Maturity | Emerging · ⭐2,471 · created 2025-01 · Rust |
+| Maturity | Established · ⭐2,472 · created 2025-01 · Rust |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -237,7 +237,7 @@
 | Maker | RepoPrompt |
 | Sub-type | 6.2 repo/codebase packers |
 | License | Apache-2.0 |
-| Maturity | Emerging · ⭐820 · created 2026-05 · Swift |
+| Maturity | Emerging · ⭐879 · created 2026-05 · Swift |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -268,7 +268,7 @@
 | Maker | Upstash |
 | Sub-type | 6.3 just-in-time context providers |
 | License | MIT |
-| Maturity | Prominent · ⭐59,466 · created 2025-03 · TypeScript |
+| Maturity | Prominent · ⭐60,992 · created 2025-03 · TypeScript |
 | Runs local | ☁️ hosted |
 | Hands-on | docs-only |
 

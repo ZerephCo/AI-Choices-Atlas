@@ -8,7 +8,7 @@ site: https://langchain-ai.github.io/langgraph
 maker: LangChain
 license_claimed: MIT
 license_detected: MIT
-stars: 37668
+stars: 40061
 created: "2023-08"
 language: "Python (+JS)"
 maturity: Prominent
@@ -26,7 +26,7 @@ features:
 choose_when: "Choose for complex, stateful, long-running workflows needing explicit control + durability + HITL."
 avoid_when: "Avoid for quick role-based prototypes (CrewAI) or if you want a high-level abstraction."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # LangGraph — Deep Research Reference
 
@@ -38,9 +38,9 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/langchain-ai/langgraph · langchain-ai.github.io/langgraph |
 | Maker | **LangChain** |
 | License | **MIT** / MIT |
-| ⭐ / created | 37,668 · 2023-08 · Python (+ JS) · very active |
+| ⭐ / created | 40,061 · 2023-08 · Python (+ JS) · very active |
 | Models | any (LangChain-compatible) |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Low-level orchestration framework for building, managing, and deploying long-running, stateful agents." Agents are modeled as a **graph** of nodes (steps) and edges (control flow), with durable execution.
@@ -65,7 +65,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** created 2023-08 by LangChain as the stateful-graph runtime.
-- **Now (2026):** ⭐37k; durable execution; production adoption; JS + Python.
+- **Now (2026):** ⭐40k; durable execution; production adoption; JS + Python.
 - **Ahead:** deeper durability + platform.
 
 ## 6. Positioning
@@ -73,9 +73,9 @@ last_verified: "2026-07-20"
 - vs CrewAI (high-level role crews), PydanticAI (type-safe), AutoGen (conversation), ADK (Google graph runtime).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** build a StateGraph with a checkpointer; kill mid-run to test durable resume; add a human-in-the-loop interrupt.
+`docs-only` (2026-08-20). **TODO:** build a StateGraph with a checkpointer; kill mid-run to test durable resume; add a human-in-the-loop interrupt.
 
 ## 8. Sources
 - https://github.com/langchain-ai/langgraph (README) · langchain-ai.github.io/langgraph
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

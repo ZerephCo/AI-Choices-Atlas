@@ -8,7 +8,7 @@ site: https://dspy.ai
 maker: Stanford NLP
 license_claimed: MIT
 license_detected: MIT
-stars: 36385
+stars: 37438
 created: "2023-01"
 language: Python
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "You want to systematically build and optimize LM pipelines/agents 
 avoid_when: "You want a graph/state runtime (LangGraph, §7.1) or a role-based multi-agent crew framework (§7.2)."
 cross_links: ["§7", "§11"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-20"
 ---
 # DSPy — Deep Research Reference
 
@@ -37,10 +37,10 @@ last_verified: "2026-07-26"
 | Repo / site | https://github.com/stanfordnlp/dspy · https://dspy.ai |
 | Maker | **Stanford NLP** |
 | License | **MIT** / MIT |
-| ⭐ / created | **36,385** ⭐ · created 2023-01 · Python · active |
+| ⭐ / created | **37,438** ⭐ · created 2023-01 · Python · active |
 | Access | **Free** — open-source (MIT); BYO model |
 | Runs local | **✅** provider-agnostic (local or cloud models) |
-| Researched | 2026-07-26 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 A framework for **"programming — not prompting"** language models. Instead of hand-crafting brittle prompts, you compose Python from **signatures** (typed I/O specs), **modules** (reusable components like ReAct/ChainOfThought), and **optimizers** (algorithms that automatically tune prompts and even weights). A distinct paradigm in §7 — not a graph runtime (§7.1) or a multi-agent crew (§7.2), but a declarative, self-optimizing pipeline framework.
@@ -60,7 +60,7 @@ A framework for **"programming — not prompting"** language models. Instead of 
 - Related: its optimizers pair naturally with eval (§11).
 
 ## 5. Sources
-- https://github.com/stanfordnlp/dspy (GitHub API: 36,385 ⭐, MIT, Python, created 2023-01) · https://dspy.ai
+- https://github.com/stanfordnlp/dspy (GitHub API: 37,438 ⭐, MIT, Python, created 2023-01) · https://dspy.ai
 - Discovery add (2026-07-26); satisfies the free/no-credit-card standard (open-source).
 
-_Last verified: 2026-07-26 · verdict: 🟢 active · Researcher: Claude_
+_Last verified: 2026-08-20 · verdict: 🟢 active · Researcher: Claude_

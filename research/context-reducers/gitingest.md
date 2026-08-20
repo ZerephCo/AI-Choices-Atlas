@@ -3,12 +3,12 @@ name: gitingest
 slug: gitingest
 category: context-reducers
 subtype: "6.2 repo/codebase packers"
-repo: https://github.com/cyclotruc/gitingest
+repo: https://github.com/coderamp-labs/gitingest
 site: https://gitingest.com
-maker: cyclotruc
+maker: "Coderamp Labs (originally cyclotruc)"
 license_claimed: MIT
 license_detected: MIT
-stars: 15203
+stars: 15323
 created: "2024-11"
 language: Python
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "You want the fastest zero-install path from a public GitHub URL to an LLM-ready digest."
 avoid_when: "You need a feature-rich local packer (Repomix) or private-repo packing without self-hosting."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # gitingest — Deep Research Reference
 
@@ -33,12 +33,12 @@ last_verified: "2026-07-20"
 | | |
 |---|---|
 | Category / sub-type | Context reducers → 6.2 repo packer (URL-based, zero-install) |
-| Repo / site | https://github.com/cyclotruc/gitingest · gitingest.com |
-| Maker | **cyclotruc** |
+| Repo / site | https://github.com/coderamp-labs/gitingest (moved from `cyclotruc/gitingest`; old URL redirects — re-verified 2026-08-20) · gitingest.com |
+| Maker | **Coderamp Labs** (coderamp.io; originally cyclotruc) |
 | License | **MIT** / MIT |
-| ⭐ / created | 15,203 · 2024-11-29 · Python · very active |
+| ⭐ / created | 15,323 · 2024-11-29 · Python · very active |
 | Interfaces | web (URL trick) · CLI · Python package |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase." The zero-install way to turn a repo into an LLM-ready digest.
@@ -65,9 +65,9 @@ last_verified: "2026-07-20"
 - vs Repomix (feature-rich), code2prompt (templating), files-to-prompt (minimal), yek (speed).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** swap hub→ingest on a public repo URL; then `pip install gitingest` for a private repo.
+`docs-only` (2026-08-20). **TODO:** swap hub→ingest on a public repo URL; then `pip install gitingest` for a private repo.
 
 ## 8. Sources
-- https://github.com/cyclotruc/gitingest (README) · gitingest.com
+- https://github.com/coderamp-labs/gitingest (README; `cyclotruc/gitingest` redirects) · gitingest.com
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

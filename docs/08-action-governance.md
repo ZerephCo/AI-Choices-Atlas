@@ -16,11 +16,11 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [Microsoft Agent Governance Toolkit](#microsoft-agent-governance-toolkit) | 8.1 enterprise governance toolkit | MIT | 4,867 | Emerging (preview) | 🟢 Active | ✅ | docs-only | Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10. |
-| [Cordum](#cordum) | 8.2 action firewall | BSL-1.1 / NOASSERTION | 491 | Emerging | 🟢 Active | ✅ | docs-only | The action firewall for AI agents. Enforce policy and human approval before risky tool calls, shell commands, workflows, and production changes, with auditable evidence. |
+| [Microsoft Agent Governance Toolkit](#microsoft-agent-governance-toolkit) | 8.1 enterprise governance toolkit | MIT | 6,052 | Established | 🧪 Preview | ✅ | docs-only | Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10. |
+| [Cordum](#cordum) | 8.2 action firewall | BSL-1.1 / NOASSERTION | 495 | Emerging | 🟢 Active | ✅ | docs-only | The action firewall for AI agents. Enforce policy and human approval before risky tool calls, shell commands, workflows, and production changes, with auditable evidence. |
 | [Veto](#veto) | 8.2 authorization kernel | Apache-2.0 | 14 | Preview | 🟢 Active | ✅ | docs-only | The authorization kernel for AI agents. Block, allow, or escalate agent tool calls with YAML rules — deterministic-first, LLM fallback. |
 | [OpenLeash](#openleash) | 8.2 authorization sidecar | Apache-2.0 | 14 | Preview | 🟢 Active | ✅ | docs-only | An open-source authorization layer where owners set policies, agents ask before acting, and counterparties can verify the agent was authorized. |
-| [Agent Control](#agent-control) | 8.3 runtime control plane | Apache-2.0 | 279 | Emerging | 🟢 Active | ✅ | docs-only | Centralized agent control plane for governing runtime agent behavior at scale — a central evaluator returning deny/steer/warn/log/allow decisions. |
+| [Agent Control](#agent-control) | 8.3 runtime control plane | Apache-2.0 | 295 | Emerging | 🟢 Active | ✅ | docs-only | Centralized agent control plane for governing runtime agent behavior at scale — a central evaluator returning deny/steer/warn/log/allow decisions. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
@@ -29,14 +29,14 @@
 | [Cordum](#cordum) | You want a pre-execution action firewall with human approval and auditable evidence in front of an agent's shell/tool calls. | BSL-1.1 (source-available, non-OSI) licensing is a blocker, or you need a mature, proven control plane. |
 | [Veto](#veto) | You want a simple, deterministic-first authorization kernel (YAML + LLM fallback) to embed in an agent. | You need a full control plane or firewall, or a proven tool — this is a very early kernel (⭐14, Preview). |
 | [OpenLeash](#openleash) | You need verifiable, signed authorization proofs so third parties can check an agent was allowed to act. | You need a proven, battle-tested layer — it is very early (⭐14, Preview) and still needs a bypass/outage trial. |
-| [Agent Control](#agent-control) | You want a centralized policy service (deny/steer/warn/log/allow) governing many agents at runtime. | You need proven hardening — its network/auth defaults still need hostile testing and it is emerging (⭐279). |
+| [Agent Control](#agent-control) | You want a centralized policy service (deny/steer/warn/log/allow) governing many agents at runtime. | You need proven hardening — its network/auth defaults still need hostile testing and it is emerging (⭐295). |
 
 ## Tools
 
 <a id="microsoft-agent-governance-toolkit"></a>
 ### Microsoft Agent Governance Toolkit
 
-**🟢 Active** — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.
+**🧪 Preview** — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.
 
 | | |
 |---|---|
@@ -44,7 +44,7 @@
 | Maker | Microsoft |
 | Sub-type | 8.1 enterprise governance toolkit |
 | License | MIT |
-| Maturity | Emerging (preview) · ⭐4,867 · created 2026-03 · Python |
+| Maturity | Established · ⭐6,052 · created 2026-03 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -78,7 +78,7 @@
 | Maker | Cordum |
 | Sub-type | 8.2 action firewall |
 | License | BSL-1.1 / NOASSERTION |
-| Maturity | Emerging · ⭐491 · created 2026-01 · Go |
+| Maturity | Emerging · ⭐495 · created 2026-01 · Go |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -168,7 +168,7 @@
 | Maker | Agent Control |
 | Sub-type | 8.3 runtime control plane |
 | License | Apache-2.0 |
-| Maturity | Emerging · ⭐279 · created 2026-01 · Python |
+| Maturity | Emerging · ⭐295 · created 2026-01 · Python |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -181,7 +181,7 @@
 
 **Choose it when** — You want a centralized policy service (deny/steer/warn/log/allow) governing many agents at runtime.
 
-**Avoid when** — You need proven hardening — its network/auth defaults still need hostile testing and it is emerging (⭐279).
+**Avoid when** — You need proven hardening — its network/auth defaults still need hostile testing and it is emerging (⭐295).
 
 **Related sections:** [§15](15-security-ci.md)
 

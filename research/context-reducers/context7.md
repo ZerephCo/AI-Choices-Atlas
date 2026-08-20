@@ -8,7 +8,7 @@ site: https://context7.com
 maker: Upstash
 license_claimed: MIT
 license_detected: MIT
-stars: 59466
+stars: 60992
 created: "2025-03"
 language: TypeScript
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "You want to stop the model hallucinating outdated APIs - inject current, version-correct docs on demand."
 avoid_when: "Your issue is token size (use a compressor/packer) or you need fully-offline (no hosted service)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Context7 — Deep Research Reference
 
@@ -36,9 +36,9 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/upstash/context7 · context7.com · mcp.context7.com |
 | Maker | **Upstash** |
 | License | **MIT** / MIT |
-| ⭐ / created | 59,466 · 2025-03-26 · TypeScript · very active |
+| ⭐ / created | 60,992 · 2025-03-26 · TypeScript · very active |
 | Interface | MCP server (+ CLI/Skills); hosted; free tier + API key |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Up-to-date code documentation for LLMs and AI code editors." An MCP server that injects **current, version-specific docs + code examples** into your prompt on demand — fixing outdated/hallucinated APIs.
@@ -66,7 +66,7 @@ last_verified: "2026-07-20"
 
 ## 6. Roadmap
 - **Was:** launched by Upstash (Mar 2025); MCP-native docs provider.
-- **Now (2026):** ⭐59k; MIT; 30+ clients; hosted + free tier; CLI/Skills + MCP.
+- **Now (2026):** ⭐61k; MIT; 30+ clients; hosted + free tier; CLI/Skills + MCP.
 - **Ahead:** broader library coverage; deeper editor integration.
 
 ## 7. Positioning
@@ -74,9 +74,9 @@ last_verified: "2026-07-20"
 - vs LLMLingua (compresses size), packers (pack your own repo). Complementary, not competing.
 
 ## 8. Hands-on
-`docs-only` (2026-07-20). **TODO:** add the Context7 MCP server to Claude Code; prompt "use context7" for a versioned library; compare vs no-context7.
+`docs-only` (2026-08-20). **TODO:** add the Context7 MCP server to Claude Code; prompt "use context7" for a versioned library; compare vs no-context7.
 
 ## 9. Sources
 - https://github.com/upstash/context7 (README) · context7.com · mcp.context7.com
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

@@ -8,7 +8,7 @@ site: https://e2b.dev
 maker: E2B
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 13052
+stars: 13480
 created: "2023-03"
 language: "Python/JS SDK"
 maturity: Prominent
@@ -24,7 +24,7 @@ features:
 choose_when: "You want to run agent code safely in the cloud with a clean SDK."
 avoid_when: "You need bare-metal local isolation (microsandbox) or just the microVM primitive (Firecracker)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # E2B — Deep Research Reference
 
@@ -36,9 +36,9 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/e2b-dev/E2B · e2b.dev |
 | Maker | **E2B** |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 13,052 · 2023-03 · Python/JS SDK |
+| ⭐ / created | 13,480 · 2023-03 · Python/JS SDK |
 | Isolation | Firecracker microVMs |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Open-source, secure environment with real-world tools for enterprise-grade agents." Cloud **sandboxes** purpose-built to run AI-generated code safely (Firecracker microVMs), with an SDK.
@@ -66,9 +66,9 @@ last_verified: "2026-07-20"
 - vs Daytona (sub-90ms + snapshots), Firecracker (the microVM primitive), microsandbox (local), gVisor (container kernel).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** spin up an E2B sandbox from the SDK; run agent-generated Python; inspect isolation.
+`docs-only` (2026-08-20). **TODO:** spin up an E2B sandbox from the SDK; run agent-generated Python; inspect isolation.
 
 ## 8. Sources
 - https://github.com/e2b-dev/E2B (README) · e2b.dev
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

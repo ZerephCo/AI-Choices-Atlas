@@ -23,7 +23,7 @@ features:
 choose_when: "You want a simple, deterministic-first authorization kernel (YAML + LLM fallback) to embed in an agent."
 avoid_when: "You need a full control plane or firewall, or a proven tool — this is a very early kernel (⭐14, Preview)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Veto — Deep Research Reference
 
@@ -36,7 +36,7 @@ last_verified: "2026-07-20"
 | Maker | **PlawIO** |
 | License | **Apache-2.0** / Apache-2.0 |
 | ⭐ / created | 14 · 2026-01 · TypeScript |
-| Researched | 2026-07-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8) |
+| Researched | 2026-08-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8) |
 
 ## 1. What it is
 "The authorization kernel for AI agents. Block, allow, or escalate agent tool calls with YAML rules — deterministic-first, LLM fallback." A lightweight, embeddable authorization kernel.
@@ -64,9 +64,9 @@ last_verified: "2026-07-20"
 - vs OpenLeash (signed proofs), Cordum (firewall), Agent Control (control plane), Microsoft AGT (toolkit).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** write YAML rules to block a risky tool call + escalate an ambiguous one.
+`docs-only` (2026-08-20). **TODO:** write YAML rules to block a risky tool call + escalate an ambiguous one.
 
 ## 8. Sources
 - https://github.com/PlawIO/veto (README) · ReviewedResearch.md §12.8
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

@@ -8,7 +8,7 @@ site: https://repoprompt.com
 maker: RepoPrompt
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 820
+stars: 879
 created: "2026-05"
 language: Swift
 maturity: Emerging
@@ -24,7 +24,7 @@ features:
 choose_when: "You want an interactive, native-app context builder with CodeMaps, token budgeting, and agent orchestration."
 avoid_when: "You are not on macOS 26+, or you want a headless cross-platform CLI packer (Repomix/gitingest)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # RepoPrompt CE — Deep Research Reference
 
@@ -36,9 +36,9 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/repoprompt/repoprompt-ce |
 | Maker | **RepoPrompt** (community edition of the commercial RepoPrompt app) |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 820 · 2026-05 · Swift |
+| ⭐ / created | 879 · 2026-05 · Swift |
 | Platform | **macOS 26+ only** |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Community edition of RepoPrompt: a native macOS context engineering app for AI coding agents, with an MCP CLI." A GUI to assemble focused, reviewable context (files, CodeMaps, structure, git diffs) and hand it to AI tools + CLI agents.
@@ -64,7 +64,7 @@ last_verified: "2026-07-20"
 
 ## 6. Roadmap
 - **Was:** created 2026-05 as the community edition of RepoPrompt.
-- **Now (2026):** ⭐820; Apache-2.0; Context Builder + CodeMaps + git diffs + agent orchestration; Homebrew cask.
+- **Now (2026):** ⭐879; Apache-2.0; Context Builder + CodeMaps + git diffs + agent orchestration; Homebrew cask.
 - **Ahead:** parity with the commercial app; more orchestration.
 
 ## 7. Positioning
@@ -72,9 +72,9 @@ last_verified: "2026-07-20"
 - vs Repomix (feature-rich CLI packer), code2prompt (templating), gitingest (URL), files-to-prompt (minimal), yek (fast).
 
 ## 8. Hands-on
-`docs-only` (2026-07-20). **TODO:** `brew tap repoprompt/repoprompt-ce` + `brew install --cask repoprompt-ce`; build context with CodeMaps + a git diff within a token budget; orchestrate a CLI agent.
+`docs-only` (2026-08-20). **TODO:** `brew tap repoprompt/repoprompt-ce` + `brew install --cask repoprompt-ce`; build context with CodeMaps + a git diff within a token budget; orchestrate a CLI agent.
 
 ## 9. Sources
 - https://github.com/repoprompt/repoprompt-ce (README) · repoprompt.com
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

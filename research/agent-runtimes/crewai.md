@@ -8,7 +8,7 @@ site: https://crewai.com
 maker: "CrewAI, Inc."
 license_claimed: MIT
 license_detected: MIT
-stars: 55831
+stars: 57350
 created: "2023-10"
 language: Python
 maturity: Prominent
@@ -25,7 +25,7 @@ features:
 choose_when: "Choose for fast, intuitive multi-agent setups where a team of roles fits."
 avoid_when: "Avoid if you need low-level durable state machines (LangGraph) or type-safety (PydanticAI)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # CrewAI — Deep Research Reference
 
@@ -37,9 +37,9 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/crewAIInc/crewAI · crewai.com |
 | Maker | **CrewAI, Inc.** |
 | License | **MIT** / MIT |
-| ⭐ / created | 55,831 · 2023-10 · Python · very active |
+| ⭐ / created | 57,350 · 2023-10 · Python · very active |
 | Models | any (LiteLLM) |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Framework for orchestrating role-playing, autonomous AI agents." Build a **crew** of role-based agents (role + goal + backstory) that collaborate on complex tasks; add **Flows** for event-driven precision. Built from scratch, independent of LangChain.
@@ -60,7 +60,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** created 2023-10 (role-playing crews).
-- **Now (2026):** ⭐55k; Crews + Flows; standalone.
+- **Now (2026):** ⭐57k; Crews + Flows; standalone.
 - **Ahead:** enterprise platform; Flows depth.
 
 ## 6. Positioning
@@ -68,9 +68,9 @@ last_verified: "2026-07-20"
 - vs LangGraph (low-level durable graph), PydanticAI (type-safe), AutoGen (conversation), Agno (full-stack platform).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** build a 3-role crew (sequential); then a Flow for event-driven control.
+`docs-only` (2026-08-20). **TODO:** build a 3-role crew (sequential); then a Flow for event-driven control.
 
 ## 8. Sources
 - https://github.com/crewAIInc/crewAI (README) · crewai.com
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

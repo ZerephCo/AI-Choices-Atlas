@@ -16,16 +16,16 @@
 ## Compare
 | Tool | Sub-type | License | ⭐ | Maturity | Status | Local | Hands-on | What it is |
 |---|---|---|---|---|---|---|---|---|
-| [Daytona](#daytona) | 10.1 hosted agent sandbox | NOASSERTION | 72,234 | Prominent | 🟢 Active | 🟡 partial | docs-only | Secure, elastic infrastructure for running AI-generated code: sandboxes that spin up in under 90ms, each a full isolated computer, with snapshots for persistent state. |
-| [E2B](#e2b) | 10.1 hosted agent sandbox | Apache-2.0 | 13,052 | Prominent | 🟢 Active | 🟡 partial | docs-only | Open-source cloud sandboxes (Firecracker microVMs) purpose-built to run AI-generated code safely, with an SDK (Python/JS); the sandbox layer under many agent products. |
-| [gVisor](#gvisor) | 10.2 isolation primitive (container sandbox) | Apache-2.0 | 18,815 | Prominent | 🟢 Active | ✅ | docs-only | Google's user-space kernel (runsc) that intercepts container syscalls, giving containers a strong isolation boundary (defense-in-depth) without a full VM. |
-| [Firecracker](#firecracker) | 10.2 isolation primitive (microVM) | Apache-2.0 | 35,563 | Prominent | 🟢 Active | ✅ | docs-only | AWS's open-source microVM monitor (VMM) — the isolation primitive powering AWS Lambda + Fargate and underlying many agent sandboxes (E2B, etc.). |
-| [microsandbox](#microsandbox) | 10.3 local / self-hosted microVM runtime | Apache-2.0 | 6,976 | Established | 🟢 Active | ✅ | docs-only | A self-hosted microVM runtime for running untrusted/AI-generated code locally with VM-grade isolation but fast startup. |
+| [Daytona](#daytona) | 10.1 hosted agent sandbox | AGPL-3.0 (last OSS tag v0.190.0) / none | 71,959 | Prominent | ⚠️ Caution | 🟡 partial | docs-only | Secure, elastic infrastructure for running AI-generated code: sub-90ms sandboxes with snapshots. ⚠️ The OSS repo is unmaintained since 2026-06 (core moved to a private codebase); the hosted product continues. |
+| [E2B](#e2b) | 10.1 hosted agent sandbox | Apache-2.0 | 13,480 | Prominent | 🟢 Active | 🟡 partial | docs-only | Open-source cloud sandboxes (Firecracker microVMs) purpose-built to run AI-generated code safely, with an SDK (Python/JS); the sandbox layer under many agent products. |
+| [gVisor](#gvisor) | 10.2 isolation primitive (container sandbox) | Apache-2.0 | 19,122 | Prominent | 🟢 Active | ✅ | docs-only | Google's user-space kernel (runsc) that intercepts container syscalls, giving containers a strong isolation boundary (defense-in-depth) without a full VM. |
+| [Firecracker](#firecracker) | 10.2 isolation primitive (microVM) | Apache-2.0 | 36,158 | Prominent | 🟢 Active | ✅ | docs-only | AWS's open-source microVM monitor (VMM) — the isolation primitive powering AWS Lambda + Fargate and underlying many agent sandboxes (E2B, etc.). |
+| [microsandbox](#microsandbox) | 10.3 local / self-hosted microVM runtime | Apache-2.0 | 7,798 | Established | 🟢 Active | ✅ | docs-only | A self-hosted microVM runtime for running untrusted/AI-generated code locally with VM-grade isolation but fast startup. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
 |---|---|---|
-| [Daytona](#daytona) | You want very fast, snapshot-capable sandboxes at scale (self-host or cloud). | You need a confirmed permissive license (verify) or just the microVM primitive. |
+| [Daytona](#daytona) | You want very fast, snapshot-capable hosted sandboxes at scale and accept a closed-core product (the OSS repo is frozen). | You need a maintained open-source self-host path (repo unmaintained since 2026-06; AGPL-3.0 only at the old tag) or just the microVM primitive. |
 | [E2B](#e2b) | You want to run agent code safely in the cloud with a clean SDK. | You need bare-metal local isolation (microsandbox) or just the microVM primitive (Firecracker). |
 | [gVisor](#gvisor) | You want container-level syscall isolation for untrusted/agent code without full VMs. | You need full-VM isolation (Firecracker) or run outside Linux. |
 | [Firecracker](#firecracker) | You're building the sandbox layer yourself and want proven microVM isolation. | You want a ready SDK/hosted sandbox (use E2B/Daytona) or run outside Linux/KVM. |
@@ -36,15 +36,15 @@
 <a id="daytona"></a>
 ### Daytona
 
-**🟢 Active** — Secure, elastic infrastructure for running AI-generated code: sandboxes that spin up in under 90ms, each a full isolated computer, with snapshots for persistent state.
+**⚠️ Caution** — Secure, elastic infrastructure for running AI-generated code: sub-90ms sandboxes with snapshots. ⚠️ The OSS repo is unmaintained since 2026-06 (core moved to a private codebase); the hosted product continues.
 
 | | |
 |---|---|
 | Repo | https://github.com/daytonaio/daytona |
 | Maker | Daytona |
 | Sub-type | 10.1 hosted agent sandbox |
-| License | NOASSERTION |
-| Maturity | Prominent · ⭐72,234 · created 2024-02 |
+| License | AGPL-3.0 (last OSS tag v0.190.0) / none |
+| Maturity | Prominent · ⭐71,959 · created 2024-02 |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -55,11 +55,11 @@
 - complete isolation — dedicated kernel, filesystem, network stack, vCPU, RAM, disk
 - snapshots — stateful environment snapshots for persistence across sessions
 - SDKs (Python, TypeScript, Ruby, Go, Java) + REST API + CLI
-- self-host (open-source) or cloud (app.daytona.io)
+- ⚠️ OSS repo frozen 2026-06: no further updates/fixes/releases; fork-and-build under AGPL-3.0 at tag v0.190.0 (no LICENSE at HEAD); cloud continues at app.daytona.io
 
-**Choose it when** — You want very fast, snapshot-capable sandboxes at scale (self-host or cloud).
+**Choose it when** — You want very fast, snapshot-capable hosted sandboxes at scale and accept a closed-core product (the OSS repo is frozen).
 
-**Avoid when** — You need a confirmed permissive license (verify) or just the microVM primitive.
+**Avoid when** — You need a maintained open-source self-host path (repo unmaintained since 2026-06; AGPL-3.0 only at the old tag) or just the microVM primitive.
 
 📄 **Deep research:** [`research/sandboxes/daytona.md`](../research/sandboxes/daytona.md)
 
@@ -76,7 +76,7 @@
 | Maker | E2B |
 | Sub-type | 10.1 hosted agent sandbox |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐13,052 · created 2023-03 · Python/JS SDK |
+| Maturity | Prominent · ⭐13,480 · created 2023-03 · Python/JS SDK |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -107,7 +107,7 @@
 | Maker | Google |
 | Sub-type | 10.2 isolation primitive (container sandbox) |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐18,815 · created 2018-04 · Go |
+| Maturity | Prominent · ⭐19,122 · created 2018-04 · Go |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -137,7 +137,7 @@
 | Maker | AWS |
 | Sub-type | 10.2 isolation primitive (microVM) |
 | License | Apache-2.0 |
-| Maturity | Prominent · ⭐35,563 · created 2017-10 · Rust |
+| Maturity | Prominent · ⭐36,158 · created 2017-10 · Rust |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 
@@ -163,11 +163,11 @@
 
 | | |
 |---|---|
-| Repo | https://github.com/microsandbox/microsandbox |
-| Maker | microsandbox |
+| Repo | https://github.com/superradcompany/microsandbox |
+| Maker | Super Rad Company (microsandbox) |
 | Sub-type | 10.3 local / self-hosted microVM runtime |
 | License | Apache-2.0 |
-| Maturity | Established · ⭐6,976 · created 2024-10 · Rust |
+| Maturity | Established · ⭐7,798 · created 2024-10 · Rust |
 | Runs local | ✅ |
 | Hands-on | docs-only |
 

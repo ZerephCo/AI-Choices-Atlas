@@ -8,7 +8,7 @@ site: https://docs.deepwisdom.ai/
 maker: FoundationAgents (DeepWisdom)
 license_claimed: MIT
 license_detected: MIT
-stars: 69513
+stars: 69900
 created: "2023-06"
 language: Python
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "You want to prototype SOP/role-based multi-agent software generati
 avoid_when: "You need explicit, durable control flow (use a graph runtime, §7.1) or production type-safety (§7.3)."
 cross_links: ["§7", "§1"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-20"
 ---
 # MetaGPT — Deep Research Reference
 
@@ -37,9 +37,9 @@ last_verified: "2026-07-26"
 | Repo | https://github.com/FoundationAgents/MetaGPT |
 | Maker | **FoundationAgents (DeepWisdom)** |
 | License | **MIT** / MIT |
-| ⭐ / created | **69,513** ⭐ · created 2023-06 · Python · active |
+| ⭐ / created | **69,900** ⭐ · created 2023-06 · Python · active |
 | Runs local | **✅** Python library you host (agents call their model providers) |
-| Researched | 2026-07-26 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 A **role-based multi-agent framework**: it encodes software-team **SOPs** and assigns roles (product manager, architect, engineer, QA) so a one-line requirement flows through docs → design → code → tests. Framed as the **"first AI software company"** and among the most-starred agent frameworks in existence (~70k ⭐).
@@ -59,7 +59,7 @@ A **role-based multi-agent framework**: it encodes software-team **SOPs** and as
 - Compare with the other §7 frameworks (CrewAI, AutoGen, ChatDev); it builds on the coding models behind §1.
 
 ## 5. Sources
-- https://github.com/FoundationAgents/MetaGPT (GitHub API: 69,513 ⭐, MIT, Python, created 2023-06)
+- https://github.com/FoundationAgents/MetaGPT (GitHub API: 69,900 ⭐, MIT, Python, created 2023-06)
 - InitialResearch.md (corpus "Runtimes/frameworks" list; not previously carded)
 
-_Last verified: 2026-07-26 · verdict: 🟢 active · Researcher: Claude_
+_Last verified: 2026-08-20 · verdict: 🟢 active · Researcher: Claude_

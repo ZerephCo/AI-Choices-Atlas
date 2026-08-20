@@ -8,7 +8,7 @@ site: null
 maker: Agent Control
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 279
+stars: 295
 created: "2026-01"
 language: Python
 maturity: Emerging
@@ -21,10 +21,10 @@ features:
   - "Decorators / SDK integration; decision logging"
   - "Configurable + extensible; positioned production-ready"
 choose_when: "You want a centralized policy service (deny/steer/warn/log/allow) governing many agents at runtime."
-avoid_when: "You need proven hardening — its network/auth defaults still need hostile testing and it is emerging (⭐279)."
+avoid_when: "You need proven hardening — its network/auth defaults still need hostile testing and it is emerging (⭐295)."
 cross_links: ["§15"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Agent Control — Deep Research Reference
 
@@ -36,8 +36,8 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/agentcontrol/agent-control |
 | Maker | **Agent Control** |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 279 · 2026-01 · Python |
-| Researched | 2026-07-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8) |
+| ⭐ / created | 295 · 2026-01 · Python |
+| Researched | 2026-08-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8) |
 
 ## 1. What it is
 "Centralized agent control plane for governing runtime agent behavior at scale. Configurable, extensible, and production-ready." A central evaluator/policy service returning deny/steer/warn/log/allow decisions.
@@ -52,11 +52,11 @@ last_verified: "2026-07-20"
 
 ## 4. What it is NOT / limitations
 - Corpus caveat: network/auth defaults need hostile testing.
-- Emerging (⭐279).
+- Emerging (⭐295).
 
 ## 5. Roadmap
 - **Was:** created 2026-01.
-- **Now (2026):** ⭐279; deny/steer/warn/log/allow control plane.
+- **Now (2026):** ⭐295; deny/steer/warn/log/allow control plane.
 - **Ahead:** hardening; scale.
 
 ## 6. Positioning
@@ -64,9 +64,9 @@ last_verified: "2026-07-20"
 - vs Cordum/Veto/OpenLeash (firewalls/kernels/sidecars), Microsoft AGT (toolkit), OPA (§15, general engine).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** wire an agent's actions through Agent Control; test steer/warn/deny; review decision logs.
+`docs-only` (2026-08-20). **TODO:** wire an agent's actions through Agent Control; test steer/warn/deny; review decision logs.
 
 ## 8. Sources
 - https://github.com/agentcontrol/agent-control (README) · ReviewedResearch.md §12.8
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

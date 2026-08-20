@@ -8,7 +8,7 @@ site: null
 maker: vyuh-labs
 license_claimed: MIT
 license_detected: MIT
-stars: 7
+stars: 10
 created: "2026-04"
 language: TypeScript
 maturity: Preview
@@ -22,9 +22,9 @@ features:
   - "Code-graph structural map fed to the agent loop"
   - "Local; brownfield focus"
 choose_when: "You want a deterministic, no-LLM readiness gate that only fails on regressions (great for brownfield)."
-avoid_when: "Very early (⭐7, Preview); a gate + context tool, not a full harness."
+avoid_when: "Very early (⭐10, Preview); a gate + context tool, not a full harness."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # dxkit — Deep Research Reference
 
@@ -36,8 +36,8 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/vyuh-labs/dxkit |
 | Maker | **vyuh-labs** |
 | License | **MIT** / MIT |
-| ⭐ / created | 7 · 2026-04 · TypeScript |
-| Researched | 2026-07-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8/§19) |
+| ⭐ / created | 10 · 2026-04 · TypeScript |
+| Researched | 2026-08-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8/§19) |
 
 ## 1. What it is
 "Deterministic Stop-gate and code-graph context for AI coding agents: blocks only net-new findings and gives the loop a structural map of the codebase, locally, with no model in the gate." Targets brownfield codebases.
@@ -52,12 +52,12 @@ last_verified: "2026-07-20"
 - Local; brownfield focus.
 
 ## 4. What it is NOT / limitations
-- Very early (⭐7, Preview).
+- Very early (⭐10, Preview).
 - A gate + context tool, not a full harness.
 
 ## 5. Roadmap
 - **Was:** 2026-04.
-- **Now (2026):** ⭐7; deterministic net-new stop-gate + code-graph.
+- **Now (2026):** ⭐10; deterministic net-new stop-gate + code-graph.
 - **Ahead:** hardening; adoption.
 
 ## 6. Positioning
@@ -65,9 +65,9 @@ last_verified: "2026-07-20"
 - vs Runcap (CI-replay merge gate), ProofRail (evidence schema), CodeSteward (agentic PR review).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** run dxkit as a stop-gate on a brownfield repo; confirm it ignores pre-existing findings.
+`docs-only` (2026-08-20). **TODO:** run dxkit as a stop-gate on a brownfield repo; confirm it ignores pre-existing findings.
 
 ## 8. Sources
 - https://github.com/vyuh-labs/dxkit (README) · ReviewedResearch.md §12.8/§19
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

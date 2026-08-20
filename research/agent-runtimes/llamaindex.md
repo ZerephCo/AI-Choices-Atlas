@@ -8,7 +8,7 @@ site: https://www.llamaindex.ai
 maker: LlamaIndex (run-llama)
 license_claimed: MIT
 license_detected: MIT
-stars: 51108
+stars: 51749
 created: "2022-11"
 language: Python
 maturity: Prominent
@@ -25,7 +25,7 @@ choose_when: "You're building a retrieval/RAG-heavy app or a data agent and want
 avoid_when: "You want a lightweight agent-orchestration runtime (LangGraph/CrewAI) without the data/RAG surface."
 cross_links: ["§7", "§4", "§6"]
 hands_on: docs-only
-last_verified: "2026-07-26"
+last_verified: "2026-08-20"
 ---
 # LlamaIndex — Deep Research Reference
 
@@ -37,10 +37,10 @@ last_verified: "2026-07-26"
 | Repo / site | https://github.com/run-llama/llama_index · https://www.llamaindex.ai |
 | Maker | **LlamaIndex (run-llama)** |
 | License | **MIT** / MIT (OSS core) |
-| ⭐ / created | **51,108** ⭐ · created 2022-11 · Python · active |
+| ⭐ / created | **51,749** ⭐ · created 2022-11 · Python · active |
 | Access | **Free** — MIT open-source core; optional paid LlamaCloud for hosted document parsing |
 | Runs local | **✅** provider- and store-agnostic (local models/stores possible) |
-| Researched | 2026-07-26 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 A mature, **connector-rich open-source framework for data-centric LLM apps**: ingest and index your data (documents, DBs, APIs), build **retrieval/RAG** pipelines, and layer **agent workflows** (function-calling, ReAct, multi-agent) over them. The OSS core (`llama_index`, MIT) is free; the company also offers commercial hosted document parsing (LlamaCloud).
@@ -60,7 +60,7 @@ A mature, **connector-rich open-source framework for data-centric LLM apps**: in
 - Related: overlaps memory/retrieval (§4) and context assembly (§6).
 
 ## 5. Sources
-- https://github.com/run-llama/llama_index (GitHub API: 51,108 ⭐, MIT, Python, created 2022-11) · https://www.llamaindex.ai
+- https://github.com/run-llama/llama_index (GitHub API: 51,749 ⭐, MIT, Python, created 2022-11) · https://www.llamaindex.ai
 - Discovery add (2026-07-26); satisfies the free/no-credit-card standard (MIT OSS core).
 
-_Last verified: 2026-07-26 · verdict: 🟢 active · Researcher: Claude_
+_Last verified: 2026-08-20 · verdict: 🟢 active · Researcher: Claude_

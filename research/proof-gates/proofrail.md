@@ -24,7 +24,7 @@ choose_when: "You want to crosswalk or borrow an evidence schema for proving age
 avoid_when: "Experimental (⭐0); an evidence/reliance schema, not a policy gateway."
 cross_links: ["§8"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # ProofRail — Deep Research Reference
 
@@ -37,7 +37,7 @@ last_verified: "2026-07-20"
 | Maker | **ProofRail** |
 | License | **Apache-2.0** / Apache-2.0 |
 | ⭐ / created | 0 · 2026-06 · Python |
-| Researched | 2026-07-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8) |
+| Researched | 2026-08-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8) |
 
 ## 1. What it is
 "ProofRail™ is a vendor-neutral conformance and evidence framework for AI agent actuation control." Defines how enterprises prove protected agent actions are declared, mediated, bypass-tested, stoppable, auditable, and performance-measured.
@@ -65,9 +65,9 @@ last_verified: "2026-07-20"
 - vs Runcap/dxkit (concrete gates), CodeSteward (PR review), §8 governance tools.
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** map an agent-control stack to the ProofRail properties (declared/mediated/…); identify gaps.
+`docs-only` (2026-08-20). **TODO:** map an agent-control stack to the ProofRail properties (declared/mediated/…); identify gaps.
 
 ## 8. Sources
 - https://github.com/ProofRail/proofrail (README) · ReviewedResearch.md §12.8
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

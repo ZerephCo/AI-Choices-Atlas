@@ -3,12 +3,12 @@ name: microsandbox
 slug: microsandbox
 category: sandboxes
 subtype: "10.3 local / self-hosted microVM runtime"
-repo: https://github.com/microsandbox/microsandbox
+repo: https://github.com/superradcompany/microsandbox
 site: https://microsandbox.dev
-maker: microsandbox
+maker: "Super Rad Company (microsandbox)"
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 6976
+stars: 7798
 created: "2024-10"
 language: Rust
 maturity: Established
@@ -23,7 +23,7 @@ features:
 choose_when: "You want self-hosted, local microVM isolation (data stays local)."
 avoid_when: "You want managed cloud sandboxes (E2B/Daytona)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # microsandbox — Deep Research Reference
 
@@ -32,11 +32,11 @@ last_verified: "2026-07-20"
 | | |
 |---|---|
 | Category / sub-type | Sandboxes → 10.3 local / self-hosted microVM runtime |
-| Repo / site | https://github.com/microsandbox/microsandbox · microsandbox.dev |
-| Maker | **microsandbox** |
+| Repo / site | https://github.com/superradcompany/microsandbox (moved from `microsandbox/microsandbox`; old URL redirects — re-verified 2026-08-20) · microsandbox.dev |
+| Maker | **Super Rad Company** (superradcompany org) |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 6,976 · 2024-10 · Rust |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 7,798 · 2024-10 · Rust |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Easy, fast and local-first microVM runtime." A self-hosted microVM runtime for running untrusted/AI-generated code locally with VM-grade isolation but fast startup.
@@ -50,11 +50,11 @@ last_verified: "2026-07-20"
 - SDKs; **MCP** server support.
 
 ## 4. What it is NOT / limitations
-- Younger/emerging (⭐7k); self-managed (you run the infra).
+- Younger than the incumbent primitives (⭐7.8k, Established since mid-2026); self-managed (you run the infra).
 
 ## 5. Roadmap
 - **Was:** created 2024-10.
-- **Now (2026):** ⭐7k; local-first microVMs + MCP.
+- **Now (2026):** ⭐7.8k; local-first microVMs + MCP.
 - **Ahead:** maturity; more SDKs.
 
 ## 6. Positioning
@@ -62,9 +62,9 @@ last_verified: "2026-07-20"
 - vs E2B/Daytona (managed cloud sandboxes), Firecracker/gVisor (primitives).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** run microsandbox locally; execute untrusted code in a microVM; wire the MCP server.
+`docs-only` (2026-08-20). **TODO:** run microsandbox locally; execute untrusted code in a microVM; wire the MCP server.
 
 ## 8. Sources
-- https://github.com/microsandbox/microsandbox (README) · microsandbox.dev
+- https://github.com/superradcompany/microsandbox (README; old org URL redirects) · microsandbox.dev
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

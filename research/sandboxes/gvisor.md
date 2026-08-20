@@ -8,7 +8,7 @@ site: https://gvisor.dev
 maker: Google
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 18815
+stars: 19122
 created: "2018-04"
 language: Go
 maturity: Prominent
@@ -23,7 +23,7 @@ features:
 choose_when: "You want container-level syscall isolation for untrusted/agent code without full VMs."
 avoid_when: "You need full-VM isolation (Firecracker) or run outside Linux."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # gVisor — Deep Research Reference
 
@@ -35,8 +35,8 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/google/gvisor · gvisor.dev |
 | Maker | **Google** |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 18,815 · 2018-04 · Go |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| ⭐ / created | 19,122 · 2018-04 · Go |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Application Kernel for Containers." Google's user-space kernel (runsc) that intercepts syscalls, giving containers a strong isolation boundary (defense-in-depth) without a full VM.
@@ -55,7 +55,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** open-sourced by Google (2018).
-- **Now (2026):** ⭐18k; container syscall isolation; GKE Sandbox / Cloud Run.
+- **Now (2026):** ⭐19k; container syscall isolation; GKE Sandbox / Cloud Run.
 - **Ahead:** compatibility + performance.
 
 ## 6. Positioning
@@ -63,9 +63,9 @@ last_verified: "2026-07-20"
 - vs Firecracker (full microVM — stronger isolation, more overhead), E2B/Daytona (hosted), microsandbox (local microVM).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** run a container with `runsc`; execute untrusted code; observe the syscall boundary.
+`docs-only` (2026-08-20). **TODO:** run a container with `runsc`; execute untrusted code; observe the syscall boundary.
 
 ## 8. Sources
 - https://github.com/google/gvisor (README) · gvisor.dev
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

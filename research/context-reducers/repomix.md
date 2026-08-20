@@ -8,7 +8,7 @@ site: https://repomix.com
 maker: yamadashy
 license_claimed: MIT
 license_detected: MIT
-stars: 27253
+stars: 27963
 created: "2024-07"
 language: TypeScript
 maturity: Prominent
@@ -26,7 +26,7 @@ features:
 choose_when: "You want the most feature-rich packer - compression + security scanning + token counting + MCP."
 avoid_when: "You want zero-install from a URL (gitingest) or a minimal Unix-pipe packer (files-to-prompt)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Repomix — Deep Research Reference
 
@@ -38,9 +38,9 @@ last_verified: "2026-07-20"
 | Repo / site | https://github.com/yamadashy/repomix · repomix.com |
 | Maker | **yamadashy** |
 | License | **MIT** / MIT |
-| ⭐ / created | 27,253 · 2024-07-13 · TypeScript · very active |
+| ⭐ / created | 27,963 · 2024-07-13 · TypeScript · very active |
 | Interfaces | CLI/npx · web (repomix.com) · VS Code ext · browser ext · MCP server · Docker |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Repomix packs your entire repository into a single, AI-friendly file" — perfect for feeding a codebase to LLMs (Claude, ChatGPT, Gemini, …). The most feature-rich packer.
@@ -62,10 +62,11 @@ last_verified: "2026-07-20"
 - Not a lossy compressor (it's lossless *selection* + optional Tree-sitter structural compression).
 - Big repos can still exceed budget → use globs + token counting.
 - Packs a snapshot (not live/JIT like Context7).
+- File processors (new in 2026) run arbitrary commands from the config — default-deny: *"Enabled only for local CLI runs"*, disabled for library API / MCP / hosted; review untrusted repos' configs first (re-verified 2026-08-20).
 
 ## 5. Roadmap
 - **Was:** created Jul 2024; grew into the leading repo packer.
-- **Now (2026):** ⭐27k; MIT; Tree-sitter compression + Secretlint + MCP + many interfaces.
+- **Now (2026):** ⭐28k; MIT; Tree-sitter compression + Secretlint + MCP + many interfaces.
 - **Ahead:** deeper compression; more integrations.
 
 ## 6. Positioning
@@ -73,9 +74,9 @@ last_verified: "2026-07-20"
 - vs gitingest (URL, zero-install), code2prompt (templating), files-to-prompt (minimal), yek (speed).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** `npx repomix@latest` on a repo; try Tree-sitter compression + token counts; wire the MCP server into Claude Code.
+`docs-only` (2026-08-20). **TODO:** `npx repomix@latest` on a repo; try Tree-sitter compression + token counts; wire the MCP server into Claude Code.
 
 ## 8. Sources
 - https://github.com/yamadashy/repomix (README) · repomix.com
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

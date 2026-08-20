@@ -8,7 +8,7 @@ site: null
 maker: CodeSteward
 license_claimed: Apache-2.0
 license_detected: Apache-2.0
-stars: 61
+stars: 36
 created: "2026-07"
 language: TypeScript
 maturity: Preview
@@ -21,10 +21,10 @@ features:
   - "PR gate + branch stewardship"
   - "Self-hosted"
 choose_when: "You want graph-aware agentic PR review as a gate / evidence provider."
-avoid_when: "Emerging (⭐61); an evidence provider more than a broad governance suite."
+avoid_when: "Emerging (⭐36); an evidence provider more than a broad governance suite."
 cross_links: ["§2"]
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # CodeSteward — Deep Research Reference
 
@@ -36,8 +36,8 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/Codesteward/codesteward |
 | Maker | **CodeSteward** |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | 61 · 2026-07 · TypeScript |
-| Researched | 2026-07-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8) |
+| ⭐ / created | 36 · 2026-07 · TypeScript |
+| Researched | 2026-08-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8) |
 
 ## 1. What it is
 "Agentic code review with structural graph intelligence — PR gate + branch stewardship. Self-hosted." A graph-aware PR reviewer that gates agent-generated (and human) PRs.
@@ -51,12 +51,12 @@ last_verified: "2026-07-20"
 - Self-hosted.
 
 ## 4. What it is NOT / limitations
-- Emerging (⭐61).
+- Emerging (⭐36).
 - Corpus: supports code-graph/taint **evidence** more than broad governance → best as an evidence provider.
 
 ## 5. Roadmap
 - **Was:** 2026-07.
-- **Now (2026):** ⭐61; graph-aware agentic PR gate.
+- **Now (2026):** ⭐36; graph-aware agentic PR gate.
 - **Ahead:** hardening; adoption.
 
 ## 6. Positioning
@@ -64,9 +64,9 @@ last_verified: "2026-07-20"
 - vs Runcap/dxkit (deterministic gates), ProofRail (schema), Bernstein/MartinLoop (§2, run evidence).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** self-host; gate a PR through CodeSteward; inspect the code-graph/taint evidence.
+`docs-only` (2026-08-20). **TODO:** self-host; gate a PR through CodeSteward; inspect the code-graph/taint evidence.
 
 ## 8. Sources
 - https://github.com/Codesteward/codesteward (README) · ReviewedResearch.md §12.8
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

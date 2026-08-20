@@ -8,7 +8,7 @@ site: https://openai.github.io/openai-agents-python
 maker: OpenAI
 license_claimed: MIT
 license_detected: MIT
-stars: 28034
+stars: 28776
 created: "2025-03"
 language: "Python (+JS)"
 maturity: Prominent
@@ -26,7 +26,7 @@ features:
 choose_when: "Choose for a minimal, provider-agnostic multi-agent framework with clean handoffs + built-in tracing."
 avoid_when: "Avoid if you need durable graphs (LangGraph) or a full platform (Agno)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # OpenAI Agents SDK — Deep Research Reference
 
@@ -38,9 +38,9 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/openai/openai-agents-python · openai.github.io/openai-agents-python |
 | Maker | **OpenAI** |
 | License | **MIT** / MIT |
-| ⭐ / created | 28,034 · 2025-03 · Python (+ JS) · successor to Swarm |
+| ⭐ / created | 28,776 · 2025-03 · Python (+ JS) · successor to Swarm |
 | Models | OpenAI + 100+ LLMs (via LiteLLM / any-llm) |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 "Lightweight yet powerful framework for building multi-agent workflows." OpenAI's production successor to the experimental Swarm — a few clean primitives, provider-agnostic.
@@ -64,7 +64,7 @@ last_verified: "2026-07-20"
 
 ## 5. Roadmap
 - **Was:** released Mar 2025 as the production successor to Swarm.
-- **Now (2026):** ⭐28k; MIT; handoffs + tracing + voice.
+- **Now (2026):** ⭐29k; MIT; handoffs + tracing + voice.
 - **Ahead:** deeper tools/voice; enterprise.
 
 ## 6. Positioning
@@ -72,9 +72,9 @@ last_verified: "2026-07-20"
 - vs LangGraph (durable graphs), CrewAI (role crews), Agno (full-stack platform), PydanticAI (type-safe).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** build 2 agents with a handoff + a guardrail; inspect the tracing UI; point at a non-OpenAI model via LiteLLM.
+`docs-only` (2026-08-20). **TODO:** build 2 agents with a handoff + a guardrail; inspect the tracing UI; point at a non-OpenAI model via LiteLLM.
 
 ## 8. Sources
 - https://github.com/openai/openai-agents-python (README) · openai.github.io/openai-agents-python
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

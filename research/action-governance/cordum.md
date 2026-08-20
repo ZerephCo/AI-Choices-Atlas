@@ -8,7 +8,7 @@ site: null
 maker: Cordum
 license_claimed: BSL-1.1
 license_detected: NOASSERTION
-stars: 491
+stars: 495
 created: "2026-01"
 language: Go
 maturity: Emerging
@@ -23,7 +23,7 @@ features:
 choose_when: "You want a pre-execution action firewall with human approval and auditable evidence in front of an agent's shell/tool calls."
 avoid_when: "BSL-1.1 (source-available, non-OSI) licensing is a blocker, or you need a mature, proven control plane."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # Cordum — Deep Research Reference
 
@@ -35,8 +35,8 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/cordum-io/cordum |
 | Maker | **Cordum** |
 | License | **BSL-1.1** (Business Source License — source-available, non-OSI) / GitHub-detected NOASSERTION |
-| ⭐ / created | 491 · 2026-01 · Go |
-| Researched | 2026-07-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8) |
+| ⭐ / created | 495 · 2026-01 · Go |
+| Researched | 2026-08-20 · hands-on: **docs-only** · corpus-verified (Doc 28 §12.8) |
 
 ## 1. What it is
 "The action firewall for AI agents. Enforce policy and human approval before risky tool calls, shell commands, workflows, and production changes, with auditable evidence." A central Go control plane.
@@ -52,11 +52,12 @@ last_verified: "2026-07-20"
 
 ## 4. What it is NOT / limitations
 - **BSL-1.1** license (source-available, not OSI; converts to open later) — check terms.
+- Enforcement boundary (per README, 2026-08-20): *"The wrapper is the developer/demo path; enterprise enforcement requires managed Claude settings and"* endpoint controls.
 - Corpus note: defer/reject default; operating footprint to evaluate.
 
 ## 5. Roadmap
 - **Was:** created 2026-01.
-- **Now (2026):** ⭐491; action firewall + human approval + evidence.
+- **Now (2026):** ⭐495; action firewall + human approval + evidence.
 - **Ahead:** maturity; license conversion.
 
 ## 6. Positioning
@@ -64,9 +65,9 @@ last_verified: "2026-07-20"
 - vs Veto/OpenLeash (kernels/sidecars), Agent Control (control plane), Microsoft AGT (toolkit).
 
 ## 7. Hands-on
-`docs-only` (2026-07-20). **TODO:** front an agent's shell/tool calls with Cordum; require approval on a prod change; inspect the evidence log.
+`docs-only` (2026-08-20). **TODO:** front an agent's shell/tool calls with Cordum; require approval on a prod change; inspect the evidence log.
 
 ## 8. Sources
 - https://github.com/cordum-io/cordum (README) · ReviewedResearch.md §12.8
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_

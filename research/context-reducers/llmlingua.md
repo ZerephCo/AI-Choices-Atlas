@@ -8,7 +8,7 @@ site: https://llmlingua.com
 maker: Microsoft
 license_claimed: MIT
 license_detected: MIT
-stars: 6452
+stars: 6585
 created: "2023-07"
 language: Python
 maturity: Established
@@ -25,7 +25,7 @@ features:
 choose_when: "You want to cut token cost/latency on long prompts, RAG contexts, or CoT where some redundancy is safe to drop."
 avoid_when: "Every token is load-bearing (exact code, legal text), or you want lossless selection (use a packer)."
 hands_on: docs-only
-last_verified: "2026-07-20"
+last_verified: "2026-08-20"
 ---
 # LLMLingua — Deep Research Reference
 
@@ -37,9 +37,9 @@ last_verified: "2026-07-20"
 | Repo | https://github.com/microsoft/LLMLingua · llmlingua.com |
 | Maker | **Microsoft** |
 | License | **MIT** / MIT |
-| ⭐ / created | 6,452 · 2023-07-07 · Python · EMNLP'23 / ACL'24 |
+| ⭐ / created | 6,585 · 2023-07-07 · Python · EMNLP'23 / ACL'24 |
 | Method | small LM (GPT2-small / LLaMA) scores token perplexity → removes low-information tokens |
-| Researched | 2026-07-20 · hands-on: **docs-only** |
+| Researched | 2026-08-20 · hands-on: **docs-only** |
 
 ## 1. What it is
 Prompt (and KV-cache) compression: it *"utilizes a compact, well-trained language model to identify and remove non-essential tokens,"* achieving up to **20x** compression with minimal performance loss.
@@ -67,7 +67,7 @@ Prompt (and KV-cache) compression: it *"utilizes a compact, well-trained languag
 
 ## 6. Roadmap
 - **Was:** LLMLingua (EMNLP 2023, Microsoft); LongLLMLingua + LLMLingua-2 (ACL 2024).
-- **Now (2026):** ⭐6.4k; MIT; the reference prompt-compression toolkit.
+- **Now (2026):** ⭐6.6k; MIT; the reference prompt-compression toolkit.
 - **Ahead:** faster/task-agnostic compression; RAG-stack integration.
 
 ## 7. Positioning
@@ -75,9 +75,9 @@ Prompt (and KV-cache) compression: it *"utilizes a compact, well-trained languag
 - vs packers (Repomix/gitingest — lossless selection), Context7 (JIT docs, fights staleness).
 
 ## 8. Hands-on
-`docs-only` (2026-07-20). **TODO:** `pip install llmlingua`; compress a long RAG prompt with LLMLingua-2; measure tokens + answer quality.
+`docs-only` (2026-08-20). **TODO:** `pip install llmlingua`; compress a long RAG prompt with LLMLingua-2; measure tokens + answer quality.
 
 ## 9. Sources
 - https://github.com/microsoft/LLMLingua (README) · llmlingua.com · EMNLP'23 / ACL'24 papers
 
-_Last updated: 2026-07-20 · Researcher: Claude_
+_Last updated: 2026-08-20 · Researcher: Claude_
