@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/sipyourdrink-ltd/bernstein (**formerly `chernistry/bernstein`**) · bernstein.run · PyPI `bernstein` |
 | Maker | **Sip Your Drink Ltd** (solo-maintained) |
 | License | Apache-2.0 / Apache-2.0 |
-| ⭐ / created | 706 · 2026-03 |
+| ⭐ / created | 931 · 2026-03 |
 | Platforms | Linux · macOS · **Windows (PowerShell)** |
 | Authority | outer controller (audit/lineage) — but integrity ≠ correctness |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

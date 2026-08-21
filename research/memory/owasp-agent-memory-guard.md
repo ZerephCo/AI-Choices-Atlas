@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/OWASP/www-project-agent-memory-guard · owasp.org/www-project-agent-memory-guard · PyPI `agent-memory-guard` |
 | Maintainer | **OWASP Foundation** |
 | License | Apache-2.0 / Apache-2.0 |
-| ⭐ / created | 97 (www-project repo) · 2026-02 · release **v0.2.2 (2026-05-03)** |
+| ⭐ / created | 140 (www-project repo) · 2026-02 · release **v0.2.2 (2026-05-03)** |
 | Standard | Reference impl for **OWASP Top 10 for Agentic Applications — ASI06 Memory Poisoning** |
 | Stage | OWASP **Incubator → Lab** (v1.0.0 stable targeted Q4 2026) |
 | Authority | **enforcement** (policy over memory read/write) |

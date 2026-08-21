@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/colbymchenry/codegraph |
 | Maker | **colbymchenry** |
 | License | **MIT** / MIT |
-| ⭐ / created | 61,125 · 2026-01 · TypeScript · v1.0 (signed/attested builds; npm provenance) |
+| ⭐ / created | 67,073 · 2026-01 · TypeScript · v1.0 (signed/attested builds; npm provenance) |
 | Backends/agents | Claude Code · Cursor · Codex CLI · opencode · Hermes Agent · Gemini CLI · Antigravity IDE · Kiro |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

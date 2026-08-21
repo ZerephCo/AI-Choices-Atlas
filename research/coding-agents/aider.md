@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/Aider-AI/aider · aider.chat |
 | Maker | **Aider-AI** (Paul Gauthier + community) |
 | License | **Apache-2.0** / Apache-2.0 (open source) |
-| ⭐ / created | 47,533 · 2023-05-09 · Python · very active |
+| ⭐ / created | 48,324 · 2023-05-09 · Python · very active |
 | Model | **any LLM via LiteLLM** — Claude, GPT/o1/o3, DeepSeek, Gemini, + local models |
 | Auth | API key per provider (anthropic / openai / deepseek / …); any LiteLLM-compatible provider |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

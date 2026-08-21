@@ -35,7 +35,7 @@ last_verified: "2026-08-19"
 | Repo / paper | https://github.com/agiresearch/A-mem · arXiv:2502.12110 (v7) |
 | Maker | **agiresearch** (academic) |
 | License | MIT / MIT |
-| ⭐ / created | 1,116 · 2025-02-25 · **last push 2025-12-12 (slowing)** |
+| ⭐ / created | 1,151 · 2025-02-25 · **last push 2025-12-12 (slowing)** |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

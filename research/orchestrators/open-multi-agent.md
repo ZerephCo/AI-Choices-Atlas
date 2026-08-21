@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Category / sub-type | Orchestrators → orchestration **library** (runtime task DAG) |
 | Repo / site | https://github.com/open-multi-agent/open-multi-agent · open-multi-agent.com |
 | License | MIT / MIT |
-| ⭐ / created | 6,620 · 2026-03 (launched **2026-04-01**) |
+| ⭐ / created | 6,792 · 2026-03 (launched **2026-04-01**) |
 | Architecture | TypeScript library (Node); coordinator → runtime task DAG → parallel exec → typed result; deterministic scheduler; **3 runtime dependencies** |
 | Authority | caller-owned (no separate work-truth DB) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

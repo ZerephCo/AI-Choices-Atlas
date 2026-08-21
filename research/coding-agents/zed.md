@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/zed-industries/zed · zed.dev |
 | Maker | **Zed Industries** (Nathan Sobo et al. — creators of Atom & Tree-sitter) |
 | License | **GPL-3.0-or-later (primary) + Apache-2.0 + AGPL-3.0** / GitHub-detected **NOASSERTION** (copyleft aggregate; not permissive) |
-| ⭐ / created | 87,269 · 2021-02-20 · Rust · very active (open-sourced Jan 2024) |
+| ⭐ / created | 88,866 · 2021-02-20 · Rust · very active (open-sourced Jan 2024) |
 | Model | any provider (Anthropic / OpenAI / Google / **Ollama local**) + Zed hosted (Zed Pro); External Agents own model selection |
 | Interfaces | native desktop (macOS / Linux / Windows) — **Web not yet available** |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

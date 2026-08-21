@@ -20,7 +20,7 @@
 | [MCP](#mcp) | 14.1 agent ↔ tools/data | NOASSERTION | 9,003 | Established | 🟢 Active | N/A | run | An open-source standard for connecting AI applications to external systems — the 'USB-C for AI'; agent to tools, data, and prompts. |
 | [A2A](#a2a) | 14.2 agent ↔ agent | Apache-2.0 | 25,425 | Prominent | 🟢 Active | N/A | docs-only | An open protocol for agent-to-agent communication between opaque agents that don't share internals; from Google, donated to the Linux Foundation. |
 | [ACP](#acp) | 14.3 agent ↔ editor/client | Apache-2.0 | 4,024 | Established | 🟢 Active | N/A | docs-only | Zed's open JSON-RPC standard to connect any editor or IDE to any agent — the 'LSP for AI agents'. |
-| [AG-UI](#ag-ui) | 14.4 agent ↔ user/frontend | MIT | 15,415 | Prominent | 🟢 Active | N/A | docs-only | CopilotKit's event-streaming protocol (HTTP/WebSocket, ~16 event types) connecting an agentic backend to a user-facing frontend for real-time, stateful UI. |
+| [AG-UI](#ag-ui) | 14.4 agent ↔ user/frontend | MIT | 15,442 | Prominent | 🟢 Active | N/A | docs-only | CopilotKit's event-streaming protocol (HTTP/WebSocket, ~16 event types) connecting an agentic backend to a user-facing frontend for real-time, stateful UI. |
 
 ## Decide — pick by need
 | Tool | ✅ Choose it when | ⛔ Avoid when |
@@ -140,7 +140,7 @@
 | Maker | CopilotKit |
 | Sub-type | 14.4 agent ↔ user/frontend |
 | License | MIT |
-| Maturity | Prominent · ⭐15,415 · created 2025-05 · TypeScript |
+| Maturity | Prominent · ⭐15,442 · created 2025-05 · Python |
 | Runs local | N/A |
 | Hands-on | docs-only |
 

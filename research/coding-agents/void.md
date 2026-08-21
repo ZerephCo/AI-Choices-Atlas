@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/voideditor/void · https://voideditor.com |
 | Maker | **Void** (Glass Devtools) |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | **28,878** ⭐ · created 2024-09 · TypeScript · **⚰️ archived (read-only)** |
+| ⭐ / created | **28,833** ⭐ · created 2024-09 · TypeScript · **⚰️ archived (read-only)** |
 | Access | **Free** — open-source; supports local models ($0) |
 | Runs local | **✅** can run with local models |
 | Researched | 2026-07-26 · hands-on: **docs-only** |

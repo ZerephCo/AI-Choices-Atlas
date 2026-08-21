@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/MinishLab/semble |
 | Maker | **MinishLab** (also makes **Model2Vec** — fast static embeddings) |
 | License | MIT / MIT |
-| ⭐ / created | 5,654 · 2026-04-06 (pushed 2026-07-17) |
+| ⭐ / created | 5,906 · 2026-04-06 (pushed 2026-07-17) |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

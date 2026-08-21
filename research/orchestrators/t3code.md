@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/pingdotgg/t3code · https://t3.codes |
 | Maker | **Ping (pingdotgg)** — Theo Browne's company |
 | License | **MIT** / MIT |
-| ⭐ / created | **14,827** ⭐ · 3,255 forks · created 2026-02 · TypeScript · pushed 2026-07-25 (active) |
+| ⭐ / created | **19,444** ⭐ · 3,255 forks · created 2026-02 · TypeScript · pushed 2026-07-25 (active) |
 | Release | **v0.0.28** (2026-06-29) — early / pre-1.0 |
 | Runs local | **🟡 partial** — local desktop app + CLI, but drives cloud agent providers (your code goes to them); optional remote access |
 | Researched | 2026-07-25 · hands-on: **docs-only** |

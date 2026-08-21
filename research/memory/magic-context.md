@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / docs | https://github.com/cortexkit/magic-context · docs.cortexkit.io/magic-context |
 | Maker | **CortexKit** |
 | License | **MIT** / MIT |
-| ⭐ / created | 1,404 · 2026-03 · TypeScript |
+| ⭐ / created | 1,799 · 2026-03 · TypeScript |
 | Clients | **OpenCode** · **Pi** (≥0.74.0) — shared DB across harnesses; desktop app |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

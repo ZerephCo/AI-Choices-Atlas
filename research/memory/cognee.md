@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Maker | **topoteretes** (GitHub org); active Discord + r/AIMemory community |
 | License | Apache-2.0 *(GitHub facts confirmed in-session — see §Facts)* |
 | Language | Python 3.10–3.14 (also Rust + TS clients) |
-| ⭐ / created | **28,535** · 2023-08-16 (active — pushed 2026-07-19) |
+| ⭐ / created | **30,118** · 2023-08-16 (active — pushed 2026-07-19) |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/code-yeongyu/oh-my-openagent (formerly `oh-my-opencode`) |
 | Maker | **code-yeongyu** |
 | License | GitHub-detected **NOASSERTION** (verify) |
-| ⭐ / created | 66,222 · 2025-12-03 · TypeScript · very active |
+| ⭐ / created | 68,100 · 2025-12-03 · TypeScript · very active |
 | Backends | Codex · OpenCode |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

@@ -35,7 +35,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/huisezhiyin/sdd-riper |
 | Maker | **huisezhiyin** |
 | License | ⚠️ **none declared** (verify reuse rights) |
-| ⭐ / created | 307 · 2026-02-25 · Python |
+| ⭐ / created | 321 · 2026-02-25 · Python |
 | Backends | strong coding agents (Claude Code, etc.) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

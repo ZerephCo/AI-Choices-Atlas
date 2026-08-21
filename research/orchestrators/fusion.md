@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/Runfusion/Fusion · runfusion.ai · npm `@runfusion/fusion` |
 | Maker | **Runfusion** |
 | License | MIT / MIT |
-| ⭐ / created | 987 · 2026-04 · "early preview, shipping weekly" |
+| ⭐ / created | 1,135 · 2026-04 · "early preview, shipping weekly" |
 | Storage | **PostgreSQL** (embedded zero-config; SQLite migration; multi-project) |
 | Authority | outer controller (but authority semantics not established — see caveats) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

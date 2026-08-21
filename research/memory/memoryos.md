@@ -35,7 +35,7 @@ last_verified: "2026-08-19"
 | Repo / paper | https://github.com/BAI-LAB/MemoryOS · arXiv:2506.06326 |
 | Maker | **BAI-LAB** (academic) |
 | License | Apache-2.0 / Apache-2.0 |
-| ⭐ / created | 1,517 · 2025-05-30 (pushed 2026-07-07) |
+| ⭐ / created | 1,556 · 2025-05-30 (pushed 2026-07-07) |
 | Publication | **EMNLP 2025 Oral** ("Memory OS of AI Agent") |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

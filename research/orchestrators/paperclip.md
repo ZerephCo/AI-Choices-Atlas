@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/paperclipai/paperclip (branch **`master`**) · paperclip.ing |
 | Maker | **Paperclip Labs, Inc** |
 | License | MIT / MIT (© 2026 Paperclip Labs) |
-| ⭐ / created | **74,229** · 2026-03 (a top-starred agent tool) |
+| ⭐ / created | **78,839** · 2026-03 (a top-starred agent tool) |
 | Stack | Node.js 20+ · pnpm 9.15+ · **embedded PostgreSQL** (local) or external Postgres (prod); local + auth modes |
 | Authority | outer controller (company/task DB) — **not** code-review authority |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/openai/codex |
 | Maker | **OpenAI** |
 | License | **Apache-2.0** / Apache-2.0 (open source) |
-| ⭐ / created | 99,895 · 2025-04 · **v0.120.x** (very active) |
+| ⭐ / created | 106,787 · 2025-04 · **v0.120.x** (very active) |
 | Language | **Rust** (~95%; `codex-rs`) — rewritten from Node/TS in late 2025 |
 | Model | GPT-5.x (272K default context, up to 1M); OpenAI |
 | Auth | ChatGPT Plus/Pro/Business/Edu/Enterprise sign-in (no separate key) or API key |

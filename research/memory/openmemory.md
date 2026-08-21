@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/CaviraOSS/OpenMemory |
 | Maker | **CaviraOSS** |
 | License | Apache-2.0 / Apache-2.0 |
-| ⭐ / created | 4,355 · 2025-10-19 (pushed 2026-06-27) |
+| ⭐ / created | 4,449 · 2025-10-19 (pushed 2026-06-27) |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

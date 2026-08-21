@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | OSS engine | **Graphiti** (`getzep/graphiti`) — where Zep's open-source effort now lives |
 | Product | Zep Cloud (getzep.com) — enterprise agent memory |
 | License | Apache-2.0 / Apache-2.0 (OSS repo) — but CE no longer maintained |
-| ⭐ / created | 4,766 (OSS repo) · 2023-04-29 (pushed 2026-07-17) |
+| ⭐ / created | 4,851 (OSS repo) · 2023-04-29 (pushed 2026-07-17) |
 | Compliance | **SOC 2 Type II · HIPAA (BAA, Enterprise) · GDPR · BYOC** |
 | Pricing (Cloud) | Free 10K credits/mo; **1 credit / 350 bytes** (Episode billing); memory/retrieval/storage/users unmetered |
 | Authority | `suggestive` |

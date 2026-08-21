@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / npm | https://github.com/QwenLM/qwen-code · `@qwen-code/qwen-code` |
 | Maker | **QwenLM (Alibaba)** |
 | License | **Apache-2.0** / Apache-2.0 (open source) |
-| ⭐ / created | 26,144 · 2025-06-26 · TypeScript · very active |
+| ⭐ / created | 27,184 · 2025-06-26 · TypeScript · very active |
 | Origin | **fork of Google Gemini CLI v0.8.2**, then independent development |
 | Model | **Qwen3-Coder** flagship (480B-A35B; 256K native / ~1M extrapolated) + **multi-provider** (OpenAI / Anthropic / Gemini / any OpenAI-compatible / local Ollama·vLLM) |
 | Auth | ⚠️ **Qwen OAuth free quota discontinued 2026-04-15** → now API keys / coding-plan subscriptions; multi-provider via `/auth` |

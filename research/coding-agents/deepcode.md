@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/HKUDS/DeepCode |
 | Maker | **HKUDS** — Data Intelligence Lab, University of Hong Kong |
 | License | **MIT** / MIT |
-| ⭐ / created | **16,086** ⭐ · created 2025-05 · Python · active |
+| ⭐ / created | **16,373** ⭐ · created 2025-05 · Python · active |
 | Paper | arXiv:2512.07921 |
 | Runs local | **✅** self-hosted CLI/web; BYO LLM endpoint (incl. OpenAI-compatible/local); integrated sandbox |
 | Researched | 2026-07-26 · hands-on: **docs-only** |

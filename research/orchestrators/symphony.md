@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/openai/symphony · openai.com (announcement) |
 | Maker | **OpenAI** |
 | License | Apache-2.0 / Apache-2.0 |
-| ⭐ / created | 26,049 · 2026-02 · active (pushed ~2026-07-18) |
+| ⭐ / created | 26,753 · 2026-02 · active (pushed ~2026-07-18) |
 | Architecture | **SPEC.md** + **Elixir** reference implementation; **Linear IS the state store**; **Codex** as the coding agent |
 | Authority | Linear = state store (reconstructs from tracker, no separate durable DB) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

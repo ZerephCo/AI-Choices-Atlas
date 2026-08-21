@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Maker | **Steve Yegge** (ex-Google/Amazon); core memory layer of **GasTown** |
 | License | MIT / MIT |
 | Language | Go · macOS / Linux / Windows / FreeBSD |
-| ⭐ / created | 25,436 · 2025-10 · **v1.0.x** (installed here: **v1.0.4**) |
+| ⭐ / created | 26,445 · 2025-10 · **v1.0.x** (installed here: **v1.0.4**) |
 | Authority | **canonical** (owns work truth — unlike suggestive semantic memory) |
 | Researched | 2026-07-20 · hands-on: **run** (used live this session) |
 

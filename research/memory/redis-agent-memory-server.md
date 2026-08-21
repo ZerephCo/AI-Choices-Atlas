@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo / docs | https://github.com/redis/agent-memory-server · redis.github.io/agent-memory-server |
 | Maker | **Redis** (official) |
 | License | **Redis source-available** (RSALv2 / SSPLv1) / GitHub: **NOASSERTION** (⚠️ not OSI; service restrictions) |
-| ⭐ / created | 295 · 2025-03-14 (pushed 2026-07-16) |
+| ⭐ / created | 307 · 2025-03-14 (pushed 2026-07-16) |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

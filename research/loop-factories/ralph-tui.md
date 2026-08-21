@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/subsy/ralph-tui · ralph-tui.com |
 | Maker | **subsy** |
 | License | **MIT** / MIT (open source) |
-| ⭐ / created | 2,405 · 2026-01-11 · TypeScript · very active |
+| ⭐ / created | 2,425 · 2026-01-11 · TypeScript · very active |
 | Backends | Claude Code · OpenCode · Factory Droid · Cursor CLI · Gemini CLI · Codex · Kiro CLI |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

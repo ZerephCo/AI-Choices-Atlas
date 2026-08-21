@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/michaelshimeles/ralphy |
 | Maker | **michaelshimeles** |
 | License | ⚠️ **none declared** — reuse/redistribution rights NOT granted |
-| ⭐ / created | 2,932 · 2026-01-15 · TypeScript · viral (1K⭐ in 3 days) |
+| ⭐ / created | 2,957 · 2026-01-15 · TypeScript · viral (1K⭐ in 3 days) |
 | Backends | Claude Code · Codex · OpenCode · Cursor agent · Qwen · Droid |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

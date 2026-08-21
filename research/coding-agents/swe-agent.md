@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/SWE-agent/SWE-agent · swe-agent.com |
 | Maker | **Princeton University + Stanford** (the SWE-bench team) — NeurIPS 2024 |
 | License | **MIT** / MIT (open source) |
-| ⭐ / created | 19,865 · 2024-04-02 · Python · very active |
+| ⭐ / created | 20,080 · 2024-04-02 · Python · very active |
 | Model | any LM of choice (GPT-4o, Claude Sonnet, …) |
 | Benchmarks | SWE-agent 1.0 + Claude 3.7 = open-source SoTA on SWE-bench (Feb 2025); **mini-SWE-agent = 65% SWE-bench Verified in 100 lines** |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

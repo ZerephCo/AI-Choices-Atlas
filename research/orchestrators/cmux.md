@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/manaflow-ai/cmux · https://cmux.com |
 | Maker | **Manaflow (manaflow-ai)** |
 | License | **⚠️ NOASSERTION** — GitHub could not map it to a standard SPDX license; check the repo before reuse/redistribution |
-| ⭐ / created | **25,123** ⭐ · 2,074 forks · created 2026-01 · Swift · active (pushed 2026-07-25) |
+| ⭐ / created | **26,225** ⭐ · 2,074 forks · created 2026-01 · Swift · active (pushed 2026-07-25) |
 | Platform | **macOS only** (native Swift app; built on Ghostty) |
 | Runs local | **✅** native local terminal; agents themselves call their cloud providers |
 | Researched | 2026-07-26 · hands-on: **docs-only** (site unreachable at check time; repo API + description) |

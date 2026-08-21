@@ -39,7 +39,7 @@ last_verified: "2026-08-19"
 | Former name | **Embedchain** (RAG framework) |
 | License | Apache-2.0 (claimed) / Apache-2.0 (GitHub-detected + hands-on confirmed) |
 | Language / package | Python (`mem0ai` v2.0.12) + TypeScript (`mem0ai/oss`, TS SDK v3.1.0) |
-| ⭐ / created | 61,238 · 2023-06 |
+| ⭐ / created | 63,603 · 2023-06 |
 | Backing | $24M raised Oct 2025 (Y Combinator, Peak XV, Basis Set) |
 | Authority | `suggestive` (never source of work truth) |
 | Researched | 2026-07-20 · hands-on: **inspected** (shallow clone) |

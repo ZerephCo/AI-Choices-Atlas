@@ -8,9 +8,9 @@ site: https://docs.ag-ui.com
 maker: CopilotKit
 license_claimed: MIT
 license_detected: MIT
-stars: 15415
+stars: 15442
 created: "2025-05"
-language: TypeScript
+language: Python
 maturity: Prominent
 status: active
 local: null   # N/A - a specification; implementations decide
@@ -24,7 +24,7 @@ features:
 choose_when: "You need to connect an agentic backend to a user-facing frontend with real-time streaming."
 avoid_when: "You need agent-to-tools (MCP) or agent-to-agent (A2A) connectivity."
 hands_on: docs-only
-last_verified: "2026-08-20"
+last_verified: "2026-08-21"
 ---
 # AG-UI (Agent-User Interaction Protocol) — Deep Research Reference
 
@@ -36,8 +36,9 @@ last_verified: "2026-08-20"
 | Repo / site | https://github.com/ag-ui-protocol/ag-ui · docs.ag-ui.com |
 | Maker | **CopilotKit** (with LangGraph, CrewAI) |
 | License | **MIT** / MIT |
-| ⭐ / created | 15,415 · 2025-05 · TypeScript |
-| Researched | 2026-08-20 · hands-on: **docs-only** |
+| ⭐ / created | 15,442 · 2025-05 · Python (re-verified 2026-08-21) |
+| Language convention | AG-UI tracks the repo-dominant language (now **Python**, flipped from TypeScript as in-repo SDKs grew) because — like ACP (Rust) — its repo ships the protocol **plus its SDK/integration implementations**, so GitHub's dominant language is meaningful. **This integration round revises Wave D's handling**: Wave D had left AG-UI at TypeScript while treating protocol-language variance as an exception; the revised convention is — SDK-bearing protocol repos (AG-UI, ACP) track the repo-dominant language, pure-spec repos (MCP, A2A) stay `language: null` |
+| Researched | 2026-08-21 · hands-on: **docs-only** |
 
 ## 1. What it is
 "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications." An event-based protocol connecting an agentic backend to a user-facing frontend.
@@ -67,9 +68,9 @@ last_verified: "2026-08-20"
 - **AG-UI** — the agent↔user quadrant: MCP (tools) · A2A (agents) · ACP (editors) · **AG-UI (users)**.
 
 ## 8. Hands-on
-`docs-only` (2026-08-20). **TODO:** wire a LangGraph/CrewAI agent to a frontend via AG-UI; stream state + a HITL event.
+`docs-only` (2026-08-21). **TODO:** wire a LangGraph/CrewAI agent to a frontend via AG-UI; stream state + a HITL event.
 
 ## 9. Sources
 - https://github.com/ag-ui-protocol/ag-ui · docs.ag-ui.com
 
-_Last updated: 2026-08-20 · Researcher: Claude_
+_Last updated: 2026-08-21 · Researcher: Claude_

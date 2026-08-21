@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/nutthouse/tutti · tutti-ai.com |
 | Maker | **nutthouse** |
 | License | MIT / MIT (README; note: some materials say Apache-2.0 — verify at HEAD) |
-| ⭐ / created | 102 · 2026-03 · **v0.10.x** (May 2026) |
+| ⭐ / created | 112 · 2026-03 · **v0.10.x** (May 2026) |
 | Requires | Rust toolchain (`cargo install tutti`) · tmux · ≥1 AI coding CLI |
 | Authority | outer controller (run ledger) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

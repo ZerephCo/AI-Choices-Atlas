@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/google-gemini/gemini-cli · geminicli.com |
 | Maker | **Google** |
 | License | **Apache-2.0** / Apache-2.0 (open source) |
-| ⭐ / created | 106,076 · 2025-04 (launched Jul 2025) · very active |
+| ⭐ / created | 106,569 · 2025-04 (launched Jul 2025) · very active |
 | Model | Gemini 3 (1M token context); Google |
 | Auth / free tier | **personal Google account: 60 req/min + 1,000 req/day free (no key)**; API key; Vertex AI (enterprise) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

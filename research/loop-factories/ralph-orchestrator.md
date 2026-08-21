@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/mikeyobrien/ralph-orchestrator |
 | Maker | **mikeyobrien** |
 | License | **MIT** / MIT (open source) |
-| ⭐ / created | 3,067 · 2025-09-07 · Rust · very active |
+| ⭐ / created | 3,102 · 2025-09-07 · Rust · very active |
 | Backends | Claude Code · Codex · Gemini CLI · Kiro · Forge · Amp · Copilot CLI · OpenCode |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

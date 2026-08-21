@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo / docs | https://github.com/thedotmack/claude-mem · docs.claude-mem.ai |
 | Maker | **thedotmack** |
 | License | Apache-2.0 / Apache-2.0 |
-| ⭐ / created | **87,904** · 2025-08-31 (pushed 2026-07-19 — very active; grew ~46k→88k) |
+| ⭐ / created | **91,239** · 2025-08-31 (pushed 2026-07-19 — very active; grew ~46k→88k) |
 | Authority | `suggestive` (injects context; does not own work truth) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

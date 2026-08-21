@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/21st-dev/1code · https://1code.dev |
 | Maker | **21st.dev** |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | **5,634** ⭐ · created 2026-01 · TypeScript · **⚰️ archived (read-only)** |
+| ⭐ / created | **5,610** ⭐ · created 2026-01 · TypeScript · **⚰️ archived (read-only)** |
 | Researched | 2026-07-26 · hands-on: **docs-only** |
 
 ## 1. What it is

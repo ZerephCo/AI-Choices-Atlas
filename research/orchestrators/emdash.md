@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/generalaction/emdash · https://emdash.ai |
 | Maker | **General Action** (YC W26) |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | **5,270** ⭐ · 543 forks · created 2025-08 · TypeScript · active (pushed 2026-07-25) |
+| ⭐ / created | **5,442** ⭐ · 543 forks · created 2025-08 · TypeScript · active (pushed 2026-07-25) |
 | Runs local | **🟡 partial** — desktop app, but offers remote SSH execution on dev servers / cloud VMs; agents call their cloud providers |
 | Researched | 2026-07-26 · hands-on: **docs-only** |
 

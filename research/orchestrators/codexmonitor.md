@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/Dimillian/CodexMonitor · codexmonitor.app |
 | Maker | **Thomas Ricouard (Dimillian)** — also author of Ice Cubes |
 | License | **MIT** / MIT |
-| ⭐ / created | **4,180** ⭐ · created 2026-01 · TypeScript · active |
+| ⭐ / created | **4,239** ⭐ · created 2026-01 · TypeScript · active |
 | Runs local | **✅** local app |
 | Researched | 2026-07-26 · hands-on: **docs-only** |
 

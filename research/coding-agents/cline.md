@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/cline/cline · cline.bot |
 | Maker | **Cline Bot Inc.** |
 | License | **Apache-2.0** / Apache-2.0 (open source) |
-| ⭐ / created | 64,827 · 2024-07-06 (originally "Claude Dev") · TypeScript · very active |
+| ⭐ / created | 66,458 · 2024-07-06 (originally "Claude Dev") · TypeScript · very active |
 | Model | **BYOK** — Anthropic, OpenAI, Gemini, Bedrock, Azure, Vertex, OpenRouter (200+), Groq, Cerebras + **local (Ollama, LM Studio)**; any OpenAI-compatible; plus Cline provider |
 | Surfaces | VS Code · JetBrains · CLI (TUI + headless) · SDK |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/asklokesh/loki-mode · Docker `asklokesh/loki-mode` |
 | Maker | **asklokesh** (autonomi.dev) |
 | License | **BUSL-1.1** / NOASSERTION — source-available; **converts to Apache-2.0 on 2030-03-19**; commercial otherwise (founder@autonomi.dev) |
-| ⭐ / created | 1,023 · 2025-12 · **v7.121.x** |
+| ⭐ / created | 1,046 · 2025-12 · **v7.121.x** |
 | Authority | outer controller + verification (evidence receipts) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

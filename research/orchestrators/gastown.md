@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/gastownhall/gastown (**formerly `steveyegge/gastown`**) · yegge.ai/gastown |
 | Maker | **Steve Yegge** (also author of **Beads**) |
 | License | MIT / MIT |
-| ⭐ / created | 17,104 · 2025-12 · **v1.2.x** (v1.0 Apr 2026 → v1.2.1/.2 Jun–Jul 2026) |
+| ⭐ / created | 17,668 · 2025-12 · **v1.2.x** (v1.0 Apr 2026 → v1.2.1/.2 Jun–Jul 2026) |
 | Platforms | Linux (`go install` + Dolt) · macOS (`brew install gastown`) · **Windows via WSL** (tmux); Docker Compose all-platforms |
 | Requires | Beads `bd` **0.57.0+** · Dolt · tmux 3.0+ · Go 1.26.2+ |
 | Authority | outer controller (Beads-coupled work truth) |

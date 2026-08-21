@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/sortie-ai/sortie · docs.sortie-ai.com |
 | Maker | **Sortie AI** |
 | License | Apache-2.0 / Apache-2.0 |
-| ⭐ / created | 111 · 2026-03 |
+| ⭐ / created | 127 · 2026-03 |
 | Platforms | macOS · Linux · **Windows** · Web |
 | Authority | orchestrator = single scheduling authority |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

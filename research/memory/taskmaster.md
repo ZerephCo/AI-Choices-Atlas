@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/eyaltoledano/claude-task-master |
 | Maker | @eyaltoledano + @RalphEcom · hosted under **Hamster** (tryhamster.com) |
 | License | **MIT + Commons Clause** / NOASSERTION (⚠️ no selling / no hosted-service) |
-| ⭐ / created | 27,870 · 2025-03 |
+| ⭐ / created | 28,001 · 2025-03 |
 | Authority | canonical (owns the project's task state) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

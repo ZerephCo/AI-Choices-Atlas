@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / docs | https://github.com/DeusData/codebase-memory-mcp · deusdata.github.io/codebase-memory-mcp |
 | Maker | **DeusData** |
 | License | MIT / MIT |
-| ⭐ / created | 33,032 · 2026-02-24 (pushed 2026-07-19 — very active) |
+| ⭐ / created | 39,548 · 2026-02-24 (pushed 2026-07-19 — very active) |
 | Authority | `suggestive` (retrieval/indexing) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/Keesan12/martin-loop · martinloop.com |
 | Maker | **Keesan12** (open-core: Apache core + commercial tiers) |
 | License | Apache-2.0 / Apache-2.0 (core) |
-| ⭐ / created | 39 · 2026-04 · **v0.4.5** (MCP 0.3.7) |
+| ⭐ / created | 44 · 2026-04 · **v0.4.5** (MCP 0.3.7) |
 | Requires | Node.js 20+ |
 | Authority | outer controller (task contract + receipts) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

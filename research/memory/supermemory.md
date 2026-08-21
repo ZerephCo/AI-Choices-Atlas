@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/supermemoryai/supermemory |
 | Site / docs | supermemory.ai · supermemory.ai/docs |
 | License | MIT / MIT |
-| ⭐ / created | 28,490 · 2024-02-27 (pushed 2026-07-20 — very active) |
+| ⭐ / created | 28,957 · 2024-02-27 (pushed 2026-07-20 — very active) |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

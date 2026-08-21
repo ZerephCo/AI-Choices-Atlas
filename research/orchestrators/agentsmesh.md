@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/AgentsMesh/AgentsMesh · agentsmesh.ai |
 | Maker | **AgentsMesh** |
 | License | **⚠️ NOASSERTION** — GitHub could not map it to a standard license; check the repo before reuse |
-| ⭐ / created | **2,300** ⭐ · created 2026-02 · Go · active |
+| ⭐ / created | **2,322** ⭐ · created 2026-02 · Go · active |
 | Runs local | **✅** self-hosted across your own machines; agents call their own providers |
 | Researched | 2026-07-26 · hands-on: **docs-only** |
 

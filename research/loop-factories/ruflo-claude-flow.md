@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/ruvnet/ruflo (formerly `ruvnet/claude-flow` — same repo, renamed) |
 | Maker | **ruvnet** |
 | License | **MIT** / MIT (open source) |
-| ⭐ / created | 65,243 · 2025-06-02 · TypeScript · very active |
+| ⭐ / created | 68,314 · 2025-06-02 · TypeScript · very active |
 | Backends | Claude Code · Codex · Hermes · many |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

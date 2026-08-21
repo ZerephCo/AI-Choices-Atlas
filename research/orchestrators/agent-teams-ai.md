@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/777genius/agent-teams-ai · agentteams.live · docs.agentteams.live |
 | Maker | **777genius** |
 | License | **AGPL-3.0** / AGPL-3.0 |
-| ⭐ / created | 1,625 · 2026-02 · **v2.9.x** (advanced from v2.7.0 in ~a week — very fast) |
+| ⭐ / created | 1,947 · 2026-02 · **v2.9.x** (advanced from v2.7.0 in ~a week — very fast) |
 | Platforms | macOS (ARM/Intel) · Windows (.exe) · Linux (AppImage/deb/rpm/pacman) |
 | Authority | outer controller (app-local task truth) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

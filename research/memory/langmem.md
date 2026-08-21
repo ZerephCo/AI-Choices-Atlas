@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | License | MIT *(GitHub facts confirmed in-session — see §Facts)* |
 | Package | `pip install -U langmem`; latest PyPI 0.0.30 (Oct 2025) → still **0.x / early** |
 | Adoption | ~746K monthly PyPI downloads, 5M+ total; repo active (commits mid-2026) |
-| ⭐ / created | **1,568** · 2025-01-21 (active — pushed 2026-07-15) |
+| ⭐ / created | **1,619** · 2025-01-21 (active — pushed 2026-07-15) |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

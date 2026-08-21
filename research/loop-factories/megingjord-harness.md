@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/chf3198/megingjord-harness |
 | Maker | **chf3198** |
 | License | GitHub-detected **NOASSERTION** (verify) |
-| ⭐ / created | 0 · 2026-04-11 · JavaScript |
+| ⭐ / created | 1 · 2026-04-11 · JavaScript |
 | Backends | Copilot · Claude Code · Codex (fleet routing: Ollama / Claude / OpenRouter) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

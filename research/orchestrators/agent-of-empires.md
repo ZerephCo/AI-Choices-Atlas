@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/agent-of-empires/agent-of-empires · agent-of-empires.com |
 | Maker | **Agent of Empires** |
 | License | **MIT** / MIT |
-| ⭐ / created | **2,879** ⭐ · created 2026-01 · Rust · active |
+| ⭐ / created | **3,099** ⭐ · created 2026-01 · Rust · active |
 | Runs local | **✅** local (TUI + self-hosted Web); agents call their own providers |
 | Researched | 2026-07-26 · hands-on: **docs-only** |
 

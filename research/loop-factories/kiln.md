@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/Fredasterehub/kiln |
 | Maker | **Fredasterehub** |
 | License | **MIT** / MIT |
-| ⭐ / created | 218 · 2026-02-14 · JavaScript |
+| ⭐ / created | 220 · 2026-02-14 · JavaScript |
 | Backends | Claude Code (multi-model) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

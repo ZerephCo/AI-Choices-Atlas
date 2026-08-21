@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/danilokhury/Synabun · synabun.ai |
 | Maker | **danilokhury** (personal project) |
 | License | Apache-2.0 / Apache-2.0 |
-| ⭐ / created | 68 · 2026-02-12 (pushed 2026-05-15 — light cadence) |
+| ⭐ / created | 70 · 2026-02-12 (pushed 2026-05-15 — light cadence) |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

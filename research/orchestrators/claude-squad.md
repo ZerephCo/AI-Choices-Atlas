@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/smtg-ai/claude-squad · https://smtg-ai.github.io/claude-squad/ |
 | Maker | **smtg-ai** |
 | License | **AGPL-3.0** / AGPL-3.0 (strong copyleft) |
-| ⭐ / created | **8,181** ⭐ · 591 forks · created 2025-03 · Go · active (pushed 2026-06) |
+| ⭐ / created | **8,338** ⭐ · 591 forks · created 2025-03 · Go · active (pushed 2026-06) |
 | Runs local | **✅** local terminal app (tmux + GitHub CLI); agents themselves call their cloud providers |
 | Researched | 2026-07-26 · hands-on: **docs-only** |
 

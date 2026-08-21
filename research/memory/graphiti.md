@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | Maker | **Zep** (Graphiti = the OSS engine under Zep's commercial platform) |
 | License | Apache-2.0 / Apache-2.0 |
 | Language / package | Python (`graphiti-core`), Python 3.10+ (3.12+ for embedded FalkorDB Lite) |
-| ⭐ / created | 28,940 · 2024-08 |
+| ⭐ / created | 30,090 · 2024-08 |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

@@ -27,12 +27,12 @@
 | [Roo Code Memory Bank](#roo-code-memory-bank) | 4.1 Project / task memory | Apache-2.0 | 1,678 | Established | ⚠️ Caution | ✅ | docs-only | Markdown memory bank for Roo Code (VS Code) — structured .md files that keep project context across sessions; no DB, convention-driven. |
 | [Mem0](#mem0) | 4.2 Personal memory | Apache-2.0 | 63,603 | Prominent | 🟢 Active | 🟡 partial | inspected | Universal memory layer giving agents user/session/agent-level recall + personalization; add-only fact extraction with multi-signal retrieval. |
 | [Supermemory](#supermemory) | 4.2 Personal memory | MIT | 28,957 | Prominent | 🟢 Active | ✅ | docs-only | The Memory API for the AI era — a fast, scalable memory+context engine + app (RAG + memory + profiles + connectors), runnable fully local/air-gapped. |
-| [Memori](#memori) | 4.2 Personal memory | open-source (claimed) / NOASSERTION | 16,125 | Prominent | 🟢 Active | 🟡 partial | docs-only | SQL-native memory engine — persistent agent memory in standard SQL (SQLite/Postgres/MySQL), no vector DB, portable and queryable. |
+| [Memori](#memori) | 4.2 Personal memory | open-source (claimed) / NOASSERTION | 16,154 | Prominent | 🟢 Active | 🟡 partial | docs-only | SQL-native memory engine — persistent agent memory in standard SQL (SQLite/Postgres/MySQL), no vector DB, portable and queryable. |
 | [OpenMemory](#openmemory) | 4.2 Personal memory | Apache-2.0 | 4,449 | Established | 🟢 Active | ✅ | docs-only | Cognitive memory engine for LLMs — local, self-hosted; hierarchical decomposition + temporal awareness; native MCP; migrates from Mem0/Zep/Supermemory. |
 | [Cognee](#cognee) | 4.3 Organizational / semantic memory | Apache-2.0 | 30,118 | Prominent | 🟢 Active | ✅ | docs-only | Open-source graph-native memory platform — an ECL (Extract→Cognify→Load) pipeline that turns data into a self-improving knowledge graph + vectors. |
 | [Graphiti](#graphiti) | 4.3 Organizational / semantic memory | Apache-2.0 | 30,090 | Prominent | 🟢 Active | ☁️ hosted | docs-only | Framework for temporal knowledge graphs for agents — tracks when facts became and ceased to be true, with hybrid retrieval and full provenance. |
 | [GBrain](#gbrain) | 4.3 Organizational / semantic memory | MIT | 28,743 | Prominent | 🟢 Active | 🟡 partial | docs-only | Self-hosted institutional memory — a git-versioned markdown brain repo + Postgres/pgvector index with a self-wiring typed-edge graph and cited answers. |
-| [memU](#memu) | 4.3 Organizational / semantic memory | NOASSERTION | 14,322 | Prominent | 🟢 Active | 🟡 partial | docs-only | Cross-agent personal memory for 24/7 proactive agents — a self-organizing markdown file system with intent capture and ~10x token reduction; embeddings-only. |
+| [memU](#memu) | 4.3 Organizational / semantic memory | NOASSERTION | 14,326 | Prominent | 🟢 Active | 🟡 partial | docs-only | Cross-agent personal memory for 24/7 proactive agents — a self-organizing markdown file system with intent capture and ~10x token reduction; embeddings-only. |
 | [semble](#semble) | 4.3 Organizational / semantic memory | MIT | 5,906 | Established | 🟢 Active | ✅ | docs-only | CPU-only code search for agents — static Model2Vec embeddings + BM25 + RRF; ~98% fewer tokens than grep+read; MCP; no GPU/keys. |
 | [ByteRover CLI (formerly Cipher)](#cipher) | 4.3 Organizational / semantic memory | Elastic-2.0 / NOASSERTION | 4,942 | Established | 🟢 Active | 🟡 partial | docs-only | Memory layer for coding agents, formerly Cipher — rename to ByteRover CLI now complete: an interactive REPL CLI with dual System-1/System-2 memory, cross-IDE via MCP, team-shareable. Elastic 2.0. |
 | [Zep](#zep) | 4.3 Organizational / semantic memory | Apache-2.0 | 4,851 | Established | ⚠️ Caution | ☁️ hosted | docs-only | Enterprise agent-memory platform — temporal knowledge-graph memory (built on Graphiti) with compliance; the managed counterpart to OSS Graphiti. |
@@ -402,10 +402,10 @@
 | | |
 |---|---|
 | Repo | https://github.com/MemoriLabs/Memori |
-| Maker | GibsonAI (MemoriLabs) |
+| Maker | Memori Labs (org MemoriLabs; formerly under GibsonAI branding) |
 | Sub-type | 4.2 Personal memory |
 | License | open-source (claimed) / NOASSERTION |
-| Maturity | Prominent · ⭐16,125 · created 2025-07 · Python |
+| Maturity | Prominent · ⭐16,154 · created 2025-07 · Python |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 
@@ -554,7 +554,7 @@
 | Maker | NevaMind AI |
 | Sub-type | 4.3 Organizational / semantic memory |
 | License | NOASSERTION |
-| Maturity | Prominent · ⭐14,322 · created 2025-07 · Python |
+| Maturity | Prominent · ⭐14,326 · created 2025-07 · Python |
 | Runs local | 🟡 partial |
 | Hands-on | docs-only |
 

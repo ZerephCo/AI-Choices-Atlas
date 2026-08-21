@@ -39,7 +39,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/anthropics/claude-code (issues/docs/plugins) · claude.com/product/claude-code |
 | Maker | **Anthropic** |
 | License | **Proprietary** (repo license unset; CLI is closed-source) |
-| ⭐ / created | 138,404 · 2025-02 (very active) |
+| ⭐ / created | 141,964 · 2025-02 (very active) |
 | Model | Claude (Opus / Sonnet / Haiku) — Anthropic account or API key |
 | Authority | coding host (does NOT own merge-eligibility) |
 | Researched | 2026-07-20 · hands-on: **run** (this atlas was built in it) |

@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/BloopAI/vibe-kanban · vibekanban.com |
 | Maker | **Bloop (BloopAI)** — company shut down Apr 2026 |
 | License | Apache-2.0 / Apache-2.0 |
-| ⭐ / created | 27,450 · 2025-06 · **frozen ~2026-04-24** |
+| ⭐ / created | 27,848 · 2025-06 · **frozen ~2026-04-24** |
 | Stack | Rust (backend) + TypeScript/Node.js (frontend) |
 | Status | **⚰️ Sunsetting** (README confirmed) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |

@@ -38,7 +38,7 @@ last_verified: "2026-08-19"
 | License | MIT / MIT |
 | Runtime / install | Bun (`bun install -g github:garrytan/gbrain`) |
 | Version | v0.41.x series |
-| ⭐ / created | 26,622 · 2026-04 |
+| ⭐ / created | 28,743 · 2026-04 |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** (full `master` README read in depth) |
 

@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/continuedev/continue · https://continue.dev |
 | Maker | **Continue** |
 | License | **Apache-2.0** / Apache-2.0 |
-| ⭐ / created | **35,117** ⭐ · created 2023-05 · TypeScript · active |
+| ⭐ / created | **35,534** ⭐ · created 2023-05 · TypeScript · active |
 | Access | **Free** — open-source; BYO model keys (can be fully local via Ollama, $0) |
 | Runs local | **✅** can run fully local with local models |
 | Researched | 2026-07-26 · hands-on: **docs-only** |

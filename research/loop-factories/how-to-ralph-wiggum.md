@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo / site | https://github.com/ghuntley/how-to-ralph-wiggum · ghuntley.com/ralph |
 | Maker | **Geoffrey Huntley** (inventor of the technique) |
 | License | ⚠️ **none declared** — reuse/redistribution rights NOT granted |
-| ⭐ / created | 1,722 · 2026-01-10 · HTML |
+| ⭐ / created | 1,740 · 2026-01-10 · HTML |
 | Backends | agent-agnostic (any CLI agent run in a loop) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

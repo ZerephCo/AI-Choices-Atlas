@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/Aspegio/nelson |
 | Maker | **Aspegio** |
 | License | **MIT** / MIT |
-| ⭐ / created | 403 · 2026-02-09 · Python |
+| ⭐ / created | 413 · 2026-02-09 · Python |
 | Backends | Claude Code |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

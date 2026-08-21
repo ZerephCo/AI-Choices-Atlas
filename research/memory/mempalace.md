@@ -36,7 +36,7 @@ last_verified: "2026-08-19"
 | Category / sub-type | Memory → general agent memory (personal + org) — **memory-palace** architecture |
 | Repo / docs | https://github.com/MemPalace/mempalace · mempalaceofficial.com (**⚠️ beware impostor domains — reported malware on look-alikes**) |
 | License | MIT / MIT |
-| ⭐ / created | 57,490 · 2026-04-05 (pushed 2026-07-17 — very active) |
+| ⭐ / created | 58,463 · 2026-04-05 (pushed 2026-07-17 — very active) |
 | Authority | `suggestive` |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 

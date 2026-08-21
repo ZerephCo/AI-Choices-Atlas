@@ -37,7 +37,7 @@ last_verified: "2026-08-19"
 | Repo | https://github.com/frankbria/ralph-claude-code |
 | Maker | **frankbria** |
 | License | **MIT** / MIT (open source) |
-| ⭐ / created | 9,555 · 2025-08-27 · Shell · very active |
+| ⭐ / created | 9,604 · 2025-08-27 · Shell · very active |
 | Backends | Claude Code (only) |
 | Researched | 2026-07-20 · hands-on: **docs-only** |
 
