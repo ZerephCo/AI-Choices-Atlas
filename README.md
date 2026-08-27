@@ -49,7 +49,7 @@ A living, browsable **decision atlas** for AI-engineering tooling. For each cate
 
 **Every tool in this atlas is free to try — no paywall, no credit card to start.** A tool qualifies only if at least one is true: it's **open-source / source-available**, has a **genuinely free tier**, or offers a **free trial that needs no credit card**. Proprietary, paywalled tools with card-gated trials are deliberately excluded.
 
-The proprietary tools that *are* included each have a verified free path (checked 2026-07):
+The proprietary tools that *are* included each have a verified free path (re-verified 2026-08-19 → 2026-08-21 in the full-corpus audit; see each card's `last_verified` and any noted uncertainties):
 
 | Tool | Free path | Credit card? |
 |---|---|:--:|
@@ -84,7 +84,7 @@ See [`data/SCHEMA.md`](data/SCHEMA.md) for the field spec.
 
 ## Provenance & honesty
 
-Seeded from a web-verified corpus ([`ReviewedResearch.md`](ReviewedResearch.md), an audited expansion of [`InitialResearch.md`](InitialResearch.md)) and extended with fresh, sourced discovery. Lifecycle changes (sunsetting, archived, maintenance), license nuances, and unverifiable names are flagged rather than hidden — see [`data/unresolved.yaml`](data/unresolved.yaml). Facts last fully verified **2026-07**.
+Seeded from a web-verified corpus ([`ReviewedResearch.md`](ReviewedResearch.md), an audited expansion of [`InitialResearch.md`](InitialResearch.md)) and extended with fresh, sourced discovery. Lifecycle changes (sunsetting, archived, maintenance), license nuances, and unverifiable names are flagged rather than hidden — see [`data/unresolved.yaml`](data/unresolved.yaml). Facts last fully verified **2026-08** (complete 146-card audit, 2026-08-19 → 2026-08-21; per-card dates in `last_verified`).
 
 ## License
 

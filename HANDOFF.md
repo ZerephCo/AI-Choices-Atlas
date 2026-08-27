@@ -8,19 +8,26 @@ data — nothing depends on any previous machine.
 ## Canonical repository and current state
 
 - **Repository:** https://github.com/ZerephCo/AI-Choices-Atlas (branch `main`).
-- **Source state:** `main` carries the portability/split-licensing repair
-  ("chore: make Atlas portable and adopt split licensing"): the tracked
+- **Source state:** `main` carries the published modernization completion
+  ("Integrate the full Atlas freshness audit", `32b3d33`) and any later
+  documentation-maintenance commits: the tracked
   portable set (instruction files, MBA v0.1.0 managed content, Beads setup
   outputs, docs tooling under `scripts/`, CI), CC0-1.0 content + Apache-2.0
-  software licensing, and a docs generator that fails closed on invalid data.
+  software licensing, a docs generator that fails closed on invalid data,
+  and the completed 146-card freshness audit (every card re-verified
+  2026-08-19 → 2026-08-21).
 - **Beads state:** one merged issue database, synchronized over the Dolt wire
   protocol (`bd dolt push/pull`, stored under `refs/dolt/data` on the Git
   remote). It contains two id families: `aca-*` (the completed Windows→Mac
   handoff work) and `AI-Choices-Atlas-*` (the Zereph modernization plan).
   `.beads/` itself is machine-local and Git-ignored — it is never tracked.
-- **Continuation Bead:** `AI-Choices-Atlas-ddf.3` — the epic that re-verifies
-  all 146 Atlas cards in five bounded waves (`.3.1`–`.3.5`), under parent
-  `AI-Choices-Atlas-ddf`.
+- **Work state:** the modernization epic `AI-Choices-Atlas-ddf` — including
+  the 146-card freshness audit (`.3`, five bounded waves `.3.1`–`.3.5`) — is
+  **closed**, verified at `32b3d33`. There is no designated continuation
+  epic: discover current work with `bd ready`. As of **2026-08-27**, the
+  only ready item is `AI-Choices-Atlas-7t6`, an **optional, non-blocking**
+  upstream MBA adopt-existing improvement — re-check `bd ready` for the
+  live picture.
 
 ## Prerequisites
 
@@ -99,7 +106,8 @@ travels only over Dolt.
 
 ```bash
 bd show aca-handoff                 # handoff epic — expect it terminal (closed)
-bd show AI-Choices-Atlas-ddf.3      # continuation epic — open, five wave children
+bd show AI-Choices-Atlas-ddf        # modernization epic — expect it terminal (closed)
+bd ready                            # current actionable work (optional follow-ups only)
 bd dep cycles                       # expect no cycles
 
 cd scripts
@@ -113,8 +121,9 @@ cd ..
 git status                          # must be clean — docs regenerate byte-identically
 ```
 
-If `bd show aca-handoff` is not terminal yet, finish and close it before
-starting continuation work.
+Both epics above are expected to be terminal. If either is not, reconcile
+the Beads record first; otherwise take work only from `bd ready` as the
+user directs — closed work is never resumed from this handoff.
 
 ## Private MBA setup (recreate — never copy from another machine)
 
@@ -196,5 +205,7 @@ Paste into a fresh Codex task on this machine:
 
 > Read `HANDOFF.md` in ZerephCo/AI-Choices-Atlas and complete its bootstrap,
 > verification, and private MBA setup on this machine. Then act as the MBA
-> Orchestrator and continue the project at `bd show AI-Choices-Atlas-ddf.3`,
-> driving its freshness waves per the charter.
+> Orchestrator: confirm the published state matches this handoff, inspect
+> `bd ready`, and take up work only as the user directs. The prior
+> modernization and freshness epics are closed; `AI-Choices-Atlas-7t6`
+> remains an optional, non-blocking follow-up.
