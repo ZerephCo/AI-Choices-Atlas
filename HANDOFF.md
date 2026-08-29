@@ -11,7 +11,7 @@ data — nothing depends on any previous machine.
 - **Source state:** `main` carries the published modernization completion
   ("Integrate the full Atlas freshness audit", `32b3d33`) and any later
   documentation-maintenance commits: the tracked
-  portable set (instruction files, MBA v0.1.0 managed content, Beads setup
+  portable set (instruction files, MBA v0.1.1 managed content, Beads setup
   outputs, docs tooling under `scripts/`, CI), CC0-1.0 content + Apache-2.0
   software licensing, a docs generator that fails closed on invalid data,
   and the completed 146-card freshness audit (every card re-verified
@@ -24,10 +24,10 @@ data — nothing depends on any previous machine.
 - **Work state:** the modernization epic `AI-Choices-Atlas-ddf` — including
   the 146-card freshness audit (`.3`, five bounded waves `.3.1`–`.3.5`) — is
   **closed**, verified at `32b3d33`. There is no designated continuation
-  epic: discover current work with `bd ready`. As of **2026-08-27**, the
-  only ready item is `AI-Choices-Atlas-7t6`, an **optional, non-blocking**
-  upstream MBA adopt-existing improvement — re-check `bd ready` for the
-  live picture.
+  epic: discover current work with `bd ready`. As of **2026-08-29**, the
+  upstream MBA adopt-existing improvement tracked as `AI-Choices-Atlas-7t6`
+  is released upstream as MBA `v0.1.1` and adopted in this repository —
+  re-check `bd ready` for the live picture.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ data — nothing depends on any previous machine.
 |---|---|---|
 | Git | any recent | with access to the repository above |
 | Node.js | **20+** | for `scripts/` (generator, validator, tests) |
-| Python | **3.10+** | MBA v0.1.0 requires Python `>=3.10`; a qualifying `python3` must be on `PATH` — current macOS does not guarantee one; install it first if missing |
+| Python | **3.10+** | MBA v0.1.1 requires Python `>=3.10`; a qualifying `python3` must be on `PATH` — current macOS does not guarantee one; install it first if missing |
 | bd (Beads) | **exactly 1.0.4** | the validated set per `docs/beads/capabilities.md` — verify with `bd version` and do **not** proceed on a mismatch (see the next section) |
 
 ## If bd is missing or the wrong version
@@ -73,11 +73,18 @@ bd bootstrap --yes
 BD_EXPORT_AUTO=false bd config set-many export.auto=false export.git-add=false
 bd dolt pull                    # non-force; issue data arrives over refs/dolt/data
 
-# MBA: private venv, exact public v0.1.0, verified with the venv interpreter
+# MBA: private venv, exact public v0.1.1, verified with the venv interpreter
 python3 --version                          # must report 3.10+ (see Prerequisites)
 python3 -m venv .mba-work/.venv            # private venv under Git-ignored .mba-work/
-.mba-work/.venv/bin/python -m pip install git+https://github.com/Khubaeb/MultipleBeadedAgents.git@v0.1.0
-.mba-work/.venv/bin/python -m mba_foundation --version   # must print exactly: mba-foundation 0.1.0
+.mba-work/.venv/bin/python -m pip install git+https://github.com/Khubaeb/MultipleBeadedAgents.git@v0.1.1
+.mba-work/.venv/bin/python -m mba_foundation --version   # must print exactly: mba-foundation 0.1.1
+
+# Adopt the tracked MBA content (fail-closed): preview, apply, verify
+.mba-work/.venv/bin/python -m mba_foundation adopt --root . --opencode omit --dry-run
+                                           # exit 4 = plan OK (a mismatch would exit 7 and write nothing)
+.mba-work/.venv/bin/python -m mba_foundation adopt --root . --opencode omit
+.mba-work/.venv/bin/python -m mba_foundation status --root .
+                                           # exit 0: installed 0.1.1, no drift, no conflicts
 ```
 
 MBA installs only into `.mba-work/.venv`, a private venv created by the
@@ -87,14 +94,20 @@ and refuse a global `pip install`, and the venv needs no
 `--break-system-packages` and never alters the system or Homebrew Python.
 Every MBA command in this document runs through that same venv interpreter.
 
-Do **not** run `mba_foundation init` on a fresh Atlas clone. This repository
-already tracks the public MBA files it needs (the MBA skill,
-`docs/mba/charter.md`, and `docs/beads/capabilities.md` are byte-identical to
-the v0.1.0 package), while the private install manifest (`.mba/manifest.json`)
-and the retired OpenCode launch files stay private and untracked — and public
-v0.1.0 has no mode to adopt pre-existing tracked files, so `init` refuses with
-conflicts. Runtime activation does not need that manifest: the authoritative
-readiness gate is the private setup below followed by
+Do **not** run `mba_foundation init` on a fresh Atlas clone — `init` writes
+managed content and refuses when tracked files already exist. The supported
+path is `mba adopt` (new in v0.1.1), shown above. This repository already
+tracks the public MBA files it needs (the MBA RULES blocks in
+`AGENTS.md`/`CLAUDE.md`, the MBA skill, `docs/mba/charter.md`, and
+`docs/beads/capabilities.md` are byte-identical to the v0.1.1 package), and
+adoption **fails closed**: every managed tracked file and block must be raw
+byte-identical to the packaged content, or the whole adoption refuses with
+no writes at all. A successful adoption creates only the private
+`.mba/manifest.json` (Git-ignored via the `.mba/` rule); `--opencode omit`
+keeps the retired OpenCode launch files absent and records that omission
+durably, so later MBA upgrades never re-create them. Re-running the
+adoption is an idempotent no-op. The authoritative runtime readiness gate
+is unchanged: the private setup below followed by
 `.mba-work/.venv/bin/python -m mba_runtime first-contact --cwd .` returning
 ready.
 
@@ -207,5 +220,5 @@ Paste into a fresh Codex task on this machine:
 > verification, and private MBA setup on this machine. Then act as the MBA
 > Orchestrator: confirm the published state matches this handoff, inspect
 > `bd ready`, and take up work only as the user directs. The prior
-> modernization and freshness epics are closed; `AI-Choices-Atlas-7t6`
-> remains an optional, non-blocking follow-up.
+> modernization and freshness epics are closed — closed work is never
+> resumed from this handoff.
