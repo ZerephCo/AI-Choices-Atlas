@@ -3,6 +3,7 @@
 
 # --- Machine-local state & private evidence (never tracked, both modes) ---
 .beads/
+.beads.gate.lock
 .mba/
 .mba-work/
 .opencode/

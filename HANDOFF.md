@@ -11,7 +11,7 @@ data — nothing depends on any previous machine.
 - **Source state:** `main` carries the published modernization completion
   ("Integrate the full Atlas freshness audit", `32b3d33`) and any later
   documentation-maintenance commits: the tracked
-  portable set (instruction files, MBA v0.1.1 managed content, Beads setup
+  portable set (instruction files, MBA v0.1.2 managed content, Beads setup
   outputs, docs tooling under `scripts/`, CI), CC0-1.0 content + Apache-2.0
   software licensing, a docs generator that fails closed on invalid data,
   and the completed 146-card freshness audit (every card re-verified
@@ -24,9 +24,10 @@ data — nothing depends on any previous machine.
 - **Work state:** the modernization epic `AI-Choices-Atlas-ddf` — including
   the 146-card freshness audit (`.3`, five bounded waves `.3.1`–`.3.5`) — is
   **closed**, verified at `32b3d33`. There is no designated continuation
-  epic: discover current work with `bd ready`. As of **2026-08-29**, the
-  upstream MBA adopt-existing improvement tracked as `AI-Choices-Atlas-7t6`
-  is released upstream as MBA `v0.1.1` and adopted in this repository —
+  epic: discover current work with `bd ready`. As of **2026-09-18**, the
+  live issue database is migrated to the Beads **1.3.0** schema (bd 1.0.4
+  refuses it — never run 1.0.4 against this store) and the managed MBA
+  integration is upgraded to **v0.1.2**, which validates Beads 1.3.0 —
   re-check `bd ready` for the live picture.
 
 ## Prerequisites
@@ -35,30 +36,31 @@ data — nothing depends on any previous machine.
 |---|---|---|
 | Git | any recent | with access to the repository above |
 | Node.js | **20+** | for `scripts/` (generator, validator, tests) |
-| Python | **3.10+** | MBA v0.1.1 requires Python `>=3.10`; a qualifying `python3` must be on `PATH` — current macOS does not guarantee one; install it first if missing |
-| bd (Beads) | **exactly 1.0.4** | the validated set per `docs/beads/capabilities.md` — verify with `bd version` and do **not** proceed on a mismatch (see the next section) |
+| Python | **3.10+** | MBA v0.1.2 requires Python `>=3.10`; a qualifying `python3` must be on `PATH` — current macOS does not guarantee one; install it first if missing |
+| bd (Beads) | **exactly 1.3.0** | validated per `docs/beads/capabilities.md` — verify with `bd version` and do **not** proceed on a mismatch (see the next section). The live database is migrated to the 1.3.0 schema; the previously validated 1.0.4 **refuses it and must never be run against it** |
 
 ## If bd is missing or the wrong version
 
 Stop — do not improvise an install, and obtain the user's approval first.
-Unpinned package channels (for example a plain `brew install`) may serve a
-version other than 1.0.4. With approval:
+Unpinned package channels may serve a version other than 1.3.0 — whatever
+the channel (the current install came from Homebrew's `beads` formula),
+`bd version` must print exactly 1.3.0 before you continue. With approval:
 
 1. Download the macOS asset for this machine's architecture from the
-   official v1.0.4 release,
-   https://github.com/gastownhall/beads/releases/tag/v1.0.4:
-   `beads_1.0.4_darwin_arm64.tar.gz` (Apple silicon) or
-   `beads_1.0.4_darwin_amd64.tar.gz` (Intel).
+   official v1.3.0 release,
+   https://github.com/gastownhall/beads/releases/tag/v1.3.0:
+   `beads_1.3.0_darwin_arm64.tar.gz` (Apple silicon) or
+   `beads_1.3.0_darwin_amd64.tar.gz` (Intel).
 2. Verify the download against the `checksums.txt` published in that same
    release before unpacking anything, checking **only the selected asset**
    so absent other-platform files cannot fail the check:
 
    ```bash
-   ASSET=beads_1.0.4_darwin_arm64.tar.gz   # the asset you downloaded in step 1
+   ASSET=beads_1.3.0_darwin_arm64.tar.gz   # the asset you downloaded in step 1
    grep "$ASSET" checksums.txt | shasum -a 256 -c -
    ```
 3. Unpack, put `bd` on `PATH`, and re-run `bd version` — it must print
-   1.0.4 before you continue.
+   1.3.0 before you continue.
 
 ## Fresh-clone bootstrap
 
@@ -67,24 +69,24 @@ git clone https://github.com/ZerephCo/AI-Choices-Atlas.git
 cd AI-Choices-Atlas
 
 # Beads: exact-version gate, role, database, warning-free export config
-bd version                      # must print 1.0.4
+bd version                      # must print 1.3.0
 git config beads.role maintainer
 bd bootstrap --yes
 BD_EXPORT_AUTO=false bd config set-many export.auto=false export.git-add=false
 bd dolt pull                    # non-force; issue data arrives over refs/dolt/data
 
-# MBA: private venv, exact public v0.1.1, verified with the venv interpreter
+# MBA: private venv, exact public v0.1.2, verified with the venv interpreter
 python3 --version                          # must report 3.10+ (see Prerequisites)
 python3 -m venv .mba-work/.venv            # private venv under Git-ignored .mba-work/
-.mba-work/.venv/bin/python -m pip install git+https://github.com/Khubaeb/MultipleBeadedAgents.git@v0.1.1
-.mba-work/.venv/bin/python -m mba_foundation --version   # must print exactly: mba-foundation 0.1.1
+.mba-work/.venv/bin/python -m pip install git+https://github.com/Khubaeb/MultipleBeadedAgents.git@v0.1.2
+.mba-work/.venv/bin/python -m mba_foundation --version   # must print exactly: mba-foundation 0.1.2
 
 # Adopt the tracked MBA content (fail-closed): preview, apply, verify
 .mba-work/.venv/bin/python -m mba_foundation adopt --root . --opencode omit --dry-run
                                            # exit 4 = plan OK (a mismatch would exit 7 and write nothing)
 .mba-work/.venv/bin/python -m mba_foundation adopt --root . --opencode omit
 .mba-work/.venv/bin/python -m mba_foundation status --root .
-                                           # exit 0: installed 0.1.1, no drift, no conflicts
+                                           # exit 0: installed 0.1.2, no drift, no conflicts
 ```
 
 MBA installs only into `.mba-work/.venv`, a private venv created by the
@@ -96,10 +98,10 @@ Every MBA command in this document runs through that same venv interpreter.
 
 Do **not** run `mba_foundation init` on a fresh Atlas clone — `init` writes
 managed content and refuses when tracked files already exist. The supported
-path is `mba adopt` (new in v0.1.1), shown above. This repository already
+path is `mba adopt` (available since v0.1.1), shown above. This repository already
 tracks the public MBA files it needs (the MBA RULES blocks in
 `AGENTS.md`/`CLAUDE.md`, the MBA skill, `docs/mba/charter.md`, and
-`docs/beads/capabilities.md` are byte-identical to the v0.1.1 package), and
+`docs/beads/capabilities.md` are byte-identical to the v0.1.2 package), and
 adoption **fails closed**: every managed tracked file and block must be raw
 byte-identical to the packaged content, or the whole adoption refuses with
 no writes at all. A successful adoption creates only the private
